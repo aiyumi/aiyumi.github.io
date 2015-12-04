@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="ja">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サーバー移行とブログソフト変更 » Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Aiyumi">
+<link rel="prev" href="/ja/blog/bonnes-theme-arrange-2/" title='ロックマンDASH - "俺たちボーン3兄弟"バイオリンアレンジ' type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="サーバー移行とブログソフト変更">
+<meta property="og:url" content="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/">
+<meta property="og:description" content="ブログの見た目はほとんど変わってませんが、中身は全部変わりました。今は、HTMLページのみ、静的なブログで、もはやPHPやデータベースを必要としません。
+ニコラとゆう（Pythonで書かれている）プレーンテキストから静的なブログを生成するソフトを使っています。
+そして、ウェブホストを変更しました。2009年からDreamHostにいろいろお世話になりましたが、Perlプログラマーとして仕事が見つけ">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-12-04T16:11:33-02:00">
+<meta property="article:tag" content="Site Updates">
+<link rel="alternate" hreflang="en" href="/en/blog/static-blog-migration/">
+<link rel="alternate" hreflang="pt_br" href="/pt/blog/static-blog-migration/">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">トップナビゲーションへ跳ぶ</a></li>
+<li><a href="#content">コンテンツへ跳ぶ</a></li>
+<li><a href="#sidebar">右のサイドバーへ跳ぶ</a></li>
+<li><a href="#footer">フッターへ跳ぶ</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/ja/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>言語 :</li>
+            <li><a href="http://aiyumi.warpstar.net/" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>このサイトは一人の視覚障害者女性の観点から、アクセシビリティ、音（オーディオ）、ゲーム、Linuxや他の事について語ります。</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/ja/">ホーム</a></li>
+                <li><a href="/ja/about/">紹介</a></li>
+                <li><a href="/ja/blog/">ブログ</a></li>
+                <li><a href="/ja/contact/">連絡先</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/ja/blog/static-blog-migration/" class="u-url">サーバー移行とブログソフト変更</a></h2>
+
+        <div class="info">
+<ul class="list-inline">
+<li>他の言語で読む：</li>
+                <li><a href="/en/blog/static-blog-migration/" rel="alternate" hreflang="en">English</a></li>
+<li>日本語</li>
+                <li><a href="/pt/blog/static-blog-migration/" rel="alternate" hreflang="pt_br">Português</a></li>
+</ul>
+</div>
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<p>ブログの見た目はほとんど変わってませんが、中身は全部変わりました。今は、HTMLページのみ、静的なブログで、もはやPHPやデータベースを必要としません。
+<a href="https://getnikola.com/">ニコラ</a>とゆう（Pythonで書かれている）プレーンテキストから静的なブログを生成するソフトを使っています。
+そして、ウェブホストを変更しました。2009年から<a href="http://www.dreamhost.com/r.cgi?362621">DreamHost</a>にいろいろお世話になりましたが、Perlプログラマーとして仕事が見つける前みたいにあまりWebサイト作成に専念する時間がありません。
+ドルレートが上がって（1ドル4ブラジルレアルに近づいて）ウェブホスティングを払うのが大変になってきました（とゆう理由もあります。Web サイトが静的になって（PHPもMySQLも必要ないので、サーバーを変更すると決めました。
+それでも、MySQL、PHPやPerlやPythonが対応しているサーバーが必要の方に<a href="http://www.dreamhost.com/r.cgi?362621">DreamHostのサービス</a>をお勧めします。
+ドメイン"warpstar.net"の登録はこのままDreamHostに置いておきますが、このサイトは<a href="https://pages.github.com/">GitHub Pages</a>でホストされます。</p>
+<p>とにかく、すべての内容とURLが前と同じままです。変換は100％ではなかったかもしれませんが。バグを見つけるたびに修正する予定です。</p>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Posted by                     Aiyumi
+- <a href="/ja/blog/static-blog-migration/" rel="bookmark">
+<time datetime="2015-12-04T16:11:33-02:00" itemprop="datePublished" title="2015-12-04 16:11">2015-12-04 16:11</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>タグ：</li>
+            <li><a class="tag p-category" href="/ja/tag/site-updates/" rel="tag">Site Updates</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="/ja/blog/bonnes-theme-arrange-2/" rel="prev" title='ロックマンDASH - "俺たちボーン3兄弟"バイオリンアレンジ'>前の記事</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>ページを共有する</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fja%2Fblog%2Fstatic-blog-migration%2F&amp;text=%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E7%A7%BB%E8%A1%8C%E3%81%A8%E3%83%96%E3%83%AD%E3%82%B0%E3%82%BD%E3%83%95%E3%83%88%E5%A4%89%E6%9B%B4" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fja%2Fblog%2Fstatic-blog-migration%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fja%2Fblog%2Fstatic-blog-migration%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="http://www.digg.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fja%2Fblog%2Fstatic-blog-migration%2F&amp;title=%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E7%A7%BB%E8%A1%8C%E3%81%A8%E3%83%96%E3%83%AD%E3%82%B0%E3%82%BD%E3%83%95%E3%83%88%E5%A4%89%E6%9B%B4" target="_BLANK">Digg</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fja%2Fblog%2Fstatic-blog-migration%2F&amp;title=%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E7%A7%BB%E8%A1%8C%E3%81%A8%E3%83%96%E3%83%AD%E3%82%B0%E3%82%BD%E3%83%95%E3%83%88%E5%A4%89%E6%9B%B4" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fja%2Fblog%2Fstatic-blog-migration%2F&amp;title=%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E7%A7%BB%E8%A1%8C%E3%81%A8%E3%83%96%E3%83%AD%E3%82%B0%E3%82%BD%E3%83%95%E3%83%88%E5%A4%89%E6%9B%B4" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/ja/blog/static-blog-migration/" target="_BLANK">はてな</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>ブログ</h3>
+<ul>
+<li><a href="/ja/blog/">記事</a></li>
+
+                <li><a href="/ja/archive/">文書一覧</a></li>
+
+                <li><a href="/ja/tag/">タグ</a></li>
+
+                <li><a href="/ja/rss.xml">RSSフィード</a></li>
+
+</ul>
+<h3>ファンダム</h3>
+<ul>
+<li><a href="/en/pokemon/" title="（英語）">ポケモン</a></li>
+
+                <li><a href="/ja/rockman/">ロックマン</a></li>
+</ul>
+<h3>リンク集</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="Youtubeチャンネル。">Youtube</a></li>
+
+                <li><a href="http://github.com/aiyumi" title="GitHubでの投稿。">GitHub</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_jp" title="日本語Twitterアカウント">Twitter（日本語）</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_en" title="英語Twitterアカウント">Twitter（英語）</a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="私のファンフィクション。（ポルトガル語と英語）">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="Freesoundにアップした無料効果音">Freesound</a></li>
+
+</ul>
+<h4>アクセシビリティ</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="目が見えなくてもいろんな機械を使う方法を紹介するポッドキャスト。（英語）">Blind Cool Tech</a></li>
+
+</ul>
+<h4>オーディオ（音）</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="Creative Commons ライセンスやパブリックドメインの無料効果音を集めたサイト。（英語）">Freesound.org</a></li>
+
+</ul>
+<h4>日本語</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="日本語を学ぶ方法や、日本の文化、折り紙など紹介しています）（ポルトガル語）">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="日本語文法の説明や勉強に役立つ情報がいっぱいあります。（ポルトガル語）">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="WWWJDICのデータを基に創られた英和 &lt;&gt; 和英辞書。日本の文字でもローマ字でも単語、例文や漢字を検索できます。（英語）">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="Linuxとフリー（オープンソース）ソフトウェアニュース。（ポルトガル語）">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="友人のブログ。Unix、コマンドラインアプリケーション、（主にPerl）プログラミングと文字列操作について語ります。（ポルトガル語）">Tecnoveneno</a></li>
+
+</ul>
+<h4>お奨めのオンラインストア</h4>
+<ul>
+<li><a href="http://www.amazon.co.jp/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.co.jp%2F%23&amp;tag=aiyumysites01-22&amp;linkCode=ur2&amp;camp=247&amp;creative=7399" title="おもちゃ、CDやDVD、ゲーム、書籍、コンピューター、楽器、車のアクセサリーなど、いろんな商品を売っている有名な通販さいと。">Amazon.co.jp</a></li>
+
+                <li><a href="http://www.play-asia.com/SOap-23-83-49xb-49-jp.html" title="日本語版と英語版のあにめDVDとげーむ、さんとらCDなど売っている通販さいと。海外にも配送します。（日本語）">Play-Asia.com</a></li>
+
+</ul>
+<h4>Webサイト作成</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="このさいとが前に使っていた、軽くて、とても素早いCMS。（英語）">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="このさいとが使っているブログソフト。（英語）">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="このさいとが前に使っていたWebほすと。PHP、Perl、Python、いろんなプログラミング言語を使用することができます。サーバーに、SSH（シェル）でアクセスすることもできます。機能の使いかたはうぃきで詳しく解説されています。最早このWebホストを使っていませんが、まだお勧めします。（英語）">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="5GB無料オンラインストレージ。メールやWebサイトで大きなファイルを配信するのに便利。（様々な言語）">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p class="smalltext">全ての商標は、それぞれの所有者に帰属します。このサイトはその作者と関係ありません。オリジナルコンテンツはコピーライト2015 Aiyumi、そして、特記しないかぎり、<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">クリエイティブ・コモンズ 表示 - 継承 3.0 Unported ライセンス</a>の下で公開されています。</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a></p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">トップへ戻る</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>

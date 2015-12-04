@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/">
+<meta name="description" content="A quick guide on how to install the Orca screen reader on Slackware 14.0 and 14.1 without the Gnome desktop environment.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Installing Orca on Slackware 14.0 » Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="keywords" content="14.0, 14.1, a11y, accessibility, at-spi, atspi, compile, compiling, how to, install, installing, linux, orca, screen reader, slack, slackware, slackbuild, visually impaired">
+<meta name="description" itemprop="description" content="A quick guide on how to install the Orca screen reader on Slackware 14.0 and 14.1 without the Gnome desktop environment.">
+<meta name="author" content="Aiyumi">
+<link rel="prev" href="/en/blog/twitter-and-updates/" title="Twitter and Updates" type="text/html">
+<link rel="next" href="/en/blog/new-pokemon-section/" title="New Pokemon Section" type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="Installing Orca on Slackware 14.0">
+<meta property="og:url" content="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/">
+<meta property="og:description" content="A quick guide on how to install the Orca screen reader on Slackware 14.0 and 14.1 without the Gnome desktop environment.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2013-09-27T21:00:15-03:00">
+<meta property="article:tag" content="linux">
+<link rel="alternate" hreflang="pt_br" href="/pt/blog/installing-orca-on-slackware-14-0/">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Jump to top navigation</a></li>
+<li><a href="#content">Jump to main content</a></li>
+<li><a href="#sidebar">Jump to right sidebar</a></li>
+<li><a href="#footer">Jump to footer</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/en/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>View this site in:</li>
+            <li><a href="http://aiyumi.warpstar.net/" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/en/">Home</a></li>
+                <li><a href="/en/about/">About</a></li>
+                <li><a href="/en/blog/">Blog</a></li>
+                <li><a href="/en/contact/">Contact</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/en/blog/installing-orca-on-slackware-14-0/" class="u-url">Installing Orca on Slackware 14.0</a></h2>
+
+        <div class="info">
+<ul class="list-inline">
+<li>View this page in:</li>
+<li>English</li>
+<li>日本語</li>
+                <li><a href="/pt/blog/installing-orca-on-slackware-14-0/" rel="alternate" hreflang="pt_br">Português</a></li>
+</ul>
+</div>
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<p>I was taking a look at Slackware Current, which now contains the packages that will be in the next version (14.1, if the name doesn't change like what happened with 13.37). I was very surprised to see that AT-SPI2-Core and AT-SPI2-ATK, two very important dependencies for the <a href="https://live.gnome.org/Orca">Orca screen reader</a>, have been included, and their versions are even newer than mine! But I think these weren't added because of accessibility considerations (some other new packages must have these libs as dependencies), since a few SlackBuilds important to Orca still are "./configured" with "--disable-introspection" and "--disable-accessibility" (when I installed Orca on my current system, I had a lot of headaches until I found out that the packages came configured like that by default. I had to enable those options and recompile the programs). Even so, each new Slackware version, more of Orca's dependencies are being incorporated into the default packages. Maybe in just a few versions from now, all (or almost all) of Orca's dependencies will finally have been fulfilled. While this doesn't happen, I gathered the SlackBuilds to compile Orca and its dependencies, and <a href="https://github.com/aiyumi/slackware-scripts">uploaded them to Github</a>. Some are mine (because I didn't find ready scripts for those programs anywhere else), while others are copies of the scripts from <a href="http://www.slackbuilds.org/">Slackbuilds.org</a> or of things provided in Slackware (for the few programs that needed tweaking and recompiling), everything gathered in only one place to make life easier. These aren't the latest versions, but the specific versions that work with the Slackware 14.0 stock libraries (building the newest packages would require compiling a lot of extra things and would be much more work). For those wondering about having to install Gnome, no, it isn't needed. Contrary to what it might seem, despite being part of the Gnome Project, Orca can run perfectly fine without this so heavy desktop environment. Below is a quick guide on how to install Orca on Slackware, <strong>without</strong> Gnome: <!--more--></p>
+<p>Update (2013/12/29): I updated my scripts to work with Slackware 14.1. The difference is that 14.1 already comes with AT-SPI2-Core and AT-SPI2-ATK. We still need to compile Pyatspi and recompile the other conflicting packages, but with the queuefiles, all of this becomes almost automatic, so for those who will just use the scripts, the process remains the same.</p>
+<p>Note: These instructions are specific for Slackware 14.0 and 14.1, as things may change in the future (hopefully for better!). This is just a quick guide. Besides the instructions for setting up my custom repository (which may not be so obvious), it mostly outlines the order in which the steps must be taken. I won't explain how to use Sbopkg or the Slackware built-in package tools (Installpkg and Removepkg). If you don't know how to use these, read their manuals and/or search for tutorials on the Internet.</p>
+<p>That said, let's begin:</p>
+<ol>
+<li>
+<p>Clone my repository by doing:</p>
+<pre class="code literal-block"># git clone https://github.com/aiyumi/slackware-scripts.git
+# cd slackware-scripts
+</pre>
+
+
+<p>If your Slackware is 14.1, skip to step 2. If it's 14.0, you need to use this command first:</p>
+<pre class="code literal-block"># git checkout 14.0
+</pre>
+
+
+</li>
+<li>
+<p>The easiest way is to use these scripts with <a href="http://sbopkg.org/">Sbopkg</a>. To set up the repository for Sbopkg, copy the "slackbuilds" directory to "var/lib/sbopkg/", renaming it to, for example, "aiyumisb".</p>
+<pre class="code literal-block"># cp -R slackbuilds /var/lib/sbopkg/aiyumisb
+</pre>
+
+
+</li>
+<li>
+<p>Copy the file "100-aiyumi.repo" to "/etc/sbopkg/repos.d", then edit "/etc/sbopkg/sbopkg.conf" to set it as your default repository, like this:</p>
+<pre class="code literal-block"><span class="nv">REPO_BRANCH</span><span class="s-Atom">=</span><span class="err">$</span><span class="p">{</span><span class="nv">REPO_BRANCH</span><span class="p">:-</span><span class="s-Atom">local</span><span class="p">}</span>
+<span class="nv">REPO_NAME</span><span class="s-Atom">=</span><span class="err">$</span><span class="p">{</span><span class="nv">REPO_NAME</span><span class="p">:-</span><span class="s-Atom">aiyumisb</span><span class="p">}</span>
+</pre>
+
+
+<p>Or, if you don't want to make it your default, you can start Sbopkg with this command:</p>
+<pre class="code literal-block"># sbopkg -V aiyumisb/local
+</pre>
+
+
+</li>
+<li>
+<p>Copy the ".sqf" files from "sbopkg-queuefiles" to "/var/lib/sbopkg/queues".</p>
+<pre class="code literal-block"># cp sbopkg-queuefiles/aiyumisb/accessibility/*.sqf /var/lib/sbopkg/queues
+</pre>
+
+
+</li>
+<li>
+<p>Uninstall (by using "removepkg") the following packages which have important options disabled and need recompiling:</p>
+<ul>
+<li>
+<p>gobject-introspection: the versiom from Slackware conflicts with Gnome-Python and aborts compilation during "make".</p>
+</li>
+<li>
+<p>pygobject: comes with introspection disabled.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Recompile said packages by using the SlackBuilds you just downloaded (they're in the "libraries" directory and are already edited with the proper settings), then install each one with "installpkg".</p>
+<p>Note: If you use Firefox, you'll unfortunately have to recompile it. The package from Slackware comes with accessibility disabled to save compile time or something like that (oops!). But it's not in my repo, so you'll have to copy the script from Slackware and replace "--disable-accessibility" with "--enable-accessibility" in the "./configure" part. Be prepared, because it takes really long (it took three hours on my 1.6Ghz single core netbook, and an hour on my 2.8Ghz quad core desktop).</p>
+<p>Now, for the installation of what really matters:</p>
+</li>
+<li>
+<p>If you don't have Espeak yet (which Orca uses by default), load the "espeakup.sqf" queuefile * to Sbopkg and install everything. Espeak will be installed along with Espeakup, which adds support for speech via software to Speakupp (a screen reader for the console, which is always good to have).</p>
+<p>* Note: for Portuguese, I prefer the pronunciation from Espeak 1:40 instead of the latest version's. If you also prefer the old one, use the "espeakup-espeak-1.40.sqf" queuefile instead of "espeakup.sqf".</p>
+</li>
+<li>
+<p>Load "orca.sqf" and install everything (Speech-Dispatcher, a bunch of libs, AT-SPI2/Pyatspi, Orca). Go grab a coffee because compiling all this takes long (not as much as Firefox, though). I fixed all errors that appeared for me, then did the process all over again and had no more others, so I hope you don't run into any errors (but I can't guarantee anything :P).</p>
+</li>
+<li>
+<p>Open the Speech-Dispatcher config file in "/etc/speech-dispatcher/speechd.conf". Make sure that ALSA is being used for sound playback and that the Espeak module is being loaded, editing the settings if not. The relevant lines should be like this:</p>
+<pre class="code literal-block"># ----- VOICE PARAMETERS -----
+DefaultLanguage "en"
+
+# ----- AUDIO CONFIGURATION -----------
+
+# -- AUDIO OUTPUT --
+AudioOutputMethod "alsa"
+
+# -----OUTPUT MODULES CONFIGURATION-----
+AddModule "espeak"       "sd_espeak"   "espeak.conf"
+
+DefaultModule espeak
+
+LanguageDefaultModule "en"  "espeak"
+</pre>
+
+
+<p>To test it, use the command "spd-say something". If you hear sound, then it's working!</p>
+</li>
+<li>
+<p>Try to configure Orca from the console (still in text mode, not in X) with the command "orca -t". If you have permission problems with the "/etc/gconf/gconf.xml.system" directory, do "chmod 755" on it (I don't know why that happens, nor if it can be fixed from the SlackBuild). When there are no more errors and Orca finally speaks, congratulations. You just installed Orca on Slackware, and without Gnome!</p>
+</li>
+<li>
+<p>If everything went well so far, you'll need an accessible terminal emulator to be able to use the console from the X graphical interface. If you're using XFCE as your desktop and installed the packages from Slackware, you can use XFTerminal, but if not (I use Fluxbox, which is also in Slackware), go to the official Slackbuilds.org repository via Sbopkg and install, for example, LXTerminal. I particularly don't use any file manager (I prefer doing everything from the terminal), but if you want a file manager and don't want XFCE, you can install PCManFM (it's accessible when in the "Detailed list view" mode).</p>
+</li>
+<li>
+<p>Lastly, copy the file "/usr/doc/orca-3.2.0-xdesktop/orca.atspi2.xinitrc" to "~/.xinitrc" (this is the file that sets the variables to enable accessibility in X), edit the last line to specify which desktop environment/window manager you'll use (for example, "startfluxbox" for Fluxbox or "startxfce4" for XFCE), type the command "startx" and have fun! :D</p>
+</li>
+</ol>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Posted by                     Aiyumi
+- <a href="/en/blog/installing-orca-on-slackware-14-0/" rel="bookmark">
+<time datetime="2013-09-27T21:00:15-03:00" itemprop="datePublished" title="2013-09-27 21:00">2013-09-27 21:00</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>Tags: </li>
+            <li><a class="tag p-category" href="/en/tag/linux/" rel="tag">linux</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="/en/blog/twitter-and-updates/" rel="prev" title="Twitter and Updates">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="/en/blog/new-pokemon-section/" rel="next" title="New Pokemon Section">Next post</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>Share this Page</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Finstalling-orca-on-slackware-14-0%2F&amp;text=Installing%20Orca%20on%20Slackware%2014.0" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Finstalling-orca-on-slackware-14-0%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Finstalling-orca-on-slackware-14-0%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="http://www.digg.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Finstalling-orca-on-slackware-14-0%2F&amp;title=Installing%20Orca%20on%20Slackware%2014.0" target="_BLANK">Digg</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Finstalling-orca-on-slackware-14-0%2F&amp;title=Installing%20Orca%20on%20Slackware%2014.0" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Finstalling-orca-on-slackware-14-0%2F&amp;title=Installing%20Orca%20on%20Slackware%2014.0" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/" target="_BLANK">Hatena</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="/en/blog/">Posts</a></li>
+
+                <li><a href="/en/archive/">Archive</a></li>
+
+                <li><a href="/en/tag/">Tags</a></li>
+
+                <li><a href="/en/rss.xml/">RSS Feed</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="/en/pokemon/">Pokemon</a></li>
+
+                <li><a href="/en/rockman/">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="My channel on Youtube">Youtube</a></li>
+
+                <li><a href="http://github.com/aiyumi" title="My code and contributions on GitHub.">GitHub</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_en" title="Twitter"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="My fan fictions (in Portuguese and English).">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="My free sound effects on Freesound.">Freesound</a></li>
+
+</ul>
+<h4>Accessibility</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrating how to use some electronic gadgets without vision. Site in English.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Audio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="A site that hosts thousands of free sound effects, most of them under a Creative Commons License, and others in the public domain. Site in English.">Freesound.org</a></li>
+
+</ul>
+<h4>Japanese</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Japanese study tips, interesting things about Japan, origami and more. Site in Portuguese.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explanation about Japanese grammar and other study tips. Site in Portuguese.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="English &lt;&gt; Japanese dictionary, based on data from WWWJDIC. It allows searches for words, example sentences and kanji, by English, Japanese characters or romaji. Site in English.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="News and articles about Linux and Free/Open Source software. Site in Portuguese.">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog of a friend of mine, about command line apps, Unix, programming (mainly in Perl) and string (text) manipulation. In Portuguese.">Tecnoveneno</a></li>
+
+</ul>
+<h4>Recommended Stores</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="One of the biggest online stores, with products ranging from toys, CDs, DVDs, games and books, to computers, musical instruments, clothing and car accessories.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/SOap-23-83-49xb.html" title="Anime DVDs, games (JP and US versions), soundtrack CDs and other things. Worldwide shipping. Site in various languages.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Web Development</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="The CMS this site used previously. Very fast, lightweight and flexible. Site in English.">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="The blog system this site uses now. Very customizable. Site in English.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="This site's previous web host. It has many nice features like support for scripts in PHP, Perl, Python and other languages, Shell access to the server and very good documentation about how to use the services. Even though this site isn't hosted there anymore, I still recommend it. In English.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Free file hosting. 5 GB of space to upload your files, with direct links allowed. Good to put files for download on a site. In various languages.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2015 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a></p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Back to top</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>

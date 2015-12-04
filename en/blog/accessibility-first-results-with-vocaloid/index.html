@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/">
+<meta name="description" content="A few VOCALOID tips for visually impaired users.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility: First Results with VOCALOID » Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="keywords" content="a11y, accessibility, blind, keyboard shortcuts, visually impaired, vocaloid">
+<meta name="description" itemprop="description" content="A few VOCALOID tips for visually impaired users.">
+<meta name="author" content="Aiyumi">
+<link rel="prev" href="/en/blog/accessibility-and-how-i-began-using-vocaloid/" title="Accessibility, and How I Began Using VOCALOID" type="text/html">
+<link rel="next" href="/en/blog/in-the-mood-to-dash/" title="In the Mood to DASH!" type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="Accessibility: First Results with VOCALOID">
+<meta property="og:url" content="http://aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/">
+<meta property="og:description" content="A few VOCALOID tips for visually impaired users.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2014-06-21T22:47:52-03:00">
+<meta property="article:tag" content="Audio">
+<meta property="article:tag" content="VOCALOID">
+<link rel="alternate" hreflang="pt_br" href="/pt/blog/accessibility-first-results-with-vocaloid/">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Jump to top navigation</a></li>
+<li><a href="#content">Jump to main content</a></li>
+<li><a href="#sidebar">Jump to right sidebar</a></li>
+<li><a href="#footer">Jump to footer</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/en/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>View this site in:</li>
+            <li><a href="http://aiyumi.warpstar.net/" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/en/">Home</a></li>
+                <li><a href="/en/about/">About</a></li>
+                <li><a href="/en/blog/">Blog</a></li>
+                <li><a href="/en/contact/">Contact</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/en/blog/accessibility-first-results-with-vocaloid/" class="u-url">Accessibility: First Results with VOCALOID</a></h2>
+
+        <div class="info">
+<ul class="list-inline">
+<li>View this page in:</li>
+<li>English</li>
+<li>日本語</li>
+                <li><a href="/pt/blog/accessibility-first-results-with-vocaloid/" rel="alternate" hreflang="pt_br">Português</a></li>
+</ul>
+</div>
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<p>This is a follow up to my previous post, "<a href="/en/blog/accessibility-and-how-i-began-using-vocaloid">Accessibility, and How I Began Using VOCALOID</a>". Here I'd like to share my progress, as well as a few tips for any visually impaired user that eventually decides to use VOCALOID. <!--more--></p>
+<p>Note: I'm using VOCALOID3 on Windows 7, with the free and open source <a href="http://www.nvaccess.org/">NVDA screen reader</a>.</p>
+<h4>The Editors</h4>
+<p>There are two "versions" of the VOCALOID editor. The Tiny Editor, which (as the name suggests) is "tiny" and with few features. It's the basic editor that comes with all the VOCALOID3 voicebanks, serving as a demo for the full editor(also good for those that aren't very demanding, and can't / don't want to buy the other one :P). The other one is the full editor, sold separately, with many more functions, mostly related to visual features and involving the mouse :P, therefore mostly useless for users who are blind and can't use a mouse. The exception is the ability to (re) define keyboard shortcuts, which can be interesting if you really want shortcuts that don't exist in the basic editor (so far, I managed to do without). Apart from that, my conclusion was that I wouldn't be able to enjoy it much, so for now I decided to stick with the Tiny Editor.</p>
+<h3># Keyboard Shortcuts</h3>
+<p>Speaking of keyboard shortcuts, here's a list of the ones I found:</p>
+<ul>
+<li>Play/Pause: "Space" or "keypad Enter".</li>
+<li>Rewind: "keypad minus" ("-"). Press once to go back one bar, hold to rewind a lot.</li>
+<li>Fast forward: "keypad plus" ("+"). Press once to forward one bar, hold to advance a lot.</li>
+<li>Go to the beginning of the song: "Control" + "Home".</li>
+<li>Go to the end of the song: "Control" + "End".</li>
+<li>Go to marker: "Period" (".") (but I don't know if there's a way to set that marker without using the mouse). Goes to the song's beginning if there isn't a marker defined.</li>
+<li>Enter text edit mode to change the note's lyric: "F2". Then "Tab" takes you to the next note's lyric text box and "Shift" + "Tab" goes to the previous one. "Alt" + up/down arrows alternate between editing lyrics and phonemes. Pressing "Enter" or "Esc" exits the text edit mode, and you can browse through notes using left and right arrows, and select notes with "Shift" + left/right.</li>
+<li>Set the singing position for the note under the cursor: "Control" + "g" (outside of text edit mode).</li>
+<li>Transpose notes by a half semitone: out of text editing mode, with the cursor on one note (or if there are selected notes), up arrow increases a half semitone, down arrow decreases.</li>
+<li>Transpose notes by an octave: out of text editing mode, with the cursor on one note (or if there are selected notes), "Shift" + up arrow increases an octave, "Shift" + down arrow decreases.</li>
+<li>Switch between Music Editor and Track Editor: "Control" + "Tab".</li>
+</ul>
+<h4>Tip - Exp/Vibrato Window</h4>
+<p>This tip is specific for those using the NVDA screen reader (I don't know how it'd work for other readers but it's probably similar). From the menu bar, entering "Lyrics" -&gt; "Note Properties" (or "Alt" + "l" then "p"), the exp and vibrato window appears. This window has no shortcuts. It only has text boxes for the lyrics and phonemes, a checkbox saying "PROTECT" and the "OK" and "Cancel" buttons. From the "PROTECT" box, press the "NVDA modifier key" + "keypad 7" once, then keep pressing "keypad 4" until you hear "EXP" or "vibrato". Then, "NVDA" + keypad slash ("/") to simulate a click on the object. After that, another window will appear, from where the expression or vibrato settings can be chosen. On the vibrato screen, the vibrato type and duration can be selected through the keyboard, but the other settings have to be changed by drawing curves with the mouse (the only way to do that via keyboard is by editing the VSQX file in a text editor).</p>
+<h4>Putting a Song Together</h4>
+<p>Now, the process I'm using to put a song together:</p>
+<p>As I only have the Tiny Editor which limits the song to 17 bars, the song must be divided into small pieces in order to fit in it. For each piece, the following steps must be taken:</p>
+<ul>
+<li>Using a MIDI keyboard, create a MIDI file of the melody.</li>
+<li>Put the file into the editor. Since the Tiny Editor doesn't import MIDI files, I import it in UTAU (about the only thing I can do in UTAU) and export it as a VSQ, which the Tiny Editor reads.</li>
+<li>Edit the lyrics, and do what ever else I can from the interface. Many things aren't accessible to screen readers (for example, changing note duration), and I have to resort to editing some values on the VSQX (which is actually a XML file) by hand with a text editor.</li>
+<li>Tweak and tweak until it sounds acceptable.</li>
+<li>Export the result as a wav file.</li>
+<li>After all pieces are completed and exported to WAV, join them with the karaoke track using some other audio editor, like Audacity (in my case, I move the files to my Linux partition and use <a href="http://nosignal.fi/ecasound/">Ecasound</a> from there).</li>
+</ul>
+<h4>Last But Not Least...</h4>
+<p>And as I said that I'd post when my first cover was ready, here it is! It's the song "Relics" by Tokoro-P with lyrics by Karakuri. . My version uses Megpoid Power (Gumi). It has some flaws but hopefully it's good enough for a first try. You can download it <a href="http://aiyumi.opendrive.com/files/87606812_JJA43_d5d3/gumi_power_-_relics_0.1.mp3">here</a>, and the Youtube link is <a href="https://www.youtube.com/watch?v=G5xsuG4MGZg">here</a>.</p>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Posted by                     Aiyumi
+- <a href="/en/blog/accessibility-first-results-with-vocaloid/" rel="bookmark">
+<time datetime="2014-06-21T22:47:52-03:00" itemprop="datePublished" title="2014-06-21 22:47">2014-06-21 22:47</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>Tags: </li>
+            <li><a class="tag p-category" href="/en/tag/audio/" rel="tag">Audio</a></li>
+            <li><a class="tag p-category" href="/en/tag/vocaloid/" rel="tag">VOCALOID</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="/en/blog/accessibility-and-how-i-began-using-vocaloid/" rel="prev" title="Accessibility, and How I Began Using VOCALOID">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="/en/blog/in-the-mood-to-dash/" rel="next" title="In the Mood to DASH!">Next post</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>Share this Page</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Faccessibility-first-results-with-vocaloid%2F&amp;text=Accessibility:%20First%20Results%20with%20VOCALOID" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Faccessibility-first-results-with-vocaloid%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Faccessibility-first-results-with-vocaloid%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="http://www.digg.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Faccessibility-first-results-with-vocaloid%2F&amp;title=Accessibility:%20First%20Results%20with%20VOCALOID" target="_BLANK">Digg</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Faccessibility-first-results-with-vocaloid%2F&amp;title=Accessibility:%20First%20Results%20with%20VOCALOID" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Faccessibility-first-results-with-vocaloid%2F&amp;title=Accessibility:%20First%20Results%20with%20VOCALOID" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/" target="_BLANK">Hatena</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="/en/blog/">Posts</a></li>
+
+                <li><a href="/en/archive/">Archive</a></li>
+
+                <li><a href="/en/tag/">Tags</a></li>
+
+                <li><a href="/en/rss.xml/">RSS Feed</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="/en/pokemon/">Pokemon</a></li>
+
+                <li><a href="/en/rockman/">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="My channel on Youtube">Youtube</a></li>
+
+                <li><a href="http://github.com/aiyumi" title="My code and contributions on GitHub.">GitHub</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_en" title="Twitter"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="My fan fictions (in Portuguese and English).">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="My free sound effects on Freesound.">Freesound</a></li>
+
+</ul>
+<h4>Accessibility</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrating how to use some electronic gadgets without vision. Site in English.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Audio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="A site that hosts thousands of free sound effects, most of them under a Creative Commons License, and others in the public domain. Site in English.">Freesound.org</a></li>
+
+</ul>
+<h4>Japanese</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Japanese study tips, interesting things about Japan, origami and more. Site in Portuguese.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explanation about Japanese grammar and other study tips. Site in Portuguese.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="English &lt;&gt; Japanese dictionary, based on data from WWWJDIC. It allows searches for words, example sentences and kanji, by English, Japanese characters or romaji. Site in English.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="News and articles about Linux and Free/Open Source software. Site in Portuguese.">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog of a friend of mine, about command line apps, Unix, programming (mainly in Perl) and string (text) manipulation. In Portuguese.">Tecnoveneno</a></li>
+
+</ul>
+<h4>Recommended Stores</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="One of the biggest online stores, with products ranging from toys, CDs, DVDs, games and books, to computers, musical instruments, clothing and car accessories.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/SOap-23-83-49xb.html" title="Anime DVDs, games (JP and US versions), soundtrack CDs and other things. Worldwide shipping. Site in various languages.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Web Development</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="The CMS this site used previously. Very fast, lightweight and flexible. Site in English.">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="The blog system this site uses now. Very customizable. Site in English.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="This site's previous web host. It has many nice features like support for scripts in PHP, Perl, Python and other languages, Shell access to the server and very good documentation about how to use the services. Even though this site isn't hosted there anymore, I still recommend it. In English.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Free file hosting. 5 GB of space to upload your files, with direct links allowed. Good to put files for download on a site. In various languages.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2015 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a></p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Back to top</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>

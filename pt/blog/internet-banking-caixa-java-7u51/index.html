@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="pt_br">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internet Banking Caixa e Java 7 Update 51 » Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="keywords" content="1.7_51, 1.7.0_51, 10.51.2, 7u51, caixa, caixa economica, caixa econômica, caixa economica federal, caixa econômica federal, cef, cm12, editar lista de sites, erro, erro cm12, exceção, exception.sites, internetbanking, internet banking, java, linux">
+<meta name="author" content="Aiyumi">
+<link rel="prev" href="/pt/blog/power-of-slackbuilds/" title="O Poder dos SlackBuilds" type="text/html">
+<link rel="next" href="/pt/blog/accessibility-and-how-i-began-using-vocaloid/" title="Acessibilidade, e Como eu Comecei a Usar VOCALOID" type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="Internet Banking Caixa e Java 7 Update 51">
+<meta property="og:url" content="http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/">
+<meta property="og:description" content='Na semana passada (lá pelo dia 17 de janeiro de 2014), tive de atualizar a instalação do Java. Fazendo isso, a versão do meu Java passou a ser "Java JRE 1.7.0_51", e o plugin de navegadores "Java(TM) '>
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2014-01-26T11:51:31-02:00">
+<meta property="article:tag" content="linux">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Pular para o menu superior</a></li>
+<li><a href="#content">Pular para o conteúdo principal</a></li>
+<li><a href="#sidebar">Pular para o menu da direita</a></li>
+<li><a href="#footer">Pular para o rodapé</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/pt/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>Ver este site em:</li>
+            <li><a href="http://aiyumi.warpstar.net/" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Acessibilidade, áudio, jogos, Linux e outras coisas, do ponto de vista de uma deficiente visual.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/pt/">Home</a></li>
+                <li><a href="/pt/about/">Sobre</a></li>
+                <li><a href="/pt/blog/">Blog</a></li>
+                <li><a href="/pt/contact/">Contato</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/pt/blog/internet-banking-caixa-java-7u51/" class="u-url">Internet Banking Caixa e Java 7 Update 51</a></h2>
+
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<p>Na semana passada (lá pelo dia 17 de janeiro de 2014), tive de atualizar a instalação do Java. Fazendo isso, a versão do meu Java passou a ser "Java JRE 1.7.0_51", e o plugin de navegadores "Java(TM) Plug-in 10.51.2". Mas aí, o internet banking da Caixa parou de funcionar. Sempre caía numa página com código de erro CM12, dizendo que houve um problema no cadastro de computadores, com um link para o site da Oracle para baixar o Java, mesmo com o Java instalado e funcionando perfeitamente (até o site do Banco do Brasil funcionava, só o da Caixa que não). Tentei o telefone do 0800 mas a ligação vivia caindo e não consegui resolver nada, então fui procurar por conta própria. Como eu uso Linux, pensei que fosse algum problema relacionado ao Linux e pesquisei de tudo quanto era jeito e nada. Até que encontrei este post:</p>
+<p><a href="http://www.vivaolinux.com.br/dica/Java-JRE-17-51-Instalacao-facil-no-Debian-7-em-tres-passos">http://www.vivaolinux.com.br/dica/Java-JRE-17-51-Instalacao-facil-no-Debian-7-em-tres-passos</a></p>
+<p>Mais especificamente este comentário:</p>
+<blockquote>
+<p>[5] Comentário enviado por jairus em 21/01/2014 - 11:33h:</p>
+<p>Bom dia pessoal !!!</p>
+<p>O que aconteceu com o Java 7_51, foi a questão de Lista de Sites de Excessões, que deverá ser configurada de acordo com a necessidade de cada usuário.</p>
+<p>A funcionalidade Lista de Sites de Exceção está sendo introduzida na release Java 7 Update 51. A inclusão do URL da aplicação
+na Lista de exceções permite aos usuários executarem RIAs (Rich Internet Applications) que normalmente seriam bloqueados por
+verificações de segurança.</p>
+<p>Veja a seguir os casos que permitirão que as aplicações sejam executadas por meio da inclusão do URL da aplicação na lista de
+sites de exceção:</p>
+<p>.Se a aplicação não estiver assinada com um certificado de uma autoridade de certificação confiável.
+.Se a aplicação estiver hospedada localmente.
+.Arquivo Jar sem o atributo de manifesto de Permissão.
+.Aplicação assinada com um certificado expirado.
+.O certificado usado para assinar a aplicação não pode ser marcado para revogação.</p>
+<p>Gerenciar a Lista de Sites de Exceção</p>
+<p>A lista de sites de exceção é gerenciada na guia Segurança do Painel de Controle do Java. A lista é mostrada na guia. Para
+adicionar, editar ou remover um URL da lista, clique em Editar Lista de Sites e siga as orientações mostradas.</p>
+<p>Adicionar um URL</p>
+<p>.Clique no botão Editar Lista de Sites.
+.Clique em Adicionar na janela Lista de Sites de Exceção.
+.Clique no campo vazio embaixo do campo Localização para inserir o URL.
+.Exemplo: http://myexample.com (observação: o URL deve começar com http:// ou https://)
+.Clique em OK para salvar o URL que você inseriu.
+.Clique em Continuar na caixa de diálogo Advertência de Segurança.</p>
+<p>Editar um URL</p>
+<p>.Clique duas vezes no URL que você deseja editar na janela Lista de Sites de Exceção.
+.Faça a alteração no URL.
+.Clique em OK para salvar as alterações.</p>
+<p>Remover um URL</p>
+<p>.Clique no URL que você deseja remover na janela Lista de Sites de Exceção.
+.Clique em Remover.
+.Clique em OK para salvar sua alteração.</p>
+<p>Observação: se um conjunto de regras de implantação ativo for instalado no sistema, as regras de implantação terão
+precedência sobre a lista de sites de exceção. A lista de sites de exceção só é considerada quando a regra padrão se
+aplica. Consulte Conjunto de Regras de Implantação (http://docs.oracle.com/javase/7/docs/technotes/guides
+/jweb/deployment_rules.html) para obter mais informações sobre regras de implantação.</p>
+<p>Fonte: http://java.com</p>
+</blockquote>
+<p>Ok, pode ser isso, mas onde fica esse tal do painel de controle do Java? Nem sabia que existisse uma coisa dessas! Pesquisando mais um pouco, achei isso:</p>
+<p><a href="https://blogs.oracle.com/brunoborges/entry/novo_java_7u51_e_os">https://blogs.oracle.com/brunoborges/entry/novo_java_7u51_e_os</a></p>
+<p>No Windows e no Mac, fica no painel de controle/preferências mesmo. No Linux, é para digitar o comando "jcontrol" num terminal. Vai aparecer uma interface gráfica com as configurações. Vá na aba "Segurança", depois em "Editar Lista de Sites" e em "Adicionar", então adicione estes dois endereços:</p>
+<pre class="code literal-block">https://internetbanking.caixa.gov.br
+https://internetbankingpf.caixa.gov.br
+</pre>
+
+
+<p>Outra forma de fazer isso é editar o arquivo "exception.sites" (é um arquivo de texto normal), colando os dois endereços nele.</p>
+<p>No Windows, fica em: C:\Users\%USER%\AppData\LocalLow\Sun\Java\Deployment\security\exception.sites</p>
+<p>No Mac: ~/Library/Application Support/Oracle/Java/Deployment/security/exception.sites</p>
+<p>No Linux: ~/.java/deployment/security/exception.sites</p>
+<p>Depois que eu fiz isso, o internet banking da Caixa finalmente voltou a funcionar!</p>
+<p>Resumindo, o problema era um recurso que adicionaram nessa última versão do Java, e estava nas configurações do Java e não importa qual o sistema operacional. O ruim é que a solução pode não ser tão fácil de descobrir, principalmente para usuários leigos. Não uso Java (só tenho instalado mais por causa dos sites de bancos que insistem em usá-lo), não acompanho as novidades, e mesmo que acompanhasse, não é fácil de saber quais delas vão me afetar. Mas agora felizmente resolveu, e espero que este post seja útil para mais gente.</p>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Postado por                     Aiyumi
+- <a href="/pt/blog/internet-banking-caixa-java-7u51/" rel="bookmark">
+<time datetime="2014-01-26T11:51:31-02:00" itemprop="datePublished" title="2014-01-26 11:51">2014-01-26 11:51</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>Tags: </li>
+            <li><a class="tag p-category" href="/pt/tag/linux/" rel="tag">linux</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="/pt/blog/power-of-slackbuilds/" rel="prev" title="O Poder dos SlackBuilds">Post anterior</a>
+            </li>
+            <li class="next">
+                <a href="/pt/blog/accessibility-and-how-i-began-using-vocaloid/" rel="next" title="Acessibilidade, e Como eu Comecei a Usar VOCALOID">Próximo post</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>Compartilhe esta Página</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Finternet-banking-caixa-java-7u51%2F&amp;text=Internet%20Banking%20Caixa%20e%20Java%207%20Update%2051" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Finternet-banking-caixa-java-7u51%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Finternet-banking-caixa-java-7u51%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="http://www.digg.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Finternet-banking-caixa-java-7u51%2F&amp;title=Internet%20Banking%20Caixa%20e%20Java%207%20Update%2051" target="_BLANK">Digg</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Finternet-banking-caixa-java-7u51%2F&amp;title=Internet%20Banking%20Caixa%20e%20Java%207%20Update%2051" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Finternet-banking-caixa-java-7u51%2F&amp;title=Internet%20Banking%20Caixa%20e%20Java%207%20Update%2051" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/" target="_BLANK">Hatena</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="/pt/blog/">Posts</a></li>
+
+                <li><a href="/pt/archive/">Arquivo</a></li>
+
+                <li><a href="/pt/tag/">Tags</a></li>
+
+                <li><a href="/pt/rss.xml/">Feed RSS</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="/en/pokemon/" title="(em Inglês)">Pokemon</a></li>
+
+                <li><a href="/en/rockman/" title="(em Inglês)">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="Meu canal no Youtube.">Youtube</a></li>
+
+                <li><a href="http://github.com/aiyumi" title="Meu código e minhas contribuições no GitHub.">GitHub</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_pt" title="Twitter em Português"></a></li>
+
+                <li><a href="http://twitter.com/aiyumi_en" title="Twitter em Inglês"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="Minhas fan fictions (em Português e Inglês).">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="Meus efeitos sonoros grátis no Freesound.">Freesound</a></li>
+
+</ul>
+<h4>Acessibilidade</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrando como usar alguns aparelhos eletrônicos sem enxergar. Site em Inglês.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Áudio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="site que contém milhares de efeitos sonoros gratuitos, a maioria sob uma licença Creative Commons e outros em domínio público. Site en Inglês.">Freesound.org</a></li>
+
+</ul>
+<h4>Japonês</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Técnicas para ajudar a estudar japonês, curiosidades sobre o Japão, origami e muito mais. Site em Português.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explicações sobre a gramática japonesa e outras dicas de estudo. Site em Português.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="Dicionário de Inglês &lt;&gt; Japonês, baseado em dados do WWWJDIC. Permite busca por palavras, sentenças de exemplo e kanji, tanto por Inglês, caracteres japoneses ou romaji. Site em Inglês.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="Notícias e artigos sobre Linux e software livre/de código aberto. Site em Português.">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog de um amigo meu, sobre aplicativos de linha de comando, Unix, programação (principalmente em Perl) e manipulação de strings (texto). Em Português.">Tecnoveneno</a></li>
+
+</ul>
+<h4>Lojas Recomendadas</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="Uma das maiores lojas online, com produtos que vão de brinquedos, CDs, DVDs, jogos e livros, até computadores, instrumentos musicais, roupas e acessórios para automóveis. Pena que não envia alguns produtos (dentre eles, jogos) para o Brasil.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/SOap-23-83-49xb.html" title="DVDs de anime, jogos (versão japonesa e americana), CDs de trilha sonora (OSTs) e outras coisas. Entrega praticamente para o mundo todo (inclusive o Brasil). Site em vários idiomas, inclusive Português.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Desenvolvimento Web</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="O CMS que a versão anterior deste site usava. Bastante leve, rápido e flexível. Site em Inglês.">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="O sistema de blog que este site usa atualmente. Bastante customizável. Site em Inglês.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="O serviço de hospedagem que este site usava anteriormente. Tem muitas características interessantes como suporte para scripts em PHP, Perl, Python e outras linguagens, acesso Shell ao servidor e ótima documentação sobre como utilizar os serviços. Apesar de não usar mais esta hospedagem, eu ainda recomendo. Em Inglês.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Hospedagem de arquivos grátis. 5 GB de espaço, com possibilidade de criar links diretos para os arquivos. Bom para colocar coisas para download em um site. Página em vários idiomas.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p class="smalltext">Todas as marcas registradas são de propriedade de seus respectivos autores e empresas. Este site não tem nenhuma relação com tais autores/empresas. O conteúdo original é copyright 2015 Aiyumi e, a menos que seja especificado o contrário, está publicado sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons - Atribuição  3.0 Não Adaptada</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a></p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Voltar para o topo</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="pt_br">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/">
+<meta name="description" content="Uma introdução básica ao SoX, um programa para processamento de áudio.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uma Introdução Básica ao SoX » Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="keywords" content="aplicativo, áudio, audio, código aberto, comando, console, converter, editor, efeito, ferramenta, free, free software, grátis, gratis, linha de comando, mp3, open source, programa, processamento, software, som, sox, wav">
+<meta name="description" itemprop="description" content="Uma introdução básica ao SoX, um programa para processamento de áudio.">
+<meta name="author" content="Aiyumi">
+<link rel="prev" href="/pt/blog/status-update-2011-09-07/" title="Link para a Feed RSS" type="text/html">
+<link rel="next" href="/pt/blog/kirby-revenge-of-error-knight/" title="Kirby: a Vingança de Error Knight" type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="Uma Introdução Básica ao SoX">
+<meta property="og:url" content="http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/">
+<meta property="og:description" content="Uma introdução básica ao SoX, um programa para processamento de áudio.">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2011-09-09T13:19:38-03:00">
+<meta property="article:tag" content="Audio">
+<meta property="article:tag" content="linux">
+<link rel="alternate" hreflang="en" href="/en/blog/sox-basic-intro/">
+<link rel="alternate" hreflang="ja" href="/ja/blog/sox-basic-intro/">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Pular para o menu superior</a></li>
+<li><a href="#content">Pular para o conteúdo principal</a></li>
+<li><a href="#sidebar">Pular para o menu da direita</a></li>
+<li><a href="#footer">Pular para o rodapé</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/pt/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>Ver este site em:</li>
+            <li><a href="http://aiyumi.warpstar.net/" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Acessibilidade, áudio, jogos, Linux e outras coisas, do ponto de vista de uma deficiente visual.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/pt/">Home</a></li>
+                <li><a href="/pt/about/">Sobre</a></li>
+                <li><a href="/pt/blog/">Blog</a></li>
+                <li><a href="/pt/contact/">Contato</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/pt/blog/sox-basic-intro/" class="u-url">Uma Introdução Básica ao SoX</a></h2>
+
+        <div class="info">
+<ul class="list-inline">
+<li>Ver esta página em:</li>
+                <li><a href="/en/blog/sox-basic-intro/" rel="alternate" hreflang="en">English</a></li>
+                <li><a href="/ja/blog/sox-basic-intro/" rel="alternate" hreflang="ja">日本語</a></li>
+<li>Português</li>
+</ul>
+</div>
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<h4>O que é o SoX?</h4>
+<p><a href="http://sox.sourceforge.net/">SoX</a> (Sound eXchange) é, como o autor o chama, o "canivete Suíço dos programas de processamento de som". Ele é gratuito, livre/de código aberto e roda em Windows, Mac e Linux.</p>
+<p>O SoX pode reproduzir, gravar, converter, editar, dividir, combinar e aplicar vários efeitos a
+arquivos de áudio de muitos formatos diferentes. <!--more--></p>
+<h4>Formatos Suportados</h4>
+<p>Em uma instalação padrão do Slackware Linux 13.37, os formatos suportados pelo SoX são:</p>
+<p>8svx, aif, aifc, aiff, aiffc, al, amb, au, avr, caf, cdda, cdr, cvs, cvsd, cvu, 
+dat, dvms, f32, f4, f64, f8, fap, flac, fssd, gsm, gsrt, hcom, htk, ima, ircam, 
+la, lpc, lpc10, lu, mat, mat4, mat5, maud, mp2, mp3, nist, ogg, paf, prc, pvf, 
+raw, s1, s16, s2, s24, s3, s32, s4, s8, sb, sd2, sds, sf, sl, smp, snd, sndfile 
+(formatos suportados pela biblioteca Libsndfile), sndr, sndt, sou, sox (
+formato interno), sph, sw, txw, u1, u16, u2, u24, u3, u32, u4, u8, ub, ul, uw, vms, voc, 
+vorbis, vox, w64, wav, wavpcm, wv, wve, xa, xi</p>
+<p>E mais alguns outros caso as bibliotecas associadas estejam instaladas.</p>
+<p>Apenas alguns dos efeitos suportados:</p>
+<p>bandpass (filtro passa-banda), chorus, delay, echo (eco), equalizer (equalizador), fade (fade in e out), highpass (filtro passa-alta), lowpass (filtro passa-baixa), pitch (altera apenas o tom), reverb (reverberação), reverse (inversão), riaa, speed (altera a velocidade e o tom), synth (gera formas básicas de onda), tempo (altera apenas a velocidade), tremolo, trim, vocoder</p>
+<p>Para uma lista completa de formatos, efeitos e outras características, visite <a href="http://sox.sourceforge.net/Docs/Features">esta página (em Inglês)</a>.</p>
+<h4>Instalação</h4>
+<p>Versões para Windows e Mac podem ser baixadas diretamente da <a href="http://sourceforge.net/projects/sox/files/sox/">página oficial de download</a>. Para
+Linux, o SoX pode ser compilado do código-fonte (disponível na mesma
+página), ou instalado via repositórios de pacotes para distribuições específicas. No caso do
+Slackware (a distribuição Linux que eu uso), ele é instalado por padrão
+embora o suporte a geração de arquivos MP3 venha desabilitado, o que pode ser resolvido apenas 
+executando novamente o script (SlackBuild) para compilá-lo, depois reinstalá-lo.</p>
+<h4>Programas Inclusos</h4>
+<p>O SoX é uma ferramenta para linha de comando e vem com alguns mini programas (comandos) para
+execução de diferentes tarefas:</p>
+<h5>Play</h5>
+<p>Reproduz arquivos de áudio nos formatos suportados, além de aplicar efeitos durante a reprodução caso
+desejado.</p>
+<h5>Rec</h5>
+<p>Grava de um dispositivo (microfone, placa de som etc) para um arquivo em um dos
+formatos suportados.</p>
+<h5>Soxi</h5>
+<p>Exibe informações sobre arquivos de áudio nos formatos suportados.</p>
+<h5>Sox</h5>
+<p>É comumente usado para processar arquivo (s) e salvar os resultados em outro arquivo, mas
+na verdade ele é o núcleo do "play", do "rec" e do "soxi".</p>
+<h4>Exemplos Básicos de Uso</h4>
+<p>Nota: estes exemplos foram executados no Linux,     não sei se há diferenças nos comandos para outros sistemas.</p>
+<h5>Exibir Informações Sobre Arquivos</h5>
+<ol>
+<li>
+<p>Exibe informações como tamanho, duração, codificação, taxa de bits (bitrate), número de canais,
+taxa de amostragem (sample rate), comentários etc. de um arquivo chamado "musica.mp3":</p>
+<p>$ soxi musica.mp3</p>
+</li>
+<li>
+<p>Exibe apenas a duração do arquivo acima:</p>
+<p>$ soxi -d musica.mp3</p>
+</li>
+</ol>
+<h5>Reproduzindo Arquivos</h5>
+<ol>
+<li>
+<p>Toca um arquivo chamado "exemplo.mp3":</p>
+<p>$ play exemplo.mp3</p>
+</li>
+<li>
+<p>Toca um arquivo chamado "exemplo.mp3" com um efeito de reverberação (reverb):</p>
+<p>$ play exemplo.mp3 reverb</p>
+</li>
+<li>
+<p>Reproduz o arquivo "exemplo.mp3" de trás para frente:</p>
+<p>$ play exemplo.mp3 reverse</p>
+</li>
+<li>
+<p>Reproduz apenas os primeiros cinco segundos de "exemplo.mp3":</p>
+<p>$ play exemplo.mp3 trim 0 5</p>
+</li>
+<li>
+<p>Toca o arquivo "exemplo.mp3", do quinto segundo em diante:</p>
+<p>$ play exemplo.mp3 trim 5</p>
+</li>
+</ol>
+<p>Nota: existem opções para controlar os parâmetros de reverb, trim etc., bem
+como vários outros efeitos. Leia a seção "Obtendo Ajuda" abaixo para mais
+informações.</p>
+<h5>Gravando</h5>
+<p>Captura o som do dispositivo de gravação padrão (por exemplo, um microfone) e salva em um arquivo
+chamado "exemplo.wav":</p>
+<pre class="code literal-block"><span class="nv">$ </span>rec exemplo.wav
+</pre>
+
+
+<p>Nota: primeiro você precisa definir o dispositivo de gravação (por exemplo, nas configurações de som
+ no Windows, ou com programas como "alsamixer" ou "aumix" no Linux).</p>
+<h5>Pausando e Continuando</h5>
+<p>Para pausar a reprodução ou gravação, pressione Ctrl-z. O SoX vai pausar e ficar em segundo plano (background). 
+Para retomar de onde  parou e colocá-lo novamente em primeiro plano (foreground), digite o comando:</p>
+<pre class="code literal-block"><span class="nv">$ </span><span class="nb">fg</span>
+</pre>
+
+
+<p>Nota: não sei se isso funciona da mesma forma (nem como/se funciona) no Windows.</p>
+<h5>Processamento e Conversão de arquivos</h5>
+<p>Estes comandos processam arquivo(s) e salvam o resultado em outro arquivo, até mesmo
+convertendo-o para outro formato.</p>
+<ol>
+<li>
+<p>Converte um arquivo chamado "exemplo.wav" para "exemplo.mp3":</p>
+<p>$ sox exemplo.wav exemplo.mp3</p>
+</li>
+<li>
+<p>Aplica um efeito de reverb (com os parâmetros padrões do SoX) ao arquivo "exemplo1.wav"
+e salva o resultado em "exemplo2.wav":</p>
+<p>$ sox exemplo1.wav exemplo2.wav reverb</p>
+</li>
+<li>
+<p>Une os arquivos "exemplo-parte1.flac" e "exemplo-parte2.flac" para formar
+"exemplo-completo.flac":</p>
+<p>$ sox exemplo-parte1.flac exemplo-parte2.flac exemplo-completo.flac</p>
+</li>
+<li>
+<p>Salva os primeiros cinquenta segundos de "exemplo1.mp3" para "exemplo2.ogg":</p>
+<p>$ sox exemplo1.mp3 exemplo2.ogg trim 0 50</p>
+</li>
+<li>
+<p>Mescla (para que toquem simultaneamente) uma música de fundo ("musica.mp3") com uma gravação de voz ("discurso.wav"),
+produzindo "apresentacao.ogg":</p>
+<p>$ sox -m musica.mp3 discurso.wav apresentacao.ogg</p>
+</li>
+<li>
+<p>Mescla o fundo ("musica.mp3") na metade do volume e a voz
+("discurso.wav") com o dobro de volume, produzindo "apresentacao.ogg":</p>
+<p>$ sox -m -v0.5 musica.mp3 -v2 discurso.wav apresentacao.ogg</p>
+</li>
+</ol>
+<p>Dica: se quiser "pré-visualizar" (ou seria "pré-ouvir"?) os efeitos sem alterar o arquivo, você pode usar
+o "play" para aplicar os efeitos e ouvir:</p>
+<pre class="code literal-block"><span class="nv">$ </span>play -m -v0.5 musica.mp3 -v2 discurso.wav
+</pre>
+
+
+<p>Ajuste os parâmetros (neste exemplo, o volume, que é o
+número após a opção "-v") até encontrar os valores que julgar apropriados, então
+substitua o comando "play" por "sox" e especifique um arquivo de saída. Exemplo:</p>
+<pre class="code literal-block"><span class="nv">$ </span>sox -m -v0.5 musica.mp3 -v1.2 discurso.wav apresentacao.ogg
+</pre>
+
+
+<h5>Gerando Áudio</h5>
+<p>O SoX também pode gerar algumas formas básicas de áudio como ondas senoidais (sine waves), triangulares (triangular waves), quadradas (square waves) e
+"dente de serra" (sawtoot waves), além de algumas outras coisas como ruído "branco" ("white" noise), "marrom" ("brown" noise) e "rosa" ("pink" noise).</p>
+<ol>
+<li>
+<p>Este comando reproduz uma onda senoidal em 440Hz (a nota Lá/A4) durante um segundo. O ganho (e
+volume do som) é diminuído para não ficar muito alto:</p>
+<p>$ play -n synth 1 sine 440 gain -10</p>
+</li>
+<li>
+<p>Este faz a mesma coisa, mas usa o nome da nota em vez da frequência:</p>
+<p>$ play -n synth 1 sine A4 gain -10</p>
+</li>
+<li>
+<p>Este outro comando salva o som para um arquivo chamado "senoide.wav" em vez de tocá-lo:</p>
+<p>$ sox -n senoide.wav synth 1 sine A4 gain -10</p>
+</li>
+</ol>
+<h5>Suprimindo Informações</h5>
+<p>Se a quantidade de texto exibida na tela incomodar, você pode usar a opção "-q"
+para que o SoX não exiba nenhuma informação, exceto alertas e erros. Isso funciona tanto com o "play", quanto com o "rec" e o "sox". Exemplo:</p>
+<pre class="code literal-block"><span class="nv">$ </span>play -q musica.mp3
+</pre>
+
+
+<h4>Obtendo Ajuda</h4>
+<p>Para mostrar todos os comandos do SoX, formatos e efeitos, digite:</p>
+<pre class="code literal-block"><span class="nv">$ </span>sox --help
+</pre>
+
+
+<p>Para "play", "rec" e "soxi", digite "play --help", "rec --help" e "soxi --help", respectivamente.</p>
+<p>Nota: a ajuda é praticamente a mesma para o "sox", o "play" e o "rec", exceto pela
+ordem dos arquivos de entrada/saída e efeitos.</p>
+<p>Há também os manuais do usuário (em Inglês), com explicações mais detalhadas dos comandos,
+parâmetros de efeito e exemplos. No Linux, se os manuais estiverem instalados, você pode lê-los offline digitando</p>
+<pre class="code literal-block"><span class="nv">$ </span> man sox
+</pre>
+
+
+<p>para os manuais do "sox", do "play" e do "rec",</p>
+<pre class="code literal-block"><span class="nv">$ </span>man soxformat
+</pre>
+
+
+<p>para todas as opções relacionadas aos formatos de arquivo suportados e</p>
+<pre class="code literal-block"><span class="nv">$ </span>man soxi
+</pre>
+
+
+<p>para o manual do "soxi". Há também o</p>
+<pre class="code literal-block"><span class="nv">$ </span>man libsox
+</pre>
+
+
+<p>para aqueles que querem mexer com código e a biblioteca da engine do SoX.</p>
+<p>Você também pode ler os manuais online na <a href="http://sox.sourceforge.net/Docs/Documentation">página de documentação do SoX</a>.</p>
+<h4>Links Externos</h4>
+<p><a href="http://sox.sourceforge.net/">Site oficial do SoX (em Inglês)</a></p>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Postado por                     Aiyumi
+- <a href="/pt/blog/sox-basic-intro/" rel="bookmark">
+<time datetime="2011-09-09T13:19:38-03:00" itemprop="datePublished" title="2011-09-09 13:19">2011-09-09 13:19</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>Tags: </li>
+            <li><a class="tag p-category" href="/pt/tag/audio/" rel="tag">Audio</a></li>
+            <li><a class="tag p-category" href="/pt/tag/linux/" rel="tag">linux</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="/pt/blog/status-update-2011-09-07/" rel="prev" title="Link para a Feed RSS">Post anterior</a>
+            </li>
+            <li class="next">
+                <a href="/pt/blog/kirby-revenge-of-error-knight/" rel="next" title="Kirby: a Vingança de Error Knight">Próximo post</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>Compartilhe esta Página</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fsox-basic-intro%2F&amp;text=Uma%20Introdu%C3%A7%C3%A3o%20B%C3%A1sica%20ao%20SoX" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fsox-basic-intro%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fsox-basic-intro%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="http://www.digg.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fsox-basic-intro%2F&amp;title=Uma%20Introdu%C3%A7%C3%A3o%20B%C3%A1sica%20ao%20SoX" target="_BLANK">Digg</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fsox-basic-intro%2F&amp;title=Uma%20Introdu%C3%A7%C3%A3o%20B%C3%A1sica%20ao%20SoX" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fsox-basic-intro%2F&amp;title=Uma%20Introdu%C3%A7%C3%A3o%20B%C3%A1sica%20ao%20SoX" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/pt/blog/sox-basic-intro/" target="_BLANK">Hatena</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="/pt/blog/">Posts</a></li>
+
+                <li><a href="/pt/archive/">Arquivo</a></li>
+
+                <li><a href="/pt/tag/">Tags</a></li>
+
+                <li><a href="/pt/rss.xml/">Feed RSS</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="/en/pokemon/" title="(em Inglês)">Pokemon</a></li>
+
+                <li><a href="/en/rockman/" title="(em Inglês)">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="Meu canal no Youtube.">Youtube</a></li>
+
+                <li><a href="http://github.com/aiyumi" title="Meu código e minhas contribuições no GitHub.">GitHub</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_pt" title="Twitter em Português"></a></li>
+
+                <li><a href="http://twitter.com/aiyumi_en" title="Twitter em Inglês"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="Minhas fan fictions (em Português e Inglês).">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="Meus efeitos sonoros grátis no Freesound.">Freesound</a></li>
+
+</ul>
+<h4>Acessibilidade</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrando como usar alguns aparelhos eletrônicos sem enxergar. Site em Inglês.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Áudio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="site que contém milhares de efeitos sonoros gratuitos, a maioria sob uma licença Creative Commons e outros em domínio público. Site en Inglês.">Freesound.org</a></li>
+
+</ul>
+<h4>Japonês</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Técnicas para ajudar a estudar japonês, curiosidades sobre o Japão, origami e muito mais. Site em Português.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explicações sobre a gramática japonesa e outras dicas de estudo. Site em Português.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="Dicionário de Inglês &lt;&gt; Japonês, baseado em dados do WWWJDIC. Permite busca por palavras, sentenças de exemplo e kanji, tanto por Inglês, caracteres japoneses ou romaji. Site em Inglês.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="Notícias e artigos sobre Linux e software livre/de código aberto. Site em Português.">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog de um amigo meu, sobre aplicativos de linha de comando, Unix, programação (principalmente em Perl) e manipulação de strings (texto). Em Português.">Tecnoveneno</a></li>
+
+</ul>
+<h4>Lojas Recomendadas</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="Uma das maiores lojas online, com produtos que vão de brinquedos, CDs, DVDs, jogos e livros, até computadores, instrumentos musicais, roupas e acessórios para automóveis. Pena que não envia alguns produtos (dentre eles, jogos) para o Brasil.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/SOap-23-83-49xb.html" title="DVDs de anime, jogos (versão japonesa e americana), CDs de trilha sonora (OSTs) e outras coisas. Entrega praticamente para o mundo todo (inclusive o Brasil). Site em vários idiomas, inclusive Português.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Desenvolvimento Web</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="O CMS que a versão anterior deste site usava. Bastante leve, rápido e flexível. Site em Inglês.">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="O sistema de blog que este site usa atualmente. Bastante customizável. Site em Inglês.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="O serviço de hospedagem que este site usava anteriormente. Tem muitas características interessantes como suporte para scripts em PHP, Perl, Python e outras linguagens, acesso Shell ao servidor e ótima documentação sobre como utilizar os serviços. Apesar de não usar mais esta hospedagem, eu ainda recomendo. Em Inglês.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Hospedagem de arquivos grátis. 5 GB de espaço, com possibilidade de criar links diretos para os arquivos. Bom para colocar coisas para download em um site. Página em vários idiomas.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p class="smalltext">Todas as marcas registradas são de propriedade de seus respectivos autores e empresas. Este site não tem nenhuma relação com tais autores/empresas. O conteúdo original é copyright 2015 Aiyumi e, a menos que seja especificado o contrário, está publicado sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons - Atribuição  3.0 Não Adaptada</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a></p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Voltar para o topo</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>

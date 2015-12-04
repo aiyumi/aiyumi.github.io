@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<script language="JavaScript">
+// Language detection and redirection
+var base_url = "http://aiyumi.warpstar.net/";
+var userlang = (navigator.language)? navigator.language : navigator.userLanguage;
+if ( userlang == "pt_br" || userlang == "pt-br" || userlang == "pt" ) {
+document.location = base_url + "pt/";
+} else if ( userlang == "en_us" || userlang == "en-us" || userlang == "en" ) {
+document.location = base_url + "en/";
+} else if ( userlang == "ja_jp" || userlang == "ja-jp" || userlang == "ja" ) {
+document.location = base_url + "ja/";
+} else {
+document.location = base_url + "en/";
+} // end if
+</script>
+<noscript>
+<meta http-equiv="refresh" content="0;url=http://aiyumi.warpstar.net/en/">
+</noscript>
+<title>Select Language</title>
+</head>
+<body>
+
+<h2 style="text-align: center;">Language Redirection</h2>
+<table style="margin-left: auto; margin-right: auto;">
+<tr>
+<td>Se você não for redirecionado automaticamente, escolha o idioma abaixo.</td>
+<td>If you are not redirected automatically, select a language below.</td>
+<td>自動でリダイレクトされない場合は、以下から言語を選択してください。</td>
+</tr>
+<tr>
+<td><a href="/pt/"><img src="/assets/images/pt_br-flag.png" alt="Português" /></a></td>
+<td><a href="/en/"><img src="/assets/images/en-flag.png" alt="English" /></a></td>
+<td><a href="/ja/"><img src="/assets/images/ja-flag.png" alt="日本語" /></a></td>
+</tr>
+</table>
+
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+Sitemap: http://aiyumi.warpstar.net/sitemapindex.xml
+
+User-Agent: *
+Host: aiyumi.warpstar.net

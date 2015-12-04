@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="pt_br">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/pt/blog/static-blog-migration/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mudança de Blog e de Servidor » Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/pt/blog/static-blog-migration/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Aiyumi">
+<link rel="prev" href="/pt/blog/ath-cevio-1/" title="Um Vídeo Introdutório ao CeVIO" type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="Mudança de Blog e de Servidor">
+<meta property="og:url" content="http://aiyumi.warpstar.net/pt/blog/static-blog-migration/">
+<meta property="og:description" content="Pelo visual, pode parecer que o blog não mudou nada, mas na verdade, mudou bem radicalmente. O blog agora é estático, só com páginas HTML e não precisa mais de PHP nem de banco de dados.
+Por que um Bl">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-12-04T16:11:33-02:00">
+<meta property="article:tag" content="Site Updates">
+<link rel="alternate" hreflang="en" href="/en/blog/static-blog-migration/">
+<link rel="alternate" hreflang="ja" href="/ja/blog/static-blog-migration/">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Pular para o menu superior</a></li>
+<li><a href="#content">Pular para o conteúdo principal</a></li>
+<li><a href="#sidebar">Pular para o menu da direita</a></li>
+<li><a href="#footer">Pular para o rodapé</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/pt/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>Ver este site em:</li>
+            <li><a href="http://aiyumi.warpstar.net/" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Acessibilidade, áudio, jogos, Linux e outras coisas, do ponto de vista de uma deficiente visual.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/pt/">Home</a></li>
+                <li><a href="/pt/about/">Sobre</a></li>
+                <li><a href="/pt/blog/">Blog</a></li>
+                <li><a href="/pt/contact/">Contato</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/pt/blog/static-blog-migration/" class="u-url">Mudança de Blog e de Servidor</a></h2>
+
+        <div class="info">
+<ul class="list-inline">
+<li>Ver esta página em:</li>
+                <li><a href="/en/blog/static-blog-migration/" rel="alternate" hreflang="en">English</a></li>
+                <li><a href="/ja/blog/static-blog-migration/" rel="alternate" hreflang="ja">日本語</a></li>
+<li>Português</li>
+</ul>
+</div>
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<p>Pelo visual, pode parecer que o blog não mudou nada, mas na verdade, mudou bem radicalmente. O blog agora é estático, só com páginas HTML e não precisa mais de PHP nem de banco de dados.</p>
+<h4>Por que um Blog Estático?</h4>
+<p>Basicamente, blogs estáticos funcionam assim: eu escrevo os posts em alguma linguagem de marcação (eu uso <a href="https://daringfireball.net/projects/markdown/">Markdown</a>) em um editor de texto qualquer, então um programa gerador (geralmente de linha de comando) transforma os posts em HTML e os combina com os templates do leiaute das páginas (cabeçalho, menus, conteúdo etc.) e gera todas as páginas HTML, que podem ser enviadas para um servidor qualquer. Para mim, escrever no meu editor de texto preferido e dar alguns simples comandos para gerar e fazer upload das páginas é muito mais confortável do que ficar horas apanhando de uma interface web pesada e cheia de JavaScript (razão pela qual nunca me dei bem com o WordPress).</p>
+<p>Já faz um tempo que venho querendo migrar para um blog estático. Tinha testado vários programas para gerar blogs estáticos (também conhecidos como "static blog generators") mas nenhum tinha exatamente os recursos que eu queria (principalmente suporte a conteúdo em vários idiomas). Até comecei a tentar criar meu próprio programa (em Perl) mas acabei desistindo. Até que, este ano (2015), encontrei este software chamado <a href="https://getnikola.com/">Nikola</a> (que é escrito em Python). Poucos testes depois, concluí que ele faz tudo o que eu quero (e um pouco mais) e decidi que a hora de migrar havia chegado.</p>
+<h4>E Por que a Mudança de Servidor?</h4>
+<p>Vim usando o serviço de hospedagem da <a href="http://www.dreamhost.com/r.cgi?362621">DreamHost</a> desde 2009 e nunca tive problemas. Particularmente, gosto bastante da <a href="http://wiki.dreamhost.com/">ótima documentação disponível na wiki</a>, do acesso SSH que também possibilita fazer upload de arquivos via Rsync em vez de FTP (basicamente, é bem mais rápido porque envia apenas o que for diferente entre os arquivos da minha máquina e os do servidor, em vez de reenviar tudo outra vez), da possibilidade de instalar outros programas no servidor (tem instruções na wiki), da possibilidade de editar as configurações do PHP, entre outras coisas, e por último mas não menos importante, as newsletters mensais bem-humoradas :P . Então por que resolvi mudar de hospedagem? Por alguns simples motivos: por mais que todos esses recursos sejam interessantes, ao longo dos anos, descobri que não preciso de tudo isso. Não tenho mais tanto tempo para desenvolver sites como tinha antes, quando contratei o serviço em 2009, na época em que eu ainda não tinha emprego e achava que ia trabalhar criando sites. Mas aí, consegui um emprego de programadora Perl, os anos se passaram e, no final das contas, o único site que venho mantendo (mais ou menos) ativamente é este em que você está agora, que mal precisava de PHP e MySQL. Agora que o site é estático, nem disso eu preciso mais! E com o Dólar alto beirando os quatro reais, fica inviável continuar pagando por todos esses recursos que não estou usando. Dito isso, mesmo que eu não use mais o serviço, eu ainda considero a hospedagem da DreamHost muito boa e recomendo para quem não tiver problema com o Dólar :P e precisa de um servidor com MySQL, PHP (ou Perl ou Python que também vêm inclusos no plano) e acesso SSH.</p>
+<p>O registro do domínio (o "warpstar.net") ainda vai continuar na DreamHost (não só porque eu gosto dos recursos inclusos no plano como proteção de privacidade no whois, mas também porque isso serve de desculpa para eu continuar recebendo as newsletters mensais engraçadas :P). Porém, agora o blog está hospedado no <a href="https://pages.github.com/">GitHub Pages</a> e as páginas são enviadas via Git (que também só envia as diferenças em vez de reenviar tudo toda vez), e de quebra, o site até ganhou controle de versão :D !</p>
+<p>Os motivos acima são importantes para mim, mas no fim das contas, o que realmente importa para as outras pessoas é que o conteúdo está todo aqui, as URLs continuam as mesmas e o site continua no ar. A conversão talvez não tenha sido cem porcento. Pode haver alguns bugs aqui e ali, e pretendo ir corrigindo à medida que os encontrar.</p>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Postado por                     Aiyumi
+- <a href="/pt/blog/static-blog-migration/" rel="bookmark">
+<time datetime="2015-12-04T16:11:33-02:00" itemprop="datePublished" title="2015-12-04 16:11">2015-12-04 16:11</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>Tags: </li>
+            <li><a class="tag p-category" href="/pt/tag/site-updates/" rel="tag">Site Updates</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="/pt/blog/ath-cevio-1/" rel="prev" title="Um Vídeo Introdutório ao CeVIO">Post anterior</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>Compartilhe esta Página</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fstatic-blog-migration%2F&amp;text=Mudan%C3%A7a%20de%20Blog%20e%20de%20Servidor" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fstatic-blog-migration%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fstatic-blog-migration%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="http://www.digg.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fstatic-blog-migration%2F&amp;title=Mudan%C3%A7a%20de%20Blog%20e%20de%20Servidor" target="_BLANK">Digg</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fstatic-blog-migration%2F&amp;title=Mudan%C3%A7a%20de%20Blog%20e%20de%20Servidor" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fpt%2Fblog%2Fstatic-blog-migration%2F&amp;title=Mudan%C3%A7a%20de%20Blog%20e%20de%20Servidor" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/pt/blog/static-blog-migration/" target="_BLANK">Hatena</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="/pt/blog/">Posts</a></li>
+
+                <li><a href="/pt/archive/">Arquivo</a></li>
+
+                <li><a href="/pt/tag/">Tags</a></li>
+
+                <li><a href="/pt/rss.xml/">Feed RSS</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="/en/pokemon/" title="(em Inglês)">Pokemon</a></li>
+
+                <li><a href="/en/rockman/" title="(em Inglês)">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="Meu canal no Youtube.">Youtube</a></li>
+
+                <li><a href="http://github.com/aiyumi" title="Meu código e minhas contribuições no GitHub.">GitHub</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_pt" title="Twitter em Português"></a></li>
+
+                <li><a href="http://twitter.com/aiyumi_en" title="Twitter em Inglês"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="Minhas fan fictions (em Português e Inglês).">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="Meus efeitos sonoros grátis no Freesound.">Freesound</a></li>
+
+</ul>
+<h4>Acessibilidade</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrando como usar alguns aparelhos eletrônicos sem enxergar. Site em Inglês.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Áudio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="site que contém milhares de efeitos sonoros gratuitos, a maioria sob uma licença Creative Commons e outros em domínio público. Site en Inglês.">Freesound.org</a></li>
+
+</ul>
+<h4>Japonês</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Técnicas para ajudar a estudar japonês, curiosidades sobre o Japão, origami e muito mais. Site em Português.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explicações sobre a gramática japonesa e outras dicas de estudo. Site em Português.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="Dicionário de Inglês &lt;&gt; Japonês, baseado em dados do WWWJDIC. Permite busca por palavras, sentenças de exemplo e kanji, tanto por Inglês, caracteres japoneses ou romaji. Site em Inglês.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="Notícias e artigos sobre Linux e software livre/de código aberto. Site em Português.">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog de um amigo meu, sobre aplicativos de linha de comando, Unix, programação (principalmente em Perl) e manipulação de strings (texto). Em Português.">Tecnoveneno</a></li>
+
+</ul>
+<h4>Lojas Recomendadas</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="Uma das maiores lojas online, com produtos que vão de brinquedos, CDs, DVDs, jogos e livros, até computadores, instrumentos musicais, roupas e acessórios para automóveis. Pena que não envia alguns produtos (dentre eles, jogos) para o Brasil.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/SOap-23-83-49xb.html" title="DVDs de anime, jogos (versão japonesa e americana), CDs de trilha sonora (OSTs) e outras coisas. Entrega praticamente para o mundo todo (inclusive o Brasil). Site em vários idiomas, inclusive Português.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Desenvolvimento Web</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="O CMS que a versão anterior deste site usava. Bastante leve, rápido e flexível. Site em Inglês.">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="O sistema de blog que este site usa atualmente. Bastante customizável. Site em Inglês.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="O serviço de hospedagem que este site usava anteriormente. Tem muitas características interessantes como suporte para scripts em PHP, Perl, Python e outras linguagens, acesso Shell ao servidor e ótima documentação sobre como utilizar os serviços. Apesar de não usar mais esta hospedagem, eu ainda recomendo. Em Inglês.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Hospedagem de arquivos grátis. 5 GB de espaço, com possibilidade de criar links diretos para os arquivos. Bom para colocar coisas para download em um site. Página em vários idiomas.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p class="smalltext">Todas as marcas registradas são de propriedade de seus respectivos autores e empresas. Este site não tem nenhuma relação com tais autores/empresas. O conteúdo original é copyright 2015 Aiyumi e, a menos que seja especificado o contrário, está publicado sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons - Atribuição  3.0 Não Adaptada</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a></p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Voltar para o topo</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>

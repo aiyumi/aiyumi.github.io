@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/en/blog/">
+<meta name="description" content="Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/en/blog/">
+<link rel="next" href="/en/blog/index-6.html" type="text/html">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Jump to top navigation</a></li>
+<li><a href="#content">Jump to main content</a></li>
+<li><a href="#sidebar">Jump to right sidebar</a></li>
+<li><a href="#footer">Jump to footer</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/en/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>View this site in:</li>
+            <li><a href="http://aiyumi.warpstar.net/" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/en/">Home</a></li>
+                <li><a href="/en/about/">About</a></li>
+                <li><a href="/en/blog/">Blog</a></li>
+                <li><a href="/en/contact/">Contact</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+
+<div class="postindex">
+    <article class="entry"><header><h2 class="title"><a href="/en/blog/static-blog-migration/" class="u-url">Server Migration and Blog System Change</a></h2>
+        <div class="info">
+            <p>
+                Aiyumi
+            - <a href="/en/blog/static-blog-migration/" rel="bookmark"><time class="published dt-published" datetime="2015-12-04T16:11:33-02:00" title="2015-12-04 16:11">2015-12-04 16:11</time></a></p>
+        </div>
+    </header><div class="entry">
+    <div>
+<p>Even though the blog's visual didn't change much, it's core has changed drastically. Now it's a static blog, with only HTML pages and doesn't need PHP or a database anymore.</p>
+<h4>Why a Static Blog?</h4>
+<p>Basically, static blogs work like this: I write posts in some markup language (I use <a href="https://daringfireball.net/projects/markdown/">Markdown</a>) in a text editor of my choice, then a generator program (usually command line-driven) transforms posts in HTML and combines them with layout templates of the page (header, menu, content etc.) and generates all HTML pages, which can be uploaded to any webserver. For me, writing on my favorite text editor and typing a few simple commands to generate and upload the pages is much more comfortable than struggling for hours with a heavy web interface full of JavaScript (the reason why I never got along with WordPress).</p>
+<p>It's been a while since I've been wanting to migrate to a static blog. I had tested several static blog generator programs, but none had exactly the features I wanted (mainly multilanguage content support). I had even started trying to program my own (in Perl), but in the end, I gave up. Then, this year (2015), I found this software called <a href="https://getnikola.com/">Nikola</a> (which is written in Python). A few tests later, I concluded that it does everything I want (and then some), and decided that the time to migrate had come.</p>
+<h4>And Why the Server Change?</h4>
+<p>I've been hosting my sites at <a href="http://www.dreamhost.com/r.cgi?362621">DreamHost</a> since 2009 and never had any problems. Particularly, I rather like the <a href="http://wiki.dreamhost.com/">great documentation available on their wiki</a>, SSH access which enables uploading files via Rsync instead of FTP (basically, it's faster because Rsync sends only what is different between the files on my machine and the ones on the server, rather than reuploading everything all over again), the ability to install other software on the server (the wiki provides detailed instructions), the ability to edit PHP settings, among other things, and last but not least, their humorous monthly newsletters :P. Then why did I decide to change webhosts? For a few simple reasons: even though all of these features are interesting, over the years I discovered I don't need this much. I don't have as much time to develop sites as I had before, when I signed up for their service in 2009. At the time, I still didn't have a job, and believed I'd work designing sites. Then, I got a job as a Perl programmer, years passed and, in the end, the only site I've been able to maintain (more or less) actively is this one you're on right now, and it barely used PHP and MySQL. Now that the site is static, I don't even need PHP and MySQL anymore! And with the high US Dollar rates (one Dollar nearing four Brazilian Reals), the hosting plan is getting hard to afford, and it doesn't make much sense to keep paying for so many features I'm not using. That said, even if I don't use the service anymore, I still consider DreamHost's webhosting very good, and I recommend it to those who don't have problems with the Dollar rates :P , and need a webhost that supports MySQL, PHP (or Perl or Python which are also included in their plan) and SSH access.</p>
+<p>The domain registration for "warpstar.net" will still remain on DreamHost (not only because I like the included features like whoes privacy protection, but also because this serves as an excuse for me to keep receiving the humorous monthly newsletters :P ). But now, the blog is hosted on <a href="https://pages.github.com/">GitHub Pages</a>, and the pages are uploaded via Git (which also only uploads the differences in the files rather than reuploading everything every time), and as a bonus, the site even got version control :D !</p>
+<p>The reasons above are important to me, but... okay, enough rambling. In the end, what really matters to everyone else is that all the content is here, the URLs remain the same, and the site is still online. The conversion may not have been 100%. There might be a few bugs here and there, and I intend to correct them as I find them.</p>
+</div>
+    </div>
+    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/ath-cevio-1/" class="u-url">An Introductory Video to CeVIO</a></h2>
+        <div class="info">
+            <p>
+                Aiyumi
+            - <a href="/en/blog/ath-cevio-1/" rel="bookmark"><time class="published dt-published" datetime="2015-11-11T16:46:24-02:00" title="2015-11-11 16:46">2015-11-11 16:46</time></a></p>
+        </div>
+    </header><div class="entry">
+    <div>
+<p>I've already mentioned here on the blog a few voice synthesizer software, like <a href="http://espeak.sourceforge.net/">Espeak</a> (which provides a voice to my screen reader program), the Japanese voice synthesizer <a href="http://open-jtalk.sourceforge.net/">Open JTalk</a> (which the Windows screen reader <a href="http://www.nvaccess.org/">NVDA</a> uses to read Japanese text), and the singing synthesis software VOCALOID, which I've been <a href="/en/blog/accessibility-and-how-i-began-using-vocaloid">using for a while</a>. There's another Japanese voice synthesiser program (both for speech and for singing) called <a href="http://cevio.jp/">CeVIO</a>. Today I stumbled on this video about Japanese speech synthesizers, and I thought it's very interesting. It begins introducing a few software that came first (MMDAgent and Open JTalk), then goes on to talk about the main topic, CeVIO. It demonstrates various voice samples (both for speech and for singing), and examples of how to edit the voices' parameters to read Japanese text. (it even has tips for those wanting to buy the software :D )</p>
+<p><a href="https://www.youtube.com/watch?v=k6c4p8Pjdf8">https://www.youtube.com/watch?v=k6c4p8Pjdf8</a></p>
+</div>
+    </div>
+    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/in-the-mood-to-redash/" class="u-url">In the Mood to DASH, Reloaded! (Updated 2015/08/04)</a></h2>
+        <div class="info">
+            <p>
+                Aiyumi
+            - <a href="/en/blog/in-the-mood-to-redash/" rel="bookmark"><time class="published dt-published" datetime="2015-07-11T15:12:26-03:00" title="2015-07-11 15:12">2015-07-11 15:12</time></a></p>
+        </div>
+    </header><div class="entry">
+    <div>
+<p>I'd already <a href="/en/blog/in-the-mood-to-dash">talked here on the blog</a> about my interest in the Rockman DASH series (known as Mega Man Legends in the West), which unfortunately had its third game canceled and left its fans craving for more. Capcom hasn't shown any interest in continuing the series, but a few days ago, a light at the end of the tunnel came from somewhere else. Comcept, the company founded by Keiji Inafune (Rockman / Mega Man series' creator, who had left Capcom) launched a project to create a series that will become the spiritual successor to DASH/Legends. The project is called "RED ASH." </p>
+<p class="more"><a href="/en/blog/in-the-mood-to-redash/">more…</a></p>
+</div>
+    </div>
+    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/bonnes-theme-arrange-2/" class="u-url">Rockman DASH - "We are the Three Bonne Brothers" Violin Arrangements</a></h2>
+        <div class="info">
+            <p>
+                Aiyumi
+            - <a href="/en/blog/bonnes-theme-arrange-2/" rel="bookmark"><time class="published dt-published" datetime="2015-06-11T18:35:21-03:00" title="2015-06-11 18:35">2015-06-11 18:35</time></a></p>
+        </div>
+    </header><div class="entry">
+    <div>
+<p>Those who have read my <a href="/en/blog/gossec-gavotte-fvl-cover">other</a> <a href="/en/blog/virtual-violins">posts</a> probably noticed that I'm currently obsessed with violins. It turns out that I couldn't resist and, in march of 2015, I began taking lessons to learn to play the real thing!</p>
+<p>Three months have passed, and I continue my <a href="/en/blog/bonnes-theme-arrange-1">arrangements of the song "We Are the Three Bonne Brothers"</a> from Rockman DASH/Mega Man Legends. Today I bring a few more versions, this time with violins, both the virtual one and the real one!</p>
+<p>These where made for my fan fiction, "<a href="https://www.fanfiction.net/s/10564022/1/Trigger-of-Change">Trigger of Change</a>," where the Servbots learn to play the violin. The piano is the same as the <a href="/en/blog/bonnes-theme-arrange-1">"Marimbonnes" version</a>.</p>
+<p>First, the virtual one, made with the Embertone Friedlander Violin VST.</p>
+<p>Download/listen: <a href="http://aiyumi.opendrive.com/files/101759890_xIo2h_d1b5/bonnes-fvl01.ogg">bonnes-fvl01.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/wxHz8p3Qba/bonnes-fvl01.html">bonnes-fvl01.mp3 (4shared)</a></p>
+<p>And this is my attempt at playing it with a real violin. Warning: beginner level playing (just three months of taking weekly lessons), and the intonation is still quite off. Also, it's my first time trying to record an acoustic instrument (recorded with a Zoom H4n portable recorder).</p>
+<p>Download/listen: <a href="http://aiyumi.opendrive.com/files/101759900_0s6x3_4a1d/bonnes-realviolin01.ogg">bonnes-realviolin01.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/MJN7Xw8xce/bonnes-realviolin01.html">bonnes-realviolin01.mp3 (4shared)</a></p>
+<p>Three violins version: until I arrived at the final result above, I had to record the song over twenty times! I didn't want so many takes to go to waste, so I selected the better three of my recording (mis)takes and glued them together. The result is a trio of clumsy and out of tune Servbots.</p>
+<p>Download/listen: <a href="http://aiyumi.opendrive.com/files/101759905_WOe2Z_98a6/bonnes-threeviolins01.ogg">bonnes-threeviolins01.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/4mLQhgynba/bonnes-threeviolins01.html">bonnes-threeviolins01.mp3 (4shared)</a></p>
+<p>Three violins + Friedlander Violin version: the "trio" above playing along with the virtual one.</p>
+<p>Download/listen: <a href="http://aiyumi.opendrive.com/files/101759911_UKCuo_6679/bonnes-threeviolins-and-fvl01.ogg">bonnes-threeviolins-and-fvl01.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/FPJoQfbgba/bonnes-threeviolins-and-fvl01.html">bonnes-threeviolins-and-fvl01.mp3 (4shared)</a></p>
+</div>
+    </div>
+    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/bonnes-theme-arrange-1/" class="u-url">Rockman DASH - "We are the Three Bonne Brothers" Keyboard Arrangements</a></h2>
+        <div class="info">
+            <p>
+                Aiyumi
+            - <a href="/en/blog/bonnes-theme-arrange-1/" rel="bookmark"><time class="published dt-published" datetime="2015-04-13T09:33:12-03:00" title="2015-04-13 09:33">2015-04-13 09:33</time></a></p>
+        </div>
+    </header><div class="entry">
+    <div>
+<p>These are my keyboard arrangements of the song "We are the Three Bonne Brothers", also known as the theme song for the Bonnes, the charismatic air pirates from the Rockman DASH/Mega Man Legends series. Performed and recorded on a Yamaha Motif XF keyboard.</p>
+<p>Download/listen:</p>
+<p>Piano and flute version (shorter): <a href="http://aiyumi.opendrive.com/files/99499160_o5e2n_d694/bonne-brothers01.ogg">bonne-brothers01.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/e5QxhGKVce/bonne-brothers01.html">bonne-brothers01.mp3 (4shared)</a></p>
+<p>Piano and flute version (longer): <a href="http://aiyumi.opendrive.com/files/99826482_d2ohR_366c/bonne-brothers02.ogg">bonne-brothers02.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/E2BgnW5Wba/bonne-brothers02.html">bonne-brothers02.mp3 (4shared)</a></p>
+<p>Update (2015/04/17): piano and marimba version: <a href="http://aiyumi.opendrive.com/files/99952953_GaPC6_61a8/marimbonnes01.ogg">marimbonnes01.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/1I8IVJhPce/marimbonnes01.html">marimbonnes01.mp3 (4shared)</a></p>
+</div>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager"><ul class="pager">
+<li class="next">
+                <a href="/en/blog/index-6.html" rel="next">Older posts</a>
+            </li>
+        </ul></nav>
+</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="/en/blog/">Posts</a></li>
+
+                <li><a href="/en/archive/">Archive</a></li>
+
+                <li><a href="/en/tag/">Tags</a></li>
+
+                <li><a href="/en/rss.xml/">RSS Feed</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="/en/pokemon/">Pokemon</a></li>
+
+                <li><a href="/en/rockman/">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="My channel on Youtube">Youtube</a></li>
+
+                <li><a href="http://github.com/aiyumi" title="My code and contributions on GitHub.">GitHub</a></li>
+
+                <li><a href="http://twitter.com/aiyumi_en" title="Twitter"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="My fan fictions (in Portuguese and English).">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="My free sound effects on Freesound.">Freesound</a></li>
+
+</ul>
+<h4>Accessibility</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrating how to use some electronic gadgets without vision. Site in English.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Audio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="A site that hosts thousands of free sound effects, most of them under a Creative Commons License, and others in the public domain. Site in English.">Freesound.org</a></li>
+
+</ul>
+<h4>Japanese</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Japanese study tips, interesting things about Japan, origami and more. Site in Portuguese.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explanation about Japanese grammar and other study tips. Site in Portuguese.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="English &lt;&gt; Japanese dictionary, based on data from WWWJDIC. It allows searches for words, example sentences and kanji, by English, Japanese characters or romaji. Site in English.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="News and articles about Linux and Free/Open Source software. Site in Portuguese.">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog of a friend of mine, about command line apps, Unix, programming (mainly in Perl) and string (text) manipulation. In Portuguese.">Tecnoveneno</a></li>
+
+</ul>
+<h4>Recommended Stores</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="One of the biggest online stores, with products ranging from toys, CDs, DVDs, games and books, to computers, musical instruments, clothing and car accessories.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/SOap-23-83-49xb.html" title="Anime DVDs, games (JP and US versions), soundtrack CDs and other things. Worldwide shipping. Site in various languages.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Web Development</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="The CMS this site used previously. Very fast, lightweight and flexible. Site in English.">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="The blog system this site uses now. Very customizable. Site in English.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="This site's previous web host. It has many nice features like support for scripts in PHP, Perl, Python and other languages, Shell access to the server and very good documentation about how to use the services. Even though this site isn't hosted there anymore, I still recommend it. In English.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Free file hosting. 5 GB of space to upload your files, with direct links allowed. Good to put files for download on a site. In various languages.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2015 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a></p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Back to top</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>
