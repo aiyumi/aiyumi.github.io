@@ -1,0 +1,77 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*" />
+<%namespace name="notes" file="annotation_helper.tmpl" import="*" />
+${set_locale(lang)}
+${base.html_headstart()}
+<%block name="extra_head">
+### Leave this block alone.
+</%block>
+${template_hooks['extra_head']()}
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">${messages("Jump to top navigation")}</a></li>
+<li><a href="#content">${messages("Jump to main content")}</a></li>
+<li><a href="#sidebar">${messages("Jump to right sidebar")}</a></li>
+<li><a href="#footer">${messages("Jump to footer")}</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="${abs_link(_link("root", None, lang))}" title="${blog_title}" rel="home">
+    %if logo_url:
+        <img src="${logo_url}" alt="${blog_title}" id="logo">
+    %endif
+    % if show_blog_title:
+        ${blog_title}
+    % endif
+    </a></h1>
+${base.html_translations()}
+		<p><em>${blog_description}</em></p>
+	</div>
+
+	<hr />
+	<!-- end #logo -->
+
+<header id="header"> <!-- begin #header -->
+ <nav id="menu">
+                ${base.html_navigation_links()}
+            %if search_form:
+                ${search_form}
+            %endif
+ </nav>
+</header>  <!-- end #header -->
+
+	<div id="page">
+		<div id="content">
+            ${template_hooks['page_header']()}
+            <%block name="content"></%block>
+		</div><!-- end #content -->
+		<nav id="sidebar">
+${html_sidebar()}
+		</nav>	<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"> <!-- begin #footer -->
+            <p class="smalltext">${content_footer}</p>
+            ${template_hooks['page_footer']()}
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,
+and hosted at <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a> 
+(<a href="https://github.com/aiyumi/aiyumi.github.io/tree/src" rel="nofollow">view site source code</a>)</p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">${messages('Back to top')}</a></p>
+        </footer> <!-- end #footer -->
+
+    <%block name="extra_js"></%block>
+    % if annotations and post and not post.meta('noannotations'):
+        ${notes.code()}
+    % elif not annotations and post and post.meta('annotations'):
+        ${notes.code()}
+    % endif
+${body_end}
+${template_hooks['body_end']()}
+</body>
+</html>
