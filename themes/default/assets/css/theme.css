@@ -276,13 +276,13 @@ hr { display: none; }
 }
 
 .post .title {
-	height: 44px;
+/* #	height: 44px; */
 	padding: 0px 20px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	letter-spacing: -1px;
 	text-decoration: none;
 	/* # text-transform: lowercase; */
-	font-size: 23px; /* # */
+	font-size: 18px; /* # */
 	color: #000 /* # 238EC6 */;
 }
 
@@ -290,7 +290,7 @@ hr { display: none; }
 	letter-spacing: -1px;
 	text-decoration: none;
 /* # 	text-transform: lowercase; */
-	font-size: 30px;
+	font-size: 25px; /* # */
 	color: #000 /* # #238EC6 */;
 }
 

@@ -276,7 +276,7 @@ sidebar_links_list = {
         ("http://www.play-asia.com/SOap-23-83-49xb-49-jp.html", U"Play-Asia.com", U"日本語版と英語版のあにめDVDとげーむ、さんとらCDなど売っている通販さいと。海外にも配送します。（日本語）"),
         ("", "", U"Webサイト作成"),
         ("http://www.wolfcms.org/", U"WolfCMS", U"このさいとが前に使っていた、軽くて、とても素早いCMS。（英語）"),
-        ("https://getnikola.com/", U"Nikola", U"このさいとが使っているブログソフト。（英語）"),
+        ("https://getnikola.com/", U"Nikola", U"このさいとが使っている静的ブログソフト。（英語）"),
         ("http://www.dreamhost.com/r.cgi?362621", U"DreamHost.com", U"このさいとが前に使っていたWebほすと。PHP、Perl、Python、いろんなプログラミング言語を使用することができます。サーバーに、SSH（シェル）でアクセスすることもできます。機能の使いかたはうぃきで詳しく解説されています。最早このWebホストを使っていませんが、まだお勧めします。（英語）"),
         ("http://www.opendrive.com/ref/4d7277d9031ab", U"OpenDrive", U"5GB無料オンラインストレージ。メールやWebサイトで大きなファイルを配信するのに便利。（様々な言語）"),
         ),
