@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/</loc>
-  <lastmod>2015-12-02T18:28:00Z</lastmod>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2011/</loc>
@@ -42,8 +42,12 @@
   <lastmod>2015-12-02T18:28:00Z</lastmod>
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/en/archive/2016/</loc>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2015-12-22T00:10:00Z</lastmod>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -86,6 +90,12 @@
   <lastmod>2015-12-02T18:31:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/</loc>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/flying-on-brahms-waltz/</loc>
@@ -131,27 +141,27 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-1.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-2.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-3.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-4.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-5.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-6.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
@@ -363,7 +373,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/</loc>
-  <lastmod>2015-12-02T18:28:00Z</lastmod>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2011/</loc>
@@ -386,8 +396,12 @@
   <lastmod>2015-12-02T18:28:00Z</lastmod>
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/ja/archive/2016/</loc>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/</loc>
-  <lastmod>2015-12-04T18:18:00Z</lastmod>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/</loc>
@@ -408,6 +422,12 @@
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/" />
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/</loc>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/" />
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/</loc>
   <lastmod>2015-12-02T18:31:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/happy-birthday-arrange-1/" />
@@ -421,19 +441,19 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-1.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-2.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-3.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-4.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/</loc>
@@ -603,7 +623,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/</loc>
-  <lastmod>2015-12-02T18:28:00Z</lastmod>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2011/</loc>
@@ -626,8 +646,12 @@
   <lastmod>2015-12-02T18:28:00Z</lastmod>
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/pt/archive/2016/</loc>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2015-12-22T00:10:00Z</lastmod>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -670,6 +694,12 @@
   <lastmod>2015-12-02T18:31:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-2/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/</loc>
+  <lastmod>2016-03-13T16:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/erros-comuns-em-textos/</loc>
@@ -721,31 +751,31 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-1.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-2.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-3.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-4.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-5.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-6.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-7.html</loc>
-  <lastmod>2016-03-04T18:59:00Z</lastmod>
+  <lastmod>2016-03-13T16:27:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
