@@ -47,7 +47,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2016-04-10T22:01:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -161,7 +161,11 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-6.html</loc>
-  <lastmod>2016-04-10T22:06:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/index-7.html</loc>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
@@ -282,6 +286,12 @@
   <lastmod>2015-12-02T18:31:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/virtual-violins/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/virtual-violins/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/</loc>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/contact/</loc>
@@ -407,7 +417,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/</loc>
-  <lastmod>2016-03-13T16:25:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/</loc>
@@ -459,7 +469,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-4.html</loc>
-  <lastmod>2016-04-10T22:01:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/</loc>
@@ -556,6 +566,12 @@
   <lastmod>2015-12-02T18:31:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/twitter-and-updates/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/twitter-and-updates/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/</loc>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/contact/</loc>
@@ -657,7 +673,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2016-04-10T22:01:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -781,7 +797,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-7.html</loc>
-  <lastmod>2016-04-10T22:06:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
@@ -914,6 +930,12 @@
   <lastmod>2015-12-02T18:31:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/virtual-violins/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/virtual-violins/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/</loc>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/contact/</loc>

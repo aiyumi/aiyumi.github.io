@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/rss.xml</loc>
-  <lastmod>2016-04-10T22:06:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/audio.xml</loc>
-  <lastmod>2016-03-13T16:33:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/fan-made.xml</loc>
@@ -39,7 +39,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/violin.xml</loc>
-  <lastmod>2016-03-13T16:33:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/vocaloid.xml</loc>
@@ -47,11 +47,11 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/rss.xml</loc>
-  <lastmod>2016-04-10T22:06:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/audio.xml</loc>
-  <lastmod>2016-03-13T16:33:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/fan-made.xml</loc>
@@ -79,7 +79,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/violin.xml</loc>
-  <lastmod>2016-03-13T16:33:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/vocaloid.xml</loc>
@@ -87,11 +87,11 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/rss.xml</loc>
-  <lastmod>2016-04-10T22:06:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/audio.xml</loc>
-  <lastmod>2016-03-13T16:33:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/fan-made.xml</loc>
@@ -119,7 +119,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/violin.xml</loc>
-  <lastmod>2016-03-13T16:33:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/vocaloid.xml</loc>
@@ -127,6 +127,6 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/sitemap.xml</loc>
-  <lastmod>2016-04-10T22:06:00Z</lastmod>
+  <lastmod>2016-04-22T21:36:00Z</lastmod>
  </sitemap>
 </sitemapindex>
