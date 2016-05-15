@@ -59,4 +59,5 @@ MESSAGES = {
     "rockman_disclaimer": "ロックマンシリーズは株式会社カプコンに帰属します。",
     "persona_disclaimer": "ペルソナは株式会社アトラスに帰属します。",
     "fanworks_disclaimer": "これは単なるファンの作り物で、所有者とは一切関係ありません。",
+    "afflinks_note": "注：私のリンクから Amazon と Play-Asia で何かを購入したり、 DreamHost のウェブホスティングにサインアップした場合、私は彼らのアフィリエイトプログラムから小さなコミッションを稼げることがあります。それは \"warpstar.net\" のドメイン登録の支払いや、ゲーム、VOCALOIDライブラリや他の音楽ソフトなどの購入に役立ちます。",
 }

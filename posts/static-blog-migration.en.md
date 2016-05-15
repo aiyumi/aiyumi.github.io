@@ -19,6 +19,8 @@ The domain registration for "warpstar.net" will still remain on DreamHost (not o
 
 * Edit: or so I had thought. The account cancel page says that if I cancel the hosting, even if I keep the domain registration, I won't get the newsletters anymore. Too bad... :(
 
+Edit (2016/03/04): apparently not! Despite what the cancel page said, I still keep receiving the newsletters :D !
+
 The reasons above are important to me, but... okay, enough rambling. In the end, what really matters to everyone else is that all the content is here, the URLs remain the same, and the site is still online. The conversion may not have been 100%. There might be a few bugs here and there, and I intend to correct them as I find them.
 
 

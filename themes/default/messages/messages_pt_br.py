@@ -57,4 +57,5 @@ MESSAGES = {
     "rockman_disclaimer": "",
     "persona_disclaimer": "",
     "fanworks_disclaimer": "",
+    "afflinks_note": "Nota: se você usar meus links para comprar algum produto na Amazon ou na Play-Asia ou para contratar os serviços de hospedagem da DreamHost, eu posso receber uma pequena comissão do programa de afiliados deles. Isso me ajudaria a continuar pagando para manter o registro do domínio \"warpstar.net\", e também me ajudaria a comprar jogos, instrumentos musicais virtuais (bibliotecas de samples), Vocaloids e afins.",
 }
