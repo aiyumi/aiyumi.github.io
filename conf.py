@@ -927,9 +927,9 @@ LICENSE = ""
 # style="border-width:0; margin-bottom:12px;"
 # src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 LICENSE = {
-    DEFAULT_LANG: U'<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons - Atribuição  3.0 Não Adaptada</a>',
-    "en": U'<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>',
-    "ja": U'<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">クリエイティブ・コモンズ 表示 - 継承 3.0 Unported ライセンス</a>',
+    DEFAULT_LANG: U'<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>',
+    "en": U'<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>',
+    "ja": U'<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>',
 }
 
 # A small copyright notice for the page footer (in HTML).
