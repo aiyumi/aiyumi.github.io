@@ -51,7 +51,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T16:01:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -114,6 +114,12 @@
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/game-a11y-intro/" />
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/getting-ready-for-persona5/</loc>
+  <lastmod>2016-06-12T16:01:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/getting-ready-for-persona5/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/getting-ready-for-persona5/" />
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/en/blog/gossec-gavotte-fvl-cover/</loc>
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/gossec-gavotte-fvl-cover/" />
@@ -145,31 +151,31 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-1.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-2.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-3.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-4.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-5.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-6.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-7.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
@@ -461,19 +467,19 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-1.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-2.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-3.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-4.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/</loc>
@@ -677,7 +683,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T16:01:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -746,6 +752,16 @@
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/game-a11y-intro/" />
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/getting-ready-for-persona5/</loc>
+  <lastmod>2016-06-12T16:01:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/getting-ready-for-persona5/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/getting-ready-for-persona5/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/getting-ready-for-persona5pt_br/</loc>
+  <lastmod>2016-06-12T02:23:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/gossec-gavotte-fvl-cover/</loc>
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/gossec-gavotte-fvl-cover/" />
@@ -777,31 +793,31 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-1.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-2.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-3.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-4.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-5.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-6.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-7.html</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2016-06-12T17:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
