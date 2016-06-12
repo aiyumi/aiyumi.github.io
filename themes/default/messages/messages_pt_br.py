@@ -29,6 +29,7 @@ MESSAGES = {
     "Read more": "Ler o artigo completo",
     "Posted by ": "Postado por ",
     ", ": ", ",
+    "Tags: ": "Tags: ",
     "Jump to top navigation": "Pular para o menu superior",
     "Jump to main content": "Pular para o conteúdo principal",
     "Jump to right sidebar": "Pular para o menu da direita",
@@ -53,9 +54,10 @@ MESSAGES = {
     "Hatena": "Hatena",
 
     # Disclaimers
-    "pokemon_disclaimer": "",
-    "rockman_disclaimer": "",
-    "persona_disclaimer": "",
-    "fanworks_disclaimer": "",
+    "Disclaimer:": "Disclaimer: ",
+    "pokemon_disclaimer": "Pocket Monsters/Pokemon and all related material are copyright Nintendo, GameFreak, and the Pokémon Company. ",
+    "rockman_disclaimer": "Rockman/Mega Man and all related material are copyright Capcom Co., Ltd. ",
+    "persona_disclaimer": "Persona and all related material are copyright Atlus, inc. ",
+    "fanworks_disclaimer": " All trademarks are property of their respective owners. These are just fan works with no relation to those owners.",
     "afflinks_note": "Nota: se você usar meus links para comprar algum produto na Amazon ou na Play-Asia ou para contratar os serviços de hospedagem da DreamHost, eu posso receber uma pequena comissão do programa de afiliados deles. Isso me ajudaria a continuar pagando para manter o registro do domínio \"warpstar.net\", e também me ajudaria a comprar jogos, instrumentos musicais virtuais (bibliotecas de samples), Vocaloids e afins.",
 }

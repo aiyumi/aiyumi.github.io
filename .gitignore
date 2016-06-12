@@ -1,4 +1,5 @@
 _site/
+draft/
 *.pyc
 .doit.db
 cache/
