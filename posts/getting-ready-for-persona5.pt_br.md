@@ -6,6 +6,8 @@
 
 Ano passado (2015) fechei o jogo Persona 3 FES (para Playstation 2) e no começo deste ano (2016) fechei o Persona 4 (também para o PS2). Uma introdução bem básica para quem não conhece: os jogos de Persona são JRPGs (RPGs japoneses) sobre alunos do colegial que têm que equilibrar estudos, encontros com amigos, e lutas contra fenômenos sobrenaturais em que eles invocam uma espécie de "eu interior" em forma de criaturas chamadas "Persona", sendo que tanto as Personas quanto os inimigos  são baseados em seres mitológicos, anjos, demônios e coisas do tipo. Os jogos contêm personagens carismáticos e bem desenvolvidos, enredos envolventes, e cenas de humor típicas de anime. A partir do Persona 3 têm um sistema de calendário onde devemos acompanhar os protagonistas ao longo de um ano, vendo várias curiosidades da cultura japonesa como algumas comidas típicas (esses jogos até me fizeram [tentar preparar um lámen](/pt/blog/p3-food-ramen)! :P ), algumas localidades e até mesmo que dias são feriado no calendário por lá! <!--more-->
 
+Os Personas 1 e 2 foram lançados primeiro para o Playstation e depois ganharam remakes para PSP. São bem diferentes dos jogos de Persona que vieram depois. Mas eu não os joguei (só joguei o comecinho do Persona 2) então não posso comentar muito sobre eles.
+
 ## Persona 3
 
 No Persona 3, o protagonista e seus amigos lutam com o objetivo de por um fim a um fenômeno conhecido como "Dark Hour", uma hora oculta entre um dia e outro que acontece sempre à meia-noite. Apenas quem tem o potencial de usar Personas pode presenciar esta hora misteriosa, em que a escola deles se transforma numa torre gigantesca infestada de monstros chamada Tartarus.
@@ -36,6 +38,8 @@ E em breve teremos o Persona 5! Desta vez, é um grupo de adolescentes rebeldes 
 
 [Nesta página][trailersubs] tem vários trailers japoneses do Persona 5, legendados em Inglês pela Traduko Soft, um grupo de fãs tradutores.
 
+Edit (2016/08/06): [aqui][domisubs] tem mais alguns vídeos legendados, incluindo os primeiros 18 minutos do início do jogo!
+
 O Persona 5 sairá tanto para o PS3 quanto para o PS4. No Japão, será lançado em 15 de setembro de 2016, e nos Estados Unidos em 14 de fevereiro de 2017 (bem no Valentine's Day).
 
 Abaixo estão alguns links de pré-venda do Persona 5 (para comprar, precisa ter cartão de crédito internacional).
@@ -52,11 +56,12 @@ Nota: links da Play-Asia, enviam para o Brasil.
 
 Disso tudo aí, o que eu queria mesmo (além do jogo, é claro) eram os DLCs. Ainda não tem previsão para lançar esses DLCs para a versão americana, mas [já foi dito que o assunto será tratado depois][dlctweet].
 
-Como os jogos de Persona anteriores, a versão americana vai ter dublagem em Inglês. Tem fãs (assim como eu) torcendo para que o jogo se torne dual audio (com a opção de escolher entre a dublagem japonesa e a americana). Questões de licenças e outras complicações dificultam o caso e não tem nada certo sobre isso ainda, mas parece que a possibilidade de dual audio pelo menos existe. Segundo alguns tweets oficiais ([1], [2], [3]), o que está garantido no momento é que a versão americana vai ter dublagem em Inglês, mas estão vendo se conseguem encaixar o áudio japonês de algum jeito, talvez como conteúdo adicional para download (DLC). Eu gosto de áudio em Japonês, então se conseguissem lançar a versão americana com a possibilidade de escolher as vozes em Japonês, para mim seria perfeito. Torcendo para que arrumem algum jeito de fazer isso.
+Como os jogos de Persona anteriores, a versão americana vai ter dublagem em Inglês. Tem fãs (assim como eu) torcendo para que o jogo se torne dual audio (com a opção de escolher entre a dublagem japonesa e a americana). Questões de licenças e outras complicações dificultam o caso, mas parece que alguma possibilidade de dual audio pelo menos existe. Segundo alguns tweets oficiais ([1], [2], [3]), o que está garantido é que a versão americana vai ter apenas dublagem em Inglês no lançamento, mas estão vendo se conseguem encaixar o áudio japonês de algum jeito, talvez como conteúdo adicional para download (DLC). Eu gosto de áudio em Japonês, então se conseguissem lançar a versão americana com a possibilidade de escolher as vozes em Japonês, para mim seria perfeito. Torcendo para que arrumem algum jeito de fazer isso.
 
 Minha conclusão? Até pouco tempo atrás, eu não tinha interesse em nenhum jogo de PS4, mas com o aparecimento do RED ASH (do qual [falei ano passado](/pt/blog/in-the-mood-to-redash)), o Final Fantasy VII Remake e agora o Persona 5, parece que está chegando a hora de eu comprar um PS4...
 
 [trailersubs]: http://fanlations.tradukosoft.com/persona-5-media-fansub-collection/
+[domisubs]: https://www.youtube.com/playlist?list=PLwKo1oxh64Pd1HNvRr8rkYe9VsKUGkURc
 [p5pa-premium-jp]: https://www.play-asia.com/persona-5-20th-anniversary-edition/13/70a527?tagid=199487
 [p5pa-premium-en]: https://www.play-asia.com/persona-5-take-your-heart-premium-edition/13/70a8nr?tagid=199487
 [p5pa-ps4-jp]: http://www.play-asia.com/persona-5/13/7084u5?tagid=199487
