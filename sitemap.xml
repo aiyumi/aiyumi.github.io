@@ -51,7 +51,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2016-06-12T16:01:00Z</lastmod>
+  <lastmod>2016-09-11T00:40:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -175,7 +175,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-7.html</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2016-09-11T00:40:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
@@ -302,6 +302,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/watch-p5-db-online/</loc>
+  <lastmod>2016-09-11T00:40:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/watch-p5-db-online/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/watch-p5-db-online/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/contact/</loc>
@@ -683,7 +689,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2016-06-12T16:01:00Z</lastmod>
+  <lastmod>2016-09-11T00:40:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -813,7 +819,11 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-7.html</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2016-09-11T00:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/index-8.html</loc>
+  <lastmod>2016-09-11T00:40:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
@@ -952,6 +962,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/watch-p5-db-online/</loc>
+  <lastmod>2016-09-11T00:40:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/watch-p5-db-online/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/watch-p5-db-online/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/contact/</loc>
