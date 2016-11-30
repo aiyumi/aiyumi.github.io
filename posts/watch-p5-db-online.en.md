@@ -4,7 +4,7 @@
 .. tags: Games
 .. date: 2016-09-10 21:36:45
 
-In my [previous post](/en/blog/getting-ready-for-persona5), I talked about the Persona series, and how I'm excited about Persona 5. The game will be released for both PS3 and PS4 on September 15th, 2016 in Japan, and February 14th, 2017 in North America and Europe.
+In my [previous post](/en/blog/getting-ready-for-persona5), I talked about the Persona series, and how I'm excited about Persona 5's release.
 
 On September 3rd, 2016, a special Persona 5 anime episode aired in Japan to promote the game. It is titled, "Persona 5 the Animation - the Day Breakers," and is about the main gang doing a random sidequest (it's an optional mission that doesn't interfere with the main plot of the game. So, no worries about spoilers).
 

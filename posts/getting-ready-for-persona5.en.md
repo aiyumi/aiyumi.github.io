@@ -64,6 +64,18 @@ Like with the previous Persona games, the North American version will have voice
 
 My conclusion? Until recently, I had no interest in any PS4 game, but with the appearance of RED ASH (which [I talked about last year](/en/blog/in-the-mood-to-redash)), Final Fantasy VII Remake and now Persona 5, it looks like the time for me to buy a PS4 is coming...
 
+## Update (2016/11/29)
+
+Three pieces of news. Two good, and one... not so much:
+
+* The first good one is that, at a P5 US version showcase live stream that took place on November 16th, 2016, Atlus announced that Persona 5 had exceeded their expectations in Japan. So, they want to give it special treatment and make the English language version as best as it can be. This is good and all, however...
+
+* The "not so good" news is that the time they had wasn't enough to perfect the localization, and this caused the western version (US and Europe) releases to end up delayed to April 4th, 2017.
+
+* And the second good news is that Atlus announced that they will include the Japanese voices as free DLC starting from the new launch date :D !
+
+If the delay is for the sake of making the end product as best as it can be, then I see no problem in waiting two more months (it's better to take time and release a well-polished product than to quickly release something rushed). The only thing I thought was kind of sad is that Atlus had done a lot of marketing around the February 14th release date, with puns about stealing hearts on Valentine's Day, which don't fit anymore. Oh well. Let's wait for the game to come out and let the Phantom Thieves steal the fans' hearts, on whatever date it happens to be. I'm sure they can do it!
+
 [trailersubs]: http://fanlations.tradukosoft.com/persona-5-media-fansub-collection/
 [domisubs]: https://www.youtube.com/playlist?list=PLwKo1oxh64Pd1HNvRr8rkYe9VsKUGkURc
 [p5pa-premium-jp]: https://www.play-asia.com/persona-5-20th-anniversary-edition/13/70a527?tagid=199487

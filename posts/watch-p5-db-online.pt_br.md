@@ -4,7 +4,7 @@
 .. tags: Games
 .. date: 2016-09-10 21:36:45
 
-No [post anterior](/pt/blog/getting-ready-for-persona5), eu falei sobre a série Persona e como estou animada para o lançamento de Persona 5. O jogo será lançado para PS3 e PS4 em 15 de setembro de 2016 no Japão e 14 de fevereiro de 2017 na América e na Europa.
+No [post anterior](/pt/blog/getting-ready-for-persona5), eu falei sobre a série Persona e como estou animada para o lançamento de Persona 5.
 
 No dia 3 de setembro de 2016, no Japão foi ao ar um episódio especial de anime de Persona 5 para divulgar o jogo. O especial se chama "Persona 5 the Animation - the Day Breakers" e narra uma sidequest dos protagonistas (é uma missão aleatória que não interfere na história principal do jogo, então não tem spoilers).
 

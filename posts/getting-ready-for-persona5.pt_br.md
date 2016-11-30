@@ -40,7 +40,7 @@ E em breve teremos o Persona 5! Desta vez, é um grupo de adolescentes rebeldes 
 
 Edit (2016/08/06): [aqui][domisubs] tem mais alguns vídeos legendados, incluindo os primeiros 18 minutos do início do jogo!
 
-O Persona 5 sairá tanto para o PS3 quanto para o PS4. No Japão, será lançado em 15 de setembro de 2016, e nos Estados Unidos em 14 de fevereiro de 2017 (bem no Valentine's Day).
+O Persona 5 sairá tanto para o PS3 quanto para o PS4. No Japão, será lançado em 15 de setembro de 2016, e nos Estados Unidos em 14 de fevereiro de 2017 (bem no Valentine's Day, o Dia dos Namorados americano).
 
 Abaixo estão alguns links de pré-venda do Persona 5 (para comprar, precisa ter cartão de crédito internacional).
 
@@ -50,7 +50,7 @@ Nota: links da Play-Asia, enviam para o Brasil.
 - [Persona 5, PS4 (JP)][p5pa-ps4-jp]: versão japonesa, para PS4 (não tem nenhum bônus).
 - [Persona 5 20th Anniversary Edition, PS3 (JP)][p5pa-premium-ps3-jp]: a mesma edição limitada de aniversário, só que para PS3.
 - [Persona 5, PS3 (JP)][p5pa-ps3-jp]: versão japonesa, para PS3 (não tem nenhum bônus).
-- [Persona 5 "Take Your Heart" Premium Edition, PS4 (US)][p5pa-premium-en]: versão americana, para PS4. Também é uma edição limitada com itens para colecionador, mas que são bem diferentes da versão de aniversário japonesa: um CD com músicas do Persona 5, livro de ilustrações (artbook) do Persona 5, uma mochila típica de estudantes japoneses com emblema da escola do Persona 5, um bonequinho de pelúcia da Morgana (membro da equipe e mascote do Persona 5) e um case metálico para guardar o jogo.
+- [Persona 5 "Take Your Heart" Premium Edition, PS4 (US)][p5pa-premium-en]: versão americana, para PS4. Também é uma edição limitada com itens para colecionador, mas que são bem diferentes da versão de aniversário japonesa: um CD com músicas do Persona 5, livro de ilustrações (artbook) do Persona 5, uma mochila típica de estudantes japoneses com emblema da escola do Persona 5, um bonequinho de pelúcia do mascote do Persona 5 (Morgana) e um case metálico para guardar o jogo.
 - [Persona 5, PS4 (US)][p5pa-ps4-en]: versão americana, para PS4. Os jogos comprados na pré-venda vêm num case metálico.
 - [Persona 5, PS3 (US)][p5pa-ps3-en]: versão americana, para PS3 (não tem nenhum bônus, e também parece que não existe edição de colecionador da versão americana para PS3).
 
@@ -59,6 +59,18 @@ Disso tudo aí, o que eu queria mesmo (além do jogo, é claro) eram os DLCs. Ai
 Como os jogos de Persona anteriores, a versão americana vai ter dublagem em Inglês. Tem fãs (assim como eu) torcendo para que o jogo se torne dual audio (com a opção de escolher entre a dublagem japonesa e a americana). Questões de licenças e outras complicações dificultam o caso, mas parece que alguma possibilidade de dual audio pelo menos existe. Segundo alguns tweets oficiais ([1], [2], [3]), o que está garantido é que a versão americana vai ter apenas dublagem em Inglês no lançamento, mas estão vendo se conseguem encaixar o áudio japonês de algum jeito, talvez como conteúdo adicional para download (DLC). Eu gosto de áudio em Japonês, então se conseguissem lançar a versão americana com a possibilidade de escolher as vozes em Japonês, para mim seria perfeito. Torcendo para que arrumem algum jeito de fazer isso.
 
 Minha conclusão? Até pouco tempo atrás, eu não tinha interesse em nenhum jogo de PS4, mas com o aparecimento do RED ASH (do qual [falei ano passado](/pt/blog/in-the-mood-to-redash)), o Final Fantasy VII Remake e agora o Persona 5, parece que está chegando a hora de eu comprar um PS4...
+
+## Atualização (2016/11/29)
+
+Três notícias. Duas boas e uma... não muito:
+
+* A primeira boa é que, em um evento live stream da versão americana de Persona 5 que ocorreu em 16 de novembro de 2016, a Atlus anunciou que o Persona 5 superou as espectativas deles no Japão. Então, eles querem caprichar para deixar a versão em Inglês o melhor possível. Até aí tudo bem, mas...
+
+* A notícia não muito boa é que não deu tempo de terminar a localização ainda e o lançamento das versões ocidentais (americana e europeia) acabou sendo adiado para 4 de abril de 2017.
+
+* E a segunda notícia boa é que, no final das contas, vai ter as vozes japonesas como DLC gratuito já desde o dia do lançamento :D !
+
+Se for para fazer o produto ficar o melhor possível, não vejo problema em ter que esperar dois meses a mais (melhor demorar e sair um jogo bem-feito do que lançar correndo e ser um produto feito "nas coxas"). A única coisa que achei uma pena foi que eles tinham feito tanto marketing em torno do dia 14 de fevereiro, com trocadilhos sobre roubar os corações no Valentine's Day (Dia dos Namorados americano), que agora não servem mais. Mas fazer o quê. Vamos esperar o jogo chegar e deixar os protagonistas ladrõezinhos roubarem os corações dos fãs, seja em qual data for. Tenho certeza de que eles vão conseguir!
 
 [trailersubs]: http://fanlations.tradukosoft.com/persona-5-media-fansub-collection/
 [domisubs]: https://www.youtube.com/playlist?list=PLwKo1oxh64Pd1HNvRr8rkYe9VsKUGkURc
