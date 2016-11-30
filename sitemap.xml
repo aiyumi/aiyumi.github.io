@@ -51,7 +51,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2016-09-11T00:40:00Z</lastmod>
+  <lastmod>2016-11-29T23:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -175,7 +175,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-7.html</loc>
-  <lastmod>2016-09-11T00:40:00Z</lastmod>
+  <lastmod>2016-11-29T23:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
@@ -218,6 +218,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/power-of-slackbuilds/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/power-of-slackbuilds/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/ps4-slim-review/</loc>
+  <lastmod>2016-11-29T23:55:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/ps4-slim-review/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/ps4-slim-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/</loc>
@@ -689,7 +695,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2016-09-11T00:40:00Z</lastmod>
+  <lastmod>2016-11-29T23:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -823,7 +829,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-8.html</loc>
-  <lastmod>2016-09-11T00:40:00Z</lastmod>
+  <lastmod>2016-11-29T23:55:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
@@ -878,6 +884,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/power-of-slackbuilds/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/power-of-slackbuilds/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/ps4-slim-review/</loc>
+  <lastmod>2016-11-29T23:55:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/ps4-slim-review/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/ps4-slim-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/</loc>
