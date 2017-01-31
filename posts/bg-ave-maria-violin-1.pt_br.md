@@ -9,6 +9,8 @@ Quando gravei o violino, o acompanhamento não estava pronto ainda, então tive 
 
 O arquivo MIDI do acompanhamento foi criado no Linux usando um programa de linha de comando chamado [MMA (Musical Midi Accompaniment)][mmahp]. Foi digitado em dó maior e transposto para fá maior (sim, eu confesso, eu trapaceei :P . Pelo menos já terei o acompanhamento pronto quando chegar na versão em dó maior). Depois, o áudio foi renderizado com o som de harpa do meu teclado Motif XF.
 
+Edit: só depois que fui ver, acho que eu misturei os arquivos de áudio e acabei não usando o som gerado no Motif XF. Esse som de harpa é do Fluid R3 Soundfont... ah, agora já foi :P .
+
 Baixar/ouvir o áudio: [bg-ave-maria_f01.ogg (OpenDrive)][avemaria_audio_od] | [bg-ave-maria_f01.mp3 (4shared)][avemaria_audio_4s]
 
 Download do acompanhamento: [MIDI (dó maior)][avemaria_midi_c] | [MIDI (transposto para fá maior)][avemaria_midi_f] | [arquivo fonte do MMA (que na verdade nada mais é do que um arquivo de texto)][avemaria_mma]

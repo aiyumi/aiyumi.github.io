@@ -7,7 +7,7 @@
 
 バイオリンを何回も録音したが、思うようにうまくできませんでした。今のところはこれが精一杯です。教本3のハ調版にたどり着いた時にはちゃんとうまくできるようになりたいです。
 
-伴奏は[MMA。Musical MIDI Accompaniment）][mmahp]で作って、Motif XF キーボードのハープの音で再生しました）
+伴奏は[MMA。Musical MIDI Accompaniment）][mmahp]で作りました）
 
 ダウンロード/再生： [bg-ave-maria_f01.ogg (OpenDrive)][avemaria_audio_od] | [bg-ave-maria_f01.mp3 (4shared)][avemaria_audio_4s]
 
