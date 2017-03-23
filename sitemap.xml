@@ -23,7 +23,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2011/</loc>
@@ -50,8 +50,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/en/archive/2017/</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2016-12-22T19:21:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -169,7 +173,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-4.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-5.html</loc>
@@ -181,13 +185,23 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-7.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/index-8.html</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14-0/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14.2/</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14.2/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/kirby-revenge-of-error-knight/</loc>
@@ -236,6 +250,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/slack-14.2-srs-and-pulse/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/</loc>
@@ -417,7 +437,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2011/</loc>
@@ -442,6 +462,10 @@
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2016/</loc>
   <lastmod>2016-05-31T20:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/ja/archive/2017/</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/</loc>
@@ -679,7 +703,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2011/</loc>
@@ -706,8 +730,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/pt/archive/2017/</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2016-12-22T19:21:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -835,7 +863,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-5.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-6.html</loc>
@@ -847,13 +875,19 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-8.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14-0/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14.2/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14.2/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/</loc>
@@ -914,6 +948,12 @@
   <lastmod>2016-05-31T20:25:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/</loc>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/slack-14.2-srs-and-pulse/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/</loc>

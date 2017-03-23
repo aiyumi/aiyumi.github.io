@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<base href="http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slackware 14.2, Screen Readers and PulseAudio » Aiyumi.Warpstar.Net</title>
+<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Aiyumi">
+<link rel="prev" href="/en/blog/bg-ave-maria-violin-1/" title="Bach/Gounod Ave Maria on Violin (F Major)" type="text/html">
+<link rel="next" href="/en/blog/installing-orca-on-slackware-14.2/" title="Installing Orca on Slackware 14.2" type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="Slackware 14.2, Screen Readers and PulseAudio">
+<meta property="og:url" content="http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/">
+<meta property="og:description" content="After a very long while, I'm finally on Slackware 14.2. It's been almost one year since 14.2 came out, but I wasn't brave enough to upgrade, mainly because when I had tried to upgrade the installation">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-03-23T15:55:46-03:00">
+<meta property="article:tag" content="linux">
+<link rel="alternate" hreflang="pt_br" href="/pt/blog/slack-14.2-srs-and-pulse/">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Jump to top navigation</a></li>
+<li><a href="#content">Jump to main content</a></li>
+<li><a href="#sidebar">Jump to right sidebar</a></li>
+<li><a href="#footer">Jump to footer</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/en/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>View this site in:</li>
+            <li><a href="/pt" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="/en/">Home</a></li>
+                <li><a href="/en/about/">About</a></li>
+                <li><a href="/en/blog/">Blog</a></li>
+                <li><a href="/en/contact/">Contact</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/en/blog/slack-14.2-srs-and-pulse/" class="u-url">Slackware 14.2, Screen Readers and PulseAudio</a></h2>
+
+        <div class="info">
+<ul class="list-inline">
+<li>View this page in:</li>
+<li>English</li>
+<li>日本語</li>
+                <li><a href="/pt/blog/slack-14.2-srs-and-pulse/" rel="alternate" hreflang="pt_br">Português</a></li>
+</ul>
+</div>
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<p>After a very long while, I'm finally on Slackware 14.2. It's been almost one year since 14.2 came out, but I wasn't brave enough to upgrade, mainly because when I had tried to upgrade the installation on my netbook (which served as my test subject as usual), it hadn't worked (it's the first time I have problems trying to update Slackware). The system became mute in the middle of the upgrade and I lost access to my screen reader programs that I depend on to do anything on the computer (good thing it was on the netbook and not on my main machine!). I was unable to fix the problem, lost the patience to investigate, and ended up leaving it aside for a long time. Now that I'm on vacation from work and have a little more time, I finally gathered the patience and the courage to try again. <!--more--></p>
+<p>What was the problem? It's all thanks to PulseAudio - a controversial sound manager software beloved by some and hated by others - which finally managed to <a href="https://docs.slackware.com/howtos:multimedia:pulseaudio_non-default">"sneak" into Slackware</a> and became the default sound manager in 14.2. I remember having problems with this software at the time I was starting on Linux, when I tested Ubuntu. One of the reasons that made me choose Slackware was precisely because it didn't have the said piece of software. I managed to avoid PulseAudio for about eight years, but now here it is, and it's likely here to stay.</p>
+<p>As I investigated the problem on my netbook, I still kept trying to escape from PulseAudio. First I tried to have Pulse as a secondary sound manager with ALSA as the primary one, so that most programs use ALSA, and only those that actually depend on Pulse resort to it. I followed the <a href="https://wiki.archlinux.org/index.php/PulseAudio/Examples#PulseAudio_as_a_minimal_unintrusive_dumb_pipe_to_ALSA">instructions on the Arch Linux wiki</a>, but it didn't work. Speech-Dispatcher (the speech server on which Orca depends) refused to function. Setting "AudioOutputMethod" to "alsa" and leaving the "AudioALSADevice" as "default" (exactly how I had been using it for all these years), the program didn't start and the log showed an, "couldn't "open alsa plugin," error. Setting "AudioALSADevice" to "dmix" didn't give errors, but no sound came out, either. I even tried to use ALSA through Libao as "AudioOutputMethod" (I recompiled Libao to use ALSA instead of Pulse) but also no sound. And guess what was the only way where sound worked? "AudioOutputMethod" set to "pulse..."</p>
+<p>So, rather than trying to run away from PulseAudio, making all programs use it seemed like the easiest way to solve the problem. Then I thought. I don't have good memories of PulseAudio from when I had used it before, but that's been eight years! I've heard a number of (more recent) complaints about Pulse, but I also know of awesome people on the Linux-Audio-User mailing list who like it a lot, so it might have improved. And if the ever so demanding Slackware has gotten to the point of accepting PulseAudio, then maybe it's time for me to give it a chance.</p>
+<p>In the end, I surrendered and installed everything related to PulseAudio (I had to resort to visual help while the machine had no sound) and made the "/etc/rc.d/rc.pulseaudio" executable so that it starts at boot. I recompiled Espeak to use Pulse too. Then ... it worked!</p>
+<p>Since it worked on the netbook, I upgraded Slackware and repeated the Pulse process on the PC ... but it didn't work right. Trying to start Pulse along with the system (the way it worked on the netbook) produced no sound at all, and starting Pulse individually for each user also presented problems.</p>
+<p>I practically lost all day searching the Internet, and found no problem similar to mine. It took me several hours of trial and error until I understood what was going on. The point is that Espeak (and therefore, Espeakup, which causes the screen reader to speak) was compiled to use PulseAudio if it's running, or fall back to ALSA otherwise. Then, if the screen reader started at boot, Espeakup would use ALSA because Pulse wouldn't be running yet (Pulse would only come after the users login), Espeakup would take the soundcard for itself and wouldn't let Pulse start. So, I really needed PulseAudio to start at boot and be active by the point Espeakup comes on. But starting Pulse at boot had no sound at all...</p>
+<p>At a loss as to what else to do, I began comparing logs. I compared the log from running PulseAudio as root (where sound worked as it should), and the log from trying to run Pulse in system wide mode (where no sound came out), which is run with a special user called "pulse." Everything went perfectly as root, but I discovered that as the pulse user, PulseAudio didn't detect the soundcard, and only showed a "dummy" device instead of the soundcard. But why didn't the soundcard get detected in the pulse user's case? With my normal user, the soundcard appeared just fine! A few more hours of scratching my head, and it finally clicked. Question: what's the difference between my user and the pulse user? Answer: my user was in the "audio" group, and the pulse user wasn't. In other words, the user responsible for managing the system sound had no access to audio-related features! (can you believe that?) So much wasted time, and it turned out that all I needed to do was add the pulse user to the "audio" group.</p>
+<p>The command that effectively solved my problem was:</p>
+<pre class="code literal-block"># usermod -aG audio pulse
+</pre>
+
+
+<p>That's it. I don't know why things "just worked" on the netbook without the need to do this, but whatever...</p>
+<p>And what about the performance? On the netbook (which is a "weaker" machine) things seem heavier and slower, and audio has some stutters and glitches, but on the PC (a more powerful machine) everything works smoothly. I've recompiled my sound-related programs (SoX, Mplayer, Audacity, Ecasound) to also use Pulse, and they're working fine. I needed to edit the file "/etc/pulse/daemon.conf" and set "default-sample-rate = 48000" (because it's the default for my soundcard), otherwise Audacity distorted the sound during playback.</p>
+<p>For Ecasound, I needed to change the internal sample rate to 48000 in the file "~/.ecasound/ecasoundrc" (since the file didn't exist, I copied it from "/usr/share/ecasound/ecasoundrc"). And when playing a sound file through Ecasound, I need to use the "-B nonrt" option to avoid problems. E.g.:</p>
+<pre class="code literal-block"><span class="nv">$ </span>ecasound -B nonrt -i test.ogg
+</pre>
+
+
+<p>For other miscelaneous improvements, I changed a few other settings. In the "/etc/pulse/client.conf" file, I have "autospawn = no" and "allow-autospawn-for-root = no," to avoid spawning individual users' Pulse instances and conflicting with the instance running in system mode.</p>
+<p>There's also an environment variable, "PULSE_LATENCY_MSECS," said to eliminate problems where sounds play too fast in certaim programs like Skype and Wine. I added this variable to an executable script inside "/etc/profile.d" to set the variable for all users:</p>
+<pre class="code literal-block">export PULSE_LATENCY_MSECS=30
+</pre>
+
+
+<p>All in all, aside from these twists and turns until I finally found the right settings, the sound is generally working nicely (Orca, YouTube, Flash, etc.) and surprisingly, PulseAudio hasn't crashed even once so far! I hope it stays this way...</p>
+<p>Speaking of Orca, I upgraded my SlackBuilds to install Orca on Slackware 14.2. For instructions, <a href="/en/blog/installing-orca-on-slackware-14.2">access here</a>.</p>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Posted by                     Aiyumi
+- <a href="/en/blog/slack-14.2-srs-and-pulse/" rel="bookmark">
+<time datetime="2017-03-23T15:55:46-03:00" itemprop="datePublished" title="2017-03-23 15:55">2017-03-23 15:55</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>Tags: </li>
+            <li><a class="tag p-category" href="/en/tag/linux/" rel="tag">linux</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="/en/blog/bg-ave-maria-violin-1/" rel="prev" title="Bach/Gounod Ave Maria on Violin (F Major)">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="/en/blog/installing-orca-on-slackware-14.2/" rel="next" title="Installing Orca on Slackware 14.2">Next post</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>Share this Page</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslack-14.2-srs-and-pulse%2F&amp;text=Slackware%2014.2,%20Screen%20Readers%20and%20PulseAudio" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslack-14.2-srs-and-pulse%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslack-14.2-srs-and-pulse%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslack-14.2-srs-and-pulse%2F&amp;title=Slackware%2014.2,%20Screen%20Readers%20and%20PulseAudio" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslack-14.2-srs-and-pulse%2F&amp;title=Slackware%2014.2,%20Screen%20Readers%20and%20PulseAudio" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/" target="_BLANK">Hatena</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="/en/blog/">Posts</a></li>
+
+                <li><a href="/en/archive/">Archive</a></li>
+
+                <li><a href="/en/tag/">Tags</a></li>
+
+                <li><a href="/en/rss.xml">RSS Feed</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="/en/pokemon/">Pokemon</a></li>
+
+                <li><a href="/en/rockman/">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="My channel on Youtube">Youtube</a></li>
+
+                <li><a href="https://github.com/aiyumi" title="My code and contributions on GitHub.">GitHub</a></li>
+
+                <li><a href="https://twitter.com/aiyumi_en" title="Twitter"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="My fan fictions (in Portuguese and English).">Fanfiction</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="My free sound effects on Freesound.">Freesound</a></li>
+
+</ul>
+<h4>Accessibility</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrating how to use some electronic gadgets without vision. Site in English.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Audio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="A site that hosts thousands of free sound effects, most of them under a Creative Commons License, and others in the public domain. Site in English.">Freesound.org</a></li>
+
+</ul>
+<h4>Japanese</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Japanese study tips, interesting things about Japan, origami and more. Site in Portuguese.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explanation about Japanese grammar and other study tips. Site in Portuguese.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="English &lt;&gt; Japanese dictionary, based on data from WWWJDIC. It allows searches for words, example sentences and kanji, by English, Japanese characters or romaji. Site in English.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="News and articles about Linux and Free/Open Source software. Site in Portuguese.">BR-Linux.org</a></li>
+
+                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog of a friend of mine, about command line apps, Unix, programming (mainly in Perl) and string (text) manipulation. In Portuguese.">Tecnoveneno</a></li>
+
+                <li><a href="https://perspicazsite.wordpress.com/" title="A new blog by the same friend as above. Differently from the previous blog, this one talks about a lot more subjects besides programming. In Portuguese.">Perspicazsite</a></li>
+
+</ul>
+<h4>Recommended Stores</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="One of the biggest online stores, with products ranging from toys, CDs, DVDs, games and books, to computers, musical instruments, clothing and car accessories.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/?tagid=199487" title="Anime DVDs, games (JP and US versions), soundtrack CDs and other things. Worldwide shipping. Site in various languages.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Web Development</h4>
+<ul>
+<li><a href="http://www.wolfcms.org/" title="The CMS this site used previously. Very fast, lightweight and flexible. Site in English.">WolfCMS</a></li>
+
+                <li><a href="https://getnikola.com/" title="The blog system this site uses now. Very customizable. Site in English.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="This site's previous web host. It has many nice features like support for scripts in PHP, Perl, Python and other languages, Shell access to the server and very good documentation about how to use the services. Even though this site isn't hosted there anymore, I still recommend it. In English.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Free file hosting. 5 GB of space to upload your files, with direct links allowed. Good to put files for download on a site. In various languages.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p>Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for "warpstar.net," as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like. (<a href="/en/affiliate-disclosure">Affiliate disclosure</a>)</p>
+            <p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2017 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,
+and hosted at <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a> 
+(<a href="https://github.com/aiyumi/aiyumi.github.io/tree/src" rel="nofollow">view site source code</a>)</p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Back to top</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>

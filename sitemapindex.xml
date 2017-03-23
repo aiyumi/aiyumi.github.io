@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/rss.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/audio.xml</loc>
@@ -31,7 +31,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/linux.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/site-updates.xml</loc>
@@ -47,7 +47,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/rss.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/audio.xml</loc>
@@ -87,7 +87,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/rss.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/audio.xml</loc>
@@ -111,7 +111,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/linux.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/site-updates.xml</loc>
@@ -127,6 +127,6 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/sitemap.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-23T19:25:00Z</lastmod>
  </sitemap>
 </sitemapindex>

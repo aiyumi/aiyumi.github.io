@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Aiyumi.Warpstar.Net (linux)</title><link>http://aiyumi.warpstar.net/</link><description></description><atom:link href="http://aiyumi.warpstar.net/pt/tag/linux.xml" type="application/rss+xml" rel="self"></atom:link><language>pt_br</language><lastBuildDate>Sun, 12 Jun 2016 17:58:43 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Internet Banking Caixa e Java 7 Update 51</title><link>http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/</link><dc:creator>Aiyumi</dc:creator><description>&lt;div&gt;&lt;p&gt;Na semana passada (lá pelo dia 17 de janeiro de 2014), tive de atualizar a instalação do Java. Fazendo isso, a versão do meu Java passou a ser "Java JRE 1.7.0_51", e o plugin de navegadores "Java(TM) Plug-in 10.51.2". Mas aí, o internet banking da Caixa parou de funcionar. Sempre caía numa página com código de erro CM12, dizendo que houve um problema no cadastro de computadores, com um link para o site da Oracle para baixar o Java, mesmo com o Java instalado e funcionando perfeitamente (até o site do Banco do Brasil funcionava, só o da Caixa que não). Tentei o telefone do 0800 mas a ligação vivia caindo e não consegui resolver nada, então fui procurar por conta própria. Como eu uso Linux, pensei que fosse algum problema relacionado ao Linux e pesquisei de tudo quanto era jeito e nada. Até que encontrei este post:&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Aiyumi.Warpstar.Net (linux)</title><link>http://aiyumi.warpstar.net/</link><description></description><atom:link href="http://aiyumi.warpstar.net/pt/tag/linux.xml" type="application/rss+xml" rel="self"></atom:link><language>pt_br</language><lastBuildDate>Thu, 23 Mar 2017 19:25:08 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Instalando o Orca no Slackware 14.2</title><link>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/</link><dc:creator>Aiyumi</dc:creator><description>&lt;div&gt;&lt;p&gt;Estas são instruções para instalar o leitor de telas Orca no Slackware 14.2 &lt;strong&gt;sem&lt;/strong&gt; o ambiente de desktop Gnome. Não é a versão do Orca mais recente, mas é a compatível com as versões das bibliotecas que vêm por padrão no Slackware (para instalar o Orca mais recente, seria necessário recompilar versões mais recentes de muitos dos programas que já vêm no Slackware e seria muito mais difícil).&lt;/p&gt;
+&lt;p&gt;Do Slackware 14.1 para o 14.2, diminuiu bastante a quantidade de dependências, o que é uma coisa boa. A maioria das bibliotecas específicas do Gnome foram embora, não precisa mais recompilar programas que vinham no Slackware, e agora tudo que usa Python passou a depender do Python 3 em vez do Python 2. Se vierem mais dessas mudanças que facilitem as coisas, talvez logo seja possível que o Orca consiga entrar no Slackbuilds.org, aí não precisaremos mais ficar fazendo estes malabarismos com &lt;a href="https://github.com/aiyumi/slackware-scripts"&gt;meus scripts&lt;/a&gt;. Vamos ter esperanças!&lt;/p&gt;
+&lt;p&gt;Para quem usou &lt;a href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0"&gt;minhas instruções e instalou o Orca no 14.0 ou 14.1&lt;/a&gt; e vai atualizar para o 14.2, precisa remover as dependências obsoletas com o comando abaixo (quem ainda não tem o Orca instalado não precisa usar este comando, mas olha só quantas dependências foram embora :D ):&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;# removepkg gnome-mime-data gnome-vfs gnome-python libgnome libbonobo ORBit2 pyorbit
+&lt;/pre&gt;
+
+
+&lt;p&gt;Agora, as instruções de instalação propriamente ditas. Antes de mais nada, você precisa ter o &lt;a href="http://sbopkg.org/"&gt;Sbopkg&lt;/a&gt; instalado.&lt;/p&gt;
+&lt;p&gt;Na verdade, o processo para baixar e instalar o Orca continua quase igual ao que era &lt;a href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0"&gt;antes&lt;/a&gt;. Se quiser, você pode ler as instruções anteriores para explicações mais detalhadas, mas resumindo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Baixe o meu repositório e configure o Sbopkg para usar meus scripts:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;# git clone https://github.com/aiyumi/slackware-scripts.git
+# cd slackware-scripts
+# cp -R slackbuilds /var/lib/sbopkg/aiyumisb
+# cp slackbuilds/100-aiyumi.repo /etc/sbopkg/repos.d
+# cp sbopkg-queuefiles/aiyumisb/accessibility/*.sqf /var/lib/sbopkg/queues
+&lt;/pre&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Execute o Sbopkg com o meu repositório:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;# sbopkg -V aiyumisb/local
+&lt;/pre&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Se você ainda não tiver o Espeak (que o Orca usa por padrão), vá em "Queue" -&amp;gt; "Load", carregue o queuefile "espeakup" e instale. O Espeak será instalado junto com o Espeakup, que adiciona suporte a voz via Espeak ao Speakupp (leitor de telas para console, que é sempre bom ter).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vá em "Queue" -&amp;gt; "Load", carregue o queuefile "orca", mande instalar e espere até terminar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edite as configurações do Speech-Dispatcher em "/etc/speech-dispatcher/speechd.conf". Certifique-se de que o módulo do Espeak está sendo usado e configurado para falar no idioma de sua preferência (no meu caso, Português). As linhas relevantes são:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;# ----- VOICE PARAMETERS -----
+DefaultLanguage "pt"
+
+# -----OUTPUT MODULES CONFIGURATION-----
+AddModule "espeak"       "sd_espeak"   "espeak.conf"
+
+DefaultModule espeak
+
+LanguageDefaultModule "pt"  "espeak"
+&lt;/pre&gt;
+
+
+&lt;p&gt;Para testar, use o comando "spd-say algumacoisa". Se sair som, então está funcionando!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Por último, copie o arquivo "/usr/doc/orca-*/orca.atspi2.xinitrc" para "~/.xinitrc" (é ele que seta as variáveis para ativar a acessibilidade na interface gráfica) e edite a última linha com o comando para iniciar o seu gerenciador de janelas ou desktop favorito (por exemplo, "startfluxbox" para o Fluxbox ou "startxfce4" para o XFCE).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pronto. Aí é só usar o comando "startx" para entrar na interface gráfica e ouvir o Orca abrir a matraca :D .&lt;/p&gt;
+&lt;p&gt;Nota sobre o Firefox: nas instruções para o 14.0 e 14.1, eu tinha falado que o Firefox do Slack vinha com acessibilidade desabilitada e precisava ser recompilado, o que levava horas. A má notícia é que o Firefox do Slackware ainda vem sem acessibilidade. Mas a boa notícia é que eu descobri que não precisa compilar outro! Graças a este &lt;a href="http://whatthefrankiej.blogspot.com.br/2014/12/gnome-orca-on-slackware-141.html"&gt;post do Frankiej&lt;/a&gt;, fiquei sabendo &lt;a href="https://gist.github.com/ruario/9672798"&gt;deste script&lt;/a&gt; que baixa o binário do Firefox fornecido pela Mozilla (em que a acessibilidade funciona) e cria um pacote ".txz" para o Slackware que pode ser instalado com installpkg normalmente.&lt;/p&gt;
+&lt;p&gt;Apesar do nome "latest-firefox", este script não se limita a baixar a última versão do Firefox. Na verdade, você pode usá-lo para baixar qualquer versão que quiser. É só passar a variável "VERSION" para o comando que executa o script. Por exemplo, no momento em que escrevo este post, o plugin do Java não funciona na última versão do Firefox porque tiraram o suporte à API que o plugin usa. Para quem precisa do plugin do Java, enquanto não sai uma versão do Java com um plugin compatível com o último Firefox, o jeito é usar uma versão anterior do Firefox onde o plugin do Java ainda funciona. A última versão do Firefox onde a API obsoleta funciona é a 51.0. Neste caso, o comando para obter o pacote do Firefox 51.0 para o Slack seria:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;# VERSION=51.0 ./latest-firefox.sh
+&lt;/pre&gt;
+
+
+&lt;p&gt;ou ainda, para o Firefox 51.0 com a interface em Português brasileiro:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;# VERSION=51.0 FFLANG=pt-BR ./latest-firefox.sh
+&lt;/pre&gt;
+
+
+&lt;p&gt;E o programa vai deixar o pacote pronto em "/tmp". Chega de ter que esperar três horas para compilar o Firefox a cada versão :P .&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/</guid><pubDate>Thu, 23 Mar 2017 18:58:02 GMT</pubDate></item><item><title>Slackware 14.2, Leitores de Tela e PulseAudio</title><link>http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/</link><dc:creator>Aiyumi</dc:creator><description>&lt;div&gt;&lt;p&gt;Depois de um longo e tenebroso inverno (e primavera, e verão, e mais um pouco) finalmente estou no Slackware 14.2. Já faz quase um ano que saiu, mas eu estava sem coragem nem ânimo para atualizar, principalmente porque quando tentei atualizar a instalação no meu netbook (que serviu de cobaia como sempre), não tinha dado certo (é a primeira vez que tenho problemas tentando atualizar o Slackware). O sistema ficou sem som no meio da atualização e perdi o acesso aos meus programas leitores de tela dos quais eu dependo para fazer qualquer coisa no computador (ainda bem que foi no netbook e não na minha máquina principal!). Eu não estava conseguindo resolver e perdi a paciência de investigar, e acabei deixando de lado por um bom tempo. Agora que estou de férias do trabalho e com um pouco mais de tempo, finalmente arranjei paciência e coragem para tentar de novo. &lt;/p&gt;&lt;p&gt;&lt;a href="http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/"&gt;more…&lt;/a&gt; (5 mín restante para leitura)&lt;/p&gt;&lt;/div&gt;</description><category>linux</category><guid>http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/</guid><pubDate>Thu, 23 Mar 2017 18:55:46 GMT</pubDate></item><item><title>Internet Banking Caixa e Java 7 Update 51</title><link>http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/</link><dc:creator>Aiyumi</dc:creator><description>&lt;div&gt;&lt;p&gt;Na semana passada (lá pelo dia 17 de janeiro de 2014), tive de atualizar a instalação do Java. Fazendo isso, a versão do meu Java passou a ser "Java JRE 1.7.0_51", e o plugin de navegadores "Java(TM) Plug-in 10.51.2". Mas aí, o internet banking da Caixa parou de funcionar. Sempre caía numa página com código de erro CM12, dizendo que houve um problema no cadastro de computadores, com um link para o site da Oracle para baixar o Java, mesmo com o Java instalado e funcionando perfeitamente (até o site do Banco do Brasil funcionava, só o da Caixa que não). Tentei o telefone do 0800 mas a ligação vivia caindo e não consegui resolver nada, então fui procurar por conta própria. Como eu uso Linux, pensei que fosse algum problema relacionado ao Linux e pesquisei de tudo quanto era jeito e nada. Até que encontrei este post:&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://www.vivaolinux.com.br/dica/Java-JRE-17-51-Instalacao-facil-no-Debian-7-em-tres-passos"&gt;http://www.vivaolinux.com.br/dica/Java-JRE-17-51-Instalacao-facil-no-Debian-7-em-tres-passos&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Mais especificamente este comentário:&lt;/p&gt;
 &lt;blockquote&gt;
