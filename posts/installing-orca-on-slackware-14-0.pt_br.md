@@ -9,7 +9,9 @@ Estava dando uma olhada no Slackware Current, que agora contém os pacotes que e
 
 Atualização (2013/12/29): atualizei os scripts para funcionarem no Slackware 14.1. A diferença é que o 14.1 já vem com o AT-SPI2-Core e o AT-SPI2-ATK. Ainda é preciso compilar o Pyatspi e recompilar outros pacotes conflitantes, mas com os queuefiles tudo isso fica quase automático, então para quem for apenas usar os scripts, o processo continua sendo o mesmo.
 
-Nota: Estas instruções são específicas para o Slackware 14.0 e o 14.1, já que as coisas podem mudar no futuro (espero que para melhor!). Este é apenas um guia rápido. Tirando a parte da configuração do meu repositório personalizado (que pode não ser tão óbvia), ele é mais para descrever a ordem em que os passos devem ser seguidos. Não vou explicar como se usa o Sbopkg ou as ferramentas de pacotes do Slackware (Installpkg e Removepkg). Se você não sabe usar esses programas, leia os manuais e/ou procure por tutoriais na Internet.
+Atualização (2017/03/23): atualizei meus scripts para instalar o Orca no Slackware 14.2. Para instruções, [clique aqui](/pt/blog/installing-orca-on-slackware-14.2).
+
+Nota: as instruções abaixo são específicas para o Slackware 14.0 e o 14.1, já que as coisas podem mudar no futuro (espero que para melhor!). Este é apenas um guia rápido. Tirando a parte da configuração do meu repositório personalizado (que pode não ser tão óbvia), ele é mais para descrever a ordem em que os passos devem ser seguidos. Não vou explicar como se usa o Sbopkg ou as ferramentas de pacotes do Slackware (Installpkg e Removepkg). Se você não sabe usar esses programas, leia os manuais e/ou procure por tutoriais na Internet.
 
 Dito isso, vamos começar:
 
@@ -80,7 +82,7 @@ Dito isso, vamos começar:
 
 11. Estando tudo Ok até aqui, você vai precisar de um emulador de terminal acessível para poder usar o console pela interface gráfica. Se você for usar o XFCE e instalou os pacotes que vêm no Slackware, o XFTerminal que vem com ele serve, mas se for usar outro desktop/gerenciador de janelas (eu uso o Fluxbox, que também está no Slackware), vá ao repositório oficial do Slackbuilds.org pelo Sbopkg e instale, por exemplo, o LXTerminal. Eu particularmente não uso nenhum gerenciador de arquivos (prefiro fazer tudo pelo terminal mesmo), mas se você quiser um gerenciador de arquivos e não quer o XFCE, instale também o PCManFM (ele é acessível quando se usa o modo "Ver -> Visão em lista detalhada").
 
-12. Por fim, copie o arquivo "/usr/doc/orca-3.2.0-xdesktop/orca.atspi2.xinitrc" para "~/.xinitrc" (é ele que seta as variáveis para ativar a acessibilidade na interface gráfica), edite a última linha para especificar qual desktop/gerenciador de janelas você vai usar (por exemplo, "startfluxbox" para o Fluxbox ou "startxfce4" para o XFCE), dê o comando "startx" e divirta-se! :D
+12. Por fim, copie o arquivo "/usr/doc/orca-*/orca.atspi2.xinitrc" para "~/.xinitrc" (é ele que seta as variáveis para ativar a acessibilidade na interface gráfica), edite a última linha para especificar qual desktop/gerenciador de janelas você vai usar (por exemplo, "startfluxbox" para o Fluxbox ou "startxfce4" para o XFCE), dê o comando "startx" e divirta-se! :D
 
 [orcahp]: https://live.gnome.org/Orca
 [slackbuilds]: https://github.com/aiyumi/slackware-scripts

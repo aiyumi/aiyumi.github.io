@@ -9,7 +9,9 @@ I was taking a look at Slackware Current, which now contains the packages that w
 
 Update (2013/12/29): I updated my scripts to work with Slackware 14.1. The difference is that 14.1 already comes with AT-SPI2-Core and AT-SPI2-ATK. We still need to compile Pyatspi and recompile the other conflicting packages, but with the queuefiles, all of this becomes almost automatic, so for those who will just use the scripts, the process remains the same.
 
-Note: These instructions are specific for Slackware 14.0 and 14.1, as things may change in the future (hopefully for better!). This is just a quick guide. Besides the instructions for setting up my custom repository (which may not be so obvious), it mostly outlines the order in which the steps must be taken. I won't explain how to use Sbopkg or the Slackware built-in package tools (Installpkg and Removepkg). If you don't know how to use these, read their manuals and/or search for tutorials on the Internet.
+Update (2017/03/23): I've updated my scripts for installing Orca on Slackware 14.2. For instructions, [go here](/en/blog/installing-orca-on-slackware-14.2).
+
+Note: the instructions below are specific to Slackware 14.0 and 14.1, as things may change in the future (hopefully for better!). This is just a quick guide. Besides the instructions for setting up my custom repository (which may not be so obvious), it mostly outlines the order in which the steps must be taken. I won't explain how to use Sbopkg or the Slackware built-in package tools (Installpkg and Removepkg). If you don't know how to use these, read their manuals and/or search for tutorials on the Internet.
 
 That said, let's begin:
 
@@ -22,11 +24,11 @@ That said, let's begin:
 
         # git checkout 14.0
 
-2. The easiest way is to use these scripts with [Sbopkg][sbopkghp]. To set up the repository for Sbopkg, copy the "slackbuilds" directory to "var/lib/sbopkg/", renaming it to, for example, "aiyumisb".
+2. The easiest way is to use these scripts with [Sbopkg][sbopkghp]. To set up the repository for Sbopkg, copy the "slackbuilds" directory to "var/lib/sbopkg/," and rename it to, for example, "aiyumisb."
 
         # cp -R slackbuilds /var/lib/sbopkg/aiyumisb
 
-3. Copy the file "100-aiyumi.repo" to "/etc/sbopkg/repos.d", then edit "/etc/sbopkg/sbopkg.conf" to set it as your default repository, like this:
+3. Copy the file "100-aiyumi.repo" to "/etc/sbopkg/repos.d," then edit "/etc/sbopkg/sbopkg.conf" to set it as your default repository, like this:
 
         REPO_BRANCH=${REPO_BRANCH:-local}
         REPO_NAME=${REPO_NAME:-aiyumisb}
@@ -35,17 +37,17 @@ That said, let's begin:
 
         # sbopkg -V aiyumisb/local
 
-4. Copy the ".sqf" files from "sbopkg-queuefiles" to "/var/lib/sbopkg/queues".
+4. Copy the ".sqf" files from "sbopkg-queuefiles" to "/var/lib/sbopkg/queues."
 
         # cp sbopkg-queuefiles/aiyumisb/accessibility/*.sqf /var/lib/sbopkg/queues
 
 5. Uninstall (by using "removepkg") the following packages which have important options disabled and need recompiling:
 
-    * gobject-introspection: the versiom from Slackware conflicts with Gnome-Python and aborts compilation during "make".
+    * gobject-introspection: the versiom from Slackware conflicts with Gnome-Python and aborts compilation during "make."
 
     * pygobject: comes with introspection disabled.
 
-6. Recompile said packages by using the SlackBuilds you just downloaded (they're in the "libraries" directory and are already edited with the proper settings), then install each one with "installpkg".
+6. Recompile said packages by using the SlackBuilds you just downloaded (they're in the "libraries" directory and are already edited with the proper settings), then install each one with "installpkg."
 
     Note: If you use Firefox, you'll unfortunately have to recompile it. The package from Slackware comes with accessibility disabled to save compile time or something like that (oops!). But it's not in my repo, so you'll have to copy the script from Slackware and replace "--disable-accessibility" with "--enable-accessibility" in the "./configure" part. Be prepared, because it takes really long (it took three hours on my 1.6Ghz single core netbook, and an hour on my 2.8Ghz quad core desktop).
 
@@ -53,11 +55,11 @@ That said, let's begin:
 
 7. If you don't have Espeak yet (which Orca uses by default), load the "espeakup.sqf" queuefile \* to Sbopkg and install everything. Espeak will be installed along with Espeakup, which adds support for speech via software to Speakupp (a screen reader for the console, which is always good to have).
 
-    \* Note: for Portuguese, I prefer the pronunciation from Espeak 1:40 instead of the latest version's. If you also prefer the old one, use the "espeakup-espeak-1.40.sqf" queuefile instead of "espeakup.sqf".
+    \* Note: for Portuguese, I prefer the pronunciation from Espeak 1:40 instead of the latest version's. If you also prefer the old one, use the "espeakup-espeak-1.40.sqf" queuefile instead of "espeakup.sqf."
 
 8. Load "orca.sqf" and install everything (Speech-Dispatcher, a bunch of libs, AT-SPI2/Pyatspi, Orca). Go grab a coffee because compiling all this takes long (not as much as Firefox, though). I fixed all errors that appeared for me, then did the process all over again and had no more others, so I hope you don't run into any errors (but I can't guarantee anything :P).
 
-9. Open the Speech-Dispatcher config file in "/etc/speech-dispatcher/speechd.conf". Make sure that ALSA is being used for sound playback and that the Espeak module is being loaded, editing the settings if not. The relevant lines should be like this:
+9. Open the Speech-Dispatcher config file in "/etc/speech-dispatcher/speechd.conf." Make sure that ALSA is being used for sound playback and that the Espeak module is being loaded, editing the settings if not. The relevant lines should be like this:
 
         # ----- VOICE PARAMETERS -----
         DefaultLanguage "en"
@@ -74,13 +76,13 @@ That said, let's begin:
 
         LanguageDefaultModule "en"  "espeak"
 
-    To test it, use the command "spd-say something". If you hear sound, then it's working!
+    To test it, use the command "spd-say something." If you hear sound, then it's working!
 
-10. Try to configure Orca from the console (still in text mode, not in X) with the command "orca -t". If you have permission problems with the "/etc/gconf/gconf.xml.system" directory, do "chmod 755" on it (I don't know why that happens, nor if it can be fixed from the SlackBuild). When there are no more errors and Orca finally speaks, congratulations. You just installed Orca on Slackware, and without Gnome!
+10. Try to configure Orca from the console (still in text mode, not in X) with the command "orca -t." If you have permission problems with the "/etc/gconf/gconf.xml.system" directory, do "chmod 755" on it (I don't know why that happens, nor if it can be fixed from the SlackBuild). When there are no more errors and Orca finally speaks, congratulations. You just installed Orca on Slackware, and without Gnome!
 
 11. If everything went well so far, you'll need an accessible terminal emulator to be able to use the console from the X graphical interface. If you're using XFCE as your desktop and installed the packages from Slackware, you can use XFTerminal, but if not (I use Fluxbox, which is also in Slackware), go to the official Slackbuilds.org repository via Sbopkg and install, for example, LXTerminal. I particularly don't use any file manager (I prefer doing everything from the terminal), but if you want a file manager and don't want XFCE, you can install PCManFM (it's accessible when in the "Detailed list view" mode).
 
-12. Lastly, copy the file "/usr/doc/orca-3.2.0-xdesktop/orca.atspi2.xinitrc" to "~/.xinitrc" (this is the file that sets the variables to enable accessibility in X), edit the last line to specify which desktop environment/window manager you'll use (for example, "startfluxbox" for Fluxbox or "startxfce4" for XFCE), type the command "startx" and have fun! :D
+12. Lastly, copy the file "/usr/doc/orca-*/orca.atspi2.xinitrc" to "~/.xinitrc" (this is the file that sets the variables to enable accessibility in X), edit the last line to specify which desktop environment/window manager you'll use (for example, "startfluxbox" for Fluxbox or "startxfce4" for XFCE), type the command "startx" and have fun! :D
 
 [orcahp]: https://live.gnome.org/Orca
 [slackbuilds]: https://github.com/aiyumi/slackware-scripts
