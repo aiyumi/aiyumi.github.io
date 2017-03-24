@@ -125,7 +125,7 @@ import urllib
 import re
 title = post.title()
 url = abs_link( post.permalink() )
-encoded_url = urllib.quote_plus(url)
+encoded_url = urllib.parse.quote_plus(url)
 no_host_url = re.sub("https?://", "", url)
 networks = (
     (U"Twitter", U"https://twitter.com/share?url=" + encoded_url + U"&text=" + title),
