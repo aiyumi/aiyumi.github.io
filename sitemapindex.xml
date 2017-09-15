@@ -7,126 +7,126 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/rss.xml</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/audio.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/fan-made.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/game-accessibility.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/games.xml</loc>
-  <lastmod>2016-11-30T00:33:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/japanese-study.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-09-15T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/linux.xml</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/site-updates.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://aiyumi.warpstar.net/en/tag/utau.xml</loc>
+  <lastmod>2017-09-15T21:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/violin.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/vocaloid.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/rss.xml</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:13:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/audio.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/fan-made.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/game-accessibility.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/games.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://aiyumi.warpstar.net/ja/tag/japanese-study.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/linux.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/site-updates.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/ja/tag/violin.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://aiyumi.warpstar.net/ja/tag/vocaloid.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/rss.xml</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/audio.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/fan-made.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/game-accessibility.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/games.xml</loc>
-  <lastmod>2016-11-30T00:31:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/japanese-study.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/linux.xml</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/site-updates.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://aiyumi.warpstar.net/pt/tag/utau.xml</loc>
+  <lastmod>2017-09-15T21:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/violin.xml</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/vocaloid.xml</loc>
-  <lastmod>2016-06-12T17:58:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/sitemap.xml</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:47:00Z</lastmod>
  </sitemap>
 </sitemapindex>

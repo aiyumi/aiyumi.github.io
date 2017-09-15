@@ -12,21 +12,21 @@ Released   : 20100328
 
 --><head>
 <meta charset="utf-8">
-<base href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/">
 <meta name="description" content="Um guia rápido de como instalar o leitor de telas Orca no Slackware 14.2 sem o ambiente de desktop Gnome.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Instalando o Orca no Slackware 14.2 » Aiyumi.Warpstar.Net</title>
-<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link href="../../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../../en/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="../../../ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="../../rss.xml">
 <link rel="canonical" href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/">
-<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="keywords" content="14.2, acessibilidade, at-spi, atspi, compilar, compilando, deficiente visual, deficientes visuais, instalar, instalando, leitor de telas, linux, orca, slack, slackware, slackbuild">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="keywords" content="14.2, acessibilidade, at-spi, atspi, compilar, compilando, deficiente visual, deficientes visuais, instalar, instalando, leitor de telas, linux, orca, slack, slackware, slackbuild">
 <meta name="description" itemprop="description" content="Um guia rápido de como instalar o leitor de telas Orca no Slackware 14.2 sem o ambiente de desktop Gnome.">
 <meta name="author" content="Aiyumi">
-<link rel="prev" href="/pt/blog/slack-14.2-srs-and-pulse/" title="Slackware 14.2, Leitores de Tela e PulseAudio" type="text/html">
+<link rel="prev" href="../slack-14.2-srs-and-pulse/" title="Slackware 14.2, Leitores de Tela e PulseAudio" type="text/html">
+<link rel="next" href="../p5-op-utau-cover/" title="Abertura do Persona 5 - Cover UTAU" type="text/html">
 <meta property="og:site_name" content="Aiyumi.Warpstar.Net">
 <meta property="og:title" content="Instalando o Orca no Slackware 14.2">
 <meta property="og:url" content="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/">
@@ -34,7 +34,7 @@ Released   : 20100328
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-03-23T15:58:02-03:00">
 <meta property="article:tag" content="linux">
-<link rel="alternate" hreflang="en" href="/en/blog/installing-orca-on-slackware-14.2/">
+<link rel="alternate" hreflang="en" href="../../../en/blog/installing-orca-on-slackware-14.2/">
 </head>
 <body>
 <div id="top"></div>
@@ -55,9 +55,9 @@ Released   : 20100328
 <div id="site-langselect"> <!-- begin site-langselect -->
     <ul>
 <li>Ver este site em:</li>
-            <li><a href="/pt" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
-            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
-            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+            <li><a href="../../../pt" rel="alternate" hreflang="pt_br"><img src="../../../images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="../../../images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="../../../images/ja-flag.png" alt="日本語"></a></li>
     </ul>
 </div> <!-- end site-langselect -->
 
@@ -66,21 +66,21 @@ Released   : 20100328
 
 	<hr>
 <!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
-<li><a href="/pt/">Home</a></li>
-                <li><a href="/pt/about/">Sobre</a></li>
-                <li><a href="/pt/blog/">Blog</a></li>
-                <li><a href="/pt/contact/">Contato</a></li>
+<li><a href="../../">Home</a></li>
+                <li><a href="../../about/">Sobre</a></li>
+                <li><a href="../">Blog</a></li>
+                <li><a href="../../contact/">Contato</a></li>
 
     </ul></nav></header><!-- end #header --><div id="page">
 		<div id="content">
             
             
-<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/pt/blog/installing-orca-on-slackware-14.2/" class="u-url">Instalando o Orca no Slackware 14.2</a></h2>
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="." class="u-url">Instalando o Orca no Slackware 14.2</a></h2>
 
         <div class="info">
 <ul class="list-inline">
 <li>Ver esta página em:</li>
-                <li><a href="/en/blog/installing-orca-on-slackware-14.2/" rel="alternate" hreflang="en">English</a></li>
+                <li><a href="../../../en/blog/installing-orca-on-slackware-14.2/" rel="alternate" hreflang="en">English</a></li>
 <li>日本語</li>
 <li>Português</li>
 </ul>
@@ -90,17 +90,17 @@ Released   : 20100328
     <div>
 <p>Estas são instruções para instalar o leitor de telas Orca no Slackware 14.2 <strong>sem</strong> o ambiente de desktop Gnome. Não é a versão do Orca mais recente, mas é a compatível com as versões das bibliotecas que vêm por padrão no Slackware (para instalar o Orca mais recente, seria necessário recompilar versões mais recentes de muitos dos programas que já vêm no Slackware e seria muito mais difícil).</p>
 <p>Do Slackware 14.1 para o 14.2, diminuiu bastante a quantidade de dependências, o que é uma coisa boa. A maioria das bibliotecas específicas do Gnome foram embora, não precisa mais recompilar programas que vinham no Slackware, e agora tudo que usa Python passou a depender do Python 3 em vez do Python 2. Se vierem mais dessas mudanças que facilitem as coisas, talvez logo seja possível que o Orca consiga entrar no Slackbuilds.org, aí não precisaremos mais ficar fazendo estes malabarismos com <a href="https://github.com/aiyumi/slackware-scripts">meus scripts</a>. Vamos ter esperanças!</p>
-<p>Para quem usou <a href="/pt/blog/installing-orca-on-slackware-14-0">minhas instruções e instalou o Orca no 14.0 ou 14.1</a> e vai atualizar para o 14.2, precisa remover as dependências obsoletas com o comando abaixo (quem ainda não tem o Orca instalado não precisa usar este comando, mas olha só quantas dependências foram embora :D ):</p>
-<pre class="code literal-block"># removepkg gnome-mime-data gnome-vfs gnome-python libgnome libbonobo ORBit2 pyorbit
+<p>Para quem usou <a href="../installing-orca-on-slackware-14-0">minhas instruções e instalou o Orca no 14.0 ou 14.1</a> e vai atualizar para o 14.2, precisa remover as dependências obsoletas com o comando abaixo (quem ainda não tem o Orca instalado não precisa usar este comando, mas olha só quantas dependências foram embora :D ):</p>
+<pre class="code literal-block"><span></span># removepkg gnome-mime-data gnome-vfs gnome-python libgnome libbonobo ORBit2 pyorbit
 </pre>
 
 
 <p>Agora, as instruções de instalação propriamente ditas. Antes de mais nada, você precisa ter o <a href="http://sbopkg.org/">Sbopkg</a> instalado.</p>
-<p>Na verdade, o processo para baixar e instalar o Orca continua quase igual ao que era <a href="/pt/blog/installing-orca-on-slackware-14-0">antes</a>. Se quiser, você pode ler as instruções anteriores para explicações mais detalhadas, mas resumindo:</p>
+<p>Na verdade, o processo para baixar e instalar o Orca continua quase igual ao que era <a href="../installing-orca-on-slackware-14-0">antes</a>. Se quiser, você pode ler as instruções anteriores para explicações mais detalhadas, mas resumindo:</p>
 <ul>
 <li>
 <p>Baixe o meu repositório e configure o Sbopkg para usar meus scripts:</p>
-<pre class="code literal-block"># git clone https://github.com/aiyumi/slackware-scripts.git
+<pre class="code literal-block"><span></span># git clone https://github.com/aiyumi/slackware-scripts.git
 # cd slackware-scripts
 # cp -R slackbuilds /var/lib/sbopkg/aiyumisb
 # cp slackbuilds/100-aiyumi.repo /etc/sbopkg/repos.d
@@ -111,7 +111,7 @@ Released   : 20100328
 </li>
 <li>
 <p>Execute o Sbopkg com o meu repositório:</p>
-<pre class="code literal-block"># sbopkg -V aiyumisb/local
+<pre class="code literal-block"><span></span># sbopkg -V aiyumisb/local
 </pre>
 
 
@@ -124,7 +124,7 @@ Released   : 20100328
 </li>
 <li>
 <p>Edite as configurações do Speech-Dispatcher em "/etc/speech-dispatcher/speechd.conf". Certifique-se de que o módulo do Espeak está sendo usado e configurado para falar no idioma de sua preferência (no meu caso, Português). As linhas relevantes são:</p>
-<pre class="code literal-block"># ----- VOICE PARAMETERS -----
+<pre class="code literal-block"><span></span># ----- VOICE PARAMETERS -----
 DefaultLanguage "pt"
 
 # -----OUTPUT MODULES CONFIGURATION-----
@@ -145,12 +145,12 @@ LanguageDefaultModule "pt"  "espeak"
 <p>Pronto. Aí é só usar o comando "startx" para entrar na interface gráfica e ouvir o Orca abrir a matraca :D .</p>
 <p>Nota sobre o Firefox: nas instruções para o 14.0 e 14.1, eu tinha falado que o Firefox do Slack vinha com acessibilidade desabilitada e precisava ser recompilado, o que levava horas. A má notícia é que o Firefox do Slackware ainda vem sem acessibilidade. Mas a boa notícia é que eu descobri que não precisa compilar outro! Graças a este <a href="http://whatthefrankiej.blogspot.com.br/2014/12/gnome-orca-on-slackware-141.html">post do Frankiej</a>, fiquei sabendo <a href="https://gist.github.com/ruario/9672798">deste script</a> que baixa o binário do Firefox fornecido pela Mozilla (em que a acessibilidade funciona) e cria um pacote ".txz" para o Slackware que pode ser instalado com installpkg normalmente.</p>
 <p>Apesar do nome "latest-firefox", este script não se limita a baixar a última versão do Firefox. Na verdade, você pode usá-lo para baixar qualquer versão que quiser. É só passar a variável "VERSION" para o comando que executa o script. Por exemplo, no momento em que escrevo este post, o plugin do Java não funciona na última versão do Firefox porque tiraram o suporte à API que o plugin usa. Para quem precisa do plugin do Java, enquanto não sai uma versão do Java com um plugin compatível com o último Firefox, o jeito é usar uma versão anterior do Firefox onde o plugin do Java ainda funciona. A última versão do Firefox onde a API obsoleta funciona é a 51.0. Neste caso, o comando para obter o pacote do Firefox 51.0 para o Slack seria:</p>
-<pre class="code literal-block"># VERSION=51.0 ./latest-firefox.sh
+<pre class="code literal-block"><span></span># VERSION=51.0 ./latest-firefox.sh
 </pre>
 
 
 <p>ou ainda, para o Firefox 51.0 com a interface em Português brasileiro:</p>
-<pre class="code literal-block"># VERSION=51.0 FFLANG=pt-BR ./latest-firefox.sh
+<pre class="code literal-block"><span></span># VERSION=51.0 FFLANG=pt-BR ./latest-firefox.sh
 </pre>
 
 
@@ -158,18 +158,21 @@ LanguageDefaultModule "pt"  "espeak"
 </div>
     </div> <!-- end entry -->
     <aside class="info"><p>Postado por                     Aiyumi
-- <a href="/pt/blog/installing-orca-on-slackware-14.2/" rel="bookmark">
+- <a href="." rel="bookmark">
 <time datetime="2017-03-23T15:58:02-03:00" itemprop="datePublished" title="2017-03-23 15:58">2017-03-23 15:58</time></a>
 </p>
             
 
     <nav><ul itemprop="keywords" class="list-inline">
 <li>Tags: </li>
-            <li><a class="tag p-category" href="/pt/tag/linux/" rel="tag">linux</a></li>
+            <li><a class="tag p-category" href="../../tag/linux/" rel="tag">linux</a></li>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="/pt/blog/slack-14.2-srs-and-pulse/" rel="prev" title="Slackware 14.2, Leitores de Tela e PulseAudio">Post anterior</a>
+                <a href="../slack-14.2-srs-and-pulse/" rel="prev" title="Slackware 14.2, Leitores de Tela e PulseAudio">Post anterior</a>
+            </li>
+            <li class="next">
+                <a href="../p5-op-utau-cover/" rel="next" title="Abertura do Persona 5 - Cover UTAU">Próximo post</a>
             </li>
         </ul></nav></aside><div id="sharing-links">
 <h3>Compartilhe esta Página</h3>
@@ -193,20 +196,20 @@ LanguageDefaultModule "pt"  "espeak"
 <!-- end #content -->
 		<nav id="sidebar"><h3>Blog</h3>
 <ul>
-<li><a href="/pt/blog/">Posts</a></li>
+<li><a href="../">Posts</a></li>
 
-                <li><a href="/pt/archive/">Arquivo</a></li>
+                <li><a href="../../archive/">Arquivo</a></li>
 
-                <li><a href="/pt/tag/">Tags</a></li>
+                <li><a href="../../tag/">Tags</a></li>
 
-                <li><a href="/pt/rss.xml">Feed RSS</a></li>
+                <li><a href="../../rss.xml">Feed RSS</a></li>
 
 </ul>
 <h3>Fandoms</h3>
 <ul>
-<li><a href="/en/pokemon/" title="(em Inglês)">Pokemon</a></li>
+<li><a href="../../../en/pokemon/" title="(em Inglês)">Pokemon</a></li>
 
-                <li><a href="/en/rockman/" title="(em Inglês)">Rockman (Mega Man)</a></li>
+                <li><a href="../../../en/rockman/" title="(em Inglês)">Rockman (Mega Man)</a></li>
 </ul>
 <h3>Links</h3>
 
@@ -273,7 +276,7 @@ LanguageDefaultModule "pt"  "espeak"
 </ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
 	</div>	<!-- end #page -->
 
-        <footer id="footer"><!-- begin #footer --><p>Nota: se você usar meus links para comprar algum produto na Amazon ou na Play-Asia ou para contratar os serviços de hospedagem da DreamHost, eu posso receber uma pequena comissão do programa de afiliados deles. Isso me ajudaria a continuar pagando para manter o registro do domínio "warpstar.net", e também me ajudaria a comprar jogos, instrumentos musicais virtuais (bibliotecas de samples), Vocaloids e afins. (<a href="/en/affiliate-disclosure">Affiliate disclosure</a>)</p>
+        <footer id="footer"><!-- begin #footer --><p>Nota: se você usar meus links para comprar algum produto na Amazon ou na Play-Asia ou para contratar os serviços de hospedagem da DreamHost, eu posso receber uma pequena comissão do programa de afiliados deles. Isso me ajudaria a continuar pagando para manter o registro do domínio "warpstar.net", e também me ajudaria a comprar jogos, instrumentos musicais virtuais (bibliotecas de samples), Vocaloids e afins. (<a href="../../../en/affiliate-disclosure">Affiliate disclosure</a>)</p>
             <p class="smalltext">Todas as marcas registradas são de propriedade de seus respectivos autores e empresas. Este site não tem nenhuma relação com tais autores/empresas. O conteúdo original é copyright 2017 Aiyumi e, a menos que seja especificado o contrário, está publicado sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.</p>
             
 <p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,

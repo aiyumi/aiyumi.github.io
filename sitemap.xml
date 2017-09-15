@@ -7,1122 +7,1054 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://aiyumi.warpstar.net/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/about/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/affiliate-disclosure/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2011/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2012/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2013/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2014/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2015/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2016/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/archive/2017/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/accessibility-and-how-i-began-using-vocaloid/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/accessibility-first-results-with-vocaloid/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/accessibility-first-results-with-vocaloid/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/adventures-with-a-new-computer/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/adventures-with-a-new-computer/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/adventures-with-a-new-computer/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/ath-cevio-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/ath-cevio-1/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/ath-cevio-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/bg-ave-maria-violin-1/</loc>
-  <lastmod>2016-12-22T19:21:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bg-ave-maria-violin-1/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bg-ave-maria-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bg-ave-maria-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/blind-man-beats-zelda-ot/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/blind-man-beats-zelda-oot/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-1/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-2/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/flying-on-brahms-waltz/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/flying-on-brahms-waltz/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/flying-on-brahms-waltz/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/game-a11y-intro/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/game-a11y-intro/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/game-a11y-intro/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/getting-ready-for-persona5/</loc>
-  <lastmod>2016-06-12T16:01:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/getting-ready-for-persona5/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/getting-ready-for-persona5/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/gossec-gavotte-fvl-cover/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/gossec-gavotte-fvl-cover/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/gossec-gavotte-fvl-cover/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/happy-birthday-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/happy-birthday-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/how-i-started-using-linux/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/how-i-started-using-linux/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/how-i-started-using-linux/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/in-the-mood-to-dash/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-dash/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-dash/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-dash/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/in-the-mood-to-redash/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-redash/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-redash/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-1.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-2.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-3.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-4.html</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-5.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-6.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-7.html</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-8.html</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14-0/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14.2/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14.2/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/kirby-revenge-of-error-knight/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/kirby-revenge-of-error-knight/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/new-pokemon-section/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/new-pokemon-section/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/new-pokemon-section/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/new-pokemon-section/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/nintendo-3ds-review/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/nintendo-3ds-review/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/nintendo-3ds-review/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/nintendo-3ds-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/p3-food-ramen/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/p3-food-ramen/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/p3-food-ramen/" />
  </url>
  <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/p5-op-utau-cover/</loc>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/p5-op-utau-cover/" />
+ </url>
+ <url>
   <loc>http://aiyumi.warpstar.net/en/blog/plasma-theme-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/plasma-theme-arrange-1/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/plasma-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/plasma-theme-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/power-of-slackbuilds/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/power-of-slackbuilds/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/power-of-slackbuilds/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/ps4-slim-review/</loc>
-  <lastmod>2016-11-29T23:55:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/ps4-slim-review/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/ps4-slim-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/slack-14.2-srs-and-pulse/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sounds-of-ilha-grande/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sounds-of-ilha-grande/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/sox-basic-intro/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sox-basic-intro/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sox-basic-intro/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/starting-the-blog/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/starting-the-blog/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/starting-the-blog/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/starting-the-blog/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/static-blog-migration/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/static-blog-migration/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/status-update-2011-08-04/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-08-04/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-08-04/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-08-04/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/status-update-2011-09-07/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-09-07/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-09-07/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-09-07/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/status-update-2012-01-01/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-01-01/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-01-01/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-01-01/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/status-update-2012-03-26/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-03-26/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-03-26/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-03-26/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/status-update-2013-02-09/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2013-02-09/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2013-02-09/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2013-02-09/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/super-printer-mario/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/super-printer-mario/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/super-printer-mario/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/super-printer-mario/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/twitter-and-updates/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/twitter-and-updates/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/twitter-and-updates/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/twitter-and-updates/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/virtual-violins/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/virtual-violins/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/virtual-violins/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/watch-p5-db-online/</loc>
-  <lastmod>2016-09-11T00:40:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/watch-p5-db-online/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/watch-p5-db-online/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/contact/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/pokemon/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/pokemon/music/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/music/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/music/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/pokemon/sl/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/sl/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/sl/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/pokemon/sl/drama/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/sl/drama/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/sl/drama/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/rockman/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/rockman/toc/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/rockman/toc/drama/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/drama/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/drama/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/drama/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/audio/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/fan-made/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/game-accessibility/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/games/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/japanese-study/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/linux/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/site-updates/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/tag/utau/</loc>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/violin/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/tag/vocaloid/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/about/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2011/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2012/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2013/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2014/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2015/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2016/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/archive/2017/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/</loc>
-  <lastmod>2016-12-22T19:21:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/bg-ave-maria-violin-1/</loc>
-  <lastmod>2016-12-22T19:21:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bg-ave-maria-violin-1/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bg-ave-maria-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/blind-man-beats-zelda-ot/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/blind-man-beats-zelda-oot/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-1/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-2/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/happy-birthday-arrange-1/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/happy-birthday-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-dash/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/in-the-mood-to-dash/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-dash/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-1.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/index-2.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/index-3.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/index-4.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/kirby-revenge-of-error-knight/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/kirby-revenge-of-error-knight/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/new-pokemon-section/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/new-pokemon-section/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/new-pokemon-section/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/nintendo-3ds-review/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/nintendo-3ds-review/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/nintendo-3ds-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/plasma-theme-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/plasma-theme-arrange-1/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/plasma-theme-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/sounds-of-ilha-grande/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/sox-basic-intro/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sox-basic-intro/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/starting-the-blog/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/starting-the-blog/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/starting-the-blog/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/static-blog-migration/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/static-blog-migration/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/static-blog-migration/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2011-08-04/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-08-04/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-08-04/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2011-09-07/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-09-07/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-09-07/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2012-01-01/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-01-01/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-01-01/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2012-03-26/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-03-26/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-03-26/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2013-02-09/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2013-02-09/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2013-02-09/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/super-printer-mario/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/super-printer-mario/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/super-printer-mario/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/twitter-and-updates/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/twitter-and-updates/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/twitter-and-updates/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/contact/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/rockman/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/rockman/toc/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/rockman/toc/drama/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/drama/" />
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/drama/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/audio/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/fan-made/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/game-accessibility/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/games/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/japanese-study/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/linux/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/site-updates/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/ja/tag/utau/</loc>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/violin/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/ja/tag/vocaloid/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/about/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2011/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2012/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2013/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2014/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2015/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2016/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/archive/2017/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/accessibility-and-how-i-began-using-vocaloid/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-first-results-with-vocaloid/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/accessibility-first-results-with-vocaloid/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/adventures-with-a-new-computer/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/adventures-with-a-new-computer/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/adventures-with-a-new-computer/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/ath-cevio-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/ath-cevio-1/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/ath-cevio-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/bg-ave-maria-violin-1/</loc>
-  <lastmod>2016-12-22T19:21:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bg-ave-maria-violin-1/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bg-ave-maria-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/blind-man-beats-zelda-oot/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/blind-man-beats-zelda-ot/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-1/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-2/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/erros-comuns-em-textos/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/erros-comuns-em-textos/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/erros-comuns-em-textos/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/flying-on-brahms-waltz/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/flying-on-brahms-waltz/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/flying-on-brahms-waltz/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/game-a11y-intro/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/game-a11y-intro/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/game-a11y-intro/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/getting-ready-for-persona5/</loc>
-  <lastmod>2016-06-12T16:01:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/getting-ready-for-persona5/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/getting-ready-for-persona5/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/gossec-gavotte-fvl-cover/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/gossec-gavotte-fvl-cover/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/gossec-gavotte-fvl-cover/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/happy-birthday-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/happy-birthday-arrange-1/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/how-i-started-using-linux/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/how-i-started-using-linux/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/how-i-started-using-linux/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-dash/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/in-the-mood-to-dash/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-dash/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-redash/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/in-the-mood-to-redash/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-redash/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-1.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-2.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-3.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-4.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-5.html</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-6.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-7.html</loc>
-  <lastmod>2017-01-30T23:57:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-8.html</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14-0/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14.2/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/installing-orca-on-slackware-14.2/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/internet-banking-caixa-java-7u51/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/internet-banking-caixa-java-7u51/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/japanese-course-videos-in-portuguese/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/japanese-course-videos-in-portuguese/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/japanese-course-videos-in-portuguese/" />
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/kirby-revenge-of-error-knight/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/kirby-revenge-of-error-knight/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/new-pokemon-section/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/new-pokemon-section/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/new-pokemon-section/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/nintendo-3ds-review/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/nintendo-3ds-review/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/nintendo-3ds-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/p3-food-ramen/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/p3-food-ramen/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/p3-food-ramen/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/p5-op-utau-cover/</loc>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/p5-op-utau-cover/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/plasma-theme-arrange-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/plasma-theme-arrange-1/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/plasma-theme-arrange-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/power-of-slackbuilds/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/power-of-slackbuilds/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/power-of-slackbuilds/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/ps4-slim-review/</loc>
-  <lastmod>2016-11-29T23:55:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/ps4-slim-review/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/ps4-slim-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/</loc>
-  <lastmod>2017-03-23T19:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/slack-14.2-srs-and-pulse/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sounds-of-ilha-grande/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sox-basic-intro/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sox-basic-intro/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/starting-the-blog/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/starting-the-blog/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/starting-the-blog/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/static-blog-migration/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/static-blog-migration/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2011-08-04/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-08-04/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-08-04/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2011-09-07/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-09-07/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-09-07/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2012-01-01/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-01-01/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-01-01/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2012-03-26/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-03-26/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-03-26/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2013-02-09/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2013-02-09/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2013-02-09/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/super-printer-mario/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/super-printer-mario/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/super-printer-mario/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/twitter-and-updates/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/twitter-and-updates/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/twitter-and-updates/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/virtual-violins/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/virtual-violins/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/virtual-violins/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/watch-p5-db-online/</loc>
-  <lastmod>2016-09-11T00:40:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/watch-p5-db-online/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/watch-p5-db-online/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/contact/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/pokemon/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/pokemon/music/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/music/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/music/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/pokemon/sl/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/sl/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/sl/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/pokemon/sl/drama/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/sl/drama/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/pokemon/sl/drama/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/rockman/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/rockman/toc/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/rockman/toc/drama/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/drama/" />
   <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/drama/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-09-15T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/audio/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/fan-made/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/game-accessibility/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/games/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/japanese-study/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/linux/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/site-updates/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/tag/utau/</loc>
+  <lastmod>2017-09-15T21:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/violin/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/tag/vocaloid/</loc>
-  <lastmod>2016-05-31T20:25:00Z</lastmod>
+  <lastmod>2017-03-24T13:49:00Z</lastmod>
  </url>
 </urlset>

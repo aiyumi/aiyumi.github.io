@@ -12,22 +12,21 @@ Released   : 20100328
 
 --><head>
 <meta charset="utf-8">
-<base href="http://aiyumi.warpstar.net/en/blog/sox-basic-intro/">
 <meta name="description" content="A basic introduction to SoX, an audio processing program.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>A Basic Introduction to SoX » Aiyumi.Warpstar.Net</title>
-<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link href="../../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="../../../ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="../../../pt/rss.xml">
 <link rel="canonical" href="http://aiyumi.warpstar.net/en/blog/sox-basic-intro/">
-<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="keywords" content="app, application, audio, command, command line, console, converter, editor, effect, free, free software, mp3, open source, program, processing, software, sound, sox, tool, wav">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="keywords" content="app, application, audio, command, command line, console, converter, editor, effect, free, free software, mp3, open source, program, processing, software, sound, sox, tool, wav">
 <meta name="description" itemprop="description" content="A basic introduction to SoX, an audio processing program.">
 <meta name="author" content="Aiyumi">
-<link rel="prev" href="/en/blog/status-update-2011-09-07/" title="Link to the Rss Feed" type="text/html">
-<link rel="next" href="/en/blog/kirby-revenge-of-error-knight/" title="Kirby: Revenge of Error Knight" type="text/html">
+<link rel="prev" href="../status-update-2011-09-07/" title="Link to the Rss Feed" type="text/html">
+<link rel="next" href="../kirby-revenge-of-error-knight/" title="Kirby: Revenge of Error Knight" type="text/html">
 <meta property="og:site_name" content="Aiyumi.Warpstar.Net">
 <meta property="og:title" content="A Basic Introduction to SoX">
 <meta property="og:url" content="http://aiyumi.warpstar.net/en/blog/sox-basic-intro/">
@@ -36,8 +35,8 @@ Released   : 20100328
 <meta property="article:published_time" content="2011-09-09T13:19:38-03:00">
 <meta property="article:tag" content="Audio">
 <meta property="article:tag" content="linux">
-<link rel="alternate" hreflang="ja" href="/ja/blog/sox-basic-intro/">
-<link rel="alternate" hreflang="pt_br" href="/pt/blog/sox-basic-intro/">
+<link rel="alternate" hreflang="ja" href="../../../ja/blog/sox-basic-intro/">
+<link rel="alternate" hreflang="pt_br" href="../../../pt/blog/sox-basic-intro/">
 </head>
 <body>
 <div id="top"></div>
@@ -58,9 +57,9 @@ Released   : 20100328
 <div id="site-langselect"> <!-- begin site-langselect -->
     <ul>
 <li>View this site in:</li>
-            <li><a href="/pt" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
-            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
-            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+            <li><a href="../../../pt" rel="alternate" hreflang="pt_br"><img src="../../../images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="../../../images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="../../../images/ja-flag.png" alt="日本語"></a></li>
     </ul>
 </div> <!-- end site-langselect -->
 
@@ -69,23 +68,23 @@ Released   : 20100328
 
 	<hr>
 <!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
-<li><a href="/en/">Home</a></li>
-                <li><a href="/en/about/">About</a></li>
-                <li><a href="/en/blog/">Blog</a></li>
-                <li><a href="/en/contact/">Contact</a></li>
+<li><a href="../../">Home</a></li>
+                <li><a href="../../about/">About</a></li>
+                <li><a href="../">Blog</a></li>
+                <li><a href="../../contact/">Contact</a></li>
 
     </ul></nav></header><!-- end #header --><div id="page">
 		<div id="content">
             
             
-<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="/en/blog/sox-basic-intro/" class="u-url">A Basic Introduction to SoX</a></h2>
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="." class="u-url">A Basic Introduction to SoX</a></h2>
 
         <div class="info">
 <ul class="list-inline">
 <li>View this page in:</li>
 <li>English</li>
-                <li><a href="/ja/blog/sox-basic-intro/" rel="alternate" hreflang="ja">日本語</a></li>
-                <li><a href="/pt/blog/sox-basic-intro/" rel="alternate" hreflang="pt_br">Português</a></li>
+                <li><a href="../../../ja/blog/sox-basic-intro/" rel="alternate" hreflang="ja">日本語</a></li>
+                <li><a href="../../../pt/blog/sox-basic-intro/" rel="alternate" hreflang="pt_br">Português</a></li>
 </ul>
 </div>
 
@@ -174,7 +173,7 @@ information.</p>
 <h5>Recording</h5>
 <p>Records from your default recording source (for example, a microphone) to a file
 called "example.wav".</p>
-<pre class="code literal-block"><span class="nv">$ </span>rec example.wav
+<pre class="code literal-block"><span></span>$ rec example.wav
 </pre>
 
 
@@ -183,7 +182,7 @@ configuration in Windows, or with software like "alsamixer" or "aumix" in Linux)
 <h5>Pausing and Resuming</h5>
 <p>To pause while playing or recording, press Control-z. SoX will pause and stay in
 the background. To resume and put it back in the foreground, type the command:</p>
-<pre class="code literal-block"><span class="nv">$ </span><span class="nb">fg</span>
+<pre class="code literal-block"><span></span>$ <span class="nb">fg</span>
 </pre>
 
 
@@ -223,14 +222,14 @@ producing "presentation.ogg":</p>
 </ol>
 <p>Tip: if you want to "preview" (or should I say "prelisten"?) the effects without altering the file, you can use
 "play" to apply the effects and listen:</p>
-<pre class="code literal-block"><span class="nv">$ </span>play -m -v0.5 music.mp3 -v2 speech.wav
+<pre class="code literal-block"><span></span>$ play -m -v0.5 music.mp3 -v2 speech.wav
 </pre>
 
 
 <p>Adjust the parameters (in this example, the volume factor, which is the
 number after the "-v" option), until you find the values that you like, then
 replace the "play" command by "sox" and specify an output file. Example:</p>
-<pre class="code literal-block"><span class="nv">$ </span>sox -m -v0.5 music.mp3 -v1.2 speech.wav presentation.ogg
+<pre class="code literal-block"><span></span>$ sox -m -v0.5 music.mp3 -v1.2 speech.wav presentation.ogg
 </pre>
 
 
@@ -257,13 +256,13 @@ audio volume) is decreased a little so as not to be too high:</p>
 <p>If the amount of text shown on the screen bothers you, you can use the "-q" 
 option so that SoX does not show any information to the screen, except for 
 warnings and errors. This works with "play", "rec" and "sox". Example:</p>
-<pre class="code literal-block"><span class="nv">$ </span>play -q music.mp3
+<pre class="code literal-block"><span></span>$ play -q music.mp3
 </pre>
 
 
 <h4>Getting Help</h4>
 <p>To show all of the SoX commands, supported formats and effects, type:</p>
-<pre class="code literal-block"><span class="nv">$ </span>sox --help
+<pre class="code literal-block"><span></span>$ sox --help
 </pre>
 
 
@@ -273,22 +272,22 @@ respectively.</p>
 the order of input/output files and effects.</p>
 <p>There are also the user manuals, with more detailed explanations of commands,
 effect parameters and examples. In Linux, if the manuals are installed, you can read them offline be typing</p>
-<pre class="code literal-block"><span class="nv">$ </span> man sox
+<pre class="code literal-block"><span></span>$  man sox
 </pre>
 
 
 <p>for the "sox", "play" and "rec" manuals,</p>
-<pre class="code literal-block"><span class="nv">$ </span>man soxformat
+<pre class="code literal-block"><span></span>$ man soxformat
 </pre>
 
 
 <p>for all options related to the supported file formats and</p>
-<pre class="code literal-block"><span class="nv">$ </span>man soxi
+<pre class="code literal-block"><span></span>$ man soxi
 </pre>
 
 
 <p>for "soxi"'s manual. There is also</p>
-<pre class="code literal-block"><span class="nv">$ </span>man libsox
+<pre class="code literal-block"><span></span>$ man libsox
 </pre>
 
 
@@ -299,22 +298,22 @@ effect parameters and examples. In Linux, if the manuals are installed, you can 
 </div>
     </div> <!-- end entry -->
     <aside class="info"><p>Posted by                     Aiyumi
-- <a href="/en/blog/sox-basic-intro/" rel="bookmark">
+- <a href="." rel="bookmark">
 <time datetime="2011-09-09T13:19:38-03:00" itemprop="datePublished" title="2011-09-09 13:19">2011-09-09 13:19</time></a>
 </p>
             
 
     <nav><ul itemprop="keywords" class="list-inline">
 <li>Tags: </li>
-            <li><a class="tag p-category" href="/en/tag/audio/" rel="tag">Audio</a></li>
-            <li><a class="tag p-category" href="/en/tag/linux/" rel="tag">linux</a></li>
+            <li><a class="tag p-category" href="../../tag/audio/" rel="tag">Audio</a></li>
+            <li><a class="tag p-category" href="../../tag/linux/" rel="tag">linux</a></li>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="/en/blog/status-update-2011-09-07/" rel="prev" title="Link to the Rss Feed">Previous post</a>
+                <a href="../status-update-2011-09-07/" rel="prev" title="Link to the Rss Feed">Previous post</a>
             </li>
             <li class="next">
-                <a href="/en/blog/kirby-revenge-of-error-knight/" rel="next" title="Kirby: Revenge of Error Knight">Next post</a>
+                <a href="../kirby-revenge-of-error-knight/" rel="next" title="Kirby: Revenge of Error Knight">Next post</a>
             </li>
         </ul></nav></aside><div id="sharing-links">
 <h3>Share this Page</h3>
@@ -338,20 +337,20 @@ effect parameters and examples. In Linux, if the manuals are installed, you can 
 <!-- end #content -->
 		<nav id="sidebar"><h3>Blog</h3>
 <ul>
-<li><a href="/en/blog/">Posts</a></li>
+<li><a href="../">Posts</a></li>
 
-                <li><a href="/en/archive/">Archive</a></li>
+                <li><a href="../../archive/">Archive</a></li>
 
-                <li><a href="/en/tag/">Tags</a></li>
+                <li><a href="../../tag/">Tags</a></li>
 
-                <li><a href="/en/rss.xml">RSS Feed</a></li>
+                <li><a href="../../rss.xml">RSS Feed</a></li>
 
 </ul>
 <h3>Fandoms</h3>
 <ul>
-<li><a href="/en/pokemon/">Pokemon</a></li>
+<li><a href="../../pokemon/">Pokemon</a></li>
 
-                <li><a href="/en/rockman/">Rockman (Mega Man)</a></li>
+                <li><a href="../../rockman/">Rockman (Mega Man)</a></li>
 </ul>
 <h3>Links</h3>
 
@@ -416,7 +415,7 @@ effect parameters and examples. In Linux, if the manuals are installed, you can 
 </ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
 	</div>	<!-- end #page -->
 
-        <footer id="footer"><!-- begin #footer --><p>Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for "warpstar.net," as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like. (<a href="/en/affiliate-disclosure">Affiliate disclosure</a>)</p>
+        <footer id="footer"><!-- begin #footer --><p>Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for "warpstar.net," as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like. (<a href="../../affiliate-disclosure">Affiliate disclosure</a>)</p>
             <p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2017 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
             
 <p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,

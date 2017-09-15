@@ -12,20 +12,19 @@ Released   : 20100328
 
 --><head>
 <meta charset="utf-8">
-<base href="http://aiyumi.warpstar.net/en/blog/index-4.html">
 <meta name="description" content="Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aiyumi.Warpstar.Net (old posts, page 4) » Aiyumi.Warpstar.Net</title>
-<link href="/assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="/en/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="/ja/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="/pt/rss.xml">
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="../../ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="../../pt/rss.xml">
 <link rel="canonical" href="http://aiyumi.warpstar.net/en/blog/index-4.html">
-<link rel="prev" href="/en/blog/index-5.html" type="text/html">
-<link rel="next" href="/en/blog/index-3.html" type="text/html">
-<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+<link rel="prev" href="." type="text/html">
+<link rel="next" href="index-3.html" type="text/html">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
 </head>
 <body>
 <div id="top"></div>
@@ -46,9 +45,9 @@ Released   : 20100328
 <div id="site-langselect"> <!-- begin site-langselect -->
     <ul>
 <li>View this site in:</li>
-            <li><a href="/pt" rel="alternate" hreflang="pt_br"><img src="/../assets/images/pt_br-flag.png" alt="Português"></a></li>
-            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="/../assets/images/en-flag.png" alt="English"></a></li>
-            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="/../assets/images/ja-flag.png" alt="日本語"></a></li>
+            <li><a href="../../pt" rel="alternate" hreflang="pt_br"><img src="../../images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="../../images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="../../images/ja-flag.png" alt="日本語"></a></li>
     </ul>
 </div> <!-- end site-langselect -->
 
@@ -57,10 +56,10 @@ Released   : 20100328
 
 	<hr>
 <!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
-<li><a href="/en/">Home</a></li>
-                <li><a href="/en/about/">About</a></li>
-                <li><a href="/en/blog/">Blog</a></li>
-                <li><a href="/en/contact/">Contact</a></li>
+<li><a href="../">Home</a></li>
+                <li><a href="../about/">About</a></li>
+                <li><a href=".">Blog</a></li>
+                <li><a href="../contact/">Contact</a></li>
 
     </ul></nav></header><!-- end #header --><div id="page">
 		<div id="content">
@@ -68,89 +67,50 @@ Released   : 20100328
             
 
 <div class="postindex">
-    <article class="entry"><header><h2 class="title"><a href="/en/blog/installing-orca-on-slackware-14-0/" class="u-url">Installing Orca on Slackware 14.0</a></h2>
+    <article class="entry"><header><h2 class="title"><a href="flying-on-brahms-waltz/" class="u-url">Flying with Brahms' Waltz</a></h2>
         <div class="info">
             <p>
                 Aiyumi
-            - <a href="/en/blog/installing-orca-on-slackware-14-0/" rel="bookmark"><time class="published dt-published" datetime="2013-09-27T21:00:15-03:00" title="2013-09-27 21:00">2013-09-27 21:00</time></a></p>
+            - <a href="flying-on-brahms-waltz/" rel="bookmark"><time class="published dt-published" datetime="2015-12-21T21:29:17-02:00" title="2015-12-21 21:29">2015-12-21 21:29</time></a></p>
         </div>
     </header><div class="entry">
     <div>
-<p>I was taking a look at Slackware Current, which now contains the packages that will be in the next version (14.1, if the name doesn't change like what happened with 13.37). I was very surprised to see that AT-SPI2-Core and AT-SPI2-ATK, two very important dependencies for the <a href="https://live.gnome.org/Orca">Orca screen reader</a>, have been included, and their versions are even newer than mine! But I think these weren't added because of accessibility considerations (some other new packages must have these libs as dependencies), since a few SlackBuilds important to Orca still are "./configured" with "--disable-introspection" and "--disable-accessibility" (when I installed Orca on my current system, I had a lot of headaches until I found out that the packages came configured like that by default. I had to enable those options and recompile the programs). Even so, each new Slackware version, more of Orca's dependencies are being incorporated into the default packages. Maybe in just a few versions from now, all (or almost all) of Orca's dependencies will finally have been fulfilled. While this doesn't happen, I gathered the SlackBuilds to compile Orca and its dependencies, and <a href="https://github.com/aiyumi/slackware-scripts">uploaded them to Github</a>. Some are mine (because I didn't find ready scripts for those programs anywhere else), while others are copies of the scripts from <a href="http://www.slackbuilds.org/">Slackbuilds.org</a> or of things provided in Slackware (for the few programs that needed tweaking and recompiling), everything gathered in only one place to make life easier. These aren't the latest versions, but the specific versions that work with the Slackware 14.0 stock libraries (building the newest packages would require compiling a lot of extra things and would be much more work). For those wondering about having to install Gnome, no, it isn't needed. Contrary to what it might seem, despite being part of the Gnome Project, Orca can run perfectly fine without this so heavy desktop environment. Below is a quick guide on how to install Orca on Slackware, <strong>without</strong> Gnome: </p>
-<p class="more"><a href="/en/blog/installing-orca-on-slackware-14-0/">more…</a></p>
+<p>In violin class last month, I arrived at the fifth track in the Suzuki Violin Method Volume 2. The book only says that it's a waltz composed by Johannes Brahms, but in fact, its whole title is "Waltz Opus 39 Number 15". My homework was to describe what comes to mind when listening to this music. And I was supposed to let my imagination fly (nothing like, "The composer meant this, this and that"). So I let it fly. It flew through the roof, and towards the clouds (more on this below). I've always liked to imagine the songs I listen to as though they were the "background music" or the "soundtrack" for something, so it was an interesting experience. Here's the result (warning: ramblings of someone who has no classical music background whatsoever :P): </p>
+<p class="more"><a href="flying-on-brahms-waltz/">more…</a></p>
 </div>
     </div>
-    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/twitter-and-updates/" class="u-url">Twitter and Updates</a></h2>
+    </article><article class="entry"><header><h2 class="title"><a href="static-blog-migration/" class="u-url">Server Migration and Blog System Change</a></h2>
         <div class="info">
             <p>
                 Aiyumi
-            - <a href="/en/blog/twitter-and-updates/" rel="bookmark"><time class="published dt-published" datetime="2013-09-22T15:39:23-03:00" title="2013-09-22 15:39">2013-09-22 15:39</time></a></p>
+            - <a href="static-blog-migration/" rel="bookmark"><time class="published dt-published" datetime="2015-12-04T16:11:33-02:00" title="2015-12-04 16:11">2015-12-04 16:11</time></a></p>
         </div>
     </header><div class="entry">
     <div>
-<p>It may not seem like it, but a lot happened after my last post:</p>
+<p>Even though the blog's visual didn't change much, it's core has changed drastically. Now it's a static blog, with only HTML pages and doesn't need PHP or a database anymore.</p>
+<h4>Why a Static Blog?</h4>
+<p>Basically, static blogs work like this: I write posts in some markup language (I use <a href="https://daringfireball.net/projects/markdown/">Markdown</a>) in a text editor of my choice, then a generator program (usually command line-driven) transforms posts in HTML and combines them with layout templates of the page (header, menu, content etc.) and generates all HTML pages, which can be uploaded to any webserver. For me, writing on my favorite text editor and typing a few simple commands to generate and upload the pages is much more comfortable than struggling for hours with a heavy web interface full of JavaScript (the reason why I never got along with WordPress).</p>
+<p>It's been a while since I've been wanting to migrate to a static blog. I had tested several static blog generator programs, but none had exactly the features I wanted (mainly multilanguage content support). I had even started trying to program my own (in Perl), but in the end, I gave up. Then, this year (2015), I found this software called <a href="https://getnikola.com/">Nikola</a> (which is written in Python). A few tests later, I concluded that it does everything I want (and then some), and decided that the time to migrate had come.</p>
+<h4>And Why the Server Change?</h4>
+<p>I've been hosting my sites at <a href="http://www.dreamhost.com/r.cgi?362621">DreamHost</a> since 2007 and never had any problems. Particularly, I rather like the <a href="http://wiki.dreamhost.com/">great documentation available on their wiki</a>, SSH access which enables uploading files via Rsync instead of FTP (basically, it's faster because Rsync sends only what is different between the files on my machine and the ones on the server, rather than reuploading everything all over again), the ability to install other software on the server (the wiki provides detailed instructions), the ability to edit PHP settings, among other things, and last but not least, their humorous monthly newsletters :P. Then why did I decide to change webhosts? For a few simple reasons: even though all of these features are interesting, over the years I discovered I don't need this much. I don't have as much time to develop sites as I had before, when I signed up for their service in 2007. At the time, I still didn't have a job, and believed I'd work designing sites. Then, I got a job as a Perl programmer, years passed and, in the end, the only site I've been able to maintain (more or less) actively is this one you're on right now, and it barely used PHP and MySQL. Now that the site is static, I don't even need PHP and MySQL anymore! And with the high US Dollar rates (one Dollar nearing four Brazilian Reals), the hosting plan is getting hard to afford, and it doesn't make much sense to keep paying for so many features I'm not using. That said, even if I don't use the service anymore, I still consider DreamHost's webhosting very good, and I recommend it to those who don't have problems with the Dollar rates :P , and need a webhost that supports MySQL, PHP (or Perl or Python which are also included in their plan) and SSH access.</p>
+<p>The domain registration for "warpstar.net" will still remain on DreamHost (not only because I like the included features like whoes privacy protection, but also because this serves as an excuse for me to keep receiving the humorous monthly newsletters :P *). But now, the blog is hosted on <a href="https://pages.github.com/">GitHub Pages</a>, and the pages are uploaded via Git (which also only uploads the differences in the files rather than reuploading everything every time), and as a bonus, the site even got version control :D !</p>
 <ul>
-<li>
-<p>I did an arrangement of another music from Pokemon Black &amp; White. It's the music titled "Ghetsis' Ambitions". Listen &amp; download <a href="http://www.youtube.com/watch?v=5eUh9bHd7aM">here</a> or <a href="https://gobblin.se/u/aiyumi/m/pokemon-bw-arrange-of-ghetsis-ambitions-motif-xf/">here</a>.</p>
-</li>
-<li>
-<p>Probably this is where I'm most active at the moment. I never mentioned it here before, but for some time now, I've been writing a Pokemon Black &amp; White fan fiction (in English). It's called <a href="http://www.fanfiction.net/s/8853146/1/">Soul Link</a>, and I'm silently updating it regularly.</p>
-</li>
-<li>
-<p>I did an audio drama adaptation of a scene from said fan fiction. The fanfic is in English, but the audio drama is in Japanese. The dialogue is mostly the same as the one from the fan fiction, so for those who understood the scene in the fic, the Japanese drama can probably be understood as well. A few people who like watching anime with Japanese audio might like it... Or not :P. Anyway, it can be found <a href="https://gobblin.se/u/aiyumi/m/psl-ch004-true-plans/">here</a>. It also uses the music arrangement I just mentioned.</p>
-</li>
-<li>
-<p>I uploaded a few more sounds to <a href="http://www.freesound.org/people/Aiyumi/">Freesound</a>. I also added a lot of interesting sounds from other people to my <a href="http://www.freesound.org/people/Aiyumi/bookmarks/">bookmarks</a>.</p>
-</li>
-<li>
-<p>I finally got around to organizing my SlackBuilds for compiling Orca under Slackware and <a href="https://github.com/aiyumi/slackware-scripts">uploaded them to Github</a>.</p>
-<p>Edit (2013-09-27): instructions on how to use the scripts now can be found <a href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0">here</a>.</p>
-</li>
-<li>
-<p>I bought a 3DS XL. I wasn't thinking on doing that yet, but once again, I found a cheap one (for Brazil standards), and since prices in general are rising due to inflation, I decided to do it before it got too expensive. I won't make a full review like I did with the other one, but it suffices to say that compared to the normal 3DS, the buttons are more comfortable, the console is easier to hold (though a bit heavier) and the battery lasts more.</p>
-</li>
-<li>
-<p>In mid July, my internet connection stayed down for nearly two weeks, affecting my work and everything. Calling the ISP only resulted in pointless excuses most of the time, and it took very long for them to have the will to send a technician here and fix it. It was a problem affecting the whole region where I live. Hopefully it's sorted out now.</p>
-</li>
-<li>
-<p>Recently, I've been listening a lot of Japanese music which uses singing synthesis software like <a href="http://en.wikipedia.org/wiki/Vocaloid">VOCALOID</a> and <a href="http://en.wikipedia.org/wiki/Utau">UTAU</a>.</p>
-</li>
+<li>Edit: or so I had thought. The account cancel page says that if I cancel the hosting, even if I keep the domain registration, I won't get the newsletters anymore. Too bad... :(</li>
 </ul>
-<p>Well, a lot happened, as you can see. The problem is that I don't have the patience to write a full blog post for each thing I do, let alone in three languages... And I realized: isn't that the purpose of a microblog like Twitter? Right now, my Twitter isn't seeing much use aside from automatically alerting when I post something here. I'm thinking of making it update (preferably automatically) whenever I publish a fanfic chapter, or a Youtube video and maybe a few other things, so people can know I'm still active even if this blog isn't updated so often. The account is "<a href="https://twitter.com/aiyumi_en">@aiyumi_en</a>". You can follow me, or if you're like me and aren't much into these social network things, you can use this <a href="http://www.rssitfor.me/getrss?name=aiyumi_en">RSS feed</a>.</p>
+<p>Edit (2016/03/04): apparently not! Despite what the cancel page said, I still keep receiving the newsletters :D !</p>
+<p>The reasons above are important to me, but... okay, enough rambling. In the end, what really matters to everyone else is that all the content is here, the URLs remain the same, and the site is still online. The conversion may not have been 100%. There might be a few bugs here and there, and I intend to correct them as I find them.</p>
 </div>
     </div>
-    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/sounds-of-ilha-grande/" class="u-url">Sounds of Ilha Grande</a></h2>
+    </article><article class="entry"><header><h2 class="title"><a href="ath-cevio-1/" class="u-url">An Introductory Video to CeVIO</a></h2>
         <div class="info">
             <p>
                 Aiyumi
-            - <a href="/en/blog/sounds-of-ilha-grande/" rel="bookmark"><time class="published dt-published" datetime="2013-05-25T00:29:11-03:00" title="2013-05-25 00:29">2013-05-25 00:29</time></a></p>
-        </div>
-    </header><div class="entry">
-    <p>In November 2011, I went on a trip to <a href="http://en.wikipedia.org/wiki/Ilha_Grande">Ilha Grande, Rio de Janeiro, Brazil</a>. I took my 
-<a href="http://www.amazon.com/gp/product/B001QWBM62/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001QWBM62&amp;linkCode=as2&amp;tag=aiyumysites01-20">Zoom H4n Handy Portable Digital Recorder</a><img src="http://www.assoc-amazon.com/e/ir?t=aiyumysites01-20&amp;l=as2&amp;o=1&amp;a=B001QWBM62" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;">
- and recorded sounds of nature, sea, birds and other things. I wanted to edit them in <a href="http://audacity.sourceforge.net/">Audacity</a> to cut out the unwanted parts (as far as I know, with command line audio editors such as <a href="http://sox.sourceforge.net/">SoX</a> and <a href="http://eca.cx/ecasound/">Ecasound</a> there isn't a practical way to remove several small portions from the middle of the file. The only way of doing this that I know involves calculating sound durations, positions etc., so it really had to be Audacity), but on my old computer, the said program crashed very frequently (strangely, this only happened to it) and I was unable to get anything done. I got a new computer, and now Audacity works perfectly. I Finally managed to tidy the files up, and now I proudly present you... The <a href="http://www.freesound.org/people/Aiyumi/packs/11833/">Sounds of Ilha Grande</a>! They're hosted at <a href="http://www.freesound.org/">Freesound.org</a>, which is a site that has thousands of free sound effects, most of them under a Creative Commons License, and others in the public domain. I have more miscellaneous sounds here in my HD, which I plan to upload there over time, but I'll write here on the blog only if there's something interesting enough to deserve a post, so if you want, follow my <a href="http://www.freesound.org/people/Aiyumi/">Freesound page</a>.</p>
-    </div>
-    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/plasma-theme-arrange-1/" class="u-url">Pokemon BW - Team Plasma's Theme Arrangement</a></h2>
-        <div class="info">
-            <p>
-                Aiyumi
-            - <a href="/en/blog/plasma-theme-arrange-1/" rel="bookmark"><time class="published dt-published" datetime="2013-04-27T23:08:27-03:00" title="2013-04-27 23:08">2013-04-27 23:08</time></a></p>
-        </div>
-    </header><div class="entry">
-    <p>I did an arrangement of Team Plasma's theme music, from the games Pokemon Black &amp; White. It was performed and recorded on a Yamaha Motif XF keyboard. Here's a <a href="http://www.youtube.com/watch?v=6W5HjQ5MqKQ">Youtube link</a> and the <a href="https://aiyumi.opendrive.com/files/69370448_zJzxx_2b49/plasma_0.2.ogg">download in OGG format</a>.</p>
-    </div>
-    </article><article class="entry"><header><h2 class="title"><a href="/en/blog/adventures-with-a-new-computer/" class="u-url">Adventures with a New Computer</a></h2>
-        <div class="info">
-            <p>
-                Aiyumi
-            - <a href="/en/blog/adventures-with-a-new-computer/" rel="bookmark"><time class="published dt-published" datetime="2013-03-10T12:19:37-03:00" title="2013-03-10 12:19">2013-03-10 12:19</time></a></p>
+            - <a href="ath-cevio-1/" rel="bookmark"><time class="published dt-published" datetime="2015-11-11T16:46:24-02:00" title="2015-11-11 16:46">2015-11-11 16:46</time></a></p>
         </div>
     </header><div class="entry">
     <div>
-<p>My seven year old computer started to show signs of dying, so I bought a new one.</p>
-<h4>Choosing a Machine</h4>
-<p>As I also needed to use the computer for work, I chose a little more "professional" machine. I bought a Dell Vostro 270S (Vostro 270 Slim) Desktop. Aside from work, I also need some fun, so I got the one with 1 TB hard drive and an off board video card, for running games and things that the old PC couldn't even dream of running. After some customizations, I got a computer with the following specifications: </p>
-<p class="more"><a href="/en/blog/adventures-with-a-new-computer/">more…</a></p>
+<p>I've already mentioned here on the blog a few voice synthesizer software, like <a href="http://espeak.sourceforge.net/">Espeak</a> (which provides a voice to my screen reader program), the Japanese voice synthesizer <a href="http://open-jtalk.sourceforge.net/">Open JTalk</a> (which the Windows screen reader <a href="http://www.nvaccess.org/">NVDA</a> uses to read Japanese text), and the singing synthesis software VOCALOID, which I've been <a href="accessibility-and-how-i-began-using-vocaloid">using for a while</a>. There's another Japanese voice synthesiser program (both for speech and for singing) called <a href="http://cevio.jp/">CeVIO</a>. Today I stumbled on this video about Japanese speech synthesizers, and I thought it's very interesting. It begins introducing a few software that came first (MMDAgent and Open JTalk), then goes on to talk about the main topic, CeVIO. It demonstrates various voice samples (both for speech and for singing), and examples of how to edit the voices' parameters to read Japanese text. (it even has tips for those wanting to buy the software :D )</p>
+<p><a href="https://www.youtube.com/watch?v=k6c4p8Pjdf8">https://www.youtube.com/watch?v=k6c4p8Pjdf8</a></p>
 </div>
     </div>
     </article>
@@ -158,30 +118,30 @@ Released   : 20100328
 
         <nav class="postindexpager"><ul class="pager">
 <li class="previous">
-                <a href="/en/blog/index-5.html" rel="prev">Newer posts</a>
+                <a href="." rel="prev">Newer posts</a>
             </li>
             <li class="next">
-                <a href="/en/blog/index-3.html" rel="next">Older posts</a>
+                <a href="index-3.html" rel="next">Older posts</a>
             </li>
         </ul></nav>
 </div>
 <!-- end #content -->
 		<nav id="sidebar"><h3>Blog</h3>
 <ul>
-<li><a href="/en/blog/">Posts</a></li>
+<li><a href=".">Posts</a></li>
 
-                <li><a href="/en/archive/">Archive</a></li>
+                <li><a href="../archive/">Archive</a></li>
 
-                <li><a href="/en/tag/">Tags</a></li>
+                <li><a href="../tag/">Tags</a></li>
 
-                <li><a href="/en/rss.xml">RSS Feed</a></li>
+                <li><a href="../rss.xml">RSS Feed</a></li>
 
 </ul>
 <h3>Fandoms</h3>
 <ul>
-<li><a href="/en/pokemon/">Pokemon</a></li>
+<li><a href="../pokemon/">Pokemon</a></li>
 
-                <li><a href="/en/rockman/">Rockman (Mega Man)</a></li>
+                <li><a href="../rockman/">Rockman (Mega Man)</a></li>
 </ul>
 <h3>Links</h3>
 
@@ -246,7 +206,7 @@ Released   : 20100328
 </ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
 	</div>	<!-- end #page -->
 
-        <footer id="footer"><!-- begin #footer --><p>Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for "warpstar.net," as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like. (<a href="/en/affiliate-disclosure">Affiliate disclosure</a>)</p>
+        <footer id="footer"><!-- begin #footer --><p>Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for "warpstar.net," as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like. (<a href="../affiliate-disclosure">Affiliate disclosure</a>)</p>
             <p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2017 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
             
 <p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,
