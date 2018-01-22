@@ -1,0 +1,2 @@
+﻿# http://www.perlmonks.org/?node_id=599720
+perl -MEncode -E 'say encode("utf-8", chr(0xfeff))' > bom.txt

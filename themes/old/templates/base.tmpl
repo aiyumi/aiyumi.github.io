@@ -1,0 +1,33 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*"/>
+<%namespace name="header" file="base_header.tmpl" import="*"/>
+<%namespace name="footer" file="base_footer.tmpl" import="*"/>
+<%namespace name="annotations" file="annotation_helper.tmpl"/>
+${set_locale(lang)}
+${base.html_headstart()}
+<%block name="extra_head">
+### Leave this block alone.
+</%block>
+${template_hooks['extra_head']()}
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">${messages("Jump to top navigation")}</a></li>
+<li><a href="#content">${messages("Jump to main content")}</a></li>
+<li><a href="#sidebar">${messages("Jump to right sidebar")}</a></li>
+<li><a href="#footer">${messages("Jump to footer")}</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+         ${header.html_header()}
+         <main id="content">
+            <%block name="content"></%block>
+         </main>
+    ${base.late_load_js()}
+    <%block name="extra_js"></%block>
+    ${body_end}
+    ${template_hooks['body_end']()}
+</body>
+</html>

@@ -1,0 +1,45 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="post_helper.tmpl"/>
+<%namespace name="pheader" file="post_header.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%inherit file="post.tmpl"/>
+<%namespace name="p" file="post.tmpl"/>
+
+<%block name="content">
+<article class="post" itemscope="itemscope" itemtype="http://schema.org/Article">
+    <header>
+<h2 class="title" itemprop="headline name">${post.title()}</h2>
+        ${p.html_translations(post)}
+    </header>
+    <div class="entry" itemprop="articleBody text">
+    ${post.text()}
+    </div>
+${p.html_sharing_links(post)}
+    %if site_has_comments and enable_comments and not post.meta('nocomments'):
+        <section class="comments">
+        <h2>${messages("Comments")}</h2>
+        ${comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)}
+        </section>
+    %endif
+    ${helper.mathjax_script(post)}
+</article>
+<%
+disclaimer = ""
+for sec in fandoms:
+    start = "/" + lang[0:2] + U"/" + sec
+    length = len(start)
+    if post.permalink()[0:length] == start:
+        disclaimer = "<div class=\"info\">\n<p>" + \
+                  messages[lang]["Disclaimer:"] + \
+                  messages[lang][sec + "_disclaimer"] + \
+                  messages[lang]["fanworks_disclaimer"] + \
+                  "</p>\n</div>"
+    endif
+endfor
+%>
+%if lang == "pt_br" and post.meta[lang]['translation_placeholder'] == 'True':
+
+%else:
+${disclaimer}
+%endif
+</%block>
