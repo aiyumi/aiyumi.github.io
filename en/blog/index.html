@@ -66,7 +66,58 @@ Released   : 20100328
             
 
 <div class="postindex">
-    <article class="entry"><header><h2 class="title"><a href="p5-op-utau-cover/" class="u-url">Persona 5 Opening - UTAU Cover</a></h2>
+    <article class="entry"><header><h2 class="title"><a href="new-year-new-disk/" class="u-url">New Year, New Disk</a></h2>
+        <div class="info">
+            <p>
+                Aiyumi
+            - <a href="new-year-new-disk/" rel="bookmark"><time class="published dt-published" datetime="2018-01-22T17:00:38-02:00" title="2018-01-22 17:00">2018-01-22 17:00</time></a></p>
+        </div>
+    </header><div class="entry">
+    <div>
+<p>2018 arrived, and I kicked off the year with... a hard drive failure in my main PC. In the morning of January 4th, I had just started doing some job-related stuff (I'm working at home) when, suddenly, without any symptom or prior warning, the computer began emitting clicks, everything crashed, the machine stopped responding, and the only way to turn it off was by holding the power button for a few seconds. When I turned it back on, I got a hard disk failure message. I used a Linux live USB to try to see what was going on, and everything worked fine except for the HD. The disk wasn't even recognized, and kept emitting clicks. The conclusion was that the HD died.</p>
+<h3>Assessing the Losses</h3>
+<p>I usually make a backup once every week. Emphasis on "usually." Ironically, I hadn't made a backup the previous week, and thanks to this, I lost two weeks worth of changes (the previous week + the ongoing week when the HD died). Thankfully, I didn't lose progress on most of my work-related scripts because I had uploaded them to the office's servers. But I lost a whole chapter of one of the fanfics I'm writing which had taken me my free time of those last two weeks to put together, and I'm still trying to recover the motivation to write all of that again. I also lost the Windows partition, which I actually never bothered to back up thinking nothing important was inside... until, after I lost the drive, I remembered all my VOCALOID and UTAU project files were in there, including the USTs for the "<a href="p5-op-utau-cover">Wake Up, Get Up, Get Out There</a>" UTAU cover that took me a month to finish. I had copied the generated audio files to my Linux partition, but not the USTs... :(</p>
+<h3>Choosing a New Drive</h3>
+<p>After much consideration, I decided to get an SSD instead of another HD. SSD ("Solid State Drive") is a different kind of disk that has its memory on a chip (like the memory in SD cards or USB sticks), data is accessed straight from the chip and the disk doesn't need to spin like the HDs do, which makes it faster (I had heard the operating system boots up in a matter of seconds once the machine is turned on, and heavy programs open quickly). It's more durable, quieter and consumes less power than HDs. I've heard that after living with an SSD, it's hard to go back to the traditional HDs. I had been curious about SSDs for a few months, and decided I might as well turn the lemons into lemonade, take this "opportunity" to try it out and see what all the fuzz was about. The problem is that this technology is still a bit expensive, and I paid $375 BRL (roughly $120 USD) on an SSD that only has 240GB, and for that price I could have bought a normal 1TB HD... but it's fine. It may seem like too little space, but my old HD was 1TB and never came close to filling (at most it used 30GB from the root partition with Slackware Linux, 70GB from the separate home partition, and 50GB from the Windows partition, totaling around 150GB), so, I believe 240GB should be enough.</p>
+<p>I ordered a Western Digital SSD (WD Green 240GB) through Mercado Livre (a Latin-American online marketplace like Ebay). I bought it on Thursday night, it shipped on Friday morning, and arrived on Monday (I believe local postal services here don't work on weekends). While I waited for the SSD to arrive, I had to work using my netbook (a weaker machine where each page in Firefox takes like 20 seconds to load and Orca takes some more time to start reading it), and also where I downloaded the Linux ISOs to install once the SSD arrived. Then I connected an external DVD drive to the netbook, burned the ISO to a DVD RW, and that was it. Preparing the Linux ISOs was easy-peasy. On the other hand...</p>
+<h3>Trying to Download Windows</h3>
+<p>My main operating system is Linux. The few Windows programs I sometimes use (mainly VOCALOID and UTAU) can run on Wine, but the problem is that Wine isn't accessible to visually impaired users because it doesn't implement accessibility interfaces, and no screen readers are able to run on it. But since Windows 7 came with my machine and I have the license, I decided I might as well use it. I had backed up Windows <a href="adventures-with-a-new-computer">as soon as I bought the computer</a> and had used up all my DVD RWs plus two more DVD Rs because I didn't have enough RWs. But that was a backup of a newly installed Windows with no security updates or anything, and worse, the backup could only be restored from inside a running Windows! Conclusion: that backup was as good as nothing. I'd have to reinstall everything from scratch. The problem is that Dell doesn't provide a Windows installation media, and the installer is located (guess where...) in a partition in the HD! Of course, the HD died, so the installer went down with it.</p>
+<p>It turns out that there is a <a href="https://www.microsoft.com/software-download/windows7">Microsoft page where it should be possible to download the installer</a>. Theoretically, I'd just need to enter my Windows serial code. It's what I did. However, the page returned an error saying that this code wouldn't do because it is from a version of Windows supplied by a computer manufacturer, and that I should contact the manufacturer (Dell in my case) to get their custom image (the version that comes with Dell utilities which I was unable to uninstall, and a lot of other crap that only wastes resources and disk space).</p>
+<p>On the Dell page, I'd have to enter the "service tag" that's glued to the computer case, so that it displays content and downloads related to the product I purchased from them (my computer). I informed the code, but the downloads area for my machine's model only has drivers and nothing else. I browsed the help topics, and found out that there are three ways to get an installation media:</p>
+<ol>
+<li>
+<p>The way they recommend is to use a program to generate and download a custom image. Of course, the program only runs on Windows (so, it's useless to me because I'm without Windows. No idea whether it'd run on Wine). I wanted to know if there was another way and, after much searching, I found the second way below.</p>
+</li>
+<li>
+<p>There's a <a href="http://www.dell.com/support/home/drivers/osiso/win">page to download the Windows installation media</a>, for those who need to download the image from a machine without Windows (my case! Yay!)... but when I entered the service tag, the page said there are no downloads available for my machine's model.</p>
+</li>
+<li>
+<p>The other way is to contact support and request a physical copy of the media, and if the computer isn't under the warranty period (it isn't anymore), I have to pay around $60 USD! No thanks...</p>
+</li>
+</ol>
+<p>In a last attempt, I found a <a href="http://marcelosaldanha.com.br/2016/03/reinstalando-windows-sem-midia/">blog post (in Portuguese) by someone with a similar problem</a>, where I learned of a <a href="https://techjourney.net/official-windows-10-8-1-7-iso-installation-media-download-links-microsoft-tech-bench/">workaround</a> to download Windows 7 directly from Microsoft's servers without the need to inform the serial code. Basically it's a page to download Windows 10 (which doesn't ask for a serial code to provide the download link), except that if you change a parameter in the URL that corresponds to the product Windows 10 for the one corresponding to Windows 7, the page would generate a Windows 7 download link. It's based on the API that manufacturers use to download the Windows installation media, and some people found out the IDs of all the possible ISOs. I Tried. And... it didn't work! I tried with the Windows 10 ID and it worked*, but for Windows 7, no luck. Apparently, this method isn't working for Windows 7 and Office. It seems that the workaround either doesn't work anymore, or there's a temporary problem with the API.</p>
+<p>* I got a Windows 10 download link, but I can't use it because I don't have a Windows 10 serial code to activate it if I install it. I don't even know whether Windows 10 would run on this machine...</p>
+<p>Wow... dealing with proprietary software is so complicated! For now, I gave up. If the workaround resumes working, I may consider trying again another time. Meanwhile, I guess I'll have to resort to Wine and sighted assistance. Oh well...</p>
+<h3>Installing the SSD</h3>
+<p>On Monday, January 8th, the SSD arrived. I had known it was smaller than a desktop PC HD, but I hadn't expected it to be so small and thin... it's as thin as a CD case, and looks like a glorified memory card (which it probably is :P ).</p>
+<p>My mother and I opened the machine and swapped the dead HD out for the SSD. Unlike traditional HDs which have different sizes (3.5 inches for desktop PCs, and 2.5 inches for laptops), apparently there's only one SSD size, which is 2.5 inches. So, ideal for laptops, but a bit small for desktops (fortunately the SATA connections are the same). We plugged the SATA cable and attached the SSD to the case with a screw the way it should be done, but it wasn't as firm as we'd have liked. Ideally, I should've gotten a 2.5" to 3.5" adapter to fit the SSD easier, but the seller I bought the SSD from didn't have that, plus I was in a hurry because I needed my machine for work.</p>
+<p>Some people just plug the SSD and leave it hanging from the SATA cables inside the machine without much worry, since SSDs don't have moving parts like HDs, which means less risk of corrupting data from impact. But we got a bit worried. It didn't feel right to leave the SSD loose inside the machine. So, we cut an old and unused USB cable we had lying around, tied it to the "walls" of the compartment inside the case, to act like a "net" to help keep the SSD in place and prevent it from falling. It's ugly inside, but it works! :P Though I'm still wondering whether I should get one of those adapters to have a less "hackish" solution...</p>
+<h3>Partitioning the Disk</h3>
+<p>The first thing I did once I turned the machine on was insert the Slint (talking) installer DVD, and checked the disk with Fdisk. The system recognized the SSD just fine, and the size was reported as 223 GiB, which translates to the advertised 240GB. Then I partitioned the disk, and ended with roughly:</p>
+<ul>
+<li>84GB for Windows, in case I ever manage to reinstall it on this machine. If not, I'll use the precious space for something else.</li>
+<li>84GB for the home partition, meant to be used by two Linuxes.</li>
+<li>4GB for swap. I don't recall this machine ever having resorted to swap, but who knows when the need may arise...</li>
+<li>34GB for my main system, Linux. Instead of installing Slackware, this time I decided to go with <a href="http://slint.fr/wiki/en/start">Slint</a>, a Slackware-based distro with accessibility out of the box (including a talking installer), though it's pretty much Slackware at its core.</li>
+<li>And the last 34GB for the other Linux. I picked Arch Linux mostly because it also has a talking installer (in the form of the <a href="https://talkingarch.tk/">Talking Arch ISO</a>), and because I found out it's able to run the (closed-source proprietary and hard to troubleshoot) online banking software many of the banks in my country decided to adopt (I couldn't make it work on Slackware no matter what, and being unable to access the online banking was becoming a big problem. But the software worked nicely in the test Arch Linux install on my netbook, so...).</li>
+</ul>
+<p>I installed Slint at night, and I was already able to use the machine for work the following day. That weekend, I installed Arch Linux and the Internet banking software into the other partition. After that, I've been slowly adjusting settings and installing extra things as the needs arise, in both Slint and Arch to make them behave the way I want.</p>
+<p>And this is the status at the time of this writing. Things are getting back to normal, better and faster, thanks to the SSD. The machine responds quicker than before and feels like new. And now we have access to the online banking as well. Having the HD break was quite the scare, but things seem to have changed for better. Maybe I've kicked off the year in a good note, after all.</p>
+<p>Not to say that I had no issues while configuring the two Linux distros to make them my own, though. I had a few issues (mainly with Arch, and mostly thanks to my unfamiliarity with it), though most of them are solved by now. But that's a subject for another post.</p>
+<p>In the next post, I intend to talk about Slint, the Slackware-based, multi-language distro with accessibility out of the box and a talking installer!</p>
+</div>
+    </div>
+    </article><article class="entry"><header><h2 class="title"><a href="p5-op-utau-cover/" class="u-url">Persona 5 Opening - UTAU Cover</a></h2>
         <div class="info">
             <p>
                 Aiyumi
@@ -267,19 +318,6 @@ LanguageDefaultModule "en"  "espeak"
 <p>Alright. The ramen's done. Now, I need the takoyaki...</p>
 </div>
     </div>
-    </article><article class="entry"><header><h2 class="title"><a href="brahms-lullaby-violin-1/" class="u-url">Brahms Lullaby on Violin</a></h2>
-        <div class="info">
-            <p>
-                Aiyumi
-            - <a href="brahms-lullaby-violin-1/" rel="bookmark"><time class="published dt-published" datetime="2016-03-13T13:28:42-03:00" title="2016-03-13 13:28">2016-03-13 13:28</time></a></p>
-        </div>
-    </header><div class="entry">
-    <div>
-<p>March 8th, 2016, marked one year since I began taking violin lessons, and I decided to write this post to celebrate.</p>
-<p>In my <a href="flying-on-brahms-waltz">previous post</a>, I had mentioned the Brahms' lullaby. And it so happens that I've recently learned to play it on the violin. So, here it is:</p>
-<p>Download/listen: <a href="https://od.lk/d/112094429_P3qpa/brahms-lullaby01.ogg">brahms-lullaby01.ogg (OpenDrive)</a> | <a href="http://www.4shared.com/mp3/ScsrZFjHba/brahms-lullaby01.html">brahms-lullaby01.mp3 (4shared)</a></p>
-</div>
-    </div>
     </article>
 </div>
 
@@ -346,9 +384,7 @@ LanguageDefaultModule "en"  "espeak"
 <ul>
 <li><a href="http://www.br-linux.org/" title="News and articles about Linux and Free/Open Source software. Site in Portuguese.">BR-Linux.org</a></li>
 
-                <li><a href="http://tecnoveneno.blogspot.com/" title="Blog of a friend of mine, about command line apps, Unix, programming (mainly in Perl) and string (text) manipulation. In Portuguese.">Tecnoveneno</a></li>
-
-                <li><a href="https://perspicazsite.wordpress.com/" title="A new blog by the same friend as above. Differently from the previous blog, this one talks about a lot more subjects besides programming. In Portuguese.">Perspicazsite</a></li>
+                <li><a href="https://perspicazsite.wordpress.com/" title="Blog of a friend of mine, about Unix, programming, Business Intelligence, among other subjects. In Portuguese.">Perspicazsite</a></li>
 
 </ul>
 <h4>Recommended Stores</h4>
@@ -371,7 +407,7 @@ LanguageDefaultModule "en"  "espeak"
 	</div>	<!-- end #page -->
 
         <footer id="footer"><!-- begin #footer --><p>Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for "warpstar.net," as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like. (<a href="../affiliate-disclosure">Affiliate disclosure</a>)</p>
-            <p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2017 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+            <p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2018 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
             
 <p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,
 and hosted at <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a> 
