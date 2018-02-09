@@ -1,5 +1,6 @@
 _site/
 draft/
+__pycache__
 *.pyc
 .doit.db
 cache/

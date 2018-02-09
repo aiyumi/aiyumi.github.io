@@ -39,5 +39,5 @@ I've never left Brazil. One of my dreams is to go to Japan one day.
 
 This site is the place where I write about my findings and experiences with computers, games and their accessibility (or lack thereof), along with Japanese and other random things. I'm trying to translate the contents of this site to Japanese, just out of curiousity. You can also read [this exact same page in Japanese][jabout]. If you find any errors (I'm sure there are many of them) and feel like pointing them out, please do. Corrections and suggestions are always welcome.
 
-[orca]: http://live.gnome.org/Orca/
+[orca]: https://wiki.gnome.org/Projects/Orca
 [jabout]: ja/about
