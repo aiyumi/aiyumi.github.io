@@ -35,7 +35,7 @@ Se vou ganhar dinheiro com o Steemit? Sinceramente, considerando minha falta de 
 
 Será que terei paciência suficiente para continuar frequentando o Steemit? Isso, apenas o tempo dirá, mas espero que sim!
 
-Um link para o meu perfil do Steemit já está na barra lateral e também está abaixo:
+Coloquei um link para o meu perfil do Steemit na barra lateral. O link é:
 
 [https://steemit.com/@aiyumi](https://steemit.com/@aiyumi)
 
