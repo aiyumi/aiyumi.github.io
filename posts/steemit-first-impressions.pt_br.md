@@ -3,7 +3,7 @@
 .. tags: Site Updates
 .. date: 2018-02-17 11:47:03
 
-Nunca tive muita paciência, nem sorte, com redes sociais.
+Nunca tive muita paciência nem sorte com redes sociais.
 
 * Eu tentei usar o Twitter, mas de lá não saiu nada. Não tive paciência pra ler as coisas dos outros e postar constantemente, e era um saco ter de ficar reformulando tudo que eu escrevia pra fazer caber no limite de caracteres. No fim das contas, [meu Twitter][twitter_en] foi rebaixado para a função de apenas informar os leitores sobre atualizações do blog e das minhas fanfics. Eu só tenho uns 7 seguidores, e meus tweets nem sequer aparecem nas buscas do Twitter, só porque eles contêm links (para este blog ou para minhas fan fictions). Pelo que entendi, o fato de que eles contêm links e não tem retweets faz com que os bots do mecanismo de pesquisa do Twitter pensem que meus tweets são spam! Então, ninguém além dos meus 7 seguidores consegue nem mesmo encontrar meus tweets...
 * Eu não gosto do Facebook e não tenho.
@@ -41,6 +41,7 @@ Coloquei um link para o meu perfil do Steemit na barra lateral. O link é:
 
 Por mais que eu queira repostar algumas coisas daqui do blog no Steemit, não posso publicar todo o texto, porque isso faria os mecanismos de busca penalizarem ou este blog ou meu blog no Steemit por conteúdo duplicado. Então, vou fazer alguns experimentos, alternando entre postar aqui e lincar por lá, e vice-versa. Vamos ver o que acontece...
 
+Edit (13:35): nossa, parece que o Steemit trouxe alguns seguidores para o meu Twitter em Inglês também! O número aumentou de 7 para 11 (11 aqui também? XD ). Só percebi quando entrei no Twitter pra avisar sobre este post. :D
 
 [twitter_en]: https://mobile.twitter.com/aiyumi_en
 [yt]: https://www.youtube.com/user/AiyumiBr

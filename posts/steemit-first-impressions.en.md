@@ -42,6 +42,8 @@ A link to my Steemit profile is already on the sidebar, and is also below:
 
 As much as I'd like to repost some things from this blog on there, I can't post the whole text because that would cause search engines to penalize either this blog or my Steemit blog for duplicate content. So, I'll do some experiments, alternate between posting here and linking from there, and vice versa. Let's see what happens...
 
+Edit (13:35): wow, looks like Steemit brought in a few Twitter followers as well! The number went from 7 to 11 (11 here too? XD ) I only noticed this when I went to Twitter to publish a link to this blog post. :D
+
 
 [twitter_en]: https://mobile.twitter.com/aiyumi_en
 [yt]: https://www.youtube.com/user/AiyumiBr
