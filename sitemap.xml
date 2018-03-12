@@ -59,7 +59,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2018-02-17T13:48:00Z</lastmod>
+  <lastmod>2018-03-12T17:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -167,7 +167,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/index-4.html</loc>
-  <lastmod>2018-02-17T13:48:00Z</lastmod>
+  <lastmod>2018-03-12T17:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
@@ -238,6 +238,11 @@
   <loc>http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/en/blog/slint-linux-review/</loc>
+  <lastmod>2018-03-12T17:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/slint-linux-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/</loc>
@@ -712,7 +717,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2018-02-17T13:48:00Z</lastmod>
+  <lastmod>2018-03-12T17:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
@@ -824,7 +829,7 @@
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/index-4.html</loc>
-  <lastmod>2018-02-17T13:48:00Z</lastmod>
+  <lastmod>2018-03-12T17:25:00Z</lastmod>
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
@@ -903,6 +908,11 @@
   <loc>http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/" />
+ </url>
+ <url>
+  <loc>http://aiyumi.warpstar.net/pt/blog/slint-linux-review/</loc>
+  <lastmod>2018-03-12T17:25:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/slint-linux-review/" />
  </url>
  <url>
   <loc>http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/</loc>

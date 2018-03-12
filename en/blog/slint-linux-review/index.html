@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Conjunction 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100328
+
+--><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slint, a Slackware-Based Linux Distribution that's Accessible to the Visually Impaired » Aiyumi.Warpstar.Net</title>
+<link href="../../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="../../../ja/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="../../../pt/rss.xml">
+<link rel="canonical" href="http://aiyumi.warpstar.net/en/blog/slint-linux-review/">
+<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Aiyumi">
+<link rel="prev" href="../steemit-first-impressions/" title="My First Week on Steemit, and My First Impressions" type="text/html">
+<meta property="og:site_name" content="Aiyumi.Warpstar.Net">
+<meta property="og:title" content="Slint, a Slackware-Based Linux Distribution that's Accessible to the V">
+<meta property="og:url" content="http://aiyumi.warpstar.net/en/blog/slint-linux-review/">
+<meta property="og:description" content="As some already know, my Linux distribution of choice is Slackware. However, it isn't an easy distro for visually impaired users to install. The Slackware installer isn't accessible unless the users h">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2018-03-12T15:02:11-03:00">
+<meta property="article:tag" content="linux">
+<link rel="alternate" hreflang="pt_br" href="../../../pt/blog/slint-linux-review/">
+</head>
+<body>
+<div id="top"></div>
+<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
+<ul>
+<li><a href="#menu">Jump to top navigation</a></li>
+<li><a href="#content">Jump to main content</a></li>
+<li><a href="#sidebar">Jump to right sidebar</a></li>
+<li><a href="#footer">Jump to footer</a></li>
+</ul>
+</div> <!-- end a11y-jump-links -->
+
+	<div id="logo">
+    <h1><a href="http://aiyumi.warpstar.net/en/" title="Aiyumi.Warpstar.Net" rel="home">
+        Aiyumi.Warpstar.Net
+    </a></h1>
+
+<div id="site-langselect"> <!-- begin site-langselect -->
+    <ul>
+<li>View this site in:</li>
+            <li><a href="../../../pt" rel="alternate" hreflang="pt_br"><img src="../../../images/pt_br-flag.png" alt="Português"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/en/" rel="alternate" hreflang="en"><img src="../../../images/en-flag.png" alt="English"></a></li>
+            <li><a href="http://aiyumi.warpstar.net/ja/" rel="alternate" hreflang="ja"><img src="../../../images/ja-flag.png" alt="日本語"></a></li>
+    </ul>
+</div> <!-- end site-langselect -->
+
+		<p><em>Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.</em></p>
+	</div>
+
+	<hr>
+<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
+<li><a href="../../">Home</a></li>
+                <li><a href="../../about/">About</a></li>
+                <li><a href="../">Blog</a></li>
+                <li><a href="../../contact/">Contact</a></li>
+
+    </ul></nav></header><!-- end #header --><div id="page">
+		<div id="content">
+            
+            
+<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="." class="u-url">Slint, a Slackware-Based Linux Distribution that's Accessible to the Visually Impaired</a></h2>
+
+        <div class="info">
+<ul class="list-inline">
+<li>View this page in:</li>
+<li>English</li>
+<li>日本語</li>
+                <li><a href="../../../pt/blog/slint-linux-review/" rel="alternate" hreflang="pt_br">Português</a></li>
+</ul>
+</div>
+
+</article></header><div class="entry" itemprop="articleBody text">
+    <div>
+<p>As some already know, my Linux distribution of choice is Slackware. However, it isn't an easy distro for visually impaired users to install. The Slackware installer isn't accessible unless the users have a hardware-based voice synthesizer (I don't have one, and most others probably also don't), which means they'd need sighted assistance to install it and then install the screen readers. Some visually impaired blog visitors emailed me and showed interest on installing Slackware, but they had no one to provide them sighted assistance to carry them through the installation process, and sadly I couldn't help them. But now, this problem has a solution, in the form of a Slackware-based Linux distribution called <a href="http://slint.fr/wiki/en/start">Slint</a>. <!--more--></p>
+<h4>Slint and Accessibility</h4>
+<p>In mid august 2017, Didier Spaier - the creator of the Slint distribution - contacted some people - including me - to discuss how to make Slint accessible, and we helped test the next Slint release. After lots of testing, Slint 14.2.1 was released at the end of December 2017, with an accessible installer (both through Braille and speech), as well as Speakup (a screen reader for text-mode), Orca (a screen reader for graphical mode) and accessible window managers included by default.</p>
+<p>The installer can talk (speech feedback) or give Braille feedback if the user has a Braille device, and is available in multiple languages.</p>
+<p>Once installed, in graphical mode (X), Slint uses Orca with both speech and Braille support. It has quite a few window managers to choose from, most of them accessible. These include Blackbox, Fluxbox, LXDE, Windowmaker, XFCE, and MATE. Many of the graphical applications are also accessible, like LXTerminal (terminal emulator), Firefox (web browser), LibreOffice (office suite), Pluma (a lightweight text editor), and some beginner-friendly administrative tools, for those who aren't used to (or don't like) the Linux command-line.</p>
+<p>In text-mode, it has Braille support via Brltty, and the Speakup screen reader with software synthesis through Espeak and Espeakup. Slint even provides Emacspeak, for those who like Emacs.</p>
+<h4>Packages, Packages, and More Packages!</h4>
+<p>I love Slackware. It's the distro I got along best with, and that I found easier to use. I love how it keeps everything simple in general, as its principles dictate.  How it provides good settings for most things by default, how enabling/disabling services on startup is simply a matter of giving or removing executable permissions to the corresponding startup files in "/etc/rc.d" (usually just doing "chmod +x" to enable or "chmod -x" to disable is enough), how it's easy to inspect which file was installed from which package (just do a "grep file_to_check /var/log/packages/*") ), and how it doesn't split packages (like the separate "appname-bin," "appname-libs" and "appname-dev" from some other distros) and doesn't make me run the risk of running into the problems that come from installing only parts of packages. However, one major point of frustration to me, especially around 2009 when I began using Slackware, was that there were neither precompiled packages or SlackBuilds for most of the things I wanted, and I had to hunt the programs and their dependencies, and create the SlackBuilds for everything myself. This is one of the points that make people think Slackware is hard to use. But thankfully, those days are mostly gone, and there are many more packages (both binaries and SlackBuilds) available today than there were back then.</p>
+<p>Slint's packages are fully compatible with Slackware. Actually, many things like the kernel, Glibc, and various libraries and apps come directly from Slackware with no modifications at all. Slint also draws packages directly from the <a href="https://www.salixos.org/">Salix</a> distribution, which strives to provide packages fully compatible with the original Slackware. This includes an <a href="http://slackware.uk/salix/x86_64/extra-14.2/">"extra" repository</a> with many programs compiled using the Slackbuilds.org scripts. And There are also packages that don't come in Slackware by default but are in Slint, such as Espeakup, Orca and its dependencies. And since all the packages are compatible with Slackware, it means that users of the normal Slackware may take advantage of all of these repositories with ready to install packages, too!</p>
+<h4>Installing and Configuring Slint</h4>
+<p>Right at the beginning of 2018, <a href="../new-year-new-disk">my HD died, and I had to replace it</a>. But instead of installing Slackware like always, I chose to install Slint, since it has a talking installer and would allow me to install it without sighted help.</p>
+<p>Installing Slint is easy. First, <a href="https://sourceforge.net/projects/slint/files/14.2.1/">download the latest ISO</a> (Slint 14.2.1.1 at the time of this writing), burn it to a DVD or make a bootable USB stick. After turning the machine on with the installer media inserted, the computer may beep (if it doesn't, just wait around 10-15 seconds). Press "Enter." A list of languages will appear, but there won't be speech yet, so, choosing anything should be fine for now (the installer will ask to confirm the language later once speech is working, and this choice will come again).</p>
+<p>The installer will load, then will say aloud (in English)  that Slint has a talking installer in order to be accessible to visually impaired users (I thought this was a really nice touch :D ), and ask you to type "S" (a capital S) followed by "Enter" to keep speech, or just press "Enter" to continue without speech (either for sighted users, or people using Braille devices rather than speech). Then it'll ask a few more things and you have to confirm the desired language or choose a different one, and the keyboard layout will be set automatically according to the language you choose (for example, choosing Brazilian Portuguese as the language will automatically set the keyboard layout to the Brazilian standard which is "br-abnt2"), and you can accept this choice or pick a different one if you'd like. Then you log in as root (without a password) and get to the command prompt.</p>
+<p>If the disk is empty and not partitioned yet, then it must be partitioned before the installation. This is probably the hardest part for people not used to Linux, but should be easy enough (for complex cases where the disk isn't empty, already has another OS in it and you want to repartition to make Linux fit in there, it's a whole different story). The easiest way to create the partitions is to use "cfdisk" (tip: press numpad asterisk a few times until the screen reader says "highlight tracking." This should make navigating the options easier). Inside Cfdisk, the up and down arrows will navigate among the available partitions or unpartitioned space on the disk, the left and right arrows will cycle through the available actions (create a new partition, change the type, delete the partition, write the partition table), and "Enter" chooses the option. I won't go into detail here, but basically, Assuming an empty disk or a disk with unpartitioned space, the gist is: create at least a Linux and a swap partition, and an EFI partition if your machine supports EFI. For each partition, choose an area with free space, create a new partition, type the size (in MB, GB etc.) and choose the partition type among the presented options (the most relevant ones are "Linux," "Linux swap" and "EFI (FAT-12/16/32)"). Once all partitions are defined, choose to write the partition table and exit Cfdisk.</p>
+<p>Once the partitions are ready, typing "setup" will start the program that'll guide you through the Slint setup process itself. It's mostly the same as the Slackware setup process (I.E., just follow the instructions onscreen and choose what you want from the menus. It can't get easier than that!). Once you get to the part about installing packages, it'll ask if you want to install the KDE desktop environment (it takes a lot of disk space and isn't accessible to screen readers, so you might as well skip it). Then it installs everything, configures more stuff, asks to set a password for the root user, guides you through the creation of the first non-root user, and the installation will finish soon enough. Reboot, and that's it!</p>
+<p>For (much more) details about the setup process, check the <a href="http://slint.fr/wiki/en/installation_process">instructions in the Slint wiki</a>.</p>
+<h4>Configuring Accessibility</h4>
+<p>After I had installed Slint, at first I ran into a few problems with sound, mostly related to PulseAudio and ALSA-only apps (like media players) fighting to take over the soundcard, but thanks to the fixes in Slint 14.2.1.1 (released in February 5, 2018), these problems are no more, and the screen readers and other audio apps should coexist peacefully.</p>
+<p>To configure the graphical mode accessibility for your user, you must type the command "orca-on" as your regular user, so that it'll activate Orca on X startup via a file in "~/.config/autostart," and set the accessibility-related variables in your "~/.bash_profile" file. And if you need Braille, make sure to give executable permissions to "/etc/rc.d/rc.brltty." If you want to switch window managers, use the command "session-chooser." Or if you want to choose a login manager (to set logging in from text mode or graphical mode), use "login-chooser" (as root). And... that's it. Have fun!</p>
+<p>For more details about accessibility in Slint, read <a href="http://slackware.uk/slint/x86_64/slint-14.2.1/doc/ACCESSIBILITY">the accessibility howto</a>.</p>
+<h4>Installing, Upgrading, and Managing Packages</h4>
+<p>Slint comes with "installpkg," "removepkg," and "upgradepkg" just like normal Slackware. To make finding, installing and upgrading packages easier, it also comes with a few package management tools: Slapt-Get, Slapt-Src and SPI.</p>
+<p>Like the Apt-Get package manager from Debian, Slapt-Get installs precompiled packages from the repositories and (provided that the repository contains dependencies information) automatically installs the dependencies so that we don't need to hunt for each dependency one by one. Slapt-Src is similar, but instead of binaries, it finds and compiles packages directly from source, using SlackBuilds from repositories like Slackbuilds.org. And then there's SPI (the Salix Package Installer) that integrates the two tools into one interface. For example, if we ask to install a package with SPI (spi --install package_name), it'll try to find and install a binary using Slapt-Get, and if it doesn't find a binary, it'll try to find a SlackBuild, compile the program from source and install it via Slapt-Src.</p>
+<p>Thanks to my negative experiences with package managers from when I was beginning in Linux and first tried Debian and Ubuntu, I've always been wary of package managers, always thinking they may do things they shouldn't and break my system. But today I don't have as much time and disposition to hunt packages and dependencies as I had in the beginning. So, I decided to give Slint's package managers a chance. And to my surprise, I must say that they've been saving me a lot of time, and behaving just as I expected. I've put packages ending in "am" (the suffix for my custom compiled packages) in the exclusions list in "/etc/slapt-get/slapt-getrc" so that the tools don't try to replace my custom packages, and I always use the "--prompt" and "--simulate" switches to see what they're going to install/remove/upgrade before actually doing it. So far, I haven't run into any unpleasant surprises.</p>
+<p>Speaking of exclusions and upgrades, Slint has the kernel in the exclusions list too, because kernel upgrades require manual intervention. So, when official Slackware (which is where Slint gets the kernel packages from) releases a new kernel with security updates, it must be upgraded separately. For that, follow these <a href="http://slackware.uk/slint/x86_64/slint-14.2.1/doc/KernelSecurityUpgrades">kernel upgrade instructions</a>.</p>
+<h4>Conclusion</h4>
+<p>I've been using Slint as my main system since the beginning of January 2018. I'm treating my Slint install mostly the same way I had treated my Slackware installs in the past, except for using package managers, as it's something I didn't do before. But my experience with the provided package managers has been positive so far, and I feel that keeping my system up to date has never been easier. Overall, I'm very happy with this distro.</p>
+</div>
+    </div> <!-- end entry -->
+    <aside class="info"><p>Posted by                     Aiyumi
+- <a href="." rel="bookmark">
+<time datetime="2018-03-12T15:02:11-03:00" itemprop="datePublished" title="2018-03-12 15:02">2018-03-12 15:02</time></a>
+</p>
+            
+
+    <nav><ul itemprop="keywords" class="list-inline">
+<li>Tags: </li>
+            <li><a class="tag p-category" href="../../tag/linux/" rel="tag">linux</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../steemit-first-impressions/" rel="prev" title="My First Week on Steemit, and My First Impressions">Previous post</a>
+            </li>
+        </ul></nav></aside><div id="sharing-links">
+<h3>Share this Page</h3>
+<ul>
+<li><a href="https://twitter.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslint-linux-review%2F&amp;text=Slint,%20a%20Slackware-Based%20Linux%20Distribution%20that's%20Accessible%20to%20the%20Visually%20Impaired" target="_BLANK">Twitter</a></li>
+		<li><a href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslint-linux-review%2F" target="_BLANK">Facebook</a></li>
+		<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslint-linux-review%2F" target="_BLANK">Google Plus</a></li>
+		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslint-linux-review%2F&amp;title=Slint,%20a%20Slackware-Based%20Linux%20Distribution%20that's%20Accessible%20to%20the%20Visually%20Impaired" target="_BLANK">Delicious</a></li>
+		<li><a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Faiyumi.warpstar.net%2Fen%2Fblog%2Fslint-linux-review%2F&amp;title=Slint,%20a%20Slackware-Based%20Linux%20Distribution%20that's%20Accessible%20to%20the%20Visually%20Impaired" target="_BLANK">StumbleUpon</a></li>
+		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.warpstar.net/en/blog/slint-linux-review/" target="_BLANK">Hatena</a></li>
+</ul>
+</div> <!-- end sharing-links -->
+
+    
+
+ <!-- end post -->
+
+
+
+		</div>
+<!-- end #content -->
+		<nav id="sidebar"><h3>Blog</h3>
+<ul>
+<li><a href="../">Posts</a></li>
+
+                <li><a href="../../archive/">Archive</a></li>
+
+                <li><a href="../../tag/">Tags</a></li>
+
+                <li><a href="../../rss.xml">RSS Feed</a></li>
+
+</ul>
+<h3>Fandoms</h3>
+<ul>
+<li><a href="../../pokemon/">Pokemon</a></li>
+
+                <li><a href="../../rockman/">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+
+
+<h4>Aiyumi</h4>
+<ul>
+<li><a href="https://www.youtube.com/user/AiyumiBr" title="My channel on Youtube">Youtube</a></li>
+
+                <li><a href="https://github.com/aiyumi" title="My code and contributions on GitHub.">GitHub</a></li>
+
+                <li><a href="https://twitter.com/aiyumi_en" title="Twitter"></a></li>
+
+                <li><a href="http://www.fanfiction.net/u/1478552/" title="My fan fictions (in Portuguese and English).">Fanfiction.net</a></li>
+
+                <li><a href="http://archiveofourown.org/users/aiyumibr" title="Fan fictions (in English).">AO3</a></li>
+
+                <li><a href="http://www.freesound.org/people/Aiyumi/" title="My free sound effects on Freesound.">Freesound</a></li>
+
+                <li><a href="https://steemit.com/@aiyumi" title="Steemit"></a></li>
+
+</ul>
+<h4>Accessibility</h4>
+<ul>
+<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrating how to use some electronic gadgets without vision. Site in English.">Blind Cool Tech</a></li>
+
+</ul>
+<h4>Audio</h4>
+<ul>
+<li><a href="http://www.freesound.org/" title="A site that hosts thousands of free sound effects, most of them under a Creative Commons License, and others in the public domain. Site in English.">Freesound.org</a></li>
+
+</ul>
+<h4>Japanese</h4>
+<ul>
+<li><a href="http://www.aprendendojapones.com/" title="Japanese study tips, interesting things about Japan, origami and more. Site in Portuguese.">AprendendoJapones.com</a></li>
+
+                <li><a href="http://www.comoaprenderjapones.com/" title="Explanation about Japanese grammar and other study tips. Site in Portuguese.">ComoAprenderJapones</a></li>
+
+                <li><a href="http://www.jisho.org/" title="English &lt;&gt; Japanese dictionary, based on data from WWWJDIC. It allows searches for words, example sentences and kanji, by English, Japanese characters or romaji. Site in English.">Denshi Jisho</a></li>
+
+</ul>
+<h4>Linux</h4>
+<ul>
+<li><a href="http://www.br-linux.org/" title="News and articles about Linux and Free/Open Source software. Site in Portuguese.">BR-Linux.org</a></li>
+
+                <li><a href="https://perspicazsite.wordpress.com/" title="Blog of a friend of mine, about Unix, programming, Business Intelligence, among other subjects. In Portuguese.">Perspicazsite</a></li>
+
+</ul>
+<h4>Recommended Stores</h4>
+<ul>
+<li><a href="http://www.amazon.com/gp/redirect.html?ie=UTF8&amp;location=http%3A%2F%2Fwww.amazon.com%2F&amp;tag=aiyumysites01-20&amp;linkCode=ur2&amp;camp=1789&amp;creative=390957" title="One of the biggest online stores, with products ranging from toys, CDs, DVDs, games and books, to computers, musical instruments, clothing and car accessories.">Amazon.com</a></li>
+
+                <li><a href="http://www.play-asia.com/?tagid=199487" title="Anime DVDs, games (JP and US versions), soundtrack CDs and other things. Worldwide shipping. Site in various languages.">Play-Asia.com</a></li>
+
+</ul>
+<h4>Web Development</h4>
+<ul>
+<li><a href="https://getnikola.com/" title="The blog system this site uses now. Very customizable. Site in English.">Nikola</a></li>
+
+                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="This site's previous web host. It has many nice features like support for scripts in PHP, Perl, Python and other languages, Shell access to the server and very good documentation about how to use the services. Even though this site isn't hosted there anymore, I still recommend it. In English.">DreamHost.com</a></li>
+
+                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Free file hosting. 5 GB of space to upload your files, with direct links allowed. Good to put files for download on a site. In various languages.">OpenDrive</a></li>
+</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
+	</div>	<!-- end #page -->
+
+        <footer id="footer"><!-- begin #footer --><p>Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for "warpstar.net," as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like. (<a href="../../affiliate-disclosure">Affiliate disclosure</a>)</p>
+            <p class="smalltext">All trademarks are the properties of their respective authors and companies, and this site has no affiliations to them. All original content is copyright 2018 Aiyumi and, unless stated otherwise, is published under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+            
+<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,
+and hosted at <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a> 
+(<a href="https://github.com/aiyumi/aiyumi.github.io/tree/src" rel="nofollow">view site source code</a>)</p>
+<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<p id="a11y-jump-top"><a href="#top">Back to top</a></p>
+        </footer><!-- end #footer -->
+</body>
+</html>
