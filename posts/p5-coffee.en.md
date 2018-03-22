@@ -1,4 +1,4 @@
-.. title: How Persona 5 Sparked My Interest for the World of Coffee
+.. title: How Persona 5 Sparked My Interest in the World of Coffee
 .. slug: p5-coffee
 .. date: 2018-03-22 16:05:30
 .. tags: Games
