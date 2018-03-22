@@ -38,7 +38,7 @@ http://live.gnome.org/Orca/SysAdmin
 
 it didn't work very well. Sometimes Orca talked, most times it didn't. It frequently stopped talking or the system crashed all of a sudden. The problem was becoming more constant, until my Ubuntu stopped working. I read some articles that took me to the conclusion that accessibility in the penguin was still weak. I thought the crashing problems I had were Orca's fault and decided to wait until it matured more.
 
-### Deception ###
+### Disappointment ###
 
 Some months have passed. I hadn't given up the idea of using Linux. I decided to check how accessibility was going and downloaded Ubuntu 8.10. Unfortunately the audio didn't work on my PC, which had a Realtek soundcard known to be problematic for Linux users. I tested it on the laptop and the screen reader finally spoke: "Welcome to Orca."... ... ..... And nothing else. I searched in forums, Orca's official site and mailing list for the answer to why it was not working in Ubuntu 8.10. I found nothing similar to my case. I read several things during this search and came to a conclusion: I don't like Ubuntu.
 
@@ -100,13 +100,13 @@ and Speechd-Up
 
 http://www.freebsoft.org/speechd-up
 
-But only after Slackware and the synthesizer software are installed. So, in any way, I would need help from someone that could see.
+But only after Slackware and the synthesizer software are installed. So, either way, I would need help from a sighted person.
 
 Even with the con above, I decided to install Slackware. Something told me it would be difficult, while another said that it wouldn't be impossible.
 
 ### Installing and Configuring ###
 
-I destroyed all my failed experiments in my laptop and inserted the Slackware 12.2's DVD. So, I made my mother, who knows almost nothing about both linux and English, read the full installer for me. About three hours later, Slack was on my laptop, silent, but working. Following the steps outlined in one of the articles already mentioned above, still with non-technical assistance, I set up the audio with "alsaconf", then "alsamixer" to increase the volume, followed by "alsactl store" to save. To make the thing talk, I used another computer (which was still with Windows) to access the Internet and download the following software:
+I destroyed all my failed experiments in my laptop and inserted the Slackware 12.2's DVD. So, I had my mother, who knows almost nothing about either linux or English, read the full installer for me. About three hours later, Slack was on my laptop, silent, but working. Following the steps outlined in one of the articles already mentioned above, still with non-technical assistance, I set up the audio with "alsaconf", then "alsamixer" to increase the volume, followed by "alsactl store" to save. To make the thing talk, I used another computer (which was still with Windows) to access the Internet and download the following software:
 
 - Espeak (voice synthesizer with support for multiple languages, including Portuguese):
 
@@ -128,17 +128,17 @@ Living a little in the Slackware world was enough to find out that using the "th
 
 http://repository.slacky.eu/
 
-and used them as a basis for compiling the latest version of Orca and its dependencies.
+and used them as a base for compiling the latest version of Orca and its dependencies.
 
 After much trial and error, I managed to install Orca. I put it to speak and it said:
 "Welcome to Orca." ... ... ..... And nothing else.
-"What? Why? Is it because it isn't Gnome? No, it can't be, so I ran away from it the whole time and now it comes to this... Doesn't it have another way? And will I really have to install it?"
+"What? Why? Is it because it isn't Gnome? No, it can't be, so I ran away from GNOME the whole time and now it comes to this... isn't there another way? And will I really have to install it?"
 
 Soon the answer came. I found another attempt at an accessible distro, the new version of Knoppix with a collection of accessibility related software, called "ADRIANE" (Audio Desktop Reference Implementation and Networking Environment)
 
 http://www.knopper.net/knoppix-adriane/index-en.html
 
-I downloaded and tested it. It's version of ALSA was a little old and sound didn't work on my PC because of the soundcard, but it worked like a charm on the laptop. The distro had a text-based interface (console/text mode), with menus using Dialog and a console screen reader. It even had an option to run a graphical interface, with Orca as screen reader, Firefox, OpenOffice and LXDE
+I downloaded and tested it. It's version of ALSA was a little old and sound didn't work on my PC because of the soundcard, but it worked like a charm on the laptop. The distro had a text-based interface (console/text-mode), with menus using Dialog and a console screen reader. It even had an option to run a graphical interface, with Orca as screen reader, Firefox, OpenOffice and LXDE
 
 (http://www.lxde.org)
 
@@ -155,7 +155,7 @@ export SAL_USE_VCLPLUGIN="gtk"
 export GTK_MODULES="gail:atk-bridge"
 
 
-It still didn't work, nothing else was said a part from "Welcome to Orca.." Again, I looked through the mailing lists and forums, without finding any crazy case like mine. Then I found the guide on creating accessible applications with GTK:
+It still didn't work, nothing else was said a part from "Welcome to Orca.." Again, I looked through the mailing lists and forums, but couldn't find any crazy case like mine. Then I found the guide on creating accessible applications with GTK:
 
 http://live.gnome.org/GAP/AtkGuide/Gtk
 
@@ -200,7 +200,7 @@ To start a talking graphical session, it was "just" a matter of putting the foll
 
 ### Migration ###
 
-After backing up all my important files, I destroyed the PC's Windows partition without mercy. again, with non-technical assistance, I chose the kernel with Speakup and repeated Slackware's installation and configuration processes on the PC. To install the accessibility related applications, I used the .tgz packages I had built when experimenting on the laptop. A few trial and errors later, I had the main computer running Slackware Linux and, most importantly, talking!
+After backing up all my important files, I destroyed the PC's Windows partition without mercy. Again, with non-technical assistance, I chose the kernel with Speakup and repeated Slackware's installation and configuration processes on the PC. To install the accessibility related applications, I used the .tgz packages I had built when experimenting on the laptop. A few trial and errors later, I had the main computer running Slackware Linux and, most importantly, talking!
 
 ### How Things are Today ###
 
@@ -230,7 +230,7 @@ Despite having struggled a lot with the accessibility applications, now I'm usin
 
 [\*] This article is old and some things from it are outdated. For example, I already got Speakup to work (maybe I'll make a post explaining how).
 
-But the .xinitrc script is what improved the most, now able to work with AT-SPI 1 and 2. And contrary to what I wrote on the article, later I learned that Orca should NOT be the last thing to be started. To start the X server (the graphical user interface), the desired applications must run on the background, excluding the "main" program (usually the desktop environment or the window manager), which should be the last thing to be started. If this program closes, the X server goes down with it. That's why the desktop or window manager should be the last thing to start, and not Orca. Probably, this is one of the details I would never know if I used one of the distros that come with everything configured "out of the box" (and maybe, I would give up, thinking the only solution to make it work correctly was to install Gnome...).
+But the .xinitrc script is what improved the most, now able to work with AT-SPI 1 and 2. And contrary to what I wrote on the article, later I learned that Orca should NOT be the last thing to be started. To start the X server (the graphical user interface), the desired applications must run on the background, excluding the "main" program (usually the desktop environment or the window manager), which should be the last thing to be started. If this program closes, the X server goes down with it. That's why the desktop or window manager should be the last thing to start, and not Orca. Probably, this is one of the details I would never know if I had used one of the distros that come with everything configured "out of the box" (and maybe, I would have given up, thinking the only solution to make it work correctly was to install Gnome...).
 
 I've made an improved version of the script from the article, adding support for AT-SPI version 2. The above corrections play an important part on this script, because things must be started in a specific order.
 
