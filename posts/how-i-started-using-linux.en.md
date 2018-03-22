@@ -5,8 +5,6 @@
 .. tags: linux
 .. date: 2011-03-14 20:51:36
 
-\* Article in Portuguese
-
 On June 23rd, 2009, I published an article on the Slackware Users Group Brazil mailing list, talking about how I migrated from Windows to Linux.
 
 You can view the original version [here][artig], in Portuguese. <!--more-->
