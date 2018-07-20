@@ -7,31 +7,31 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/rss.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/audio.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/fan-made.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/game-accessibility.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/games.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/linux.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/site-updates.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/utau.xml</loc>
@@ -39,7 +39,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/violin.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/en/tag/vocaloid.xml</loc>
@@ -79,23 +79,23 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/rss.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:37:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/audio.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/fan-made.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/game-accessibility.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/games.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/japanese-study.xml</loc>
@@ -103,11 +103,11 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/linux.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/site-updates.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/utau.xml</loc>
@@ -115,7 +115,7 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/violin.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/pt/tag/vocaloid.xml</loc>
@@ -123,6 +123,6 @@
  </sitemap>
  <sitemap>
   <loc>http://aiyumi.warpstar.net/sitemap.xml</loc>
-  <lastmod>2018-04-19T01:27:00Z</lastmod>
+  <lastmod>2018-07-20T17:45:00Z</lastmod>
  </sitemap>
 </sitemapindex>
