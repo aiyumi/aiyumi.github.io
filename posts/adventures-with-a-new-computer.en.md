@@ -14,12 +14,12 @@ As I also needed to use the computer for work, I chose a little more "profession
 * Model: Vostro 270 Slim
 * Processor: Intel ® Core ™ i5-3450S (2.8Ghz, 6MB cache) (64-bit processor)
 * HD: 1TB SATA (7200 RPM)
-* RAM: 6GB, Dual Channel DDR3, 1600MHz (1x4Gb) + (1x2GB)
+* RAM: 6GB, Dual Channel DDR3, 1600MHz (1x4GB) + (1x2GB)
 * Keyboard: Dell USB keyboard in Portuguese
-* Monitor: Monitor Dell E1912H 18.5-inch Widescreen
+* Monitor: Dell E1912H 18.5-inch Widescreen Monitor
 * Video Card: nVidia GeForce 620, 1GB
 
-The other PC's monitor was replaced recently so I did not need a new one, but I couldn't remove it (strangely, removing the monitor caused the price to go up...). I also couldn't get rid of the Microsoft Office thirty day trial. Speaking of MS, it came with Windows 7 Professional 64-Bit. My main system is still Linux, but since the other one was there, I decided to leave it there for testing some things, for the rare cases of apps that Wine can't handle, and because screen readers (more Specifically, [NVDA][nvdahp]) can be run on Windows and not on Wine. My intention was to dual boot with Linux, but there were some problems...
+The other PC's monitor was replaced recently and I didn't need a new one, but I couldn't remove it (strangely, removing the monitor caused the price to go up...). I also couldn't get rid of the Microsoft Office thirty day trial. Speaking of MS, it came with Windows 7 Professional 64-Bit. My main system is still Linux, but since the other one was there, I decided to leave it there for testing some things, for the rare cases of apps that Wine can't handle, and because screen readers (more Specifically, [NVDA][nvdahp]) can be run on Windows and not on Wine. My intention was to dual boot with Linux, but there were some problems...
 
 ### Partitioning the Disk ###
 

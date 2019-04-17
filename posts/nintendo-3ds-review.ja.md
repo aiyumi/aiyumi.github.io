@@ -30,7 +30,6 @@ width="320" height="240" alt="説明書" />
 - [ニンテンドー3DS - Wikipedia][3ds-wikipedia-ja]
 - [ニンテンドー3DSまとめWiki][3ds-atwiki]
 - [3DS Wiki（英語）][3ds-wikia]
-- <a target="_blank" href="http://www.amazon.co.jp/mn/search/ref=topnav_switchLang/?_encoding=UTF8&camp=247&creative=7399&field-keywords=3ds&language=ja_JP&linkCode=ur2&tag=aiyumysites01-22&url=search-alias%3Dvideogames">ニンテンド3DS @ Amazon</a><img src="https://www.assoc-amazon.jp/e/ir?t=aiyumysites01-22&l=ur2&o=9" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 - [ニンテンドー3DS @ Play-Asia][3ds-playasia-ja]
 
 [3ds-official-ja]: http://www.nintendo.co.jp/3ds/

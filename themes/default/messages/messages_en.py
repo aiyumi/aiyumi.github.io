@@ -59,5 +59,5 @@ MESSAGES = {
     "rockman_disclaimer": "Rockman/Mega Man and all related material are copyright Capcom Co., Ltd. ",
     "persona_disclaimer": "Persona and all related material are copyright Atlus. ",
     "fanworks_disclaimer": " All trademarks are property of their respective owners. These are just fan works with no relation to those owners.",
-    "afflinks_note": "Note: if you use my links to buy anything at Amazon or Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for \"warpstar.net,\" as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like.",
+    "afflinks_note": "Note: if you use my links to buy anything at Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program. This should help me pay for the domain registration for \"warpstar.net,\" as well as help me buy games, virtual musical instruments (sample libraries), VOCALOIDs and the like.",
 }

@@ -14,7 +14,7 @@ Como preciso usar o computador para trabalho, escolhi uma máquina um pouquinho 
 * Modelo: Vostro 270 Slim
 * Processador: Intel® Core™ i5-3450S (2.8Ghz, 6Mb cache) (processador de 64-bits)
 * HD: 1TB, SATA (7200 RPM)
-* Memória RAM: 6GB, Dual Channel DDR3, 1600MHz (1x4Gb) + (1x2Gb)
+* Memória RAM: 6GB, Dual Channel DDR3, 1600MHz (1x4GB) + (1x2GB)
 * Teclado: teclado USB Dell em Português
 * Monitor: monitor Dell E1912H Widescreen de 18,5 polegadas
 * Placa de vídeo: nVidia GeForce 620, 1GB

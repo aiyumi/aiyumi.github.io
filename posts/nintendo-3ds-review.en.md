@@ -73,7 +73,6 @@ Aside from the short battery life and the low sound volume with headphones (and 
 - [Nintendo 3DS' official site][3ds-official-en]
 - [The Wikipedia article about the 3DS][3ds-wikipedia-en]
 - [A wiki about the 3DS][3ds-wikia]
-- <a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=3ds&linkCode=ur2&tag=aiyumysites01-20&url=search-alias%3Dvideogames">Nintendo 3DS at Amazon</a><img src="https://www.assoc-amazon.com/e/ir?t=aiyumysites01-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 - [Nintendo 3DS at Play-Asia][3ds-playasia-en]
 
 [3ds-official-en]: http://www.nintendo.com/3ds/
