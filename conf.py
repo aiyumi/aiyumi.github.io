@@ -18,13 +18,13 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Aiyumi"  # (translatable)
-BLOG_TITLE = "Aiyumi.Warpstar.Net"  # (translatable)
+BLOG_TITLE = "Aiyumi.Github.Io"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://aiyumi.warpstar.net/"
+SITE_URL = "https://aiyumi.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://aiyumi.warpstar.net/"
+# BASE_URL = "https://aiyumi.github.io/"
 BLOG_EMAIL = "aiyumi.br@gmail.com"
 BLOG_DESCRIPTION = {
     "pt_br": U"Acessibilidade, áudio, jogos, Linux e outras coisas, do ponto de vista de uma deficiente visual.",
@@ -117,19 +117,25 @@ menu_links = {
     DEFAULT_LANG: (
         ("/pt/", U"Home"),
         ("/pt/about/", U"Sobre"),
-        ("/pt/blog/", U"Blog"),
+        ("/pt/tag/site-updates/", U"Atualizações"),
+        ("/pt/blog/", U"Blog Antigo"),
+        ("https://hive.blog/@aiyumi", U"Blog Atual"),
         ("/pt/contact/", U"Contato"),
     ),
     "en": (
         ("/en/", U"Home"),
         ("/en/about/", U"About"),
-        ("/en/blog/", U"Blog"),
+        ("/en/tag/site-updates/", U"Site Updates"),
+        ("/en/blog/", U"Old Blog"),
+        ("https://hive.blog/@aiyumi", U"Current Blog"),
         ("/en/contact/", U"Contact"),
     ),
     "ja": (
         ("/ja/", U"ホーム"),
         ("/ja/about/", U"紹介"),
-        ("/ja/blog/", U"ブログ"),
+        ("/ja/tag/site-updates/", U"ウェブサイト更新"),
+        ("/ja/blog/", U"前のブログ"),
+        ("https://hive.blog/@aiyumi", U"現在のブログ"),
         ("/ja/contact/", U"連絡先"),
     ),
 }
@@ -210,7 +216,7 @@ sidebar_links_list = {
         ("http://www.fanfiction.net/u/1478552/", U"Fanfiction.net", U"Minhas fan fictions (em Português e Inglês)."),
         ("http://archiveofourown.org/users/aiyumibr", U"AO3", U"Fan fictions (em Inglês)."),
         ("http://www.freesound.org/people/Aiyumi/", U"Freesound", U"Meus efeitos sonoros grátis no Freesound."),
-        ("https://steemit.com/@aiyumi", "", U"Steemit"),
+        ("https://hive.blog/@aiyumi", "", U"Hive"),
         ("", "", U"Acessibilidade"),
         ("http://www.blindcooltech.com/", U"Blind Cool Tech", U"Podcasts demonstrando como usar alguns aparelhos eletrônicos sem enxergar. Site em Inglês."),
         ("", "", U"Áudio"),
@@ -220,7 +226,6 @@ sidebar_links_list = {
         ("http://www.comoaprenderjapones.com/", U"ComoAprenderJapones", U"Explicações sobre a gramática japonesa e outras dicas de estudo. Site em Português."),
         ("http://www.jisho.org/", U"Denshi Jisho", U"Dicionário de Inglês <> Japonês, baseado em dados do WWWJDIC. Permite busca por palavras, sentenças de exemplo e kanji, tanto por Inglês, caracteres japoneses ou romaji. Site em Inglês."),
         ("", "", U"Linux"),
-        ("http://www.br-linux.org/", U"BR-Linux.org", U"Notícias e artigos sobre Linux e software livre/de código aberto. Site em Português."),
         ("https://perspicazsite.wordpress.com/", U"Perspicazsite", U"Blog de um amigo meu, sobre Unix, programação, Business Intelligence, entre outros assuntos."),
         ("", "", U"Lojas Recomendadas"),
         ("http://www.play-asia.com/?tagid=199487", U"Play-Asia.com", U"DVDs de anime, jogos (versão japonesa e americana), CDs de trilha sonora (OSTs) e outras coisas. Entrega praticamente para o mundo todo (inclusive o Brasil). Site em vários idiomas, inclusive Português."),
@@ -237,7 +242,7 @@ sidebar_links_list = {
         ("http://www.fanfiction.net/u/1478552/", U"Fanfiction.net", U"My fan fictions (in Portuguese and English)."),
         ("http://archiveofourown.org/users/aiyumibr", U"AO3", U"Fan fictions (in English)."),
         ("http://www.freesound.org/people/Aiyumi/", U"Freesound", U"My free sound effects on Freesound."),
-        ("https://steemit.com/@aiyumi", "", U"Steemit"),
+        ("https://hive.blog/@aiyumi", "", U"Hive"),
         ("", "", U"Accessibility"),
         ("http://www.blindcooltech.com/", U"Blind Cool Tech", U"Podcasts demonstrating how to use some electronic gadgets without vision. Site in English."),
         ("", "", U"Audio"),
@@ -247,7 +252,6 @@ sidebar_links_list = {
         ("http://www.comoaprenderjapones.com/", U"ComoAprenderJapones", U"Explanation about Japanese grammar and other study tips. Site in Portuguese."),
         ("http://www.jisho.org/", U"Denshi Jisho", U"English <> Japanese dictionary, based on data from WWWJDIC. It allows searches for words, example sentences and kanji, by English, Japanese characters or romaji. Site in English."),
         ("", "", U"Linux"),
-        ("http://www.br-linux.org/", U"BR-Linux.org", U"News and articles about Linux and Free/Open Source software. Site in Portuguese."),
         ("https://perspicazsite.wordpress.com/", U"Perspicazsite", U"Blog of a friend of mine, about Unix, programming, Business Intelligence, among other subjects. In Portuguese."),
         ("", "", U"Recommended Stores"),
         ("http://www.play-asia.com/?tagid=199487", U"Play-Asia.com", U"Anime DVDs, games (JP and US versions), soundtrack CDs and other things. Worldwide shipping. Site in various languages."),
@@ -265,7 +269,7 @@ sidebar_links_list = {
         ("http://www.fanfiction.net/u/1478552/", U"Fanfiction.net", U"ファンフィクション。（ポルトガル語と英語）"),
         ("http://archiveofourown.org/users/aiyumibr", U"AO3", U"ファンフィクション（英語）"),
         ("http://www.freesound.org/people/Aiyumi/", U"Freesound", U"Freesoundにアップした無料効果音"),
-        ("https://steemit.com/@aiyumi", "", U"Steemit"),
+        ("https://hive.blog/@aiyumi", "", U"Hive"),
         ("", "", U"アクセシビリティ"),
         ("http://www.blindcooltech.com/", U"Blind Cool Tech", U"目が見えなくてもいろんな機械を使う方法を紹介するポッドキャスト。（英語）"),
         ("", "", U"オーディオ（音）"),
@@ -275,7 +279,6 @@ sidebar_links_list = {
         ("http://www.comoaprenderjapones.com/", U"ComoAprenderJapones", U"日本語文法の説明や勉強に役立つ情報がいっぱいあります。（ポルトガル語）"),
         ("http://www.jisho.org/", U"Denshi Jisho", U"WWWJDICのデータを基に創られた英和 <> 和英辞書。日本の文字でもローマ字でも単語、例文や漢字を検索できます。（英語）"),
         ("", "", U"Linux"),
-        ("http://www.br-linux.org/", U"BR-Linux.org", U"Linuxとフリー（オープンソース）ソフトウェアニュース。（ポルトガル語）"),
         ("https://perspicazsite.wordpress.com/", U"Perspicazsite", U"友人のブログ。話題わUnix、プログラミング、ビジネスインテリジェンスなど。（ポルトガル語）"),
         ("", "", U"お奨めのオンラインストア"),
         ("http://www.play-asia.com/?tagid=199487", U"Play-Asia.com", U"日本語版と英語版のあにめDVDとげーむ、さんとらCDなど売っている通販さいと。海外にも配送します。（日本語）"),

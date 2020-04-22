@@ -35,7 +35,7 @@ Bom, como já deve ter dado para perceber, muita coisa aconteceu. O problema é 
 [fsbookmarks]: http://www.freesound.org/people/Aiyumi/bookmarks/
 [voca-pt]: http://pt.wikipedia.org/wiki/Vocaloid
 [slackbuilds]: https://github.com/aiyumi/slackware-scripts
-[orca-install]: http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0
+[orca-install]: /pt/blog/installing-orca-on-slackware-14-0
 [uta-pt]: http://www.vocaloidbrasil.com/utau/sobre-utau/o-que-e-utau/
 [twitter-en]: https://twitter.com/aiyumi_en
 [twitter-rss]: http://www.rssitfor.me/getrss?name=aiyumi_en

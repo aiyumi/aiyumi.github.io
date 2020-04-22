@@ -17,4 +17,4 @@ PS：[（残念ながらまだ日本語版がない）ゲームアクセシビ�
 [zld]: http://www.zeldadungeon.net/2010/03/cnn-blind-gamer-beats-zelda/
 [cnn]: http://edition.cnn.com/video/?/video/us/2010/03/03/dnt.blind.gamer.beats.zelda.wis
 [channel]: http://www.youtube.com/user/genuinescorruption
-[a11y-intro]: http://aiyumi.warpstar.net/en/blog/game-a11y-intro
+[a11y-intro]: /en/blog/game-a11y-intro

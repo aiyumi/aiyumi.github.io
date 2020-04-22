@@ -16,4 +16,4 @@ PS: No meu [artigo introdutório à acessibilidade de jogos][a11y-intro], eu dis
 [zld]: http://www.zeldadungeon.net/2010/03/cnn-blind-gamer-beats-zelda/
 [cnn]: http://edition.cnn.com/video/?/video/us/2010/03/03/dnt.blind.gamer.beats.zelda.wis
 [channel]: http://www.youtube.com/user/genuinescorruption
-[a11y-intro]: http://aiyumi.warpstar.net/pt/blog/game-a11y-intro
+[a11y-intro]: /pt/blog/game-a11y-intro

@@ -35,7 +35,7 @@ Well, a lot happened, as you can see. The problem is that I don't have the patie
 [fsbookmarks]: http://www.freesound.org/people/Aiyumi/bookmarks/
 [voca-en]: http://en.wikipedia.org/wiki/Vocaloid
 [slackbuilds]: https://github.com/aiyumi/slackware-scripts
-[orca-install]: http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0
+[orca-install]: /en/blog/installing-orca-on-slackware-14-0
 [uta-en]: http://en.wikipedia.org/wiki/Utau
 [twitter-en]: https://twitter.com/aiyumi_en
 [twitter-rss]: http://www.rssitfor.me/getrss?name=aiyumi_en
