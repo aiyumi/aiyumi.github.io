@@ -1,6 +1,6 @@
-Sitemap: http://aiyumi.warpstar.net/sitemapindex.xml
+Sitemap: https://aiyumi.github.io/sitemapindex.xml
 
 User-Agent: *
 Disallow: /archive/index.html
 Disallow: /category/*/index.html
-Host: aiyumi.warpstar.net
+Host: aiyumi.github.io

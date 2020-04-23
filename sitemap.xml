@@ -6,1161 +6,1183 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://aiyumi.warpstar.net/</loc>
+  <loc>https://aiyumi.github.io/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/</loc>
+  <loc>https://aiyumi.github.io/en/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/about/</loc>
+  <loc>https://aiyumi.github.io/en/about/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
+  <loc>https://aiyumi.github.io/en/archive/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2011/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2011/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2012/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2012/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2013/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2013/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2014/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2014/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2015/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2015/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2016/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2016/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2017/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2017/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2018/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2018/</loc>
   <lastmod>2018-01-22T18:03:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/archive/2019/</loc>
+  <loc>https://aiyumi.github.io/en/archive/2019/</loc>
   <lastmod>2019-07-21T23:44:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
+  <loc>https://aiyumi.github.io/en/archive/2020/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
+  <loc>https://aiyumi.github.io/en/blog/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/en/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/accessibility-and-how-i-began-using-vocaloid/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/</loc>
+  <loc>https://aiyumi.github.io/en/blog/accessibility-first-results-with-vocaloid/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/accessibility-first-results-with-vocaloid/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/accessibility-first-results-with-vocaloid/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/adventures-with-a-new-computer/</loc>
+  <loc>https://aiyumi.github.io/en/blog/adventures-with-a-new-computer/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/adventures-with-a-new-computer/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/adventures-with-a-new-computer/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/ath-cevio-1/</loc>
+  <loc>https://aiyumi.github.io/en/blog/ath-cevio-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/ath-cevio-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/ath-cevio-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/bg-ave-maria-violin-1/</loc>
+  <loc>https://aiyumi.github.io/en/blog/bg-ave-maria-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bg-ave-maria-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bg-ave-maria-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/bg-ave-maria-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/bg-ave-maria-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/blind-man-beats-zelda-ot/</loc>
+  <loc>https://aiyumi.github.io/en/blog/blind-man-beats-zelda-ot/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/blind-man-beats-zelda-oot/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/blind-man-beats-zelda-oot/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/blind-man-beats-zelda-oot/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/en/blog/bonnes-theme-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/bonnes-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/bonnes-theme-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-2/</loc>
+  <loc>https://aiyumi.github.io/en/blog/bonnes-theme-arrange-2/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/bonnes-theme-arrange-2/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/bonnes-theme-arrange-2/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/</loc>
+  <loc>https://aiyumi.github.io/en/blog/brahms-lullaby-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/flying-on-brahms-waltz/</loc>
+  <loc>https://aiyumi.github.io/en/blog/flying-on-brahms-waltz/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/flying-on-brahms-waltz/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/flying-on-brahms-waltz/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/game-a11y-intro/</loc>
+  <loc>https://aiyumi.github.io/en/blog/game-a11y-intro/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/game-a11y-intro/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/game-a11y-intro/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/getting-ready-for-persona5/</loc>
+  <loc>https://aiyumi.github.io/en/blog/getting-ready-for-persona5/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/getting-ready-for-persona5/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/getting-ready-for-persona5/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/gossec-gavotte-fvl-cover/</loc>
+  <loc>https://aiyumi.github.io/en/blog/goodbye-to-the-warpstar/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/goodbye-to-the-warpstar/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/en/blog/gossec-gavotte-fvl-cover/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/gossec-gavotte-fvl-cover/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/gossec-gavotte-fvl-cover/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/happy-birthday-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/en/blog/happy-birthday-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/happy-birthday-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/happy-birthday-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/happy-birthday-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/how-i-started-using-linux/</loc>
+  <loc>https://aiyumi.github.io/en/blog/how-i-started-using-linux/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/how-i-started-using-linux/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/how-i-started-using-linux/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/in-the-mood-to-dash/</loc>
+  <loc>https://aiyumi.github.io/en/blog/in-the-mood-to-dash/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-dash/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-dash/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/in-the-mood-to-dash/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/in-the-mood-to-dash/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/in-the-mood-to-redash/</loc>
+  <loc>https://aiyumi.github.io/en/blog/in-the-mood-to-redash/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-redash/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/in-the-mood-to-redash/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-1.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
+  <loc>https://aiyumi.github.io/en/blog/index-1.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-2.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
+  <loc>https://aiyumi.github.io/en/blog/index-2.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-3.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
+  <loc>https://aiyumi.github.io/en/blog/index-3.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-4.html</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
+  <loc>https://aiyumi.github.io/en/blog/index-4.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/index-5.html</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
+  <loc>https://aiyumi.github.io/en/blog/index-5.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/</loc>
+  <loc>https://aiyumi.github.io/en/blog/installing-orca-on-slackware-14-0/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/installing-orca-on-slackware-14-0/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14.2/</loc>
+  <loc>https://aiyumi.github.io/en/blog/installing-orca-on-slackware-14.2/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/installing-orca-on-slackware-14.2/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/keyboard-demo-songs/</loc>
+  <loc>https://aiyumi.github.io/en/blog/keyboard-demo-songs/</loc>
   <lastmod>2018-04-19T01:27:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/keyboard-demo-songs/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/keyboard-demo-songs/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/kirby-revenge-of-error-knight/</loc>
+  <loc>https://aiyumi.github.io/en/blog/kirby-revenge-of-error-knight/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/kirby-revenge-of-error-knight/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/kirby-revenge-of-error-knight/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/kirby-revenge-of-error-knight/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/new-pokemon-section/</loc>
+  <loc>https://aiyumi.github.io/en/blog/new-pokemon-section/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/new-pokemon-section/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/new-pokemon-section/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/new-pokemon-section/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/new-pokemon-section/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/new-year-new-disk/</loc>
+  <loc>https://aiyumi.github.io/en/blog/new-year-new-disk/</loc>
   <lastmod>2018-01-22T18:03:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/new-year-new-disk/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/new-year-new-disk/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/nintendo-3ds-review/</loc>
+  <loc>https://aiyumi.github.io/en/blog/nintendo-3ds-review/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/nintendo-3ds-review/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/nintendo-3ds-review/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/nintendo-3ds-review/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/nintendo-3ds-review/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/p3-food-ramen/</loc>
+  <loc>https://aiyumi.github.io/en/blog/p3-food-ramen/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/p3-food-ramen/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/p3-food-ramen/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/p5-coffee/</loc>
+  <loc>https://aiyumi.github.io/en/blog/p5-coffee/</loc>
   <lastmod>2018-03-22T18:28:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/p5-coffee/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/p5-coffee/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/p5-op-utau-cover/</loc>
+  <loc>https://aiyumi.github.io/en/blog/p5-op-utau-cover/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/p5-op-utau-cover/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/p5-op-utau-cover/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/plasma-theme-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/en/blog/plasma-theme-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/plasma-theme-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/plasma-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/plasma-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/plasma-theme-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/power-of-slackbuilds/</loc>
+  <loc>https://aiyumi.github.io/en/blog/power-of-slackbuilds/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/power-of-slackbuilds/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/power-of-slackbuilds/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/ps4-slim-review/</loc>
+  <loc>https://aiyumi.github.io/en/blog/ps4-slim-review/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/ps4-slim-review/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/ps4-slim-review/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/</loc>
+  <loc>https://aiyumi.github.io/en/blog/rockman-fanfics-01/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/rockman-fanfics-01/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/rockman-fanfics-01/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/</loc>
+  <loc>https://aiyumi.github.io/en/blog/slack-14.2-srs-and-pulse/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/slack-14.2-srs-and-pulse/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/slint-linux-review/</loc>
+  <loc>https://aiyumi.github.io/en/blog/slint-linux-review/</loc>
   <lastmod>2018-03-12T17:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/slint-linux-review/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/slint-linux-review/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/</loc>
+  <loc>https://aiyumi.github.io/en/blog/sounds-of-ilha-grande/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sounds-of-ilha-grande/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/sounds-of-ilha-grande/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/sounds-of-ilha-grande/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/sox-basic-intro/</loc>
+  <loc>https://aiyumi.github.io/en/blog/sox-basic-intro/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sox-basic-intro/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/sox-basic-intro/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/sox-basic-intro/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/starting-the-blog/</loc>
+  <loc>https://aiyumi.github.io/en/blog/starting-the-blog/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/starting-the-blog/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/starting-the-blog/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/starting-the-blog/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/starting-the-blog/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/static-blog-migration/</loc>
+  <loc>https://aiyumi.github.io/en/blog/static-blog-migration/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/static-blog-migration/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/static-blog-migration/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/static-blog-migration/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/status-update-2011-08-04/</loc>
+  <loc>https://aiyumi.github.io/en/blog/status-update-2011-08-04/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-08-04/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-08-04/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2011-08-04/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2011-08-04/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/status-update-2011-09-07/</loc>
+  <loc>https://aiyumi.github.io/en/blog/status-update-2011-09-07/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-09-07/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-09-07/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2011-09-07/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2011-09-07/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/status-update-2012-01-01/</loc>
+  <loc>https://aiyumi.github.io/en/blog/status-update-2012-01-01/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-01-01/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-01-01/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2012-01-01/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2012-01-01/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/status-update-2012-03-26/</loc>
+  <loc>https://aiyumi.github.io/en/blog/status-update-2012-03-26/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-03-26/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-03-26/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2012-03-26/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2012-03-26/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/status-update-2013-02-09/</loc>
+  <loc>https://aiyumi.github.io/en/blog/status-update-2013-02-09/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2013-02-09/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2013-02-09/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2013-02-09/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2013-02-09/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/status-update-2018-07-20/</loc>
+  <loc>https://aiyumi.github.io/en/blog/status-update-2018-07-20/</loc>
   <lastmod>2018-07-20T17:37:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2018-07-20/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2018-07-20/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/status-update-2019-07-21/</loc>
+  <loc>https://aiyumi.github.io/en/blog/status-update-2019-07-21/</loc>
   <lastmod>2019-07-21T23:44:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2019-07-21/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2019-07-21/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/steemit-first-impressions/</loc>
+  <loc>https://aiyumi.github.io/en/blog/steemit-first-impressions/</loc>
   <lastmod>2018-02-17T13:48:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/steemit-first-impressions/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/steemit-first-impressions/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/super-printer-mario/</loc>
+  <loc>https://aiyumi.github.io/en/blog/super-printer-mario/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/super-printer-mario/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/super-printer-mario/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/super-printer-mario/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/super-printer-mario/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/twitter-and-updates/</loc>
+  <loc>https://aiyumi.github.io/en/blog/twitter-and-updates/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/twitter-and-updates/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/twitter-and-updates/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/twitter-and-updates/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/twitter-and-updates/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/two-new-toys-in-the-kitchen/</loc>
+  <loc>https://aiyumi.github.io/en/blog/two-new-toys-in-the-kitchen/</loc>
   <lastmod>2018-12-08T23:48:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/two-new-toys-in-the-kitchen/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/two-new-toys-in-the-kitchen/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/virtual-violins/</loc>
+  <loc>https://aiyumi.github.io/en/blog/virtual-violins/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/virtual-violins/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/virtual-violins/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/</loc>
+  <loc>https://aiyumi.github.io/en/blog/wakai-tsubasa-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/watch-p5-db-online/</loc>
+  <loc>https://aiyumi.github.io/en/blog/watch-p5-db-online/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/watch-p5-db-online/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/watch-p5-db-online/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/blog/watch-the-p5-anime/</loc>
+  <loc>https://aiyumi.github.io/en/blog/watch-the-p5-anime/</loc>
   <lastmod>2018-04-14T22:18:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/watch-the-p5-anime/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/watch-the-p5-anime/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/contact/</loc>
+  <loc>https://aiyumi.github.io/en/contact/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/pokemon/</loc>
+  <loc>https://aiyumi.github.io/en/pokemon/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/pokemon/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/pokemon/music/</loc>
+  <loc>https://aiyumi.github.io/en/pokemon/music/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/music/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/pokemon/music/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/pokemon/sl/</loc>
+  <loc>https://aiyumi.github.io/en/pokemon/sl/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/sl/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/pokemon/sl/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/pokemon/sl/drama/</loc>
+  <loc>https://aiyumi.github.io/en/pokemon/sl/drama/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/pokemon/sl/drama/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/pokemon/sl/drama/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/rockman/</loc>
+  <loc>https://aiyumi.github.io/en/rockman/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/rockman/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/rockman/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/rockman/toc/</loc>
+  <loc>https://aiyumi.github.io/en/rockman/toc/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/rockman/toc/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/rockman/toc/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/rockman/toc/drama/</loc>
+  <loc>https://aiyumi.github.io/en/rockman/toc/drama/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/drama/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/drama/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/rockman/toc/drama/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/rockman/toc/drama/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/</loc>
+  <loc>https://aiyumi.github.io/en/tag/</loc>
   <lastmod>2018-01-22T19:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/audio/</loc>
+  <loc>https://aiyumi.github.io/en/tag/audio/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/fan-made/</loc>
+  <loc>https://aiyumi.github.io/en/tag/fan-made/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/game-accessibility/</loc>
+  <loc>https://aiyumi.github.io/en/tag/game-accessibility/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/games/</loc>
+  <loc>https://aiyumi.github.io/en/tag/games/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/linux/</loc>
+  <loc>https://aiyumi.github.io/en/tag/linux/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/site-updates/</loc>
+  <loc>https://aiyumi.github.io/en/tag/site-updates/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/utau/</loc>
+  <loc>https://aiyumi.github.io/en/tag/utau/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/violin/</loc>
+  <loc>https://aiyumi.github.io/en/tag/violin/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/en/tag/vocaloid/</loc>
+  <loc>https://aiyumi.github.io/en/tag/vocaloid/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/</loc>
+  <loc>https://aiyumi.github.io/ja/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/about/</loc>
+  <loc>https://aiyumi.github.io/ja/about/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
+  <loc>https://aiyumi.github.io/ja/archive/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2011/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2011/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2012/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2012/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2013/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2013/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2014/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2014/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2015/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2015/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2016/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2016/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2017/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2017/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2018/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2018/</loc>
   <lastmod>2018-01-22T18:03:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/archive/2019/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2019/</loc>
   <lastmod>2019-07-21T23:44:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/</loc>
+  <loc>https://aiyumi.github.io/ja/archive/2020/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/ja/blog/</loc>
   <lastmod>2018-01-22T19:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/bg-ave-maria-violin-1/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/bg-ave-maria-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bg-ave-maria-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bg-ave-maria-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/bg-ave-maria-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/bg-ave-maria-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/blind-man-beats-zelda-oot/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/blind-man-beats-zelda-ot/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/blind-man-beats-zelda-oot/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/blind-man-beats-zelda-oot/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/blind-man-beats-zelda-ot/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/bonnes-theme-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/bonnes-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/bonnes-theme-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/bonnes-theme-arrange-2/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-2/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/bonnes-theme-arrange-2/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/bonnes-theme-arrange-2/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/brahms-lullaby-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/happy-birthday-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/happy-birthday-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/happy-birthday-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/happy-birthday-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/happy-birthday-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-dash/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/in-the-mood-to-dash/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/in-the-mood-to-dash/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-dash/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/in-the-mood-to-dash/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/in-the-mood-to-dash/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/index-1.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
+  <loc>https://aiyumi.github.io/ja/blog/index-1.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/index-2.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
+  <loc>https://aiyumi.github.io/ja/blog/index-2.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/kirby-revenge-of-error-knight/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/kirby-revenge-of-error-knight/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/kirby-revenge-of-error-knight/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/kirby-revenge-of-error-knight/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/kirby-revenge-of-error-knight/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/new-pokemon-section/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/new-pokemon-section/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/new-pokemon-section/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/new-pokemon-section/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/new-pokemon-section/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/new-pokemon-section/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/nintendo-3ds-review/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/nintendo-3ds-review/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/nintendo-3ds-review/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/nintendo-3ds-review/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/nintendo-3ds-review/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/nintendo-3ds-review/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/plasma-theme-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/plasma-theme-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/plasma-theme-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/plasma-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/plasma-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/plasma-theme-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/rockman-fanfics-01/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/rockman-fanfics-01/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/rockman-fanfics-01/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/sounds-of-ilha-grande/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/sounds-of-ilha-grande/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/sounds-of-ilha-grande/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/sounds-of-ilha-grande/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/sox-basic-intro/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/sox-basic-intro/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sox-basic-intro/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/sox-basic-intro/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/sox-basic-intro/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/starting-the-blog/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/starting-the-blog/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/starting-the-blog/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/starting-the-blog/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/starting-the-blog/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/starting-the-blog/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/static-blog-migration/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/static-blog-migration/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/static-blog-migration/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/static-blog-migration/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/static-blog-migration/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/static-blog-migration/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2011-08-04/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/status-update-2011-08-04/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-08-04/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-08-04/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2011-08-04/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2011-08-04/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2011-09-07/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/status-update-2011-09-07/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-09-07/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2011-09-07/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2011-09-07/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2011-09-07/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2012-01-01/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/status-update-2012-01-01/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-01-01/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-01-01/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2012-01-01/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2012-01-01/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2012-03-26/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/status-update-2012-03-26/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-03-26/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2012-03-26/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2012-03-26/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2012-03-26/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/status-update-2013-02-09/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/status-update-2013-02-09/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2013-02-09/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/status-update-2013-02-09/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/status-update-2013-02-09/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2013-02-09/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/super-printer-mario/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/super-printer-mario/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/super-printer-mario/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/super-printer-mario/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/super-printer-mario/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/super-printer-mario/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/twitter-and-updates/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/twitter-and-updates/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/twitter-and-updates/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/twitter-and-updates/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/twitter-and-updates/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/twitter-and-updates/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/</loc>
+  <loc>https://aiyumi.github.io/ja/blog/wakai-tsubasa-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/contact/</loc>
+  <loc>https://aiyumi.github.io/ja/contact/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/rockman/</loc>
+  <loc>https://aiyumi.github.io/ja/rockman/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/rockman/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/rockman/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/rockman/toc/</loc>
+  <loc>https://aiyumi.github.io/ja/rockman/toc/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/rockman/toc/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/rockman/toc/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/rockman/toc/drama/</loc>
+  <loc>https://aiyumi.github.io/ja/rockman/toc/drama/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/drama/" />
-  <xhtml:link rel="alternate" hreflang="pt_br" href="http://aiyumi.warpstar.net/pt/rockman/toc/drama/" />
+  <xhtml:link rel="alternate" hreflang="pt_br" href="https://aiyumi.github.io/pt/rockman/toc/drama/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/rockman/toc/drama/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/</loc>
   <lastmod>2018-01-22T19:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/audio/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/audio/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/fan-made/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/fan-made/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/game-accessibility/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/game-accessibility/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/games/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/games/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/linux/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/linux/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/site-updates/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/site-updates/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/ja/tag/violin/</loc>
+  <loc>https://aiyumi.github.io/ja/tag/violin/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/listings/</loc>
+  <loc>https://aiyumi.github.io/listings/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/</loc>
+  <loc>https://aiyumi.github.io/pt/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/about/</loc>
+  <loc>https://aiyumi.github.io/pt/about/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
+  <loc>https://aiyumi.github.io/pt/archive/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2011/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2011/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2012/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2012/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2013/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2013/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2014/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2014/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2015/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2015/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2016/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2016/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2017/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2017/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2018/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2018/</loc>
   <lastmod>2018-01-22T18:03:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/archive/2019/</loc>
+  <loc>https://aiyumi.github.io/pt/archive/2019/</loc>
   <lastmod>2019-07-21T23:44:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
+  <loc>https://aiyumi.github.io/pt/archive/2020/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/accessibility-and-how-i-began-using-vocaloid/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/accessibility-and-how-i-began-using-vocaloid/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/accessibility-and-how-i-began-using-vocaloid/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/accessibility-first-results-with-vocaloid/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/accessibility-first-results-with-vocaloid/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/accessibility-first-results-with-vocaloid/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/accessibility-first-results-with-vocaloid/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/adventures-with-a-new-computer/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/adventures-with-a-new-computer/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/adventures-with-a-new-computer/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/adventures-with-a-new-computer/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/ath-cevio-1/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/ath-cevio-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/ath-cevio-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/ath-cevio-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/bg-ave-maria-violin-1/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/bg-ave-maria-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bg-ave-maria-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bg-ave-maria-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/bg-ave-maria-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/bg-ave-maria-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/blind-man-beats-zelda-oot/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/blind-man-beats-zelda-oot/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/blind-man-beats-zelda-ot/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/blind-man-beats-zelda-oot/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/blind-man-beats-zelda-oot/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/blind-man-beats-zelda-ot/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/bonnes-theme-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/bonnes-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/bonnes-theme-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/bonnes-theme-arrange-2/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/bonnes-theme-arrange-2/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/bonnes-theme-arrange-2/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/bonnes-theme-arrange-2/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/bonnes-theme-arrange-2/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/bonnes-theme-arrange-2/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/brahms-lullaby-violin-1/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/brahms-lullaby-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/brahms-lullaby-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/brahms-lullaby-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/brahms-lullaby-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/erros-comuns-em-textos/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/flying-on-brahms-waltz/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/flying-on-brahms-waltz/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/game-a11y-intro/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/game-a11y-intro/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/getting-ready-for-persona5/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/getting-ready-for-persona5/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/gossec-gavotte-fvl-cover/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/gossec-gavotte-fvl-cover/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/happy-birthday-arrange-1/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/happy-birthday-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/happy-birthday-arrange-1/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/how-i-started-using-linux/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/how-i-started-using-linux/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-dash/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/in-the-mood-to-dash/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/in-the-mood-to-dash/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/in-the-mood-to-redash/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/in-the-mood-to-redash/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-1.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-2.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-3.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-4.html</loc>
-  <lastmod>2019-04-17T16:06:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/index-5.html</loc>
-  <lastmod>2019-07-21T23:44:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14-0/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14-0/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/installing-orca-on-slackware-14.2/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/installing-orca-on-slackware-14.2/" />
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/internet-banking-caixa-java-7u51/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/erros-comuns-em-textos/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/japanese-course-videos-in-portuguese/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/flying-on-brahms-waltz/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/flying-on-brahms-waltz/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/game-a11y-intro/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/game-a11y-intro/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/getting-ready-for-persona5/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/getting-ready-for-persona5/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/goodbye-to-the-warpstar/</loc>
+  <lastmod>2020-04-21T21:38:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/goodbye-to-the-warpstar/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/gossec-gavotte-fvl-cover/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/gossec-gavotte-fvl-cover/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/happy-birthday-arrange-1/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/happy-birthday-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/happy-birthday-arrange-1/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/how-i-started-using-linux/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/how-i-started-using-linux/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/in-the-mood-to-dash/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/in-the-mood-to-dash/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/in-the-mood-to-dash/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/in-the-mood-to-redash/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/in-the-mood-to-redash/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/index-1.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/index-2.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/index-3.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/index-4.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/index-5.html</loc>
+  <lastmod>2020-04-22T23:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/installing-orca-on-slackware-14-0/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/installing-orca-on-slackware-14-0/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/installing-orca-on-slackware-14.2/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/installing-orca-on-slackware-14.2/" />
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/internet-banking-caixa-java-7u51/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/keyboard-demo-songs/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/japanese-course-videos-in-portuguese/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/blog/keyboard-demo-songs/</loc>
   <lastmod>2018-04-19T01:27:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/keyboard-demo-songs/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/keyboard-demo-songs/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/kirby-revenge-of-error-knight/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/kirby-revenge-of-error-knight/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/kirby-revenge-of-error-knight/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/kirby-revenge-of-error-knight/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/kirby-revenge-of-error-knight/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/kirby-revenge-of-error-knight/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/new-pokemon-section/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/new-pokemon-section/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/new-pokemon-section/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/new-pokemon-section/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/new-pokemon-section/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/new-pokemon-section/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/new-year-new-disk/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/new-year-new-disk/</loc>
   <lastmod>2018-01-22T18:03:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/new-year-new-disk/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/new-year-new-disk/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/nintendo-3ds-review/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/nintendo-3ds-review/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/nintendo-3ds-review/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/nintendo-3ds-review/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/nintendo-3ds-review/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/nintendo-3ds-review/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/p3-food-ramen/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/p3-food-ramen/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/p3-food-ramen/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/p3-food-ramen/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/p5-coffee/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/p5-coffee/</loc>
   <lastmod>2018-03-22T18:28:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/p5-coffee/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/p5-coffee/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/p5-op-utau-cover/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/p5-op-utau-cover/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/p5-op-utau-cover/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/p5-op-utau-cover/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/plasma-theme-arrange-1/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/plasma-theme-arrange-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/plasma-theme-arrange-1/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/plasma-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/plasma-theme-arrange-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/plasma-theme-arrange-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/power-of-slackbuilds/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/power-of-slackbuilds/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/power-of-slackbuilds/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/power-of-slackbuilds/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/ps4-slim-review/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/ps4-slim-review/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/ps4-slim-review/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/ps4-slim-review/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/rockman-fanfics-01/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/rockman-fanfics-01/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/rockman-fanfics-01/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/rockman-fanfics-01/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/rockman-fanfics-01/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/rockman-fanfics-01/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/slack-14.2-srs-and-pulse/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/slack-14.2-srs-and-pulse/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/slack-14.2-srs-and-pulse/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/slack-14.2-srs-and-pulse/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/slint-linux-review/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/slint-linux-review/</loc>
   <lastmod>2018-03-12T17:25:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/slint-linux-review/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/slint-linux-review/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/sounds-of-ilha-grande/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/sounds-of-ilha-grande/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sounds-of-ilha-grande/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sounds-of-ilha-grande/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/sounds-of-ilha-grande/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/sounds-of-ilha-grande/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/sox-basic-intro/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/sox-basic-intro/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/sox-basic-intro/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/sox-basic-intro/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/sox-basic-intro/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/sox-basic-intro/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/starting-the-blog/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/starting-the-blog/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/starting-the-blog/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/starting-the-blog/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/starting-the-blog/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/starting-the-blog/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/static-blog-migration/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/static-blog-migration/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/static-blog-migration/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/static-blog-migration/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/static-blog-migration/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/static-blog-migration/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2011-08-04/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/status-update-2011-08-04/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-08-04/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-08-04/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2011-08-04/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2011-08-04/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2011-09-07/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/status-update-2011-09-07/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2011-09-07/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2011-09-07/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2011-09-07/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2011-09-07/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2012-01-01/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/status-update-2012-01-01/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-01-01/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-01-01/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2012-01-01/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2012-01-01/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2012-03-26/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/status-update-2012-03-26/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2012-03-26/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2012-03-26/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2012-03-26/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2012-03-26/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2013-02-09/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/status-update-2013-02-09/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2013-02-09/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/status-update-2013-02-09/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/status-update-2013-02-09/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2013-02-09/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2018-07-20/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/status-update-2018-07-20/</loc>
   <lastmod>2018-07-20T17:37:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2018-07-20/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2018-07-20/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/status-update-2019-07-21/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/status-update-2019-07-21/</loc>
   <lastmod>2019-07-21T23:44:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/status-update-2019-07-21/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/status-update-2019-07-21/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/steemit-first-impressions/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/steemit-first-impressions/</loc>
   <lastmod>2018-02-17T13:48:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/steemit-first-impressions/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/steemit-first-impressions/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/super-printer-mario/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/super-printer-mario/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/super-printer-mario/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/super-printer-mario/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/super-printer-mario/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/super-printer-mario/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/twitter-and-updates/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/twitter-and-updates/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/twitter-and-updates/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/twitter-and-updates/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/twitter-and-updates/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/twitter-and-updates/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/two-new-toys-in-the-kitchen/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/two-new-toys-in-the-kitchen/</loc>
   <lastmod>2018-12-08T23:48:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/two-new-toys-in-the-kitchen/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/two-new-toys-in-the-kitchen/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/virtual-violins/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/virtual-violins/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/virtual-violins/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/virtual-violins/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/wakai-tsubasa-violin-1/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/wakai-tsubasa-violin-1/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/wakai-tsubasa-violin-1/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/blog/wakai-tsubasa-violin-1/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/wakai-tsubasa-violin-1/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/watch-p5-db-online/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/watch-p5-db-online/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/watch-p5-db-online/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/watch-p5-db-online/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/blog/watch-the-p5-anime/</loc>
+  <loc>https://aiyumi.github.io/pt/blog/watch-the-p5-anime/</loc>
   <lastmod>2018-04-14T22:18:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/blog/watch-the-p5-anime/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/blog/watch-the-p5-anime/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/contact/</loc>
+  <loc>https://aiyumi.github.io/pt/contact/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/pokemon/</loc>
+  <loc>https://aiyumi.github.io/pt/pokemon/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/pokemon/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/pokemon/music/</loc>
+  <loc>https://aiyumi.github.io/pt/pokemon/music/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/music/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/pokemon/music/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/pokemon/sl/</loc>
+  <loc>https://aiyumi.github.io/pt/pokemon/sl/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/sl/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/pokemon/sl/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/pokemon/sl/drama/</loc>
+  <loc>https://aiyumi.github.io/pt/pokemon/sl/drama/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/pokemon/sl/drama/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/pokemon/sl/drama/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/rockman/</loc>
+  <loc>https://aiyumi.github.io/pt/rockman/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/rockman/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/rockman/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/rockman/toc/</loc>
+  <loc>https://aiyumi.github.io/pt/rockman/toc/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/rockman/toc/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/rockman/toc/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/rockman/toc/drama/</loc>
+  <loc>https://aiyumi.github.io/pt/rockman/toc/drama/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="http://aiyumi.warpstar.net/en/rockman/toc/drama/" />
-  <xhtml:link rel="alternate" hreflang="ja" href="http://aiyumi.warpstar.net/ja/rockman/toc/drama/" />
+  <xhtml:link rel="alternate" hreflang="ja" href="https://aiyumi.github.io/ja/rockman/toc/drama/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://aiyumi.github.io/en/rockman/toc/drama/" />
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/</loc>
-  <lastmod>2018-01-09T11:07:00Z</lastmod>
- </url>
- <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/audio/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/fan-made/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/audio/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/game-accessibility/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/fan-made/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/games/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/game-accessibility/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/japanese-study/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/games/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/linux/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/japanese-study/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/site-updates/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/linux/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/utau/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/site-updates/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/violin/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/utau/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://aiyumi.warpstar.net/pt/tag/vocaloid/</loc>
+  <loc>https://aiyumi.github.io/pt/tag/violin/</loc>
+  <lastmod>2018-01-09T11:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://aiyumi.github.io/pt/tag/vocaloid/</loc>
   <lastmod>2018-01-09T11:07:00Z</lastmod>
  </url>
 </urlset>
