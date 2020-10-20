@@ -9,7 +9,10 @@ Ainda pretendo continuar publicando a maioria dos meus posts na [rede social Hiv
 
 Outra melhoria foi nas páginas de listagem de posts, onde agora aparece um trechinho do conteúdo do post em vez de mostrar só o título como era antes. Vale tanto para os posts do blog normal quanto para os da Hive na página principal! Assim a listagem fica mais interessante.
 
+Edit: parece que comemorei muito cedo. Quando mandei os arquivos para o servidor, o feed da Hive não carregou. Aparentemente, os navegadores não gostam que este blog no GitHub Pages seja HTTPS e o site do feed seja HTTP (o download do feed é bloqueado com um erro de "conteúdo misto"). Entrei em contato com um dos mantenedores do [site do feed][hiverss] e perguntei se teria como adicionar HTTPS por meio de um serviço gratuito, e ele disse que vai lidar com o caso ainda nesta semana. Vou atualizar o post quando resolver.
+
 Desta atualização, era isso. Vejo vocês nos próximos posts, seja na Hive ou aqui.
 
 [yesplease]: https://themes.getnikola.com/v7/yesplease/
 [hiveprofile]: https://hive.blog/@aiyumi
+[hiverss]: http://hiverss.com/
