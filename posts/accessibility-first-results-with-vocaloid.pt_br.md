@@ -5,7 +5,7 @@
 .. tags: Audio, VOCALOID
 .. date: 2014-06-21 22:47:52
 
-Esta é uma continuação do meu outro post, "[Acessibilidade, e Como eu Comecei a Usar VOCALOID][vocaloid-a11y1]". Neste artigo pretendo compartilhar meu progresso e algumas dicas, para outros deficientes visuais que eventualmente resolvam usar VOCALOID. <!--more-->
+Esta é uma continuação do meu outro post, "[Acessibilidade, e Como eu Comecei a Usar VOCALOID][vocaloid-a11y1]". Neste artigo pretendo compartilhar meu progresso e algumas dicas, para outros deficientes visuais que eventualmente resolvam usar VOCALOID. <!--teaser_end-->
 
 Nota: estou usando o VOCALOID3 no Windows 7, com o [leitor de telas NVDA][nvdahp] que é livre e de código aberto.
 

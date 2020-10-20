@@ -1,0 +1,63 @@
+# -*- encoding:utf-8 -*-
+from __future__ import unicode_literals
+
+MESSAGES = {
+    "%d min remaining to read": "%d mín restante para leitura",
+    "(active)": "",
+    "Also available in:": "Ver esta página em:",
+    "Archive": "Arquivo",
+    "Categories": "Categorias",
+    "Comments": "Comentários",
+    "LANGUAGE": "Português",
+    "Languages:": "Ver este site em:",
+    "More posts about %s": "Mais posts sobre %s",
+    "Newer posts": "Posts mais recentes",
+    "Next post": "Próximo post",
+    "No posts found.": "Nenhum tópico encontrado.",
+    "Nothing found.": "Nada encontrado.",
+    "Older posts": "Posts mais antigos",
+    "Original site": "Site original",
+    "Posted:": "Publicado:",
+    "Posts about %s": "Posts sobre %s",
+    "Posts for year %s": "Posts do ano %s",
+    "Posts for {month} {day}, {year}": "Posts do {day} {month}, {year}",
+    "Posts for {month} {year}": "Posts de {month} {year}",
+    "Previous post": "Post anterior",
+    "Publication date": "Data de publicação",
+    "RSS feed": "Feed RSS",
+    "Read in English": "Ler em português",
+    "Read more": "Ler o artigo completo",
+    "Posted by ": "Postado por ",
+    ", ": ", ",
+    "Tags: ": "Tags: ",
+    "Jump to top navigation": "Pular para o menu superior",
+    "Jump to main content": "Pular para o conteúdo principal",
+    "Jump to right sidebar": "Pular para o menu da direita",
+    "Jump to footer": "Pular para o rodapé",
+    "Back to top": "Voltar para o topo",
+    "Source": "Código Fonte",
+    "Subcategories:": "",
+    "Tags and Categories": "Tags e Categorias",
+    "Tags": "Tags",
+    "Write your page here.": "",
+    "Write your post here.": "",
+    "old posts, page %d": "Posts antigos, página %d",
+    "page %d": "página %d",
+
+    # Section names
+    "Blog": "Blog",
+    "Fandoms": "Fandoms",
+    "Links": "Links",
+
+    # Sharing
+    "Share this Page": "Compartilhe esta Página",
+    "Hatena": "Hatena",
+
+    # Disclaimers
+    "Disclaimer:": "Disclaimer: ",
+    "pokemon_disclaimer": "Pocket Monsters/Pokemon and all related material are copyright Nintendo, GameFreak, and the Pokémon Company. ",
+    "rockman_disclaimer": "Rockman/Mega Man and all related material are copyright Capcom Co., Ltd. ",
+    "persona_disclaimer": "Persona and all related material are copyright Atlus. ",
+    "fanworks_disclaimer": " All trademarks are property of their respective owners. These are just fan works with no relation to those owners.",
+    "afflinks_note": "Nota: se você usar meus links para comprar algum produto na Play-Asia ou para contratar os serviços de hospedagem da DreamHost, eu posso receber uma pequena comissão do programa de afiliados deles.",
+}

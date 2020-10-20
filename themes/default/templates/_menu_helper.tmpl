@@ -1,0 +1,43 @@
+
+<%def name="generate_sidebar_links(list, heading)">
+<% i = 0 %>
+    %for url, text, title in list[lang]:
+%if url == "" and text == "" and title != "":
+%if i > 0:
+</ul>
+%endif
+<${heading} class="pure-menu-heading">${title}</${heading}>
+<ul class="pure-menu-list">
+%else:
+##            % if rel_link(permalink, url) == "#":
+##%if text != "":
+##                    <li><span>${text}</span></li>
+##%endif
+##            %else:
+                <li class="pure-menu-item"><a class="pure-menu-link" href="${url}"
+%if title != "":
+%if heading == "h4": ## if it's the links list
+<%
+import re
+punct = U"\.!\?。？！"
+pattern = r'^([^' + punct + r']+[' + punct + r']+).*?([^' + punct + r']+[' + punct + r']+)$'
+matches = re.match(pattern, title)
+if matches:
+    title = matches.group(1) + matches.group(2)
+%>
+% endif
+ title="${title|h}"
+%endif
+% if url[0] != "/":
+ target="_blank"
+% endif
+>${text}</a></li>
+            %endif
+%if i == (len(list[lang]) - 1):
+</ul>
+%endif
+<% i = (i + 1) %>
+    %endfor
+</%def>
+
+

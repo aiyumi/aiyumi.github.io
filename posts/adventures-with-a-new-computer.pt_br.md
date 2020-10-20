@@ -9,7 +9,7 @@ O meu computador antigo de sete anos de idade começou a dar sinais de morte, en
 
 ### Escolha da Máquina ###
 
-Como preciso usar o computador para trabalho, escolhi uma máquina um pouquinho mais "profissional". O que comprei foi um desktop Dell Vostro 270S (Vostro 270 Slim). Além de usar para trabalho, preciso de diversão também, então peguei a versão com 1 TB de disco rígido e placa de vídeo off board, para rodar jogos e coisas que o PC antigo não conseguia nem em sonho. Depois da negociação e customização (comprei por telefone), as especificações da máquina que consegui são as seguintes: <!--more-->
+Como preciso usar o computador para trabalho, escolhi uma máquina um pouquinho mais "profissional". O que comprei foi um desktop Dell Vostro 270S (Vostro 270 Slim). Além de usar para trabalho, preciso de diversão também, então peguei a versão com 1 TB de disco rígido e placa de vídeo off board, para rodar jogos e coisas que o PC antigo não conseguia nem em sonho. Depois da negociação e customização (comprei por telefone), as especificações da máquina que consegui são as seguintes: <!--teaser_end-->
 
 * Modelo: Vostro 270 Slim
 * Processador: Intel® Core™ i5-3450S (2.8Ghz, 6Mb cache) (processador de 64-bits)

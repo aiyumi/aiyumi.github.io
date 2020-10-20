@@ -7,7 +7,7 @@
 
 Acessibilidade é um assunto importante para pessoas com vários tipos de deficiências, mas aqui o foco será na acessibilidade de jogos para os deficientes visuais. Continue lendo e saiba como um jogo pode ser jogado por quem não enxerga.
 
-<!--more-->
+<!--teaser_end-->
 
 ## Acessibilidade de Jogos para Deficientes Visuais: uma Introdução Básica ##
 

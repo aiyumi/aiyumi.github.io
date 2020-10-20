@@ -3,7 +3,7 @@
 .. date: 2018-03-12 15:02:11
 .. tags: linux
 
-As some already know, my Linux distribution of choice is Slackware. However, it isn't an easy distro for visually impaired users to install. The Slackware installer isn't accessible unless the users have a hardware-based voice synthesizer (I don't have one, and most others probably also don't), which means they'd need sighted assistance to install it and then install the screen readers. Some visually impaired blog visitors emailed me and showed interest on installing Slackware, but they had no one to provide them sighted assistance to carry them through the installation process, and sadly I couldn't help them. But now, this problem has a solution, in the form of a Slackware-based Linux distribution called [Slint][slinthp]. <!--more-->
+As some already know, my Linux distribution of choice is Slackware. However, it isn't an easy distro for visually impaired users to install. The Slackware installer isn't accessible unless the users have a hardware-based voice synthesizer (I don't have one, and most others probably also don't), which means they'd need sighted assistance to install it and then install the screen readers. <!--teaser_end--> Some visually impaired blog visitors emailed me and showed interest on installing Slackware, but they had no one to provide them sighted assistance to carry them through the installation process, and sadly I couldn't help them. But now, this problem has a solution, in the form of a Slackware-based Linux distribution called [Slint][slinthp]. <!--teaser_end-->
 
 ### Slint and Accessibility
 

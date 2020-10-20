@@ -34,7 +34,7 @@ Exemplos de músicas com UTAU:
 
 Para saber mais sobre UTAU, tem a [seção de UTAU da VocaloidBrasil][vbutau] e a [UTAU Wiki][utauwikihp] (em Inglês).
 
-Não demorou para eu ter vontade de usar os programas e criar meus próprios covers, e foi aí que os problemas começaram. <!--more-->
+Não demorou para eu ter vontade de usar os programas e criar meus próprios covers, e foi aí que os problemas começaram. <!--teaser_end-->
 
 ### Minha Primeira Tentativa: UTAU ###
 

@@ -3,7 +3,7 @@
 .. tags: Site Updates
 .. date: 2018-12-08 21:42:22
 
-In my [post about ramen](/en/blog/p3-food-ramen), I had talked about some of the obstacles I face in the kitchen, and that cooking isn't my cup of tea. But as evidenced by that post itself, sometimes crazy things happen when I decide to make something different...
+In my [post about ramen](/en/blog/p3-food-ramen), I had talked about some of the obstacles I face in the kitchen, and that cooking isn't my cup of tea. But as evidenced by that post itself, sometimes crazy things happen when I decide to do something different... <!--teaser_end-->
 
 My biggest problem is still my insecurity when dealing with the stove. But then, it occurred to me that I had no problem operating the coffee maker and the rice cooker, two electric appliances. So, I decided to research about other kinds of electric pans to see if they could be something for me.
 

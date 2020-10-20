@@ -32,7 +32,7 @@ Examples of songs with UTAU:
 
 To learn more about UTAU, check out the [UTAU Wiki][utauwikihp].
 
-Soon I began wanting to use the programs to make my own covers, and that was when the problems started. <!--more-->
+Soon I began wanting to use the programs to make my own covers, and that was when the problems started. <!--teaser_end-->
 
 ### My First Attempt: UTAU ###
 

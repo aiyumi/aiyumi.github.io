@@ -3,7 +3,7 @@
 .. tags: Site Updates
 .. date: 2018-01-22 17:00:38
 
-2018 chegou, e eu já comecei o ano com... uma falha no HD do meu computador principal. Na manhã do dia 4 de janeiro, eu tinha acabado de começar meu trabalho (estou trabalhando em casa) quando, de repente, sem nenhum sintoma ou aviso prévio, o computador começou a emitir cliques, tudo travou, a máquina parou de responder e a única maneira de desligar foi segurando o botão power por alguns segundos. Quando eu liguei de novo, recebi uma mensagem de falha no disco rígido. Usei uma live USB de Linux pra tentar ver o que estava acontecendo, e tudo funcionou bem, exceto o HD. O disco nem sequer foi reconhecido e continuou emitindo cliques. Abrimos a máquina e trocamos os cabos SATA, mas não adiantou (o problema não era com os cabos). Conclusão: o HD morreu de vez.
+2018 chegou, e eu já comecei o ano com... uma falha no HD do meu computador principal. <!--teaser_end--> Na manhã do dia 4 de janeiro, eu tinha acabado de começar meu trabalho (estou trabalhando em casa) quando, de repente, sem nenhum sintoma ou aviso prévio, o computador começou a emitir cliques, tudo travou, a máquina parou de responder e a única maneira de desligar foi segurando o botão power por alguns segundos. Quando eu liguei de novo, recebi uma mensagem de falha no disco rígido. Usei uma live USB de Linux pra tentar ver o que estava acontecendo, e tudo funcionou bem, exceto o HD. O disco nem sequer foi reconhecido e continuou emitindo cliques. Abrimos a máquina e trocamos os cabos SATA, mas não adiantou (o problema não era com os cabos). Conclusão: o HD morreu de vez.
 
 ## Avaliando as Perdas
 

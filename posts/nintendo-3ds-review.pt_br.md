@@ -14,7 +14,7 @@ src="/uploads/images/3ds-review/3ds-closed.jpg" width="320" height="240" alt="3D
 
 Eu não tinha interesse em nenhum jogo em particular, mas como os botões do meu DS Lite de cinco anos de idade (principalmente as setas e o botão "A") estão ficando frouxos, comecei a considerar fazer um upgrade. Meu plano era comprar o console novo talvez no ano que vem, mas eu achei um 3DS barato numa loja perto de casa. Custou R$479,00, foi o 3DS "não usado" mais barato que encontrei até hoje. Não sei se era promoção para queimar estoque e substituir tudo pelo 3DS XL que acabou de ser lançado por aqui, nem sei se ainda tem mais por esse preço onde eu comprei... Mas estava bem barato para os padrões brasileiros.
 
-Segue a minha review do 3DS: <!--more-->
+Segue a minha review do 3DS: <!--teaser_end-->
 
 ### Embalagem ###
 

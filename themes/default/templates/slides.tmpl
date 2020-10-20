@@ -1,24 +1,36 @@
-<%block name="content">
-<div id="${carousel_id}" class="carousel slide">
-    <ol class="carousel-indicators">
-    % for i in range(len(slides_content)):
-        % if i == 0:
-            <li data-target="#${carousel_id}" data-slide-to="${i}" class="active"></li>
-        % else:
-            <li data-target="#${carousel_id}" data-slide-to="${i}"></li>
-        % endif
+<%doc>
+  Implements the ``slides`` ReST directive.
+</%doc>
+
+<div class="yp-slides yp-well">
+  <div class="yp-gallery__container">
+    % for image in slides_content:
+
+      <figure class="yp-gallery__figure">
+        <a href="${image}" class="yp-gallery__link image-reference">
+          <img class="yp-gallery__image" src="${image}"/>
+        </a>
+      </figure>
+
     % endfor
-    </ol>
-    <div class="carousel-inner">
-        % for i, image in enumerate(slides_content):
-            % if i == 0:
-                <div class="item active"><img src="${image}" alt="" style="margin: 0 auto 0 auto;"></div>
-            % else:
-                <div class="item"><img src="${image}" alt="" style="margin: 0 auto 0 auto;"></div>
-            % endif
-        % endfor
-    </div>
-    <a class="left carousel-control" href="#${carousel_id}" data-slide="prev"><span class="icon-prev"></span></a>
-    <a class="right carousel-control" href="#${carousel_id}" data-slide="next"><span class="icon-next"></span></a>
+  </div>
 </div>
-</%block>
+
+<script>
+  ## Add the narrow class to images that are taller than they are wide.
+  ## The slides directive does not pass the image height and width to this template.
+  ## Unlike gallery.tmpl which does receive height and width information.
+
+  $(function(){
+    $('.yp-gallery__image').each(function(){
+      var img = this;
+      var $figure = $(img).closest('.yp-gallery__figure');
+
+      if(img.clientHeight > img.clientWidth){
+        $figure.addClass('yp-gallery__figure--narrow');
+      }
+    });
+  });
+
+</script>
+

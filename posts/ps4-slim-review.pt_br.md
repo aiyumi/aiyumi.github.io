@@ -10,7 +10,7 @@ Depois de vários meses esperando e comparando preços, e então descobrindo que
 
 Optei pelo PS4 Slim porque, segundo as minhas pesquisas, ele é mais silencioso e consome menos energia, e a bateria do novo modelo do controle (sem fio) que vem com ele também dura mais.
 
-Seguem algumas dicas e observações que reuni durante as minhas pesquisas e meus testes, além das minhas impressões sobre o console. <!--more-->
+Seguem algumas dicas e observações que reuni durante as minhas pesquisas e meus testes, além das minhas impressões sobre o console. <!--teaser_end-->
 
 ## Instalação
 

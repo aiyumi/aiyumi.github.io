@@ -5,7 +5,7 @@
 .. tags: linux
 .. date: 2011-03-14 20:51:36
 
-Em 23 de junho de 2009, publiquei um artigo na lista de discussão do Slackware Users Group Brazil, contando como migrei e comecei a usar Linux. O texto original pode ser lido [aqui][artig]. <!--more-->
+Em 23 de junho de 2009, publiquei um artigo na lista de discussão do Slackware Users Group Brazil, contando como migrei e comecei a usar Linux. O texto original pode ser lido [aqui][artig]. <!--teaser_end-->
 
 [artig]: http://groups.google.com/g/05e7fcc8/t/3ac5bdd6e5aafbe4/d/b3c85b56ff4ea1a0
 

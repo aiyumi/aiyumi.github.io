@@ -3,7 +3,7 @@
 .. tags: Site Updates
 .. date: 2018-12-08 21:42:22
 
-No meu [post sobre lámen](/pt/blog/p3-food-ramen), eu tinha comentado sobre minhas dificuldades na cozinha como uma pessoa cega, e que cozinhar não é o meu forte. Mas como o referido post mostra, às vezes umas coisas malucas acontecem quando dá na telha de fazer algo diferente...
+No meu [post sobre lámen](/pt/blog/p3-food-ramen), eu tinha comentado sobre minhas dificuldades na cozinha como uma pessoa cega, e que cozinhar não é o meu forte. Mas como o referido post mostra, às vezes umas coisas malucas acontecem quando dá na telha de fazer algo diferente... <!--teaser_end-->
 
 Meu maior problema ainda é a minha insegurança ao lidar com o fogão. Mas então me ocorreu que não tenho nenhum problema para operar a cafeteira e a panela de arroz, dois aparelhos elétricos. Então, decidi pesquisar sobre outros tipos de panelas elétricas para ver se poderiam ser algo para mim.
 

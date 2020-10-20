@@ -11,7 +11,7 @@
 knife of sound processing programs". It is free, open source and runs under Windows, Mac and Linux.
 
 SoX can play, record, convert, edit, split, join and apply various effects to 
-audio files of many different formats. <!--more-->
+audio files of many different formats. <!--teaser_end-->
 
 ### Supported File Formats ###
 

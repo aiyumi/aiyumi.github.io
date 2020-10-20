@@ -1,38 +1,58 @@
-## -*- coding: utf-8 -*-
-<%inherit file="base.tmpl"/>
+<%doc>
+  Used to display the list of tags and categories.
+</%doc>
 
-<%block name="content">
-<h2>${title|h}</h2>
-% if cat_items:
-    % if items:
-        <h2>${messages("Categories")}</h2>
-    % endif
+<%inherit file="/_base.tmpl"/>
+
+<%block name="page_title">
+    ${messages("Tags")}
+</%block>
+
+
+<article class="yp-post-group__body">
+
+  % if cat_items:
+    <h2>${messages("Categories")}</h2>
+
     % for text, full_name, path, link, indent_levels, indent_change_before, indent_change_after in cat_hierarchy:
         % for i in range(indent_change_before):
-            <ul class="list-inline">
+            <ul class="yp-post-list">
         % endfor
-        <li><a class="reference badge" href="${link}">${text|h}</a>
+
+        <li class="yp-post-list__item">
+          <h3 class="yp-post-list__title">
+            <a class="reference yp-post-list__link" href="${link}">${text}</a>
+          </h3>
+
         % if indent_change_after <= 0:
             </li>
         % endif
+
         % for i in range(-indent_change_after):
             </ul>
             % if i + 1 < len(indent_levels):
                 </li>
             % endif
         % endfor
+
     % endfor
-    % if items:
-        <h2>${messages("Tags")}</h2>
-    % endif
-%endif
-% if items:
-    <ul class="list-inline">
-    % for text, link in items:
+  % endif
+
+  % if items:
+
+    <h2>${messages("Tags")}</h2>
+
+    <ul class="yp-post-list">
+      % for text, link in items:
         % if text not in hidden_tags:
-            <li><a class="reference badge" href="${link}">${text|h}</a></li>
+          <li class="yp-post-list__item">
+            <h3 class="yp-post-list__title">
+              <a class="reference yp-post-list__link" href="${link}">${text|h}</a>
+            </h3>
+          </li>
         % endif
-    % endfor
+      % endfor
     </ul>
-% endif
-</%block>
+
+  % endif
+</article>

@@ -10,7 +10,7 @@ After many months of waiting and comparing prices, and then learning that the PS
 
 I opted for the PS4 Slim because, according to my researches, it is quieter and consumes less power, and the battery of the (wireless) controller's new revision that comes with it also lasts longer.
 
-Here are some tips and observations that I gathered during my researches and tests, as well as my impressions on the console. <!--more-->
+Here are some tips and observations that I gathered during my researches and tests, as well as my impressions on the console. <!--teaser_end-->
 
 ## Installation
 

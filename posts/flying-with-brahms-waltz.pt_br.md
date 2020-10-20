@@ -5,7 +5,7 @@
 .. tags: Audio, Violin
 .. date: 2015-12-21 21:29:17
 
-No mês passado Na aula de violino, cheguei na quinta música do segundo livro do Método Suzuki. O livro só diz que a música é uma valsa composta por Johannes Brahms, mas na verdade, o título inteiro é "Valsa Opus 39 Número 15". A minha lição de casa era descrever o que me vem à cabeça ao ouvir esta música. E era para soltar a imaginação mesmo (nada de "O compositor quis dizer isso, isso e aquilo"). Então eu soltei e ela voou longe, rumo às nuvens (mais sobre isso abaixo). Sempre gostei de imaginar as músicas que ouço como sendo "fundo musical" ou "trilha sonora" de alguma coisa, então foi uma experiência bem interessante. Eis aqui o resultado (aviso: abaixo seguem divagações de alguém que não entende nada de música clássica :P): <!--more-->
+No mês passado Na aula de violino, cheguei na quinta música do segundo livro do Método Suzuki. O livro só diz que a música é uma valsa composta por Johannes Brahms, mas na verdade, o título inteiro é "Valsa Opus 39 Número 15". A minha lição de casa era descrever o que me vem à cabeça ao ouvir esta música. E era para soltar a imaginação mesmo (nada de "O compositor quis dizer isso, isso e aquilo"). Então eu soltei e ela voou longe, rumo às nuvens (mais sobre isso abaixo). Sempre gostei de imaginar as músicas que ouço como sendo "fundo musical" ou "trilha sonora" de alguma coisa, então foi uma experiência bem interessante. Eis aqui o resultado (aviso: abaixo seguem divagações de alguém que não entende nada de música clássica :P): <!--teaser_end-->
 
 A música é bem relaxante e, desde o momento em que ouvi o áudio do Suzuki pela primeira vez, achei que tinha algo bastante familiar mas não sabia o que era.
 

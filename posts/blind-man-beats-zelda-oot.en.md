@@ -5,7 +5,7 @@
 .. tags: Games, Game Accessibility
 .. date: 2011-06-24 17:24:03
 
-The legend says that when the kingdom was dominated by the evil being, a young man came traveling through time, defeated the dark forces and saved the kingdom, and since them he was known as the Hero of Time. This legend is right, but they forgot a very important detail: the Hero of Time was blind. <!--more-->
+The legend says that when the kingdom was dominated by the evil being, a young man came traveling through time, defeated the dark forces and saved the kingdom, and since them he was known as the Hero of Time. This legend is right, but they forgot a very important detail: the Hero of Time was blind. <!--teaser_end-->
 
 This is not so recent anymore, but it is still interesting.
 

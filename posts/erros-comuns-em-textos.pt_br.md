@@ -5,7 +5,7 @@
 .. tags: 
 .. date: 2011-07-01 16:10:54
 
-Lendo diversos tipos de texto, desde artigos em sites até textos formais, encontro alguns erros com bastante frequência: erros de gramática, acentuação, digitação, entre outros. Para quem usa softwares leitores de tela e prefere ler textos bem escritos (como eu), esses deslizes soam desagradáveis aos ouvidos e podem atrapalhar bastante a leitura. Neste artigo, listo alguns dos que mais me incomodam, juntamente com algumas dicas para tentar corrigi-los ou evitá-los. <!--more-->
+Lendo diversos tipos de texto, desde artigos em sites até textos formais, encontro alguns erros com bastante frequência: erros de gramática, acentuação, digitação, entre outros. Para quem usa softwares leitores de tela e prefere ler textos bem escritos (como eu), esses deslizes soam desagradáveis aos ouvidos e podem atrapalhar bastante a leitura. Neste artigo, listo alguns dos que mais me incomodam, juntamente com algumas dicas para tentar corrigi-los ou evitá-los. <!--teaser_end-->
 
 ### Tempo Decorrido: Verbos "Haver" e "Fazer" ###
 

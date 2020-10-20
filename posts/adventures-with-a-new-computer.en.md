@@ -9,7 +9,7 @@ My seven year old computer started to show signs of dying, so I bought a new one
 
 ### Choosing a Machine ###
 
-As I also needed to use the computer for work, I chose a little more "professional" machine. I bought a Dell Vostro 270S (Vostro 270 Slim) Desktop. Aside from work, I also need some fun, so I got the one with 1 TB hard drive and an off board video card, for running games and things that the old PC couldn't even dream of running. After some customizations, I got a computer with the following specifications: <!--more-->
+As I also needed to use the computer for work, I chose a little more "professional" machine. I bought a Dell Vostro 270S (Vostro 270 Slim) Desktop. Aside from work, I also need some fun, so I got the one with 1 TB hard drive and an off board video card, for running games and things that the old PC couldn't even dream of running. After some customizations, I got a computer with the following specifications: <!--teaser_end-->
 
 * Model: Vostro 270 Slim
 * Processor: Intel ® Core ™ i5-3450S (2.8Ghz, 6MB cache) (64-bit processor)

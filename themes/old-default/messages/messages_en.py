@@ -1,0 +1,63 @@
+# -*- encoding:utf-8 -*-
+from __future__ import unicode_literals
+
+MESSAGES = {
+    "%d min remaining to read": "%d min remaining to read",
+    "(active)": "(active)",
+    "Also available in:": "View this page in:",
+    "Archive": "Archive",
+    "Categories": "Categories",
+    "Comments": "Comments",
+    "LANGUAGE": "English",
+    "Languages:": "View this site in:",
+    "More posts about %s": "More posts about %s",
+    "Newer posts": "Newer posts",
+    "Next post": "Next post",
+    "No posts found.": "No posts found.",
+    "Nothing found.": "Nothing found.",
+    "Older posts": "Older posts",
+    "Original site": "Original site",
+    "Posted:": "Posted:",
+    "Posts about %s": "Posts about %s",
+    "Posts for year %s": "Posts for year %s",
+    "Posts for {month} {day}, {year}": "Posts for {month} {day}, {year}",
+    "Posts for {month} {year}": "Posts for {month} {year}",
+    "Previous post": "Previous post",
+    "Publication date": "Publication date",
+    "RSS feed": "RSS feed",
+    "Read in English": "Read in English",
+    "Read more": "Read the full article",
+    "Posted by ": "Posted by ",
+    ", ": ", ",
+    "Tags: ": "Tags: ",
+    "Jump to top navigation": "Jump to top navigation",
+    "Jump to main content": "Jump to main content",
+    "Jump to right sidebar": "Jump to right sidebar",
+    "Jump to footer": "Jump to footer",
+    "Back to top": "Back to top",
+    "Source": "Source",
+    "Subcategories:": "Subcategories:",
+    "Tags and Categories": "Tags and Categories",
+    "Tags": "Tags",
+    "Write your page here.": "Write your page here.",
+    "Write your post here.": "Write your post here.",
+    "old posts, page %d": "old posts, page %d",
+    "page %d": "page %d",
+
+    # Section names
+    "Blog": "Blog",
+    "Fandoms": "Fandoms",
+    "Links": "Links",
+
+    # Sharing
+    "Share this Page": "Share this Page",
+    "Hatena": "Hatena",
+
+    # Disclaimers
+    "Disclaimer:": "Disclaimer: ",
+    "pokemon_disclaimer": "Pocket Monsters/Pokemon and all related material are copyright Nintendo, GameFreak, and the Pokémon Company. ",
+    "rockman_disclaimer": "Rockman/Mega Man and all related material are copyright Capcom Co., Ltd. ",
+    "persona_disclaimer": "Persona and all related material are copyright Atlus. ",
+    "fanworks_disclaimer": " All trademarks are property of their respective owners. These are just fan works with no relation to those owners.",
+    "afflinks_note": "Note: if you use my links to buy anything at Play-Asia or sign up for webhosting at DreamHost, I might earn a small commission from their affiliate program.",
+}

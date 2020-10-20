@@ -5,7 +5,7 @@
 .. tags: Games, Game Accessibility
 .. date: 2011-06-24 17:24:03
 
-Diz a lenda que quando o reino foi dominado pelo ser do mal, um jovem veio viajando através do tempo, derrotou as forças das trevas e salvou o reino, e desde então ele ficou conhecido como o Herói do Tempo. Esta lenda está certa, mas esqueceram de um detalhe muito importante: o Herói do Tempo era cego. <!--more-->
+Diz a lenda que quando o reino foi dominado pelo ser do mal, um jovem veio viajando através do tempo, derrotou as forças das trevas e salvou o reino, e desde então ele ficou conhecido como o Herói do Tempo. Esta lenda está certa, mas esqueceram de um detalhe muito importante: o Herói do Tempo era cego. <!--teaser_end-->
 
 Isto não é mais tão recente, mas continua sendo interessante.
 

@@ -1,0 +1,146 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="post_helper.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%inherit file="base.tmpl"/>
+
+<%block name="extra_head">
+    ${parent.extra_head()}
+    % if post.meta('keywords'):
+    <meta name="keywords" content="${post.meta('keywords')|h}">
+    % endif
+    %if post.description():
+    <meta name="description" itemprop="description" content="${post.description()|h}">
+    %endif
+    <meta name="author" content="${post.author()|h}">
+    %if post.prev_post:
+        <link rel="prev" href="${post.prev_post.permalink()}" title="${post.prev_post.title()|h}" type="text/html">
+    %endif
+    %if post.next_post:
+        <link rel="next" href="${post.next_post.permalink()}" title="${post.next_post.title()|h}" type="text/html">
+    %endif
+    % if post.is_draft:
+        <meta name="robots" content="noindex">
+    % endif
+    ${helper.open_graph_metadata(post)}
+    ${helper.twitter_card_information(post)}
+    ${helper.meta_translations(post)}
+</%block>
+
+<%block name="content">
+<header>
+<article class="post" itemscope="itemscope" itemtype="http://schema.org/Article">
+%if title and not post.meta('hidetitle'):
+    <h2 class="title" itemprop="headline name"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h2>
+%endif
+${html_translations(post)}
+</header>
+    <div class="entry" itemprop="articleBody text">
+    ${post.text()}
+    </div> <!-- end entry -->
+    <aside class="info">
+            % if post.meta('link'):
+                    <p><a href="${post.meta('link')}">${messages("Original site")}</a></p>
+            % endif
+<p>\
+${messages("Posted by ")}\
+                % if author_pages_generated:
+                    <a href="${_link('author', post.author())}">${post.author()|h}</a>
+                % else:
+                    ${post.author()|h}
+                %endif
+- <a href="${post.permalink()}" rel="bookmark">
+<time datetime="${post.formatted_date('webiso')}" itemprop="datePublished" 
+title="${post.formatted_date(date_format)|h}">${post.formatted_date(date_format)|h}</time></a>
+</p>
+            % if not post.meta('nocomments') and site_has_comments:
+                <p>${comments.comment_link(post.permalink(), post._base_path)}
+            % endif
+            ${html_sourcelink()}
+    <nav>
+    ${html_tags(post)}
+    ${helper.html_pager(post)}
+    </nav>
+    </aside>
+${html_sharing_links(post)}
+    % if not post.meta('nocomments') and site_has_comments:
+        <section class="comments hidden-print">
+        <h2>${messages("Comments")}</h2>
+        ${comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path)}
+        </section>
+    % endif
+    ${helper.mathjax_script(post)}
+</article> <!-- end post -->
+${comments.comment_link_script()}
+</%block>
+
+<%def name="html_translations(post)">
+    % if len(post.translated_to) > 1:
+        <div class="info">
+<ul class="list-inline">
+            <li>${messages("Also available in:")}</li>
+            % for langname in sorted(translations):
+                % if langname != lang \
+and post.is_translation_available(langname):
+## Default lang translation unavailable
+%if langname == "pt_br" and post.meta[langname]['translation_placeholder'] == 'True':
+<li>${messages("LANGUAGE", langname)}</li>
+%else:
+                <li><a href="${post.permalink(langname)}" rel="alternate"
+hreflang="${langname}">${messages("LANGUAGE", langname)}</a></li>
+%endif
+%else:
+<li>${messages("LANGUAGE", langname)}</li>
+                % endif
+            % endfor
+</ul>
+        </div>
+    % endif
+</%def>
+
+<%def name="html_tags(post)">
+    %if post.tags:
+        <ul itemprop="keywords" class="list-inline">
+<li>${messages('Tags: ')}</li>
+        %for tag in post.tags:
+          % if tag not in hidden_tags:
+            <li><a class="tag p-category" href="${_link('tag', tag)}" rel="tag">${tag|h}</a></li>
+          % endif
+        %endfor
+        </ul>
+    %endif
+</%def>
+
+<%block name="html_sourcelink">
+% if show_sourcelink:
+    <li>
+    <a href="${post.source_link()}" id="sourcelink">${messages("Source")}</a>
+    </li>
+% endif
+</%block>
+
+
+<%def name="html_sharing_links(post)">
+<%
+import urllib
+import re
+title = post.title()
+url = abs_link( post.permalink() )
+encoded_url = urllib.parse.quote_plus(url)
+no_host_url = re.sub("https?://", "", url)
+networks = (
+    (U"Twitter", U"https://twitter.com/share?url=" + encoded_url + U"&text=" + title),
+    (U"Facebook", U"http://www.facebook.com/sharer/sharer.php?u=" + encoded_url),
+    (U"Delicious", U"https://delicious.com/save?v=5&noui&jump=close&url=" + encoded_url + U"&title=" + title),
+    (U"StumbleUpon", U"http://www.stumbleupon.com/submit?url=" + encoded_url + U"&title=" + title),
+    (messages(U"Hatena"), U"http://b.hatena.ne.jp/entry/" + no_host_url),
+)
+%>
+<div id="sharing-links">
+<h3>${messages('Share this Page')}</h3>
+<ul>
+%for name, link in networks:
+		<li><a href="${link}" target="_BLANK">${name}</a></li>
+%endfor
+</ul>
+</div> <!-- end sharing-links -->
+</%def>

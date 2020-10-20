@@ -1,10 +1,13 @@
-## -*- coding: utf-8 -*-
-<%namespace name="helper" file="post_helper.tmpl"/>
-<%namespace name="comments" file="comments_helper.tmpl"/>
-<%inherit file="base.tmpl"/>
+<%doc>
+  Template used by default for blog posts, gets the data in a post object which is an instance of the Post class.
+</%doc>
 
-<%block name="extra_head">
-    ${parent.extra_head()}
+<%namespace name="helper" file="/post_helper.tmpl"/>
+<%namespace name="comments" file="/comments_helper.tmpl"/>
+<%inherit file="/_base.tmpl"/>
+
+<%block name="extra_links">
+    ${parent.extra_links()}
     % if post.meta('keywords'):
     <meta name="keywords" content="${post.meta('keywords')|h}">
     % endif
@@ -26,17 +29,41 @@
     ${helper.meta_translations(post)}
 </%block>
 
-<%block name="content">
+<div class="pure-g">
+  <div class="pure-u-1">
+
+    % if len(translations) > 1:
+<div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">${messages("Also available in")}</li>
+            % for langname in sorted(translations):
+                % if langname == lang:
+<li class="pure-menu-item pure-menu-item-active">${messages("LANGUAGE", langname)}</li>
+%else:
+%if post.is_translation_available(langname):
+                <li class="pure-menu-item"><a class="pure-menu-link"
+href="${post.permalink(langname)}" rel="alternate" hreflang="${langname}">
+<img src="/assets/images/${langname}-flag.png" alt="${messages("LANGUAGE", langname)}" />
+</a></li>
+%else:
+<li class="pure-menu-item pure-menu-disabled">${messages("LANGUAGE", langname)}</li>
+                % endif
+                % endif
+            % endfor
+</ul>
+</div>
+% endif
 <header>
-<article class="post" itemscope="itemscope" itemtype="http://schema.org/Article">
 %if title and not post.meta('hidetitle'):
-    <h2 class="title" itemprop="headline name"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h2>
+    <h2 class="yp-index-post__title" itemprop="headline name"><a href="${post.permalink()}" class="u-url">${post.title()|h}</a></h2>
 %endif
-${html_translations(post)}
 </header>
-    <div class="entry" itemprop="articleBody text">
-    ${post.text()}
-    </div> <!-- end entry -->
+    <article class="yp-post__body itemprop="article"">
+<%block name="page_content">
+      ${post.text()}
+</%block>
+    </article>
+% if 'post_page' in pagekind:
     <aside class="info">
             % if post.meta('link'):
                     <p><a href="${post.meta('link')}">${messages("Original site")}</a></p>
@@ -55,92 +82,21 @@ title="${post.formatted_date(date_format)|h}">${post.formatted_date(date_format)
             % if not post.meta('nocomments') and site_has_comments:
                 <p>${comments.comment_link(post.permalink(), post._base_path)}
             % endif
-            ${html_sourcelink()}
+            ${helper.html_sourcelink()}
     <nav>
-    ${html_tags(post)}
+    ${helper.html_tags(post)}
     ${helper.html_pager(post)}
     </nav>
     </aside>
-${html_sharing_links(post)}
+${helper.html_sharing_links(post)}
     % if not post.meta('nocomments') and site_has_comments:
         <section class="comments hidden-print">
         <h2>${messages("Comments")}</h2>
         ${comments.comment_form(post.permalink(absolute=True), post.title(), post._base_path)}
         </section>
     % endif
-    ${helper.mathjax_script(post)}
-</article> <!-- end post -->
 ${comments.comment_link_script()}
-</%block>
-
-<%def name="html_translations(post)">
-    % if len(post.translated_to) > 1:
-        <div class="info">
-<ul class="list-inline">
-            <li>${messages("Also available in:")}</li>
-            % for langname in sorted(translations):
-                % if langname != lang \
-and post.is_translation_available(langname):
-## Default lang translation unavailable
-%if langname == "pt_br" and post.meta[langname]['translation_placeholder'] == 'True':
-<li>${messages("LANGUAGE", langname)}</li>
-%else:
-                <li><a href="${post.permalink(langname)}" rel="alternate"
-hreflang="${langname}">${messages("LANGUAGE", langname)}</a></li>
-%endif
-%else:
-<li>${messages("LANGUAGE", langname)}</li>
-                % endif
-            % endfor
-</ul>
-        </div>
-    % endif
-</%def>
-
-<%def name="html_tags(post)">
-    %if post.tags:
-        <ul itemprop="keywords" class="list-inline">
-<li>${messages('Tags: ')}</li>
-        %for tag in post.tags:
-          % if tag not in hidden_tags:
-            <li><a class="tag p-category" href="${_link('tag', tag)}" rel="tag">${tag|h}</a></li>
-          % endif
-        %endfor
-        </ul>
-    %endif
-</%def>
-
-<%block name="html_sourcelink">
-% if show_sourcelink:
-    <li>
-    <a href="${post.source_link()}" id="sourcelink">${messages("Source")}</a>
-    </li>
 % endif
-</%block>
 
-
-<%def name="html_sharing_links(post)">
-<%
-import urllib
-import re
-title = post.title()
-url = abs_link( post.permalink() )
-encoded_url = urllib.parse.quote_plus(url)
-no_host_url = re.sub("https?://", "", url)
-networks = (
-    (U"Twitter", U"https://twitter.com/share?url=" + encoded_url + U"&text=" + title),
-    (U"Facebook", U"http://www.facebook.com/sharer/sharer.php?u=" + encoded_url),
-    (U"Delicious", U"https://delicious.com/save?v=5&noui&jump=close&url=" + encoded_url + U"&title=" + title),
-    (U"StumbleUpon", U"http://www.stumbleupon.com/submit?url=" + encoded_url + U"&title=" + title),
-    (messages(U"Hatena"), U"http://b.hatena.ne.jp/entry/" + no_host_url),
-)
-%>
-<div id="sharing-links">
-<h3>${messages('Share this Page')}</h3>
-<ul>
-%for name, link in networks:
-		<li><a href="${link}" target="_BLANK">${name}</a></li>
-%endfor
-</ul>
-</div> <!-- end sharing-links -->
-</%def>
+  </div>
+</div>

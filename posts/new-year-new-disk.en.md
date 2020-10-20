@@ -3,7 +3,7 @@
 .. tags: Site Updates
 .. date: 2018-01-22 17:00:38
 
-2018 arrived, and I kicked off the year with... a hard drive failure in my main PC. In the morning of January 4th, I had just started doing some job-related stuff (I'm working at home) when, suddenly, without any symptom or prior warning, the computer began emitting clicks, everything crashed, the machine stopped responding, and the only way to turn it off was by holding the power button for a few seconds. When I turned it back on, I got a hard disk failure message. I used a Linux live USB to try to see what was going on, and everything worked fine except for the HD. The disk wasn't even recognized, and kept emitting clicks. We opened the machine and replaced the SATA cables, but nothing changed (the cables weren't the problem). Conclusion: the HD died for good.
+2018 arrived, and I kicked off the year with... a hard drive failure in my main PC. <!--teaser_end--> In the morning of January 4th, I had just started doing some job-related stuff (I'm working at home) when, suddenly, without any symptom or prior warning, the computer began emitting clicks, everything crashed, the machine stopped responding, and the only way to turn it off was by holding the power button for a few seconds. When I turned it back on, I got a hard disk failure message. I used a Linux live USB to try to see what was going on, and everything worked fine except for the HD. The disk wasn't even recognized, and kept emitting clicks. We opened the machine and replaced the SATA cables, but nothing changed (the cables weren't the problem). Conclusion: the HD died for good.
 
 ## Assessing the Losses
 

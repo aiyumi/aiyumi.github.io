@@ -14,7 +14,7 @@ src="/uploads/images/3ds-review/3ds-closed.jpg" width="320" height="240" alt="Th
 
 I wasn't interested in any of its games in particular, but as my five years old DS Lite's buttons (mainly the arrow keys and the "A" button) are becoming loose, I was starting to consider doing an upgrade. My plan was to get the new console maybe next year, but I found a cheap 3DS in a store near home. "Cheap" in way of speaking, because here in Brazil, things like games are very expensive. My 3DS cost R$479 (roughly $236.70 USD). No, it's not the 3DS XL, it's the normal 3DS. And this was the cheapest brand new one I could find. The XL was just released here in Brazil, costing around... R$1200 (roughly $590 USD!). In other words, too expensive.
 
-Here is my review of the 3DS: <!--more-->
+Here is my review of the 3DS: <!--teaser_end-->
 
 ### Packaging ###
 

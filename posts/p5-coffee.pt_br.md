@@ -7,7 +7,7 @@
 
 Não é a primeira vez que um jogo da série Persona me faz ir atrás de aprender algo novo. O jogo Persona 3 já [me fez tentar preparar lámen](/pt/blog/p3-food-ramen) apesar de culinária não ser a minha praia. Agora, foi a vez do Persona 5.
 
-No Persona 5, enquanto age como um estudante normal durante o dia e luta contra injustiça e adultos corruptos durante a noite, o jovem protagonista é obrigado a morar no sótão de uma cafeteria, e uma das atividades que rendem itens para as missões é aprender a preparar uma boa xícara de café. Mas não é qualquer café!
+No Persona 5, enquanto age como um estudante normal durante o dia e luta contra injustiça e adultos corruptos durante a noite, o jovem protagonista é obrigado a morar no sótão de uma cafeteria, e uma das atividades que rendem itens para as missões é aprender a preparar uma boa xícara de café. Mas não é qualquer café! <!--teaser_end-->
 
 Às vezes, quando o protagonista prepara café, o dono da cafeteria vem experimentar e diz algo como, "Pelo sabor, você usou o grão 'tal', não foi? Deixe-me explicar!" e solta alguma curiosidade sobre determinado grão de café. No meu caso, chegou uma hora que ele parou de dar as curiosidades, então parecia que não ia ter mais. Ele sempre dizia que o café estava sem graça, e achei que essa fosse a única resposta possível. Então, eu pensei, "Se não tem mais curiosidades e o café nunca vai deixar de ser sem graça mesmo, então pra que perder tempo? A quantidade de dias no jogo é limitada e tem coisas mais importantes pra fazer." E desisti.
 

@@ -5,7 +5,7 @@
 .. tags: Games, Audio, Fan-Made
 .. date: 2011-05-25 14:58:11
 
-The other day I came across [this blog post][theblogpost], pointing to [this video][thevideo], in which someone managed to play the Super Mario Bros' music on a printer! Very nice.
+The other day I came across [this blog post][theblogpost], pointing to [this video][thevideo], in which someone managed to play the Super Mario Bros' music on a printer! <!--teaser_end--> Very nice.
 
 For those who couldn't listen to it, because of accessibility problems with the site's player or any other reason, [here is only the audio (in OGG format)][theaudio].
 

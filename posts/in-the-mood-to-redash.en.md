@@ -5,7 +5,7 @@
 .. tags: Games
 .. date: 2015-07-11 15:12:26
 
-I'd already [talked here on the blog](/en/blog/in-the-mood-to-dash) about my interest in the Rockman DASH series (known as Mega Man Legends in the West), which unfortunately had its third game canceled and left its fans craving for more. Capcom hasn't shown any interest in continuing the series, but a few days ago, a light at the end of the tunnel came from somewhere else. Comcept, the company founded by Keiji Inafune (Rockman / Mega Man series' creator, who had left Capcom) launched a project to create a series that will become the spiritual successor to DASH/Legends. The project is called "RED ASH." <!--more-->
+I'd already [talked here on the blog](/en/blog/in-the-mood-to-dash) about my interest in the Rockman DASH series (known as Mega Man Legends in the West), which unfortunately had its third game canceled and left its fans craving for more. Capcom hasn't shown any interest in continuing the series, but a few days ago, a light at the end of the tunnel came from somewhere else. <!--teaser_end--> Comcept, the company founded by Keiji Inafune (Rockman / Mega Man series' creator, who had left Capcom) launched a project to create a series that will become the spiritual successor to DASH/Legends. The project is called "RED ASH." <!--teaser_end-->
 
 On July 2nd, 2015, Comcept published a short trailer with a small taste of what was to come. The video is below:
 

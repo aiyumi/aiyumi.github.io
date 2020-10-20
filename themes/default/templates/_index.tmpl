@@ -1,0 +1,74 @@
+<%doc>
+Use for index of posts. The include_content page arg is used
+to determine whether to include the post content in the listing.
+</%doc>
+<%page args="include_content=True, teasers_only=True"/>
+
+
+<%def name="page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed, surrounding=5)">
+<nav class="page-navigation">
+  % for i, link in enumerate(page_links):
+    % if abs(i - current_page) <= surrounding or i == 0 or i == len(page_links) - 1:
+      % if i == current_page:
+        <span class="current-page">${i+1}</span>
+      % else:
+        <a href="${page_links[i]}">${i+1}</a>
+      % endif
+    % elif i == current_page - surrounding - 1 or i == current_page + surrounding + 1:
+      <span class="ellipsis">…</span>
+    % endif
+  % endfor
+</nav>
+</%def>
+
+    %if posts:
+<div class="pure-g">
+% if title:
+<h2>
+<%block name="page_title">${title}</%block>
+</h2>
+% endif
+  % for post in posts:
+    <div class="pure-u-1">
+            %if post.is_translation_available(lang):
+      <article class="yp-index-post">
+        <h2 class="yp-index-post__title">
+          <a href="${post.permalink()}" class="yp-index-post__link">
+            ${post.title()}
+          </a>
+        </h2>
+
+        <p><time datetime="${post.formatted_date('webiso')}"
+              class="yp-index-meta__date">
+${post.formatted_date('webiso')}
+        </time></p>
+
+        % if include_content:
+          <div class="yp-index-post__body">
+<% teaser = post.text(teaser_only=True) %>
+% if index_teasers or teasers_only:
+% if teaser == post.text(teaser_only=False):
+## It's the full post (no read more tag)
+<%
+import re
+pattern = r'^([^\.!\?。？！]+[\.!\?。？！]+)'
+matches = re.match(pattern, post.text())
+teaser = matches.group(1)
+teaser += U"(<a href=\"" + post.permalink() + "\">" + messages(U"Read more") + "</a>)"
+%>
+% endif
+${teaser}
+% else:
+${post.text(teaser_only=index_teasers)}
+% endif
+          </div>
+% endif
+      </article>
+    </div>
+% endif
+  % endfor
+</div>
+% endif
+% if page_links:
+    ${page_navigation(current_page, page_links, prevlink, nextlink, prev_next_links_reversed)}
+% endif

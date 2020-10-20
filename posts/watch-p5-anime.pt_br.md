@@ -3,7 +3,7 @@
 .. date: 2018-04-14 19:06:25
 .. tags: Games
 
-O jogo Persona 5 do qual eu tenho falado tanto ganhou uma adaptação em anime! Chama-se "Persona 5 the Animation" e começou a ir ao ar no Japão no dia 7 de abril de 2018. E assim como aconteceu com o [episódio especial do Day Breakers][p5dbpost], o site [Crunchyroll][crhp] está fazendo simulcast (transmitindo os episódios logo após irem ao ar no Japão), um episódio por semana, com legendas em Português e tudo! Acho incrível poder assistir a um anime que acabou de sair no Japão, e ainda ter legendas em Português, considerando que o Brasil costuma ser atrasado para conseguir obter lançamentos de qualquer coisa (não só anime), isso quando consegue...
+O jogo Persona 5 do qual eu tenho falado tanto ganhou uma adaptação em anime! Chama-se "Persona 5 the Animation" e começou a ir ao ar no Japão no dia 7 de abril de 2018. E assim como aconteceu com o [episódio especial do Day Breakers][p5dbpost], o site [Crunchyroll][crhp] está fazendo simulcast (transmitindo os episódios logo após irem ao ar no Japão), um episódio por semana, com legendas em Português e tudo! <!--teaser_end--> Acho incrível poder assistir a um anime que acabou de sair no Japão, e ainda ter legendas em Português, considerando que o Brasil costuma ser atrasado para conseguir obter lançamentos de qualquer coisa (não só anime), isso quando consegue...
 
 O primeiro episódio do P5 foi liberado gratuitamente logo no dia em que saiu. Já o segundo, que foi ao ar no Japão hoje (14), por enquanto só foi liberado para usuários premium, e na página do episódio diz que será liberado gratuitamente no dia 21. Então podemos concluir que a regra normal (quem assiste de graça precisa esperar uma semana a mais pelos episódios) continua valendo.
 

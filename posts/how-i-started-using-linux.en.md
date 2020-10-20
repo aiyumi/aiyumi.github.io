@@ -7,7 +7,7 @@
 
 On June 23rd, 2009, I published an article on the Slackware Users Group Brazil mailing list, talking about how I migrated from Windows to Linux.
 
-You can view the original version [here][artig], in Portuguese. <!--more-->
+You can view the original version [here][artig], in Portuguese. <!--teaser_end-->
 
 [artig]: http://groups.google.com/g/05e7fcc8/t/3ac5bdd6e5aafbe4/d/b3c85b56ff4ea1a0
 

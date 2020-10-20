@@ -5,9 +5,17 @@
 
 `現在のブログ <https://hive.blog/@aiyumi>`__ （ポルトガル語と英語の記事）は、 Hive と言うソーシャルネットワークに公開しています。
 
+{{% raw %}}
+<div">
+<h2>Hiveでの最新の投稿</h2>
+<div id="hiverss"></div>
+<a href="https://hive.blog/@aiyumi" target="_blank">すべてのHive投稿はこちら</a>、そして、<a href="http://hiverss.com/@aiyumi/blog" target="_blank">Hive投稿のRSSフィードはこちら</a>です。
+</div>
+{{% /raw %}}
+
 前のブログでの最新の投稿
 ===================================
 
 .. post-list::
-    :stop: 10
+    :stop: 8
     :lang: ja

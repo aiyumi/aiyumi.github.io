@@ -5,7 +5,7 @@
 .. tags: Games, Audio, Fan-Made
 .. date: 2011-05-25 14:58:11
 
-Outro dia encontrei [este post][theblogpost], apontando para [este vídeo][thevideo], em que alguém conseguiu tocar a música do Super Mario, usando uma impressora! Bem legal.
+Outro dia encontrei [este post][theblogpost], apontando para [este vídeo][thevideo], em que alguém conseguiu tocar a música do Super Mario, usando uma impressora! <!--teaser_end--> Bem legal.
 
 Para quem não conseguiu ouvir, seja por problemas com acessibilidade do player do site ou por qualquer outro motivo, [aqui está apenas o som (em formato OGG)][theaudio].
 

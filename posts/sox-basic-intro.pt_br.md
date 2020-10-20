@@ -10,7 +10,7 @@
 [SoX][soxhome] (Sound eXchange) é, como o autor o chama, o "canivete Suíço dos programas de processamento de som". Ele é gratuito, livre/de código aberto e roda em Windows, Mac e Linux.
 
 O SoX pode reproduzir, gravar, converter, editar, dividir, combinar e aplicar vários efeitos a
-arquivos de áudio de muitos formatos diferentes. <!--more-->
+arquivos de áudio de muitos formatos diferentes. <!--teaser_end-->
 
 ### Formatos Suportados ###
 

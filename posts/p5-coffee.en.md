@@ -7,7 +7,7 @@
 
 It's not the first time that a game from the Persona series makes me go out of my way to learn something new. The game Persona 3 even made me [try to prepare ramen](/en/blog/p3-food-ramen) even though cooking isn't my thing. Now, it's Persona 5's turn.
 
-In Persona 5, while acting just like a normal student during the day and fighting injustice and corrupt people at night, the young protagonist is forced to live in the attic in a coffee shop, and one of the activities to get items for missions is learning to prepare a good cup of coffee. But it isn't just any coffee!
+In Persona 5, while acting just like a normal student during the day and fighting injustice and corrupt people at night, the young protagonist is forced to live in the attic in a coffee shop, and one of the activities to get items for missions is learning to prepare a good cup of coffee. But it isn't just any coffee! <!--teaser_end-->
 
 Sometimes, when the protagonist prepares coffee, the cafe owner comes and tastes the result, then says something like, "From this taste, you used beans 'XYZ,' didn't you? Let me explain!" and proceeds to release some trivia about the given coffee beans. In my case, it got to a point where he stopped coming to taste the coffee and give trivia, and I thought it wouldn't happen anymore. Also, he always said the coffee was bland, and I thought this was his only possible response. So, I thought, "If there's no more trivia and the coffee will be bland forever anyway, then why should I waste my time? The ingame days are limited, and there are more important things to do," and gave up.
 

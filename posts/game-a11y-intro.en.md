@@ -5,7 +5,7 @@
 .. tags: Games, Game Accessibility
 .. date: 2011-06-16 17:31:53
 
-Accessibility is an important subject for people with various kinds of disabilities, but here the focus will be on accessibility of games for the visually impaired. Keep reading and know how a game can be played by those who cannot see. <!--more-->
+Accessibility is an important subject for people with various kinds of disabilities, but here the focus will be on accessibility of games for the visually impaired. Keep reading and know how a game can be played by those who cannot see. <!--teaser_end-->
 
 ## Game Accessibility for Visually Impaired: a Basic Introduction ##
 
