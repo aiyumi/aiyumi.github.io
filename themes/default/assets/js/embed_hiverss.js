@@ -11,7 +11,8 @@ function embed_hiverss(lang) {
         readmore = "Read the full article";
     } // end if ( lang == ...)
     var rssDiv = document.getElementById(section);
-    const RSS_URL = 'http://cors-anywhere.herokuapp.com/http://www.hiverss.com/@aiyumi/blog?tagFilter=' + tag;
+//    const RSS_URL = 'http://cors-anywhere.herokuapp.com/http://www.hiverss.com/@aiyumi/blog?tagFilter=' + tag;
+    const RSS_URL = 'http://www.hiverss.com/@aiyumi/blog?tagFilter=' + tag;
 
     fetch(RSS_URL)
         .then( response => response.text() )
