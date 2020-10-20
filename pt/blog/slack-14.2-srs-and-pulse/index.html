@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="pt_br">
-<!--
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-
-Name       : Conjunction 
-Description: A two-column, fixed-width design for 1024x768 screen resolutions.
-Version    : 1.0
-Released   : 20100328
-
---><head>
+<html lang="pt_br">
+<head>
+<base href="https://aiyumi.github.io/pt/blog/slack-14.2-srs-and-pulse/">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Slackware 14.2, Leitores de Tela e PulseAudio » Aiyumi.Github.Io</title>
-<link href="../../../assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="../../../assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="../../../assets/css/theme.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../../en/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (ja)" href="../../../ja/rss.xml">
-<link rel="alternate" type="application/rss+xml" title="RSS (pt_br)" href="../../rss.xml">
-<link rel="canonical" href="https://aiyumi.github.io/pt/blog/slack-14.2-srs-and-pulse/">
-<!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Aiyumi">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>
+
+Slackware 14.2, Leitores de Tela e PulseAudio
+
+ » Aiyumi.Github.Io
+    </title>
+<link rel="stylesheet" href="../../../assets/css/fluidbox.min.css">
+<link rel="stylesheet" href="../../../assets/css/highlight/default.css">
+<link rel="stylesheet" href="../../../assets/css/pure.css">
+<link rel="stylesheet" href="../../../assets/css/grids-responsive.css">
+<link rel="stylesheet" href="../../../assets/css/side-menu.css">
+<link rel="stylesheet" href="../../../assets/css/site.css">
+<meta name="author" content="Aiyumi">
 <link rel="prev" href="../bg-ave-maria-violin-1/" title="Bach/Gounod Ave Maria no Violino (Fá Maior)" type="text/html">
 <link rel="next" href="../installing-orca-on-slackware-14.2/" title="Instalando o Orca no Slackware 14.2" type="text/html">
 <meta property="og:site_name" content="Aiyumi.Github.Io">
@@ -32,62 +28,182 @@ Released   : 20100328
 <meta property="article:published_time" content="2017-03-23T15:55:46-03:00">
 <meta property="article:tag" content="linux">
 <link rel="alternate" hreflang="en" href="../../../en/blog/slack-14.2-srs-and-pulse/">
+<script src="../../../assets/js/jquery-2.1.4.min.js"></script><script src="../../../assets/js/jquery.ba-throttle-debounce.min.js"></script><script src="../../../assets/js/moment.js"></script><script defer src="../../../assets/js/sidebar.js"></script><script defer src="../../../assets/js/jquery.fluidbox.min.js"></script><script defer src="../../../assets/js/highlight.pack.js"></script><script defer src="../../../assets/js/init.js"></script>
 </head>
 <body>
-<div id="top"></div>
-<div id="a11y-jump-links"> <!-- begin a11y-jump-links -->
-<ul>
-<li><a href="#menu">Pular para o menu superior</a></li>
-<li><a href="#content">Pular para o conteúdo principal</a></li>
-<li><a href="#sidebar">Pular para o menu da direita</a></li>
-<li><a href="#footer">Pular para o rodapé</a></li>
+    <div id="layout">
+<a class="sr-only" href="#content">Pular para o conteúdo principal</a>
+      
+
+<a href="#menu" id="menuLink" class="menu-link">
+    <span></span>
+</a>
+
+<div id="menu">
+    <div class="pure-menu">
+
+        <a class="pure-menu-heading" href="../../../">Aiyumi.Github.Io</a>
+
+        <ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="../../">Home</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../about/">Sobre</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../tag/site-updates/">Atualizações</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../">Blog</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://hive.blog/@aiyumi" target="_blank">Blog na Hive</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../links/">Links</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../contact/">Contato</a></li>
+
 </ul>
-</div> <!-- end a11y-jump-links -->
+<h3 class="pure-menu-heading">Blog</h3>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="../">Posts</a></li>
 
-	<div id="logo">
-    <h1><a href="https://aiyumi.github.io/pt/" title="Aiyumi.Github.Io" rel="home">
-        Aiyumi.Github.Io
-    </a></h1>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../archive/">Arquivo</a></li>
 
-<div id="site-langselect"> <!-- begin site-langselect -->
-    <ul>
-<li>Ver este site em:</li>
-            <li><a href="../../" rel="alternate" hreflang="pt_br"><img src="../../../images/pt_br-flag.png" alt="Português"></a></li>
-            <li><a href="../../../en/" rel="alternate" hreflang="en"><img src="../../../images/en-flag.png" alt="English"></a></li>
-            <li><a href="../../../ja/" rel="alternate" hreflang="ja"><img src="../../../images/ja-flag.png" alt="日本語"></a></li>
-    </ul>
-</div> <!-- end site-langselect -->
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../tag/">Tags</a></li>
 
-		<p><em>Acessibilidade, áudio, jogos, Linux e outras coisas, do ponto de vista de uma deficiente visual.</em></p>
-	</div>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../rss.xml">Feed RSS do Site</a></li>
 
-	<hr>
-<!-- end #logo --><header id="header"><!-- begin #header --><nav id="menu"><ul>
-<li><a href="../../">Home</a></li>
-                <li><a href="../../about/">Sobre</a></li>
-                <li><a href="../../tag/site-updates/">Atualizações</a></li>
-                <li><a href="../">Blog Antigo</a></li>
-                <li><a href="https://hive.blog/@aiyumi">Blog Atual</a></li>
-                <li><a href="../../contact/">Contato</a></li>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://hiverss.com/@aiyumi/blog" target="_blank">Feed RSS da Hive</a></li>
 
-    </ul></nav></header><!-- end #header --><div id="page">
-		<div id="content">
-            
-            
-<header><article class="post" itemscope="itemscope" itemtype="http://schema.org/Article"><h2 class="title" itemprop="headline name"><a href="." class="u-url">Slackware 14.2, Leitores de Tela e PulseAudio</a></h2>
+</ul>
+<h3 class="pure-menu-heading">Fandoms</h3>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="../../../en/pokemon/" title="(em Inglês)">Pokemon</a></li>
 
-        <div class="info">
-<ul class="list-inline">
-<li>Ver esta página em:</li>
-                <li><a href="../../../en/blog/slack-14.2-srs-and-pulse/" rel="alternate" hreflang="en">English</a></li>
-<li>日本語</li>
-<li>Português</li>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../../en/rockman/" title="(em Inglês)">Rockman (Mega Man)</a></li>
+</ul>
+<h3>Links</h3>
+        <ul class="pure-menu-list">
+<h4 class="pure-menu-heading">Aiyumi</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="https://www.youtube.com/user/AiyumiBr" title="Meu canal no Youtube." target="_blank">Youtube</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://github.com/aiyumi" title="Meu código e minhas contribuições no GitHub." target="_blank">GitHub</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://twitter.com/aiyumi_br" title="Twitter em Português" target="_blank"></a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://twitter.com/aiyumi_en" title="Twitter em Inglês" target="_blank"></a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://www.fanfiction.net/u/1478552/" title="Minhas fan fictions (em Português e Inglês)." target="_blank">Fanfiction.net</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://archiveofourown.org/users/aiyumibr" title="Fan fictions (em Inglês)." target="_blank">AO3</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://www.freesound.org/people/Aiyumi/" title="Meus efeitos sonoros grátis no Freesound." target="_blank">Freesound</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://hive.blog/@aiyumi" title="Hive" target="_blank"></a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Acessibilidade</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="http://www.blindcooltech.com/" title="Podcasts demonstrando como usar alguns aparelhos eletrônicos sem enxergar. Site em Inglês." target="_blank">Blind Cool Tech</a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Áudio</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="http://www.freesound.org/" title="site que contém milhares de efeitos sonoros gratuitos, a maioria sob uma licença Creative Commons e outros em domínio público. Site en Inglês." target="_blank">Freesound.org</a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Japonês</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="http://www.aprendendojapones.com/" title="Técnicas para ajudar a estudar japonês, curiosidades sobre o Japão, origami e muito mais. Site em Português." target="_blank">AprendendoJapones.com</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://www.comoaprenderjapones.com/" title="Explicações sobre a gramática japonesa e outras dicas de estudo. Site em Português." target="_blank">ComoAprenderJapones</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://www.jisho.org/" title="Dicionário de Inglês &lt;&gt; Japonês, baseado em dados do WWWJDIC. Site em Inglês." target="_blank">Denshi Jisho</a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Linux</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="https://perspicazsite.wordpress.com/" title="Blog de um amigo meu, sobre Unix, programação, Business Intelligence, entre outros assuntos. Site em Português." target="_blank">Perspicazsite</a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Lojas Recomendadas</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="http://www.play-asia.com/?tagid=199487" title="DVDs de anime, jogos (versão japonesa e americana), CDs de trilha sonora (OSTs) e outras coisas. Site em vários idiomas, inclusive Português." target="_blank">Play-Asia.com</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://www.repassa.com.br/convite/dani-aiyumi" title="Compra e venda de roupas usadas, tudo fácil e online. Site em Português." target="_blank">Repassa - Brechó Online</a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Cupons de Desconto e Cashback</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="https://www.meliuz.com.br/i/ref_88bd1a40?ref_source=2" title="Site com cupons de desconto das maiores lojas online do Brasil (Amazon, Americanas, Casas Bahia, Magazine Luiza, Netshoes, Saraiva, Submarino, entre outras), e que ainda dá parte do valor das nossas compras de volta! Obviamente, site em Português." target="_blank">Méliuz</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://meudimdim.co/rHTNg" title="Outro site de cashback, funciona semelhante ao Méliuz, mas tem outras lojas que no Méliuz não tem e vice versa. Site em Português." target="_blank">Meu Dim Dim</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://www.amedigital.com/" title="Aplicativo de pagamentos da B2W (grupo das Lojas Americanas, Shoptime e Submarino), que tem promoções e cashback tanto para as lojas da B2W quanto para outras. Em Português." target="_blank">Ame Digital</a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Criptomoedas</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="https://hive.blog/" title="Uma rede social com comunidades parecidas com as do Reddit, e onde os likes/curtidas (que na Hive são chamadas de upvotes) valem criptomoedas. Em Inglês." target="_blank">Hive</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://splinterlands.com?ref=aiyumi" title="Jogo online de cartas em que é possível ganhar criptomoedas tanto nas batalhas normais como com prêmio de torneios, e também ao vender ou alugar cartas. Em Inglês." target="_blank">Splinterlands</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="https://hive.blog/pt/@aiyumi/faucets-que-estou-usando-para-ganhar-steem-resumo-e-dicas-faucets-que-usam-a-coinpot" title="Saiba o que são sites de faucets de criptomoedas, e como usar para ganhar uns trocadinhos. Em Português." target="_blank">Faucets - Criptomoedas Grátis</a></li>
+
+</ul>
+<h4 class="pure-menu-heading">Desenvolvimento Web</h4>
+<ul class="pure-menu-list">
+<li class="pure-menu-item"><a class="pure-menu-link" href="https://getnikola.com/" title="O sistema de blog estático que este site usa atualmente. Site em Inglês." target="_blank">Nikola</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://www.dreamhost.com/r.cgi?362621" title="O serviço de hospedagem que este site usava anteriormente. Em Inglês." target="_blank">DreamHost.com</a></li>
+
+                <li class="pure-menu-item"><a class="pure-menu-link" href="http://www.opendrive.com/ref/4d7277d9031ab" title="Hospedagem de arquivos grátis. Página em vários idiomas." target="_blank">OpenDrive</a></li>
+</ul>
 </ul>
 </div>
+</div>
 
-</article></header><div class="entry" itemprop="articleBody text">
-    <div>
-<p>Depois de um longo e tenebroso inverno (e primavera, e verão, e mais um pouco) finalmente estou no Slackware 14.2. Já faz quase um ano que saiu, mas eu estava sem coragem nem ânimo para atualizar, principalmente porque quando tentei atualizar a instalação no meu netbook (que serviu de cobaia como sempre), não tinha dado certo (é a primeira vez que tenho problemas tentando atualizar o Slackware). O sistema ficou sem som no meio da atualização e perdi o acesso aos meus programas leitores de tela dos quais eu dependo para fazer qualquer coisa no computador (ainda bem que foi no netbook e não na minha máquina principal!). Eu não estava conseguindo resolver e perdi a paciência de investigar, e acabei deixando de lado por um bom tempo. Agora que estou de férias do trabalho e com um pouco mais de tempo, finalmente arranjei paciência e coragem para tentar de novo. <!--more--></p>
+
+      <div id="main">
+
+        
+
+
+        <div class="yp-header-container">
+            <div class="yp-header" style="border-bottom: 1px solid #eee;">
+
+            <h1 class="yp-header__title">
+              Aiyumi.Github.Io
+            </h1>
+            <h2 class="yp-header__subtitle">
+              Acessibilidade, áudio, jogos, Linux e outras coisas, do ponto de vista de uma deficiente visual.
+            </h2>
+            
+          </div>
+        </div>
+
+        <div class="yp-content" id="content">
+          
+
+
+
+
+
+
+
+<div class="pure-g">
+  <div class="pure-u-1">
+
+<div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+<li class="pure-menu-item">Ver esta página em</li>
+                <li class="pure-menu-item"><a class="pure-menu-link" href="../../../en/blog/slack-14.2-srs-and-pulse/" rel="alternate" hreflang="en">
+<img src="../../../assets/images/en-flag.png" alt="English"></a></li>
+<li class="pure-menu-item pure-menu-disabled">日本語</li>
+<li class="pure-menu-item pure-menu-item-active">Português</li>
+</ul>
+</div>
+<header><h2 class="yp-index-post__title" itemprop="headline name"><a href="." class="u-url">Slackware 14.2, Leitores de Tela e PulseAudio</a></h2>
+</header><article class="yp-post__body itemprop=" article><div>
+<p>Depois de um longo e tenebroso inverno (e primavera, e verão, e mais um pouco) finalmente estou no Slackware 14.2. Já faz quase um ano que saiu, mas eu estava sem coragem nem ânimo para atualizar, principalmente porque quando tentei atualizar a instalação no meu netbook (que serviu de cobaia como sempre), não tinha dado certo (é a primeira vez que tenho problemas tentando atualizar o Slackware). O sistema ficou sem som no meio da atualização e perdi o acesso aos meus programas leitores de tela dos quais eu dependo para fazer qualquer coisa no computador (ainda bem que foi no netbook e não na minha máquina principal!). Eu não estava conseguindo resolver e perdi a paciência de investigar, e acabei deixando de lado por um bom tempo. Agora que estou de férias do trabalho e com um pouco mais de tempo, finalmente arranjei paciência e coragem para tentar de novo. <!--teaser_end--></p>
 <p>Por que deu problema? Tudo graças ao PulseAudio - um gerenciador de som polêmico, amado por uns e odiado por outros - que por fim conseguiu <a href="https://docs.slackware.com/howtos:multimedia:pulseaudio_non-default">se "infiltrar" no Slackware</a> e se tornar o gerenciador de som padrão no 14.2. Lembro de ter tido problemas com esse software na época que estava iniciando no Linux, quando testei o Ubuntu. Uma das razões que me fez escolher o Slackware foi justamente porque não tinha esse "bendito". Consegui fugir do PulseAudio por cerca de oito anos, mas agora ele está aí, e parece que veio para ficar.</p>
 <p>Investigando o problema no meu netbook, continuei tentando fugir. Primeiro tentei fazer o Pulse ficar como gerenciador de som secundário e deixar o ALSA como primário, para que a maioria dos programas usem o ALSA e somente os que realmente dependem do Pulse recorram a ele. Segui as <a href="https://wiki.archlinux.org/index.php/PulseAudio/Examples#PulseAudio_as_a_minimal_unintrusive_dumb_pipe_to_ALSA">instruções na wiki do Arch Linux</a>, mas não deu certo. O Speech-Dispatcher (servidor de fala do qual o Orca depende) se recusou a funcionar. Configurando o "AudioOutputMethod" como "alsa" e deixando o "AudioALSADevice" em "default" (exatamente como estive usando durante todos esses anos), o programa não iniciava e no log dava erro de "couldn't open alsa plugin". Colocando "AudioALSADevice" como "dmix" não dava erro mas não saía som nenhum. Tentei até usar o ALSA através do Libao como "AudioOutputMethod" (recompilei o Libao para usar ALSA em vez do Pulse) mas também não saiu som. E adivinha qual o único jeito que saiu som? "AudioOutputMethod" configurado como "pulse"...</p>
 <p>Então, em vez de tentar fugir, fazer todos os programas usarem o PulseAudio pareceu ser a forma mais fácil de resolver o problema. Aí eu pensei. Não tenho boas lembranças do PulseAudio de quando usei antes, mas isso já faz oito anos! Ouvi várias reclamações (mais recentes) sobre o Pulse, mas também sei de gente muito fera lá da lista de discussão Linux-Audio-User que gosta bastante dele, então pode ser que tenha melhorado. E se o Slackware que é tão exigente chegou a ponto de aceitar adotar o PulseAudio, então talvez seja hora de eu dar uma chance a ele.</p>
@@ -96,28 +212,25 @@ Released   : 20100328
 <p>Praticamente perdi o dia inteiro pesquisando na Internet e não achei nenhum problema parecido com o meu. Foram várias horas de tentativa e erro até eu entender o que estava acontecendo. A questão é que o Espeak (e por consequência, o espeakup, que faz o leitor de telas para console falar) foi compilado para usar o Pulse se o Pulse estiver rodando, ou o ALSA se não estiver. Aí, se iniciasse o leitor de telas no boot, o Espeakup iria usar o ALSA porque o Pulse não estaria rodando ainda (o Pulse só viria depois dos logins dos usuários), o Espeakup iria se "apossar" da placa de som e não deixaria o Pulse iniciar. Então realmente precisava que o Pulse iniciasse no boot e que já estivesse ativo quando o Espeakup chegasse. Mas iniciando o Pulse pelo boot não tinha som nenhum...</p>
 <p>Sem saber mais o que fazer, saí comparando logs. Comparei o log do PulseAudio rodando como root (onde o som funcionava como deveria) e o log de quando tentava iniciar no boot (onde não saía som), que é com um usuário especial chamado "pulse." No root ia tudo direitinho, mas descobri que no usuário pulse a placa de som não estava sendo detectada e só aparecia um dispositivo "dummy". Mas por que no usuário pulse não detectava a placa de som? No meu usuário normal detectava perfeitamente! Mais algumas horas batendo cabeça e finalmente caiu a ficha. Pergunta: qual a diferença do meu usuário para o usuário do pulse? Resposta: o meu usuário estava no grupo "audio" e o usuário do pulse não. Ou seja, o usuário responsável por gerenciar o som do sistema não tinha acesso às coisas relacionadas a som! (vê se pode?) Tanto tempo perdido, e no final era só adicionar o usuário no grupo "audio"!</p>
 <p>Então, o comando que finalmente resolveu meu problema foi este:</p>
-<pre class="code literal-block"><span></span># usermod -aG audio pulse
+<pre class="code literal-block"># usermod -aG audio pulse
 </pre>
-
 
 <p>Pronto! Não sei por que no netbook funcionou de cara sem precisar fazer isso, mas OK...</p>
 <p>E como está a performance do som com o PulseAudio? No netbook (que é mais "fraco") fica mais pesado e dá uns engasgos, mas no PC (que é mais potente) vai de boa. Recompilei meus programas relacionados a som (SoX, Mplayer, Audacity, Ecasound) para usarem o Pulse também, e estão funcionando. Precisei editar o arquivo "/etc/pulse/daemon.conf" e deixar "default-sample-rate = 48000" (porque é o padrão da minha placa de som), senão o Audacity distorcia todo o som ao reproduzir arquivos de áudio.</p>
 <p>Para o Ecasound, precisei mudar a sample rate interna para 48000 no arquivo "~/.ecasound/ecasoundrc" (o arquivo não existia, então copiei de "/usr/share/ecasound/ecasoundrc"). E na hora de reproduzir algum arquivo de som pelo Ecasound, precisa da opção "-B nonrt" para não dar problemas. Exemplo:</p>
-<pre class="code literal-block"><span></span>$ ecasound -B nonrt -i teste.ogg
+<pre class="code literal-block">$ ecasound -B nonrt -i teste.ogg
 </pre>
-
 
 <p>Para outras melhorias gerais, alterei algumas outras configurações. No arquivo "/etc/pulse/client.conf", deixei "autospawn = no" e "allow-autospawn-for-root = no", para evitar que o Pulse individual dos usuários tente iniciar sozinho e entre em conflito com o Pulse rodando em modo de sistema.</p>
 <p>Também existe uma variável de ambiente, "PULSE_LATENCY_MSECS", que dizem que elimina problemas de som tocando rápido demais em certos programas como o Skype e o Wine. Coloquei esta variável num script executável qualquer dentro de "/etc/profile.d" para ficar definida para todos os usuários:</p>
-<pre class="code literal-block"><span></span>export PULSE_LATENCY_MSECS=30
+<pre class="code literal-block">export PULSE_LATENCY_MSECS=30
 </pre>
-
 
 <p>No mais, fora os enroscos até finalmente descobrir as configurações certas, No geral, o som está funcionando como deveria (Orca, YouTube, Flash etc.) e surpreendentemente, o PulseAudio ainda não travou nenhuma vez! Espero que continue assim..</p>
 <p>Por falar no Orca, atualizei meus SlackBuilds para instalar o Orca no Slackware 14.2. Para instruções, <a href="../installing-orca-on-slackware-14.2">acesse aqui</a>.</p>
 </div>
-    </div> <!-- end entry -->
-    <aside class="info"><p>Postado por                     Aiyumi
+
+    </article><aside class="info"><p>Postado por                     Aiyumi
 - <a href="." rel="bookmark">
 <time datetime="2017-03-23T15:55:46-03:00" itemprop="datePublished" title="2017-03-23 15:55">2017-03-23 15:55</time></a>
 </p>
@@ -125,7 +238,7 @@ Released   : 20100328
 
     <nav><ul itemprop="keywords" class="list-inline">
 <li>Tags: </li>
-            <li><a class="tag p-category" href="../../tag/linux/" rel="tag">linux</a></li>
+            <li><a href="../../tag/linux/" rel="tag"><span class="yp-index-meta__tag">linux</span></a></li>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
@@ -134,111 +247,35 @@ Released   : 20100328
             <li class="next">
                 <a href="../installing-orca-on-slackware-14.2/" rel="next" title="Instalando o Orca no Slackware 14.2">Próximo post</a>
             </li>
-        </ul></nav></aside><div id="sharing-links">
+        </ul></nav></aside><div id="sharing-links" class="pure-menu pure-menu-horizontal">
 <h3>Compartilhe esta Página</h3>
-<ul>
+<ul class="list-inline">
 <li><a href="https://twitter.com/share?url=https%3A%2F%2Faiyumi.github.io%2Fpt%2Fblog%2Fslack-14.2-srs-and-pulse%2F&amp;text=Slackware%2014.2,%20Leitores%20de%20Tela%20e%20PulseAudio" target="_BLANK">Twitter</a></li>
 		<li><a href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faiyumi.github.io%2Fpt%2Fblog%2Fslack-14.2-srs-and-pulse%2F" target="_BLANK">Facebook</a></li>
-		<li><a href="https://delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url=https%3A%2F%2Faiyumi.github.io%2Fpt%2Fblog%2Fslack-14.2-srs-and-pulse%2F&amp;title=Slackware%2014.2,%20Leitores%20de%20Tela%20e%20PulseAudio" target="_BLANK">Delicious</a></li>
 		<li><a href="http://www.stumbleupon.com/submit?url=https%3A%2F%2Faiyumi.github.io%2Fpt%2Fblog%2Fslack-14.2-srs-and-pulse%2F&amp;title=Slackware%2014.2,%20Leitores%20de%20Tela%20e%20PulseAudio" target="_BLANK">StumbleUpon</a></li>
 		<li><a href="http://b.hatena.ne.jp/entry/aiyumi.github.io/pt/blog/slack-14.2-srs-and-pulse/" target="_BLANK">Hatena</a></li>
 </ul>
-</div> <!-- end sharing-links -->
+</div>
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+          <div class="yp-footer">
+<p>Nota: se você usar meus links para comprar algum produto nas lojas que recomendo ou para contratar os serviços de hospedagem da DreamHost, eu posso receber uma pequena comissão do programa de afiliados deles.</p>
+    Todas as marcas registradas são de propriedade de seus respectivos autores e empresas. Este site não tem nenhuma relação com tais autores/empresas. O conteúdo original é copyright 2020 Aiyumi e, a menos que seja especificado o contrário, está publicado sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.
+    
+  </div>
+
+      </div>
+    </div>
 
     
+    
 
- <!-- end post -->
-
-
-
-		</div>
-<!-- end #content -->
-		<nav id="sidebar"><h3>Blog</h3>
-<ul>
-<li><a href="../">Posts</a></li>
-
-                <li><a href="../../archive/">Arquivo</a></li>
-
-                <li><a href="../../tag/">Tags</a></li>
-
-                <li><a href="../../rss.xml">Feed RSS</a></li>
-
-</ul>
-<h3>Fandoms</h3>
-<ul>
-<li><a href="../../../en/pokemon/" title="(em Inglês)">Pokemon</a></li>
-
-                <li><a href="../../../en/rockman/" title="(em Inglês)">Rockman (Mega Man)</a></li>
-</ul>
-<h3>Links</h3>
-
-
-<h4>Aiyumi</h4>
-<ul>
-<li><a href="https://www.youtube.com/user/AiyumiBr" title="Meu canal no Youtube.">Youtube</a></li>
-
-                <li><a href="https://github.com/aiyumi" title="Meu código e minhas contribuições no GitHub.">GitHub</a></li>
-
-                <li><a href="https://twitter.com/aiyumi_br" title="Twitter em Português"></a></li>
-
-                <li><a href="https://twitter.com/aiyumi_en" title="Twitter em Inglês"></a></li>
-
-                <li><a href="http://www.fanfiction.net/u/1478552/" title="Minhas fan fictions (em Português e Inglês).">Fanfiction.net</a></li>
-
-                <li><a href="http://archiveofourown.org/users/aiyumibr" title="Fan fictions (em Inglês).">AO3</a></li>
-
-                <li><a href="http://www.freesound.org/people/Aiyumi/" title="Meus efeitos sonoros grátis no Freesound.">Freesound</a></li>
-
-                <li><a href="https://hive.blog/@aiyumi" title="Hive"></a></li>
-
-</ul>
-<h4>Acessibilidade</h4>
-<ul>
-<li><a href="http://www.blindcooltech.com/" title="Podcasts demonstrando como usar alguns aparelhos eletrônicos sem enxergar. Site em Inglês.">Blind Cool Tech</a></li>
-
-</ul>
-<h4>Áudio</h4>
-<ul>
-<li><a href="http://www.freesound.org/" title="site que contém milhares de efeitos sonoros gratuitos, a maioria sob uma licença Creative Commons e outros em domínio público. Site en Inglês.">Freesound.org</a></li>
-
-</ul>
-<h4>Japonês</h4>
-<ul>
-<li><a href="http://www.aprendendojapones.com/" title="Técnicas para ajudar a estudar japonês, curiosidades sobre o Japão, origami e muito mais. Site em Português.">AprendendoJapones.com</a></li>
-
-                <li><a href="http://www.comoaprenderjapones.com/" title="Explicações sobre a gramática japonesa e outras dicas de estudo. Site em Português.">ComoAprenderJapones</a></li>
-
-                <li><a href="http://www.jisho.org/" title="Dicionário de Inglês &lt;&gt; Japonês, baseado em dados do WWWJDIC. Permite busca por palavras, sentenças de exemplo e kanji, tanto por Inglês, caracteres japoneses ou romaji. Site em Inglês.">Denshi Jisho</a></li>
-
-</ul>
-<h4>Linux</h4>
-<ul>
-<li><a href="https://perspicazsite.wordpress.com/" title="Blog de um amigo meu, sobre Unix, programação, Business Intelligence, entre outros assuntos.">Perspicazsite</a></li>
-
-</ul>
-<h4>Lojas Recomendadas</h4>
-<ul>
-<li><a href="http://www.play-asia.com/?tagid=199487" title="DVDs de anime, jogos (versão japonesa e americana), CDs de trilha sonora (OSTs) e outras coisas. Entrega praticamente para o mundo todo (inclusive o Brasil). Site em vários idiomas, inclusive Português.">Play-Asia.com</a></li>
-
-</ul>
-<h4>Desenvolvimento Web</h4>
-<ul>
-<li><a href="https://getnikola.com/" title="O sistema de blog que este site usa atualmente. Bastante customizável. Site em Inglês.">Nikola</a></li>
-
-                <li><a href="http://www.dreamhost.com/r.cgi?362621" title="O serviço de hospedagem que este site usava anteriormente. Tem muitas características interessantes como suporte para scripts em PHP, Perl, Python e outras linguagens, acesso Shell ao servidor e ótima documentação sobre como utilizar os serviços. Apesar de não usar mais esta hospedagem, eu ainda recomendo. Em Inglês.">DreamHost.com</a></li>
-
-                <li><a href="http://www.opendrive.com/ref/4d7277d9031ab" title="Hospedagem de arquivos grátis. 5 GB de espaço, com possibilidade de criar links diretos para os arquivos. Bom para colocar coisas para download em um site. Página em vários idiomas.">OpenDrive</a></li>
-</ul></nav><!-- end #sidebar --><div style="clear: both;"> </div>
-	</div>	<!-- end #page -->
-
-        <footer id="footer"><!-- begin #footer --><p>Nota: se você usar meus links para comprar algum produto na Play-Asia ou para contratar os serviços de hospedagem da DreamHost, eu posso receber uma pequena comissão do programa de afiliados deles.</p>
-            <p class="smalltext">Todas as marcas registradas são de propriedade de seus respectivos autores e empresas. Este site não tem nenhuma relação com tais autores/empresas. O conteúdo original é copyright 2020 Aiyumi e, a menos que seja especificado o contrário, está publicado sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.</p>
-            
-<p>Site powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>,
-and hosted at <a href="https://pages.github.com/" rel="nofollow">GitHub Pages</a> 
-(<a href="https://github.com/aiyumi/aiyumi.github.io/tree/src" rel="nofollow">view site source code</a>)</p>
-<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
-<p id="a11y-jump-top"><a href="#top">Voltar para o topo</a></p>
-        </footer><!-- end #footer -->
-</body>
+  </body>
 </html>
