@@ -11,7 +11,7 @@ I have posted many articles here along the years, but now, I do most of my blogg
 <div">
 <h2>Latest Posts on Hive</h2>
 <div id="hiverss"></div>
-<a href="https://hive.blog/@aiyumi" target="_blank">Click here for all my posts on Hive</a>, and <a href="http://hiverss.com/@aiyumi/blog" target="_blank">here for the RSS feed of my Hive posts</a>.
+<a href="https://hive.blog/@aiyumi" target="_blank">Click here for all my posts on Hive</a>, and <a href="https://hiverss.com/@aiyumi/blog" target="_blank">here for the RSS feed of my Hive posts</a>.
 </div>
 {{% /raw %}}
 

@@ -9,7 +9,7 @@
 <div">
 <h2>Hiveでの最新の投稿</h2>
 <div id="hiverss"></div>
-<a href="https://hive.blog/@aiyumi" target="_blank">すべてのHive投稿はこちら</a>、そして、<a href="http://hiverss.com/@aiyumi/blog" target="_blank">Hive投稿のRSSフィードはこちら</a>です。
+<a href="https://hive.blog/@aiyumi" target="_blank">すべてのHive投稿はこちら</a>、そして、<a href="https://hiverss.com/@aiyumi/blog" target="_blank">Hive投稿のRSSフィードはこちら</a>です。
 </div>
 {{% /raw %}}
 

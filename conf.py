@@ -154,7 +154,7 @@ NAVIGATION_LINKS = {
         ("/pt/archive/", U"Arquivo", ""),
         ("/pt/tag/", U"Tags", ""),
         ("/pt/rss.xml", U"Feed RSS do Site", ""),
-        ("http://hiverss.com/@aiyumi/blog", U"Feed RSS da Hive", ""),
+        ("https://hiverss.com/@aiyumi/blog", U"Feed RSS da Hive", ""),
 
         ("", "", U"Fandoms"),
         ("/en/pokemon/",  U"Pokemon", U"(em Inglês)"),
@@ -174,7 +174,7 @@ NAVIGATION_LINKS = {
         ("/en/archive/", U"Archive", ""),
         ("/en/tag/", U"Tags", ""),
         ("/en/rss.xml", U"RSS Feed", ""),
-        ("http://hiverss.com/@aiyumi/blog", U"Hive RSS Feed", ""),
+        ("https://hiverss.com/@aiyumi/blog", U"Hive RSS Feed", ""),
 
         ("", "", U"Fandoms"),
         ("/en/pokemon/",  U"Pokemon", ""),
@@ -193,7 +193,7 @@ NAVIGATION_LINKS = {
         ("/ja/archive/", U"文書一覧", ""),
         ("/ja/tag/", U"タグ", ""),
         ("/ja/rss.xml", U"サイトのRSSフィード", ""),
-        ("http://hiverss.com/@aiyumi/blog", U"Hive のRSSフィード", ""),
+        ("https://hiverss.com/@aiyumi/blog", U"Hive のRSSフィード", ""),
 
         ("", "", U"ファンダム"),
         ("/en/pokemon/", U"ポケモン", "（英語）"),

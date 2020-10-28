@@ -11,7 +11,7 @@ Publiquei muita coisa neste site ao longo dos anos, mas agora estou dando prefer
 <div">
 <h2>Últimos Posts na HIVE</h2>
 <div id="hiverss"></div>
-<a href="https://hive.blog/@aiyumi" target="_blank">Clique aqui para ver todos os posts na Hive</a>, e <a href="http://hiverss.com/@aiyumi/blog" target="_blank">aqui para o feed RSS dos posts na Hive</a>.
+<a href="https://hive.blog/@aiyumi" target="_blank">Clique aqui para ver todos os posts na Hive</a>, e <a href="https://hiverss.com/@aiyumi/blog" target="_blank">aqui para o feed RSS dos posts na Hive</a>.
 </div>
 {{% /raw %}}
 
