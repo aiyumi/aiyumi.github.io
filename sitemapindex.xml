@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://aiyumi.github.io/en/rss.xml</loc>
-  <lastmod>2020-10-20T03:01:00Z</lastmod>
+  <lastmod>2020-10-28T21:48:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/en/tag/audio.xml</loc>
@@ -31,7 +31,7 @@
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/en/tag/site-updates.xml</loc>
-  <lastmod>2020-10-20T03:01:00Z</lastmod>
+  <lastmod>2020-10-28T21:48:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/en/tag/utau.xml</loc>
@@ -79,7 +79,7 @@
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/pt/rss.xml</loc>
-  <lastmod>2020-10-20T03:01:00Z</lastmod>
+  <lastmod>2020-10-28T21:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/pt/tag/audio.xml</loc>
@@ -107,7 +107,7 @@
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/pt/tag/site-updates.xml</loc>
-  <lastmod>2020-10-20T03:01:00Z</lastmod>
+  <lastmod>2020-10-28T21:45:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/pt/tag/utau.xml</loc>
@@ -123,6 +123,6 @@
  </sitemap>
  <sitemap>
   <loc>https://aiyumi.github.io/sitemap.xml</loc>
-  <lastmod>2020-10-20T03:01:00Z</lastmod>
+  <lastmod>2020-10-28T21:48:00Z</lastmod>
  </sitemap>
 </sitemapindex>
