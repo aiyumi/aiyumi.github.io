@@ -11,8 +11,10 @@ Another improvement was in the post listing pages. Now these pages show a brief 
 
 Edit: too early to celebrate, it seems. When I uploaded the files to the server, the Hive feed didn't load. Apparently, browsers don't like that this blog on GitHub Pages is HTTPS and the feed site is HTTP (the feed's download gets blocked with a "mixed content" error). I contacted one of the [feed site][hiverss]'s maintainers and asked if HTTPS could be added via a free service, and they said they'll look into it some time later this week. I'll update this post once the issue gets resolved.
 
+Edit (2020/10/28): solved! HTTPS was added to HiveRSS, and the feed embed on the main page works now!
+
 This is it for this update. See you in my next posts, either on Hive or on here.
 
 [yesplease]: https://themes.getnikola.com/v7/yesplease/
 [hiveprofile]: https://hive.blog/@aiyumi
-[hiverss]: http://hiverss.com/
+[hiverss]: https://hiverss.com/

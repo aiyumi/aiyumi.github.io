@@ -6,6 +6,7 @@
 I've never had much patience, nor luck, with social networks.
 
 * I've tried to use twitter, but nothing came out of it. I didn't have the patience to read others' things and post constantly, and it was cumbersome to rephrase everything I wrote to fit the character limit. In the end, [my Twitter][twitter_en] was relegated to just informing people about blog and fanfic updates. <!--teaser_end--> I only have like 7 followers, and my tweets don't even show on searches, just because they contain links (to this blog or to my fan fictions). From what I understood, the fact that they contain links and have no retweets makes the Twitter search engine bots think my tweets are spam! So, no one outside of my 7 followers can even find my tweets...
+  Edit (2020/10/20): just for the record, two years later, things have improved on Twitter for me quite a bit. I got more followers who are really interested on my status updates (total of 37 followers of my Twitter in English). They started liking and retweetting my tweets, and the system doesn't consider my tweets as spam anymore. I've also successfully used direct messages for important things, and am feeling better about Twitter overall.
 * I don't have Facebook because I don't like it.
 * Updates to [my Youtube][yt] are few and far between because my visual impairment makes it hard for me to create visual content.
 * I'm not on Deviantart because of the same reason above.
@@ -43,6 +44,7 @@ As much as I'd like to repost some things from this blog on there, I can't post 
 
 Edit (13:35): wow, looks like Steemit brought in a few Twitter followers as well! The number went from 7 to 11 (11 here too? XD ) I only noticed this when I went to Twitter to publish a link to this blog post. :D
 
+Edit (2020/10/20): in the beginning of 2020, Steemit was bought, and the direction it was headed didn't please many important community members, and the community joined forces to create a new social network called Hive. Most of the bigger apps and projects that were using Steemit, including the DSound audio streaming platform that I mentioned, migrated to Hive and are no longer on Steemit. For all these reasons, if you were thinking about signing up after reading this post, you may consider [signing up to Hive][hiveonboard] instead.
 
 [twitter_en]: https://mobile.twitter.com/aiyumi_en
 [yt]: https://www.youtube.com/user/AiyumiBr
@@ -58,3 +60,4 @@ Edit (13:35): wow, looks like Steemit brought in a few Twitter followers as well
 [dsoundhp]: https://dsound.audio/
 [steemitwelcome]: https://steemit.com/welcome
 [tagpost]: https://steemit.com/steemit/@aiyumi/steemit-filtering-posts-by-authors-and-tags
+[hiveonboard]: https://hiveonboard.com?ref=aiyumi

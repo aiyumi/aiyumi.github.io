@@ -6,6 +6,7 @@
 Nunca tive muita paciência nem sorte com redes sociais.
 
 * Eu tentei usar o Twitter, mas de lá não saiu nada. Não tive paciência pra ler as coisas dos outros e postar constantemente, e era um saco ter de ficar reformulando tudo que eu escrevia pra fazer caber no limite de caracteres. No fim das contas, [meu Twitter][twitter_en] foi rebaixado para a função de apenas informar os leitores sobre atualizações do blog e das minhas fanfics. <!--teaser_end--> Eu só tenho uns 7 seguidores, e meus tweets nem sequer aparecem nas buscas do Twitter, só porque eles contêm links (para este blog ou para minhas fan fictions). Pelo que entendi, o fato de que eles contêm links e não tem retweets faz com que os bots do mecanismo de pesquisa do Twitter pensem que meus tweets são spam! Então, ninguém além dos meus 7 seguidores consegue nem mesmo encontrar meus tweets...
+  Edit (2020/10/20): só para constar, dois anos depois, as coisas no Twitter melhoraram um pouco para mim. Consegui mais seguidores que estão realmente interessados em minhas atualizações de status (total de 37 seguidores do meu Twitter em Inglês). Eles começaram a curtir e retuitar meus tweets, e o sistema não considera mais meus tweets como spam. Também usei com sucesso mensagens diretas para coisas importantes e estou me sentindo melhor em relação ao Twitter em geral.
 * Eu não gosto do Facebook e não tenho.
 * Atualizações no [meu Youtube][yt] são poucas e raras porque minha deficiência visual dificulta a criação de conteúdo visual.
 * Não estou no Deviantart pelo mesmo motivo acima.
@@ -42,6 +43,8 @@ Por mais que eu queira repostar algumas coisas daqui do blog no Steemit, não po
 
 Edit (13:35): nossa, parece que o Steemit trouxe alguns seguidores para o meu Twitter em Inglês também! O número aumentou de 7 para 11 (11 aqui também? XD ). Só percebi quando entrei no Twitter pra avisar sobre este post. :D
 
+Edit (2020/10/20): no início de 2020, o Steemit foi comprado, e a direção que estava tomando não agradou a muitos membros importantes da comunidade, então a comunidade juntou forças para criar uma nova rede social chamada Hive. A maioria dos apps e grandes projetos que usavam a rede do Steemit, incluindo o DSound que mencionei, migraram para a Hive e não estão mais no Steemit. Por todos esses motivos, se você estava pensando em se cadastrar depois de ler este post, pode achar melhor [se cadastrar na Hive][hiveonboard].
+
 [twitter_en]: https://mobile.twitter.com/aiyumi_en
 [yt]: https://www.youtube.com/user/AiyumiBr
 [rp5]: https://www.reddit.com/r/Persona5
@@ -56,3 +59,4 @@ Edit (13:35): nossa, parece que o Steemit trouxe alguns seguidores para o meu Tw
 [dsoundintro]: https://steemit.com/music/@prc/introducing-dsound-a-decentralized-sound-platform-using-steem-and-ipfs
 [steemitwelcome]: https://steemit.com/welcome
 [tagpost]: https://steemit.com/pt/@aiyumi/steemit-filtrando-posts-por-autores-e-tags
+[hiveonboard]: https://hiveonboard.com?ref=aiyumi

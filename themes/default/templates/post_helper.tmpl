@@ -82,7 +82,6 @@ no_host_url = re.sub("https?://", "", url)
 networks = (
     (U"Twitter", U"https://twitter.com/share?url=" + encoded_url + U"&text=" + title),
     (U"Facebook", U"http://www.facebook.com/sharer/sharer.php?u=" + encoded_url),
-    (U"StumbleUpon", U"http://www.stumbleupon.com/submit?url=" + encoded_url + U"&title=" + title),
     (messages(U"Hatena"), U"http://b.hatena.ne.jp/entry/" + no_host_url),
 )
 %>
