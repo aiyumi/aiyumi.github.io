@@ -28,7 +28,7 @@ SITE_URL = "https://aiyumi.github.io/"
 BLOG_EMAIL = "aiyumi.br@gmail.com"
 BLOG_DESCRIPTION = {
     "pt_br": U"Acessibilidade, áudio, jogos, Linux e outras coisas, do ponto de vista de uma deficiente visual.",
-    "en": U"Accessibility, audio, games, Linux and other things, from the point of view of a visually impaired.",
+    "en": U"Accessibility, audio, games, Linux and other things, from a visually impaired person's point of view.",
     "ja": U"このサイトは一人の視覚障害者女性の観点から、アクセシビリティ、音（オーディオ）、ゲーム、Linuxや他の事について語ります。",
 }
 
